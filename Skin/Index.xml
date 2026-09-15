@@ -1,0 +1,17 @@
+<Instance ref.CodeBehind="false" ref.Class="punkskin::Theme">
+  <ThemeTemplates Name="PunkSkin" PreferCustomFrameWindow="true">
+    <att.CustomFrameWindow>punkskin::CustomFrameWindowTemplate</att.CustomFrameWindow>
+    <att.CustomControl>punkskin::CustomControlTemplate</att.CustomControl>
+    <att.Tooltip>punkskin::TooltipTemplate</att.Tooltip>
+    <att.Label>punkskin::LabelTemplate</att.Label>
+    <att.Button>punkskin::ButtonTemplate</att.Button>
+    <att.CheckBox>punkskin::CheckBoxTemplate</att.CheckBox>
+    <att.SinglelineTextBox>punkskin::DocumentTextBoxTemplate</att.SinglelineTextBox>
+    <att.MultilineTextBox>punkskin::DocumentViewerTemplate</att.MultilineTextBox>
+    <att.DocumentViewer>punkskin::DocumentViewerTemplate</att.DocumentViewer>
+    <att.DocumentTextBox>punkskin::DocumentTextBoxTemplate</att.DocumentTextBox>
+    <att.DocumentLabel>punkskin::DocumentLabelTemplate</att.DocumentLabel>
+    <att.ProgressBar>punkskin::ProgressBarTemplate</att.ProgressBar>
+    <att.ScrollView>punkskin::ScrollViewTemplate</att.ScrollView>
+  </ThemeTemplates>
+</Instance>

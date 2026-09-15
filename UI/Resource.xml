@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+  <Folder name="GacGenConfig">
+    <Folder name="Cpp">
+      <Text name="SourceFolder">Source</Text>
+      <Text name="Resource">..\UIRes\PunkUI.bin</Text>
+      <Text name="NormalInclude">GacUI.h;PunkElements/PunkPanel.h</Text>
+      <Text name="Name">PunkUI</Text>
+    </Folder>
+  </Folder>
+  <Folder name="PunkUI" content="Link">MainWindow.xml</Folder>
+</Resource>

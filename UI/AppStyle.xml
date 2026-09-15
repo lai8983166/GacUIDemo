@@ -1,0 +1,82 @@
+<Styles>
+  <Style ref.Path="(//Bounds + //Table + //RepeatStack + //RepeatFlow)" MinSizeLimitation="LimitToElementAndChildren"/>
+
+  <Style ref.Path="//*.variantShadow" Color="#000000"/>
+
+  <Style ref.Path="//*.primaryBody">
+    <att.Color-bind>
+      <![CDATA[
+        cast Color let state = self.State in (
+          not self.VisuallyEnabled ? (cast Color "#9E9E9E") :
+          state == ButtonState::Pressed ? (cast Color "#B01015") :
+          state == ButtonState::Active ? (cast Color "#F03A40") :
+          (cast Color "#E8151C")
+        )
+      ]]>
+    </att.Color-bind>
+  </Style>
+  <Style ref.Path="//*.outlineBody">
+    <att.Color-bind>
+      <![CDATA[
+        cast Color let state = self.State in (
+          not self.VisuallyEnabled ? (cast Color "#9E9E9E") :
+          state == ButtonState::Pressed ? (cast Color "#EFEAE0") :
+          state == ButtonState::Active ? (cast Color "#F5F1E8") :
+          (cast Color "#FFFFFF")
+        )
+      ]]>
+    </att.Color-bind>
+  </Style>
+  <Style ref.Path="//*.ghostBody">
+    <att.Color-bind>
+      <![CDATA[
+        cast Color let state = self.State in (
+          not self.VisuallyEnabled ? (cast Color "#9E9E9E") :
+          state == ButtonState::Pressed ? (cast Color "#F5F1E8") :
+          state == ButtonState::Active ? (cast Color "#EFEAE0") :
+          (cast Color "#FFFFFF")
+        )
+      ]]>
+    </att.Color-bind>
+  </Style>
+  <Style ref.Path="//*.dangerBody">
+    <att.Color-bind>
+      <![CDATA[
+        cast Color let state = self.State in (
+          not self.VisuallyEnabled ? (cast Color "#9E9E9E") :
+          state == ButtonState::Pressed ? (cast Color "#8F0D12") :
+          state == ButtonState::Active ? (cast Color "#B01015") :
+          (cast Color "#E8151C")
+        )
+      ]]>
+    </att.Color-bind>
+  </Style>
+
+  <Style ref.Path="//*.variantTextBright">
+    <att.Color-bind>
+      <![CDATA[
+        cast Color (
+          not self.VisuallyEnabled ? (cast Color "#F5F5F5") : (cast Color "#FFFFFF")
+        )
+      ]]>
+    </att.Color-bind>
+  </Style>
+  <Style ref.Path="//*.variantTextDark">
+    <att.Color-bind>
+      <![CDATA[
+        cast Color (
+          not self.VisuallyEnabled ? (cast Color "#F5F5F5") : (cast Color "#0A0A0A")
+        )
+      ]]>
+    </att.Color-bind>
+  </Style>
+  <Style ref.Path="//*.variantTextRed">
+    <att.Color-bind>
+      <![CDATA[
+        cast Color (
+          not self.VisuallyEnabled ? (cast Color "#F5F5F5") : (cast Color "#E8151C")
+        )
+      ]]>
+    </att.Color-bind>
+  </Style>
+</Styles>

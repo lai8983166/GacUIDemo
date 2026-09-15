@@ -1,0 +1,117 @@
+<Styles>
+  <Style ref.Path="(//Bounds + //Table + //RepeatStack + //RepeatFlow)" MinSizeLimitation="LimitToElementAndChildren"/>
+
+  <!-- ============ 朋克拼贴调色 ============
+       牛皮纸 #EFEAE0 / 面板白 #FFFFFF / 墨黑 #151515 / 近黑 #0A0A0A
+       P5红 #E8151C / 成功 #2FD16A / 警告 #FFD400 / 信息 #00A8E8
+       muted #3B3B3B / 禁用 #9E9E9E -->
+
+  <!-- ============ 窗口 ============ -->
+  <Style ref.Path="//*.windowTitle" Color="#FFFFFF"/>
+
+  <!-- ============ 按钮（默认变体：黑底白字）============ -->
+  <Style ref.Path="//*.buttonShadow" Color="#000000"/>
+  <Style ref.Path="//*.buttonBody">
+    <att.Color-bind>
+      <![CDATA[
+        cast Color let state = self.State in (
+          not self.VisuallyEnabled ? (cast Color "#9E9E9E") :
+          state == ButtonState::Pressed ? (cast Color "#E8151C") :
+          state == ButtonState::Active ? (cast Color "#333333") :
+          (cast Color "#151515")
+        )
+      ]]>
+    </att.Color-bind>
+  </Style>
+  <Style ref.Path="//*.buttonText">
+    <att.Color-bind>
+      <![CDATA[
+        cast Color let state = self.State in (
+          not self.VisuallyEnabled ? (cast Color "#F5F5F5") :
+          state == ButtonState::Pressed ? (cast Color "#FFFFFF") :
+          (cast Color "#FFFFFF")
+        )
+      ]]>
+    </att.Color-bind>
+  </Style>
+
+  <!-- ============ 标题栏按钮 ============ -->
+  <Style ref.Path="//*.titleBarButtonBackground">
+    <att.Color-bind>
+      <![CDATA[
+        cast Color let state = self.State in (
+          not self.VisuallyEnabled ? (cast Color "#151515") :
+          state == ButtonState::Pressed ? (cast Color "#B01015") :
+          state == ButtonState::Active ? (cast Color "#E8151C") :
+          (cast Color "#151515")
+        )
+      ]]>
+    </att.Color-bind>
+  </Style>
+  <Style ref.Path="//*.titleBarCloseBackground">
+    <att.Color-bind>
+      <![CDATA[
+        cast Color let state = self.State in (
+          not self.VisuallyEnabled ? (cast Color "#151515") :
+          state == ButtonState::Pressed ? (cast Color "#FFFFFF") :
+          state == ButtonState::Active ? (cast Color "#B01015") :
+          (cast Color "#E8151C")
+        )
+      ]]>
+    </att.Color-bind>
+  </Style>
+  <Style ref.Path="//*.titleBarGlyph" BorderColor="#FFFFFF" BackgroundColor="#FFFFFF"/>
+
+  <!-- ============ 输入框 ============ -->
+  <Style ref.Path="//*.inputBody" Color="#FFFFFF"/>
+  <Style ref.Path="//*.inputShadow">
+    <att.Color-bind>
+      <![CDATA[
+        cast Color (self.Focused ? (cast Color "#E8151C") : (cast Color "#000000"))
+      ]]>
+    </att.Color-bind>
+  </Style>
+
+  <!-- ============ 开关 ============ -->
+  <Style ref.Path="//*.switchTrack">
+    <att.Color-bind>
+      <![CDATA[
+        cast Color (
+          not self.VisuallyEnabled ? (cast Color "#9E9E9E") :
+          self.Selected ? (cast Color "#E8151C") :
+          (cast Color "#151515")
+        )
+      ]]>
+    </att.Color-bind>
+  </Style>
+  <Style ref.Path="//*.switchThumb" Color="#FFFFFF"/>
+  <Style ref.Path="//*.switchThumbBorder" Color="#000000"/>
+
+  <!-- ============ 进度条 ============ -->
+  <Style ref.Path="//*.progressBackground" Color="#FFFFFF"/>
+  <Style ref.Path="//*.progressBorder" Color="#000000"/>
+  <Style ref.Path="//*.progressFilling" Color="#E8151C"/>
+
+  <!-- ============ 文本 ============ -->
+  <Style ref.Path="//*.labelDefaultText" DefaultTextColor="#0A0A0A"/>
+  <Style ref.Path="//*.labelText">
+    <att.Color-bind>
+      <![CDATA[
+        cast Color (
+          not self.VisuallyEnabled ? (cast Color "#9E9E9E") :
+          self.TextColor
+        )
+      ]]>
+    </att.Color-bind>
+  </Style>
+  <Style ref.Path="//*.controlText">
+    <att.Color-bind>
+      <![CDATA[
+        cast Color (
+          not self.VisuallyEnabled ? (cast Color "#9E9E9E") :
+          (cast Color "#0A0A0A")
+        )
+      ]]>
+    </att.Color-bind>
+  </Style>
+</Styles>

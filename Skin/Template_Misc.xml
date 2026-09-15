@@ -1,0 +1,9 @@
+<Folder>
+  <Instance name="LabelTemplateResource">
+    <Instance ref.CodeBehind="false" ref.Class="punkskin::LabelTemplate" ref.Styles="res://PunkSkin/Style">
+      <LabelTemplate ref.Name="self" ref.Style="labelDefaultText" MinSizeLimitation="LimitToElementAndChildren">
+        <SolidLabel Text-bind="self.Text" Font-bind="self.Font" ref.Style="labelText"/>
+      </LabelTemplate>
+    </Instance>
+  </Instance>
+</Folder>

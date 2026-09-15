@@ -1,0 +1,12 @@
+# 构建输出
+Bin/
+Obj/
+MSBuild/
+
+# GacGen 缓存目录（生成的日志与中间 bin，可用 build.bat 重新生成）
+*.log/
+*.log
+
+# IDE
+.vs/
+*.user

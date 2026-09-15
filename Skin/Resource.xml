@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+  <Folder name="GacGenConfig">
+    <Folder name="Cpp">
+      <Text name="SourceFolder">Source</Text>
+      <Text name="NormalInclude">GacUI.h</Text>
+      <Text name="Name">PunkSkin</Text>
+      <Text name="CppCompressed">PunkSkinResource.cpp</Text>
+    </Folder>
+  </Folder>
+  <Folder name="PunkSkin" content="Link">PunkSkin.xml</Folder>
+</Resource>

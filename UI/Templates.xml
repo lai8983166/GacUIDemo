@@ -1,0 +1,86 @@
+<Folder>
+  <!-- 导航链接：透明极简模板，平行四边形外观由 C++ 侧 PunkPanel 提供 -->
+  <Instance name="NavLinkTemplateResource">
+    <Instance ref.CodeBehind="false" ref.Class="punkui::NavLinkTemplate" ref.Styles="res://PunkUI/AppStyle">
+      <ButtonTemplate ref.Name="self" ContainerComposition-ref="container" MinSizeLimitation="LimitToElementAndChildren">
+        <Bounds ref.Name="container" AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+      </ButtonTemplate>
+    </Instance>
+  </Instance>
+
+  <!-- 主要按钮：红底白字 -->
+  <Instance name="PrimaryButtonTemplateResource">
+    <Instance ref.CodeBehind="false" ref.Class="punkui::PrimaryButtonTemplate" ref.Styles="res://PunkUI/AppStyle">
+      <ButtonTemplate ref.Name="self" ContainerComposition-ref="container" MinSizeLimitation="LimitToElementAndChildren">
+        <Bounds AlignmentToParent="left:4 top:4 right:0 bottom:0">
+          <SolidBackground ref.Style="variantShadow"/>
+        </Bounds>
+        <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4">
+          <SolidBackground ref.Style="primaryBody"/>
+          <SolidBorder Color="#000000"/>
+          <Bounds AlignmentToParent="left:14 top:6 right:14 bottom:6">
+            <SolidLabel ref.Style="variantTextBright" Text-bind="self.Text" Font="size:14 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Bounds ref.Name="container" AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+          </Bounds>
+        </Bounds>
+      </ButtonTemplate>
+    </Instance>
+  </Instance>
+
+  <!-- 描边按钮：白底黑字 -->
+  <Instance name="OutlineButtonTemplateResource">
+    <Instance ref.CodeBehind="false" ref.Class="punkui::OutlineButtonTemplate" ref.Styles="res://PunkUI/AppStyle">
+      <ButtonTemplate ref.Name="self" ContainerComposition-ref="container" MinSizeLimitation="LimitToElementAndChildren">
+        <Bounds AlignmentToParent="left:4 top:4 right:0 bottom:0">
+          <SolidBackground ref.Style="variantShadow"/>
+        </Bounds>
+        <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4">
+          <SolidBackground ref.Style="outlineBody"/>
+          <SolidBorder Color="#000000"/>
+          <Bounds AlignmentToParent="left:14 top:6 right:14 bottom:6">
+            <SolidLabel ref.Style="variantTextDark" Text-bind="self.Text" Font="size:14 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Bounds ref.Name="container" AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+          </Bounds>
+        </Bounds>
+      </ButtonTemplate>
+    </Instance>
+  </Instance>
+
+  <!-- 幽灵按钮：白底红字 -->
+  <Instance name="GhostButtonTemplateResource">
+    <Instance ref.CodeBehind="false" ref.Class="punkui::GhostButtonTemplate" ref.Styles="res://PunkUI/AppStyle">
+      <ButtonTemplate ref.Name="self" ContainerComposition-ref="container" MinSizeLimitation="LimitToElementAndChildren">
+        <Bounds AlignmentToParent="left:4 top:4 right:0 bottom:0">
+          <SolidBackground ref.Style="variantShadow"/>
+        </Bounds>
+        <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4">
+          <SolidBackground ref.Style="ghostBody"/>
+          <SolidBorder Color="#000000"/>
+          <Bounds AlignmentToParent="left:14 top:6 right:14 bottom:6">
+            <SolidLabel ref.Style="variantTextRed" Text-bind="self.Text" Font="size:14 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Bounds ref.Name="container" AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+          </Bounds>
+        </Bounds>
+      </ButtonTemplate>
+    </Instance>
+  </Instance>
+
+  <!-- 危险按钮：深红底白字 -->
+  <Instance name="DangerButtonTemplateResource">
+    <Instance ref.CodeBehind="false" ref.Class="punkui::DangerButtonTemplate" ref.Styles="res://PunkUI/AppStyle">
+      <ButtonTemplate ref.Name="self" ContainerComposition-ref="container" MinSizeLimitation="LimitToElementAndChildren">
+        <Bounds AlignmentToParent="left:4 top:4 right:0 bottom:0">
+          <SolidBackground ref.Style="variantShadow"/>
+        </Bounds>
+        <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4">
+          <SolidBackground ref.Style="dangerBody"/>
+          <SolidBorder Color="#000000"/>
+          <Bounds AlignmentToParent="left:14 top:6 right:14 bottom:6">
+            <SolidLabel ref.Style="variantTextBright" Text-bind="self.Text" Font="size:14 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Bounds ref.Name="container" AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+          </Bounds>
+        </Bounds>
+      </ButtonTemplate>
+    </Instance>
+  </Instance>
+</Folder>

@@ -1,0 +1,33 @@
+<Folder>
+  <Script name="Palette">
+    <Workflow><![CDATA[
+    module PunkSkinPalette;
+    using presentation::*;
+
+    namespace punkskin
+    {
+      func CreateBaselineDocument() : DocumentModel^
+      {
+        var document = new DocumentModel^();
+        var normal = new DocumentStyle^();
+        normal.styles = new DocumentStyleProperties^();
+        normal.styles.color = cast Color "#0A0A0A";
+        document.styles["#Default-Override"] = normal;
+        var selection = new DocumentStyle^();
+        selection.styles = new DocumentStyleProperties^();
+        selection.styles.color = cast Color "#FFFFFF";
+        selection.styles.backgroundColor = cast Color "#E8151C";
+        document.styles["#Selection-Override"] = selection;
+        return document;
+      }
+    }
+    ]]></Workflow>
+  </Script>
+  <Instance name="PunkSkinThemeResource" content="File">Index.xml</Instance>
+  <InstanceStyle name="Style" content="File">Style.xml</InstanceStyle>
+  <Folder name="Window" content="Link">Template_Window.xml</Folder>
+  <Folder name="Button" content="Link">Template_Button.xml</Folder>
+  <Folder name="Document" content="Link">Template_Text.xml</Folder>
+  <Folder name="Scroll" content="Link">Template_Scroll.xml</Folder>
+  <Folder name="Misc" content="Link">Template_Misc.xml</Folder>
+</Folder>

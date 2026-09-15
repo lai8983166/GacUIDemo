@@ -1,0 +1,214 @@
+<Folder>
+  <Instance name="ScrollButtonTemplateResource">
+    <Instance ref.CodeBehind="false" ref.Class="punkskin::ScrollButtonTemplate" ref.Styles="res://PunkSkin/Style">
+      <ButtonTemplate ref.Name="self" ContainerComposition-ref="container" MinSizeLimitation="LimitToElementAndChildren">
+        <SolidBackground ref.Style="titleBarButtonBackground"/>
+        <Bounds ref.Name="container" AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+      </ButtonTemplate>
+    </Instance>
+  </Instance>
+
+  <Instance name="HScrollHandleTemplateResource">
+    <Instance ref.CodeBehind="false" ref.Class="punkskin::HScrollHandleTemplate" ref.Styles="res://PunkSkin/Style">
+      <ButtonTemplate ref.Name="self" MinSizeLimitation="LimitToElementAndChildren">
+        <Bounds AlignmentToParent="left:0 top:3 right:0 bottom:3">
+          <SolidBackground ref.Style="switchThumb"/>
+          <SolidBorder ref.Style="switchThumbBorder"/>
+          <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1">
+            <SolidBorder Color="#000000"/>
+          </Bounds>
+        </Bounds>
+      </ButtonTemplate>
+    </Instance>
+  </Instance>
+
+  <Instance name="VScrollHandleTemplateResource">
+    <Instance ref.CodeBehind="false" ref.Class="punkskin::VScrollHandleTemplate" ref.Styles="res://PunkSkin/Style">
+      <ButtonTemplate ref.Name="self" MinSizeLimitation="LimitToElementAndChildren">
+        <Bounds AlignmentToParent="left:3 top:0 right:3 bottom:0">
+          <SolidBackground ref.Style="switchThumb"/>
+          <SolidBorder ref.Style="switchThumbBorder"/>
+          <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1">
+            <SolidBorder Color="#000000"/>
+          </Bounds>
+        </Bounds>
+      </ButtonTemplate>
+    </Instance>
+  </Instance>
+
+  <Instance name="HScrollTemplateResource">
+    <Instance ref.CodeBehind="false" ref.Class="punkskin::HScrollTemplate" ref.Styles="res://PunkSkin/Style">
+      <ref.Ctor>
+        <![CDATA[
+          {
+            behavior.AttachScrollTemplate(self);
+            behavior.AttachDecreaseButton(buttonDecrease);
+            behavior.AttachIncreaseButton(buttonIncrease);
+            behavior.AttachHorizontalScrollHandle(handle);
+          }
+        ]]>
+      </ref.Ctor>
+      <ScrollTemplate ref.Name="self" MinSizeLimitation="LimitToElementAndChildren">
+        <CommonScrollBehavior ref.Name="behavior"/>
+
+        <SolidBackground Color="#151515"/>
+        <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0">
+          <SolidBorder Color="#000000"/>
+
+          <SideAligned MaxLength="18" MaxRatio="0.5" Direction="Left">
+            <Button AutoFocus="false" ref.Name="buttonDecrease" ControlTemplate="punkskin::ScrollButtonTemplate">
+              <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+              <att.ContainerComposition-set>
+                <BoundsComposition AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="x:18 y:18" MinSizeLimitation="LimitToElement">
+                  <Polygon ref.Style="titleBarGlyph" Size="x:18 y:18">
+                    <att.Points>
+                      <Point>x:12 y:4</Point>
+                      <Point>x:12 y:14</Point>
+                      <Point>x:6 y:9</Point>
+                    </att.Points>
+                  </Polygon>
+                </BoundsComposition>
+              </att.ContainerComposition-set>
+            </Button>
+          </SideAligned>
+          <SideAligned MaxLength="18" MaxRatio="0.5" Direction="Right">
+            <Button AutoFocus="false" ref.Name="buttonIncrease" ControlTemplate="punkskin::ScrollButtonTemplate">
+              <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+              <att.ContainerComposition-set>
+                <BoundsComposition AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="x:18 y:18" MinSizeLimitation="LimitToElement">
+                  <Polygon ref.Style="titleBarGlyph" Size="x:18 y:18">
+                    <att.Points>
+                      <Point>x:6 y:4</Point>
+                      <Point>x:6 y:14</Point>
+                      <Point>x:12 y:9</Point>
+                    </att.Points>
+                  </Polygon>
+                </BoundsComposition>
+              </att.ContainerComposition-set>
+            </Button>
+          </SideAligned>
+          <Bounds ref.Name="handleContainer" AlignmentToParent="left:18 top:0 right:18 bottom:0" MinSizeLimitation="NoLimit">
+            <PartialView ref.Name="handle" PreferredMinSize="x:10">
+              <att.WidthPageSize-bind>(cast double self.PageSize) / self.TotalSize</att.WidthPageSize-bind>
+              <att.WidthRatio-bind>(cast double self.Position) / self.TotalSize</att.WidthRatio-bind>
+              <Button AutoFocus="false" ControlTemplate="punkskin::HScrollHandleTemplate">
+                <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+              </Button>
+            </PartialView>
+          </Bounds>
+        </Bounds>
+      </ScrollTemplate>
+    </Instance>
+  </Instance>
+
+  <Instance name="VScrollTemplateResource">
+    <Instance ref.CodeBehind="false" ref.Class="punkskin::VScrollTemplate" ref.Styles="res://PunkSkin/Style">
+      <ref.Ctor>
+        <![CDATA[
+          {
+            behavior.AttachScrollTemplate(self);
+            behavior.AttachDecreaseButton(buttonDecrease);
+            behavior.AttachIncreaseButton(buttonIncrease);
+            behavior.AttachVerticalScrollHandle(handle);
+          }
+        ]]>
+      </ref.Ctor>
+      <ScrollTemplate ref.Name="self" MinSizeLimitation="LimitToElementAndChildren">
+        <CommonScrollBehavior ref.Name="behavior"/>
+
+        <SolidBackground Color="#151515"/>
+        <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0">
+          <SolidBorder Color="#000000"/>
+
+          <SideAligned MaxLength="18" MaxRatio="0.5" Direction="Top">
+            <Button AutoFocus="false" ref.Name="buttonDecrease" ControlTemplate="punkskin::ScrollButtonTemplate">
+              <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+              <att.ContainerComposition-set>
+                <BoundsComposition AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="x:18 y:18" MinSizeLimitation="LimitToElement">
+                  <Polygon ref.Style="titleBarGlyph" Size="x:18 y:18">
+                    <att.Points>
+                      <Point>x:4 y:12</Point>
+                      <Point>x:14 y:12</Point>
+                      <Point>x:9 y:6</Point>
+                    </att.Points>
+                  </Polygon>
+                </BoundsComposition>
+              </att.ContainerComposition-set>
+            </Button>
+          </SideAligned>
+          <SideAligned MaxLength="18" MaxRatio="0.5" Direction="Bottom">
+            <Button AutoFocus="false" ref.Name="buttonIncrease" ControlTemplate="punkskin::ScrollButtonTemplate">
+              <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+              <att.ContainerComposition-set>
+                <BoundsComposition AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="x:18 y:18" MinSizeLimitation="LimitToElement">
+                  <Polygon ref.Style="titleBarGlyph" Size="x:18 y:18">
+                    <att.Points>
+                      <Point>x:4 y:6</Point>
+                      <Point>x:14 y:6</Point>
+                      <Point>x:9 y:12</Point>
+                    </att.Points>
+                  </Polygon>
+                </BoundsComposition>
+              </att.ContainerComposition-set>
+            </Button>
+          </SideAligned>
+          <Bounds ref.Name="handleContainer" AlignmentToParent="left:0 top:18 right:0 bottom:18" MinSizeLimitation="NoLimit">
+            <PartialView ref.Name="handle" PreferredMinSize="y:10">
+              <att.HeightPageSize-bind>(cast double self.PageSize) / self.TotalSize</att.HeightPageSize-bind>
+              <att.HeightRatio-bind>(cast double self.Position) / self.TotalSize</att.HeightRatio-bind>
+              <Button AutoFocus="false" ControlTemplate="punkskin::VScrollHandleTemplate">
+                <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+              </Button>
+            </PartialView>
+          </Bounds>
+        </Bounds>
+      </ScrollTemplate>
+    </Instance>
+  </Instance>
+
+  <Instance name="ScrollViewTemplateResource">
+    <Instance ref.CodeBehind="false" ref.Class="punkskin::ScrollViewTemplate" ref.Styles="res://PunkSkin/Style">
+      <ScrollViewTemplate ref.Name="self" MinSizeLimitation="LimitToElementAndChildren">
+        <att.ContainerComposition-eval>look.ContainerComposition</att.ContainerComposition-eval>
+        <att.HorizontalScroll-eval>look.HScroll</att.HorizontalScroll-eval>
+        <att.VerticalScroll-eval>look.VScroll</att.VerticalScroll-eval>
+
+        <CommonScrollViewLook ref.Name="look" AlignmentToParent="left:0 top:0 right:0 bottom:0">
+          <att.HScrollTemplate>punkskin::HScrollTemplate</att.HScrollTemplate>
+          <att.VScrollTemplate>punkskin::VScrollTemplate</att.VScrollTemplate>
+          <att.DefaultScrollSize>18</att.DefaultScrollSize>
+        </CommonScrollViewLook>
+      </ScrollViewTemplate>
+    </Instance>
+  </Instance>
+
+  <Instance name="ProgressBarTemplateResource">
+    <Instance ref.CodeBehind="false" ref.Class="punkskin::ProgressBarTemplate" ref.Styles="res://PunkSkin/Style">
+      <ScrollTemplate ref.Name="self" ContainerComposition-ref="container" MinSizeLimitation="LimitToElementAndChildren">
+        <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:14">
+          <SolidBackground ref.Style="progressBackground"/>
+          <SolidBorder ref.Style="progressBorder"/>
+          <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1">
+            <SolidBorder Color="#000000"/>
+            <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1">
+              <SolidBorder Color="#000000"/>
+            </Bounds>
+          </Bounds>
+          <Bounds ref.Name="container" AlignmentToParent="left:3 top:3 right:3 bottom:3">
+            <PartialView>
+              <att.WidthPageSize-bind>
+                <![CDATA[
+                  let
+                    a = self.Position,
+                    b = self.TotalSize - self.PageSize
+                    in ((cast double a) / (a > b ? a : b))
+                ]]>
+              </att.WidthPageSize-bind>
+              <SolidBackground ref.Style="progressFilling"/>
+            </PartialView>
+          </Bounds>
+        </Bounds>
+      </ScrollTemplate>
+    </Instance>
+  </Instance>
+</Folder>
