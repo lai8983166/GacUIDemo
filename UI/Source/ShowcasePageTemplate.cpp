@@ -66,14 +66,14 @@ namespace punkui
 {
 	void ShowcasePageTemplate::InstallPunkPanels()
 	{/* USER_CONTENT_BEGIN(::punkui::ShowcasePageTemplate) */
-		// 徽标：tone 低透明混白底 + 切角 + 墨边 + 2px 投影
+		// 徽标：tone 低透明混纸底(#EFEAE0) + 切角 + 墨边 + 2px 投影
 		PunkPanelStyle badge = PunkPanelStyle::Badge();
-		AttachBadge(badge, Color(0xDA, 0xF7, 0xE4), badge1Face);
-		AttachBadge(badge, Color(0xFF, 0xF6, 0xC7), badge2Face);
-		AttachBadge(badge, Color(0x15, 0x15, 0x15), badge3Face);
-		AttachBadge(badge, Color(0xE8, 0x15, 0x1C), badge4Face);
-		AttachBadge(badge, Color(0x15, 0x15, 0x15), badge5Face);
-		AttachBadge(badge, Color(0xFB, 0xD5, 0xD6), badge6Face);
+		AttachBadge(badge, Color(0xCC, 0xE5, 0xCB), badge1Face);	// RUN    success 18%
+		AttachBadge(badge, Color(0xF2, 0xE5, 0xAF), badge2Face);	// IDLE   warning 22%
+		AttachBadge(badge, Color(0x15, 0x15, 0x15), badge3Face);	// MAINT  neutral
+		AttachBadge(badge, Color(0xEE, 0xC3, 0xBD), badge4Face);	// FAULT  danger 18%
+		AttachBadge(badge, Color(0x15, 0x15, 0x15), badge5Face);	// Neutral
+		AttachBadge(badge, Color(0xEE, 0xC8, 0xC1), badge6Face);	// Primary 16%
 
 		// 卡片：白底半调 + 对角切角 + 墨边 + 6px 投影
 		AttachPanel(PunkPanelStyle::Card(), card1Face);

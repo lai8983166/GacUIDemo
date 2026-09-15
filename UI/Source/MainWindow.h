@@ -28,6 +28,8 @@ namespace punkui
 	{
 		friend class ::punkui::MainWindowConstructor;
 		friend struct ::vl_workflow_global::__vwsnf10_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf11_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf12_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf1_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf2_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf3_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;

@@ -5,7 +5,7 @@
   <Folder name="DashboardPage" content="Link">DashboardPage.xml</Folder>
 
   <Instance name="MainWindowResource">
-    <Instance ref.CodeBehind="true" ref.Class="punkui::MainWindow">
+    <Instance ref.CodeBehind="true" ref.Class="punkui::MainWindow" ref.Styles="res://PunkUI/AppStyle">
       <ref.Members><![CDATA[
         @cpp:UserImpl
         @cpp:Private
@@ -21,93 +21,78 @@
           root.InstallPunkPanels();
         }
       ]]></ref.Ctor>
-      <Window ref.Name="root" Text="UILIB — UI 设计探索" ClientSize="x:1200 y:860" ControlThemeName="CustomFrameWindow">
+      <Window ref.Name="root" Text="UILIB · UI 设计探索" ClientSize="x:1200 y:860" ControlThemeName="CustomFrameWindow">
         <att.ContainerComposition-set PreferredMinSize="x:1200 y:860"/>
 
         <!-- 半调牛皮纸底（C++ 挂 PunkPanel.WindowBg） -->
         <Bounds ref.Name="bgHalftone" AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
 
-        <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0">
-          <!-- ============ 导航条 ============ -->
-          <StackItem>
-            <Bounds ref.Name="navBar" AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:48" MinSizeLimitation="LimitToElementAndChildren">
-              <SolidBackground Color="#151515"/>
-              <Table AlignmentToParent="left:0 top:0 right:0 bottom:0" CellPadding="0" BorderVisible="false">
-                <att.Rows>
-                  <CellOption>composeType:Percentage percentage:1.0</CellOption>
-                  <CellOption>composeType:MinSize</CellOption>
-                  <CellOption>composeType:Percentage percentage:1.0</CellOption>
-                </att.Rows>
-                <att.Columns>
-                  <CellOption>composeType:MinSize</CellOption>
-                  <CellOption>composeType:Absolute absolute:36</CellOption>
-                  <CellOption>composeType:MinSize</CellOption>
-                  <CellOption>composeType:Percentage percentage:1.0</CellOption>
-                  <CellOption>composeType:MinSize</CellOption>
-                </att.Columns>
+        <!-- ============ 导航条（锚定顶部） ============ -->
+        <Bounds ref.Name="navBar" AlignmentToParent="left:0 top:0 right:0 bottom:-1" PreferredMinSize="y:48" MinSizeLimitation="LimitToElementAndChildren">
+          <SolidBackground Color="#151515"/>
+          <Table AlignmentToParent="left:0 top:0 right:0 bottom:0" CellPadding="0" BorderVisible="false">
+            <att.Rows>
+              <CellOption>composeType:Percentage percentage:1.0</CellOption>
+            </att.Rows>
+            <att.Columns>
+              <CellOption>composeType:MinSize</CellOption>
+              <CellOption>composeType:Absolute absolute:48</CellOption>
+              <CellOption>composeType:MinSize</CellOption>
+              <CellOption>composeType:Percentage percentage:1.0</CellOption>
+            </att.Columns>
 
-                <Cell Site="row:1 column:0">
-                  <Stack Direction="Horizontal" AlignmentToParent="left:16 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
-                    <StackItem><Bounds AlignmentToParent="left:0 top:0 right:4 bottom:0"><SolidLabel Text="◆" Color="#E8151C" Font="size:16 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
-                    <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0"><SolidLabel Text="UILIB" Color="#FFFFFF" Font="size:16 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
-                    <StackItem><Bounds AlignmentToParent="left:10 top:0 right:0 bottom:0"><SolidLabel Text="UI 设计探索" Color="#C9C9C9" Font="size:12 antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
-                  </Stack>
-                </Cell>
+            <Cell Site="row:0 column:0">
+              <Stack Direction="Horizontal" AlignmentToParent="left:24 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                <StackItem><Bounds AlignmentToParent="left:0 top:0 right:8 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="◆" Color="#E8151C" Font="size:16 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+                <StackItem><Bounds AlignmentToParent="left:0 top:0 right:8 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="UILIB" Color="#FFFFFF" Font="size:16 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+                <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="UI 设计探索" Color="#C9C9C9" Font="size:12 antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+              </Stack>
+            </Cell>
 
-                <Cell Site="row:1 column:2">
-                  <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
-                    <StackItem>
-                      <Button ref.Name="navShowcase" AutoFocus="false" ControlTemplate="punkui::NavLinkTemplate">
-                        <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
-                        <att.ContainerComposition-set>
-                          <BoundsComposition ref.Name="navShowcaseFace" AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="x:118 y:36" MinSizeLimitation="LimitToElementAndChildren">
-                            <Bounds AlignmentToParent="left:18 top:6 right:18 bottom:6">
-                              <SolidLabel Text="组件展示" Color="#FFFFFF" Font="size:14 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                            </Bounds>
-                          </BoundsComposition>
-                        </att.ContainerComposition-set>
-                        <ev.Clicked-eval><![CDATA[{
+            <Cell Site="row:0 column:2">
+              <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                <StackItem>
+                  <Button ref.Name="navShowcase" AutoFocus="false" ControlTemplate="punkui::NavLinkTemplate">
+                    <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+                    <att.ContainerComposition-set>
+                      <BoundsComposition ref.Name="navShowcaseFace" AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="x:112 y:36" MinSizeLimitation="LimitToElementAndChildren">
+                        <Bounds AlignmentToParent="left:18 top:6 right:18 bottom:6" MinSizeLimitation="LimitToElementAndChildren">
+                          <SolidLabel Text="组件展示" Color="#FFFFFF" Font="size:14 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Bounds>
+                      </BoundsComposition>
+                    </att.ContainerComposition-set>
+                    <ev.Clicked-eval><![CDATA[{
                           root.SetNavActive(0);}]]></ev.Clicked-eval>
-                      </Button>
-                    </StackItem>
-                    <StackItem>
-                      <Button ref.Name="navDashboard" AutoFocus="false" ControlTemplate="punkui::NavLinkTemplate">
-                        <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
-                        <att.ContainerComposition-set>
-                          <BoundsComposition ref.Name="navDashboardFace" AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="x:118 y:36" MinSizeLimitation="LimitToElementAndChildren">
-                            <Bounds AlignmentToParent="left:18 top:6 right:18 bottom:6">
-                              <SolidLabel Text="控制台" Color="#FFFFFF" Font="size:14 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                            </Bounds>
-                          </BoundsComposition>
-                        </att.ContainerComposition-set>
-                        <ev.Clicked-eval><![CDATA[{
+                  </Button>
+                </StackItem>
+                <StackItem>
+                  <Button ref.Name="navDashboard" AutoFocus="false" ControlTemplate="punkui::NavLinkTemplate">
+                    <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+                    <att.ContainerComposition-set>
+                      <BoundsComposition ref.Name="navDashboardFace" AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="x:112 y:36" MinSizeLimitation="LimitToElementAndChildren">
+                        <Bounds AlignmentToParent="left:18 top:6 right:18 bottom:6" MinSizeLimitation="LimitToElementAndChildren">
+                          <SolidLabel Text="仪表盘" Color="#FFFFFF" Font="size:14 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Bounds>
+                      </BoundsComposition>
+                    </att.ContainerComposition-set>
+                    <ev.Clicked-eval><![CDATA[{
                           root.SetNavActive(1);}]]></ev.Clicked-eval>
-                      </Button>
-                    </StackItem>
-                  </Stack>
-                </Cell>
+                  </Button>
+                </StackItem>
+              </Stack>
+            </Cell>
+          </Table>
+        </Bounds>
 
-                <Cell Site="row:1 column:4">
-                  <Bounds AlignmentToParent="left:0 top:0 right:16 bottom:0">
-                    <SolidLabel Text="UILIB · DESIGN MANUAL" Color="#C9C9C9" Font="size:12 bold:true antialias:true" HorizontalAlignment="Right" VerticalAlignment="Center"/>
-                  </Bounds>
-                </Cell>
-              </Table>
-            </Bounds>
-          </StackItem>
-
-          <!-- ============ 页面区 ============ -->
-          <StackItem>
-            <Bounds ref.Name="pageHost" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
-              <CustomControl ref.Name="showcasePage" ControlTemplate="punkui::ShowcasePageTemplate">
-                <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
-              </CustomControl>
-              <CustomControl ref.Name="dashboardPage" Visible="false" ControlTemplate="punkui::DashboardPageTemplate">
-                <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
-              </CustomControl>
-            </Bounds>
-          </StackItem>
-        </Stack>
+        <!-- ============ 页面区（撑满剩余高度） ============ -->
+        <Bounds ref.Name="pageHost" AlignmentToParent="left:0 top:48 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+          <CustomControl ref.Name="showcasePage" ControlTemplate="punkui::ShowcasePageTemplate">
+            <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+          </CustomControl>
+          <CustomControl ref.Name="dashboardPage" Visible="false" ControlTemplate="punkui::DashboardPageTemplate">
+            <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+          </CustomControl>
+        </Bounds>
 
         <!-- ============ 弹窗遮罩（覆盖全窗口） ============ -->
         <Bounds ref.Name="modalOverlay" Visible="false" AlignmentToParent="left:0 top:0 right:0 bottom:0">
@@ -124,43 +109,72 @@
               <CellOption>composeType:Percentage percentage:1.0</CellOption>
             </att.Columns>
             <Cell Site="row:1 column:1">
-              <Bounds ref.Name="modalFace" AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="x:480 y:0" MinSizeLimitation="LimitToElementAndChildren">
-                <Bounds AlignmentToParent="left:24 top:20 right:24 bottom:20" MinSizeLimitation="LimitToElementAndChildren">
+              <Bounds ref.Name="modalFace" AlignmentToParent="left:0 top:0 right:6 bottom:6" PreferredMinSize="x:480 y:0" MinSizeLimitation="LimitToElementAndChildren">
+                <Bounds AlignmentToParent="left:20 top:20 right:26 bottom:26" MinSizeLimitation="LimitToElementAndChildren">
                   <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
                     <StackItem>
-                      <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:10">
-                        <SolidLabel Text="维护确认" Color="#0A0A0A" Font="size:18 bold:true antialias:true"/>
-                      </Bounds>
-                    </StackItem>
-                    <StackItem>
-                      <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:6">
-                        <SolidLabel Text="设备 P-102 即将进入维护模式，操作期间相关回路将断开。" Color="#3B3B3B" Font="size:14 antialias:true"/>
-                      </Bounds>
-                    </StackItem>
-                    <StackItem>
-                      <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:18">
-                        <SolidLabel Text="请确认已执行安全锁定程序。" Color="#3B3B3B" Font="size:14 antialias:true"/>
-                      </Bounds>
-                    </StackItem>
-                    <StackItem>
-                      <Stack Direction="Horizontal" AlignmentToParent="left:-1 top:0 right:0 bottom:0">
-                        <StackItem>
-                          <Button AutoFocus="false" Text="取消" ControlTemplate="punkui::GhostButtonTemplate">
-                            <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
-                            <ev.Clicked-eval><![CDATA[{
-                          modalOverlay.SetVisible(false);}]]></ev.Clicked-eval>
-                          </Button>
-                        </StackItem>
-                        <StackItem>
+                      <Table AlignmentToParent="left:0 top:0 right:0 bottom:12" CellPadding="0" BorderVisible="false" MinSizeLimitation="LimitToElementAndChildren">
+                        <att.Rows><CellOption>composeType:MinSize</CellOption></att.Rows>
+                        <att.Columns>
+                          <CellOption>composeType:Percentage percentage:1.0</CellOption>
+                          <CellOption>composeType:MinSize</CellOption>
+                        </att.Columns>
+                        <Cell Site="row:0 column:0">
+                          <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                            <SolidLabel Text="维护确认" Color="#0A0A0A" Font="size:16 bold:true antialias:true" VerticalAlignment="Center"/>
+                          </Bounds>
+                        </Cell>
+                        <Cell Site="row:0 column:1">
                           <Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
-                            <Button AutoFocus="false" Text="确认维护" ControlTemplate="punkui::DangerButtonTemplate">
+                            <Button AutoFocus="false" Text="✕" ControlTemplate="punkui::GhostButtonTemplate">
                               <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
                               <ev.Clicked-eval><![CDATA[{
                           modalOverlay.SetVisible(false);}]]></ev.Clicked-eval>
                             </Button>
                           </Bounds>
-                        </StackItem>
+                        </Cell>
+                      </Table>
+                    </StackItem>
+                    <StackItem>
+                      <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:6" MinSizeLimitation="LimitToElementAndChildren">
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="设备 " Color="#3B3B3B" Font="size:14 antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="P-102" Color="#0A0A0A" Font="size:14 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text=" 即将进入维护模式，操作期间相关回路将断开。" Color="#3B3B3B" Font="size:14 antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
                       </Stack>
+                    </StackItem>
+                    <StackItem>
+                      <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:18" MinSizeLimitation="LimitToElementAndChildren">
+                        <SolidLabel Text="请确认已执行安全锁定程序。" Color="#3B3B3B" Font="size:14 antialias:true"/>
+                      </Bounds>
+                    </StackItem>
+                    <StackItem>
+                      <Table AlignmentToParent="left:0 top:0 right:0 bottom:0" CellPadding="0" BorderVisible="false" MinSizeLimitation="LimitToElementAndChildren">
+                        <att.Rows><CellOption>composeType:MinSize</CellOption></att.Rows>
+                        <att.Columns>
+                          <CellOption>composeType:Percentage percentage:1.0</CellOption>
+                          <CellOption>composeType:MinSize</CellOption>
+                        </att.Columns>
+                        <Cell Site="row:0 column:1">
+                          <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                            <StackItem>
+                              <Button AutoFocus="false" Text="取消" ControlTemplate="punkui::GhostButtonTemplate">
+                                <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+                                <ev.Clicked-eval><![CDATA[{
+                          modalOverlay.SetVisible(false);}]]></ev.Clicked-eval>
+                              </Button>
+                            </StackItem>
+                            <StackItem>
+                              <Bounds AlignmentToParent="left:8 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                                <Button AutoFocus="false" Text="确认维护" ControlTemplate="punkui::DangerButtonTemplate">
+                                  <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+                                  <ev.Clicked-eval><![CDATA[{
+                          modalOverlay.SetVisible(false);}]]></ev.Clicked-eval>
+                                </Button>
+                              </Bounds>
+                            </StackItem>
+                          </Stack>
+                        </Cell>
+                      </Table>
                     </StackItem>
                   </Stack>
                 </Bounds>

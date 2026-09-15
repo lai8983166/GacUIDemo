@@ -27,7 +27,7 @@ namespace punkui
 	class DashboardPageTemplate : public ::vl::presentation::templates::GuiControlTemplate, public ::punkui::DashboardPageTemplateConstructor, public ::vl::reflection::Description<DashboardPageTemplate>
 	{
 		friend class ::punkui::DashboardPageTemplateConstructor;
-		friend struct ::vl_workflow_global::__vwsnf11_PunkUI_punkui_DashboardPageTemplateConstructor___vwsn_punkui_DashboardPageTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf13_PunkUI_punkui_DashboardPageTemplateConstructor___vwsn_punkui_DashboardPageTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<DashboardPageTemplate>;
 #endif

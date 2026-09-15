@@ -1,6 +1,6 @@
 <Folder>
   <Instance name="ShowcasePageTemplateResource">
-    <Instance ref.CodeBehind="true" ref.Class="punkui::ShowcasePageTemplate">
+    <Instance ref.CodeBehind="true" ref.Class="punkui::ShowcasePageTemplate" ref.Styles="res://PunkUI/AppStyle">
       <ref.Members><![CDATA[
         @cpp:UserImpl
         @cpp:Private
@@ -15,87 +15,95 @@
         }
       ]]></ref.Ctor>
       <ControlTemplate ref.Name="page" MinSizeLimitation="LimitToElementAndChildren">
-        <ScrollContainer ExtendToFullWidth="true">
+        <ScrollContainer ExtendToFullWidth="true" VerticalAlwaysVisible="true">
           <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
-          <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" Padding="28" MinSizeLimitation="LimitToElementAndChildren">
+          <!-- 页面容器：max-width 1200 / padding 32 24 -->
+          <Bounds AlignmentToParent="left:24 top:32 right:24 bottom:32" MinSizeLimitation="LimitToElementAndChildren">
+          <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
 
-            <!-- ============ 页头 ============ -->
+            <!-- ============ 页头（UILIB · DESIGN MANUAL № 07 / h1 / 副标题） ============ -->
             <StackItem>
               <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
                 <StackItem>
-                  <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0">
-                    <SolidLabel Text="UILIB · DESIGN MANUAL" Color="#3B3B3B" Font="size:12 bold:true antialias:true"/>
+                  <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                    <SolidLabel Text="UILIB · DESIGN MANUAL" Color="#3B3B3B" Font="size:12 antialias:true"/>
                   </Bounds>
                 </StackItem>
                 <StackItem>
-                  <Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
-                    <SolidLabel Text="№ 07" Color="#E8151C" Font="size:12 bold:true antialias:true"/>
+                  <Bounds AlignmentToParent="left:8 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                    <SolidLabel Text="№ 07" Color="#3B3B3B" Font="size:12 antialias:true"/>
                   </Bounds>
                 </StackItem>
               </Stack>
             </StackItem>
             <StackItem>
-              <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:40">
+              <Bounds AlignmentToParent="left:0 top:6 right:0 bottom:0" PreferredMinSize="y:40" MinSizeLimitation="LimitToElementAndChildren">
                 <SolidLabel Text="组件展示" Color="#0A0A0A" Font="size:28 bold:true antialias:true" VerticalAlignment="Center"/>
               </Bounds>
             </StackItem>
             <StackItem>
-              <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:30">
+              <Bounds AlignmentToParent="left:0 top:4 right:0 bottom:0" PreferredMinSize="y:24" MinSizeLimitation="LimitToElementAndChildren">
                 <SolidLabel Text="右下角切换风格皮肤 —— 同一套组件，实时换肤。" Color="#3B3B3B" Font="size:14 antialias:true" VerticalAlignment="Center"/>
               </Bounds>
             </StackItem>
 
-            <!-- ============ 按钮 ============ -->
+            <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:32"/></StackItem>
+
+            <!-- ============ 按钮 BUTTON ============ -->
             <StackItem>
-              <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:34">
-                <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0">
-                  <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:14"><Polygon BorderColor="#E8151C" BackgroundColor="#E8151C" Size="x:22 y:8"><att.Points><Point>x:0 y:8</Point><Point>x:14 y:0</Point><Point>x:22 y:0</Point><Point>x:8 y:8</Point></att.Points></Polygon></Bounds></StackItem>
-                  <StackItem><Bounds AlignmentToParent="left:10 top:0 right:0 bottom:10"><SolidLabel Text="按钮 BUTTON" Color="#0A0A0A" Font="size:18 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+              <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:16" PreferredMinSize="y:22" MinSizeLimitation="LimitToElementAndChildren">
+                <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                  <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:14" MinSizeLimitation="LimitToElementAndChildren"><Polygon BorderColor="#E8151C" BackgroundColor="#E8151C" Size="x:20 y:6"><att.Points><Point>x:0 y:6</Point><Point>x:14 y:0</Point><Point>x:20 y:0</Point><Point>x:6 y:6</Point></att.Points></Polygon></Bounds></StackItem>
+                  <StackItem><Bounds AlignmentToParent="left:10 top:0 right:0 bottom:8" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="按钮 BUTTON" Color="#0A0A0A" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
                 </Stack>
               </Bounds>
             </StackItem>
             <StackItem>
               <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:-1 bottom:-1" MinSizeLimitation="LimitToElementAndChildren">
-                <StackItem><Button Text="默认"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></Button></StackItem>
-                <StackItem><Bounds AlignmentToParent="left:16 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><Button Text="主要" ControlTemplate="punkui::PrimaryButtonTemplate"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></Button></Bounds></StackItem>
-                <StackItem><Bounds AlignmentToParent="left:16 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><Button Text="描边" ControlTemplate="punkui::OutlineButtonTemplate"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></Button></Bounds></StackItem>
-                <StackItem><Bounds AlignmentToParent="left:16 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><Button Text="幽灵" ControlTemplate="punkui::GhostButtonTemplate"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></Button></Bounds></StackItem>
-                <StackItem><Bounds AlignmentToParent="left:16 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><Button Text="危险" ControlTemplate="punkui::DangerButtonTemplate"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></Button></Bounds></StackItem>
-                <StackItem><Bounds AlignmentToParent="left:16 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><Button Text="禁用" Enabled="false" ControlTemplate="punkui::PrimaryButtonTemplate"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></Button></Bounds></StackItem>
+                <StackItem><Button Text="默认" ControlTemplate="punkui::PrimaryButtonTemplate"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></Button></StackItem>
+                <StackItem><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><Button Text="主要" ControlTemplate="punkui::PrimaryButtonTemplate"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></Button></Bounds></StackItem>
+                <StackItem><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><Button Text="描边" ControlTemplate="punkui::OutlineButtonTemplate"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></Button></Bounds></StackItem>
+                <StackItem><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><Button Text="幽灵" ControlTemplate="punkui::GhostButtonTemplate"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></Button></Bounds></StackItem>
+                <StackItem><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><Button Text="危险" ControlTemplate="punkui::DangerButtonTemplate"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></Button></Bounds></StackItem>
+                <StackItem><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><Button Text="禁用" Enabled="false" ControlTemplate="punkui::PrimaryButtonTemplate"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></Button></Bounds></StackItem>
               </Stack>
             </StackItem>
 
-            <!-- ============ 徽标 ============ -->
+            <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:32"/></StackItem>
+
+            <!-- ============ 徽标 BADGE ============ -->
             <StackItem>
-              <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:34">
-                <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0">
-                  <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:14"><Polygon BorderColor="#E8151C" BackgroundColor="#E8151C" Size="x:22 y:8"><att.Points><Point>x:0 y:8</Point><Point>x:14 y:0</Point><Point>x:22 y:0</Point><Point>x:8 y:8</Point></att.Points></Polygon></Bounds></StackItem>
-                  <StackItem><Bounds AlignmentToParent="left:10 top:0 right:0 bottom:10"><SolidLabel Text="徽标 BADGE" Color="#0A0A0A" Font="size:18 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+              <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:16" PreferredMinSize="y:22" MinSizeLimitation="LimitToElementAndChildren">
+                <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                  <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:14" MinSizeLimitation="LimitToElementAndChildren"><Polygon BorderColor="#E8151C" BackgroundColor="#E8151C" Size="x:20 y:6"><att.Points><Point>x:0 y:6</Point><Point>x:14 y:0</Point><Point>x:20 y:0</Point><Point>x:6 y:6</Point></att.Points></Polygon></Bounds></StackItem>
+                  <StackItem><Bounds AlignmentToParent="left:10 top:0 right:0 bottom:8" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="徽标 BADGE" Color="#0A0A0A" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
                 </Stack>
               </Bounds>
             </StackItem>
             <StackItem>
               <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:-1 bottom:-1" MinSizeLimitation="LimitToElementAndChildren">
-                <StackItem><Bounds ref.Name="badge1Face" AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="x:72 y:28" MinSizeLimitation="LimitToElementAndChildren"><Bounds AlignmentToParent="left:10 top:4 right:10 bottom:4"><SolidLabel Text="RUN" Color="#1E9E50" Font="size:12 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/></Bounds></Bounds></StackItem>
-                <StackItem><Bounds ref.Name="badge2Face" AlignmentToParent="left:16 top:0 right:0 bottom:0" PreferredMinSize="x:76 y:28" MinSizeLimitation="LimitToElementAndChildren"><Bounds AlignmentToParent="left:10 top:4 right:10 bottom:4"><SolidLabel Text="IDLE" Color="#B89600" Font="size:12 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/></Bounds></Bounds></StackItem>
-                <StackItem><Bounds ref.Name="badge3Face" AlignmentToParent="left:16 top:0 right:0 bottom:0" PreferredMinSize="x:86 y:28" MinSizeLimitation="LimitToElementAndChildren"><Bounds AlignmentToParent="left:10 top:4 right:10 bottom:4"><SolidLabel Text="MAINT" Color="#FFFFFF" Font="size:12 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/></Bounds></Bounds></StackItem>
-                <StackItem><Bounds ref.Name="badge4Face" AlignmentToParent="left:16 top:0 right:0 bottom:0" PreferredMinSize="x:82 y:28" MinSizeLimitation="LimitToElementAndChildren"><Bounds AlignmentToParent="left:10 top:4 right:10 bottom:4"><SolidLabel Text="FAULT" Color="#FFFFFF" Font="size:12 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/></Bounds></Bounds></StackItem>
-                <StackItem><Bounds ref.Name="badge5Face" AlignmentToParent="left:16 top:0 right:0 bottom:0" PreferredMinSize="x:96 y:28" MinSizeLimitation="LimitToElementAndChildren"><Bounds AlignmentToParent="left:10 top:4 right:10 bottom:4"><SolidLabel Text="Neutral" Color="#FFFFFF" Font="size:12 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/></Bounds></Bounds></StackItem>
-                <StackItem><Bounds ref.Name="badge6Face" AlignmentToParent="left:16 top:0 right:0 bottom:0" PreferredMinSize="x:92 y:28" MinSizeLimitation="LimitToElementAndChildren"><Bounds AlignmentToParent="left:10 top:4 right:10 bottom:4"><SolidLabel Text="Primary" Color="#E8151C" Font="size:12 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/></Bounds></Bounds></StackItem>
+                <StackItem><Bounds ref.Name="badge1Face" AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="x:72 y:28" MinSizeLimitation="LimitToElementAndChildren"><Bounds AlignmentToParent="left:10 top:4 right:10 bottom:4" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="RUN" Color="#2FD16A" Font="size:12 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/></Bounds></Bounds></StackItem>
+                <StackItem><Bounds ref.Name="badge2Face" AlignmentToParent="left:12 top:0 right:0 bottom:0" PreferredMinSize="x:76 y:28" MinSizeLimitation="LimitToElementAndChildren"><Bounds AlignmentToParent="left:10 top:4 right:10 bottom:4" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="IDLE" Color="#FFD400" Font="size:12 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/></Bounds></Bounds></StackItem>
+                <StackItem><Bounds ref.Name="badge3Face" AlignmentToParent="left:12 top:0 right:0 bottom:0" PreferredMinSize="x:86 y:28" MinSizeLimitation="LimitToElementAndChildren"><Bounds AlignmentToParent="left:10 top:4 right:10 bottom:4" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="MAINT" Color="#3B3B3B" Font="size:12 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/></Bounds></Bounds></StackItem>
+                <StackItem><Bounds ref.Name="badge4Face" AlignmentToParent="left:12 top:0 right:0 bottom:0" PreferredMinSize="x:82 y:28" MinSizeLimitation="LimitToElementAndChildren"><Bounds AlignmentToParent="left:10 top:4 right:10 bottom:4" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="FAULT" Color="#E8151C" Font="size:12 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/></Bounds></Bounds></StackItem>
+                <StackItem><Bounds ref.Name="badge5Face" AlignmentToParent="left:12 top:0 right:0 bottom:0" PreferredMinSize="x:96 y:28" MinSizeLimitation="LimitToElementAndChildren"><Bounds AlignmentToParent="left:10 top:4 right:10 bottom:4" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="Neutral" Color="#3B3B3B" Font="size:12 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/></Bounds></Bounds></StackItem>
+                <StackItem><Bounds ref.Name="badge6Face" AlignmentToParent="left:12 top:0 right:0 bottom:0" PreferredMinSize="x:92 y:28" MinSizeLimitation="LimitToElementAndChildren"><Bounds AlignmentToParent="left:10 top:4 right:10 bottom:4" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="Primary" Color="#E8151C" Font="size:12 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/></Bounds></Bounds></StackItem>
               </Stack>
             </StackItem>
 
-            <!-- ============ 卡片 ============ -->
+            <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:32"/></StackItem>
+
+            <!-- ============ 卡片 CARD ============ -->
             <StackItem>
-              <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:34">
-                <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0">
-                  <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:14"><Polygon BorderColor="#E8151C" BackgroundColor="#E8151C" Size="x:22 y:8"><att.Points><Point>x:0 y:8</Point><Point>x:14 y:0</Point><Point>x:22 y:0</Point><Point>x:8 y:8</Point></att.Points></Polygon></Bounds></StackItem>
-                  <StackItem><Bounds AlignmentToParent="left:10 top:0 right:0 bottom:10"><SolidLabel Text="卡片 CARD" Color="#0A0A0A" Font="size:18 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+              <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:16" PreferredMinSize="y:22" MinSizeLimitation="LimitToElementAndChildren">
+                <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                  <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:14" MinSizeLimitation="LimitToElementAndChildren"><Polygon BorderColor="#E8151C" BackgroundColor="#E8151C" Size="x:20 y:6"><att.Points><Point>x:0 y:6</Point><Point>x:14 y:0</Point><Point>x:20 y:0</Point><Point>x:6 y:6</Point></att.Points></Polygon></Bounds></StackItem>
+                  <StackItem><Bounds AlignmentToParent="left:10 top:0 right:0 bottom:8" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="卡片 CARD" Color="#0A0A0A" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
                 </Stack>
               </Bounds>
             </StackItem>
             <StackItem>
-              <Table AlignmentToParent="left:0 top:0 right:6 bottom:0" CellPadding="16" BorderVisible="false" MinSizeLimitation="LimitToElementAndChildren">
+              <Table AlignmentToParent="left:0 top:0 right:6 bottom:0" CellPadding="8" BorderVisible="false" MinSizeLimitation="LimitToElementAndChildren">
                 <att.Rows><CellOption>composeType:MinSize</CellOption></att.Rows>
                 <att.Columns>
                   <CellOption>composeType:Percentage percentage:0.34</CellOption>
@@ -104,17 +112,22 @@
                 </att.Columns>
                 <Cell Site="row:0 column:0">
                   <Bounds ref.Name="card1Face" AlignmentToParent="left:0 top:0 right:6 bottom:6" MinSizeLimitation="LimitToElementAndChildren">
-                    <Bounds AlignmentToParent="left:20 top:16 right:20 bottom:16" MinSizeLimitation="LimitToElementAndChildren">
+                    <Bounds AlignmentToParent="left:20 top:20 right:24 bottom:26" MinSizeLimitation="LimitToElementAndChildren">
                       <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
-                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:8"><SolidLabel Text="设备面板" Color="#0A0A0A" Font="size:16 bold:true antialias:true"/></Bounds></StackItem>
-                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:16" PreferredMinSize="x:200 y:0"><SolidLabel Text="Card 作为设备面板：panel ID、状态色顶条由主题 chrome 渲染。" Color="#3B3B3B" Font="size:13 antialias:true" WrapLine="true"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="设备面板" Color="#0A0A0A" Font="size:16 bold:true antialias:true"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="Card 作为设备面板，状态色顶条由主题渲染。" Color="#3B3B3B" Font="size:13 antialias:true"/></Bounds></StackItem>
                         <StackItem>
-                          <Table AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
-                            <att.Rows><CellOption>composeType:MinSize</CellOption></att.Rows>
-                            <att.Columns><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Percentage percentage:1.0</CellOption><CellOption>composeType:MinSize</CellOption></att.Columns>
-                            <Cell Site="row:0 column:0"><SolidLabel Text="FIG. P-100" Color="#3B3B3B" Font="size:12 antialias:true"/></Cell>
-                            <Cell Site="row:0 column:2"><SolidLabel Text="RUN · 14:32" Color="#3B3B3B" Font="size:12 antialias:true"/></Cell>
-                          </Table>
+                          <Bounds AlignmentToParent="left:0 top:12 right:0 bottom:8" PreferredMinSize="y:1" MinSizeLimitation="LimitToElement"><SolidBackground Color="#000000"/></Bounds>
+                        </StackItem>
+                        <StackItem>
+                          <Bounds AlignmentToParent="left:0 top:8 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                            <Table AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                              <att.Rows><CellOption>composeType:MinSize</CellOption></att.Rows>
+                              <att.Columns><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Percentage percentage:1.0</CellOption><CellOption>composeType:MinSize</CellOption></att.Columns>
+                              <Cell Site="row:0 column:0"><SolidLabel Text="FIG. P-100" Color="#3B3B3B" Font="size:12 antialias:true"/></Cell>
+                              <Cell Site="row:0 column:2"><SolidLabel Text="RUN · 14:32" Color="#3B3B3B" Font="size:12 antialias:true"/></Cell>
+                            </Table>
+                          </Bounds>
                         </StackItem>
                       </Stack>
                     </Bounds>
@@ -122,23 +135,28 @@
                 </Cell>
                 <Cell Site="row:0 column:1">
                   <Bounds ref.Name="card2Face" AlignmentToParent="left:0 top:0 right:6 bottom:6" MinSizeLimitation="LimitToElementAndChildren">
-                    <Bounds AlignmentToParent="left:20 top:16 right:20 bottom:16" MinSizeLimitation="LimitToElementAndChildren">
+                    <Bounds AlignmentToParent="left:20 top:20 right:24 bottom:26" MinSizeLimitation="LimitToElementAndChildren">
                       <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
-                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:8"><SolidLabel Text="仪表读数" Color="#0A0A0A" Font="size:16 bold:true antialias:true"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="仪表读数" Color="#0A0A0A" Font="size:16 bold:true antialias:true"/></Bounds></StackItem>
                         <StackItem>
-                          <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:8" MinSizeLimitation="LimitToElementAndChildren">
-                            <StackItem><Bounds AlignmentToParent="left:0 top:0 right:6 bottom:0"><SolidLabel Text="1,842" Color="#0A0A0A" Font="size:20 bold:true antialias:true"/></Bounds></StackItem>
-                            <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0"><SolidLabel Text="rpm" Color="#3B3B3B" Font="size:13 bold:true antialias:true" VerticalAlignment="Bottom"/></Bounds></StackItem>
+                          <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                            <StackItem><Bounds AlignmentToParent="left:0 top:0 right:8 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="1,842" Color="#0A0A0A" Font="size:20 bold:true antialias:true"/></Bounds></StackItem>
+                            <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="rpm" Color="#3B3B3B" Font="size:13 bold:true antialias:true" VerticalAlignment="Bottom"/></Bounds></StackItem>
                           </Stack>
                         </StackItem>
-                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:16"><SolidLabel Text="待机读数" Color="#3B3B3B" Font="size:13 antialias:true"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:8 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="待机读数" Color="#3B3B3B" Font="size:13 antialias:true"/></Bounds></StackItem>
                         <StackItem>
-                          <Table AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
-                            <att.Rows><CellOption>composeType:MinSize</CellOption></att.Rows>
-                            <att.Columns><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Percentage percentage:1.0</CellOption><CellOption>composeType:MinSize</CellOption></att.Columns>
-                            <Cell Site="row:0 column:0"><SolidLabel Text="FIG. P-101" Color="#3B3B3B" Font="size:12 antialias:true"/></Cell>
-                            <Cell Site="row:0 column:2"><SolidLabel Text="IDLE · 14:32" Color="#3B3B3B" Font="size:12 antialias:true"/></Cell>
-                          </Table>
+                          <Bounds AlignmentToParent="left:0 top:12 right:0 bottom:8" PreferredMinSize="y:1" MinSizeLimitation="LimitToElement"><SolidBackground Color="#000000"/></Bounds>
+                        </StackItem>
+                        <StackItem>
+                          <Bounds AlignmentToParent="left:0 top:8 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                            <Table AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                              <att.Rows><CellOption>composeType:MinSize</CellOption></att.Rows>
+                              <att.Columns><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Percentage percentage:1.0</CellOption><CellOption>composeType:MinSize</CellOption></att.Columns>
+                              <Cell Site="row:0 column:0"><SolidLabel Text="FIG. P-101" Color="#3B3B3B" Font="size:12 antialias:true"/></Cell>
+                              <Cell Site="row:0 column:2"><SolidLabel Text="IDLE · 14:32" Color="#3B3B3B" Font="size:12 antialias:true"/></Cell>
+                            </Table>
+                          </Bounds>
                         </StackItem>
                       </Stack>
                     </Bounds>
@@ -146,17 +164,27 @@
                 </Cell>
                 <Cell Site="row:0 column:2">
                   <Bounds ref.Name="card3Face" AlignmentToParent="left:0 top:0 right:6 bottom:6" MinSizeLimitation="LimitToElementAndChildren">
-                    <Bounds AlignmentToParent="left:20 top:16 right:20 bottom:16" MinSizeLimitation="LimitToElementAndChildren">
+                    <Bounds AlignmentToParent="left:20 top:20 right:24 bottom:26" MinSizeLimitation="LimitToElementAndChildren">
                       <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
-                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:8"><SolidLabel Text="维护面板" Color="#0A0A0A" Font="size:16 bold:true antialias:true"/></Bounds></StackItem>
-                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:16" PreferredMinSize="x:200 y:0"><SolidLabel Text="设备处于维护模式，操作区可用。" Color="#3B3B3B" Font="size:13 antialias:true" WrapLine="true"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="维护面板" Color="#0A0A0A" Font="size:16 bold:true antialias:true"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="设备处于维护模式，操作区可用。" Color="#3B3B3B" Font="size:13 antialias:true"/></Bounds></StackItem>
                         <StackItem>
-                          <Table AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
-                            <att.Rows><CellOption>composeType:MinSize</CellOption></att.Rows>
-                            <att.Columns><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Percentage percentage:1.0</CellOption><CellOption>composeType:MinSize</CellOption></att.Columns>
-                            <Cell Site="row:0 column:0"><Button Text="确认" ControlTemplate="punkui::PrimaryButtonTemplate"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></Button></Cell>
-                            <Cell Site="row:0 column:2"><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0"><SolidLabel Text="MAINT · 14:32" Color="#3B3B3B" Font="size:12 antialias:true" HorizontalAlignment="Right" VerticalAlignment="Center"/></Bounds></Cell>
-                          </Table>
+                          <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                            <Button Text="确认" ControlTemplate="punkui::PrimaryButtonTemplate"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></Button>
+                          </Bounds>
+                        </StackItem>
+                        <StackItem>
+                          <Bounds AlignmentToParent="left:0 top:12 right:0 bottom:8" PreferredMinSize="y:1" MinSizeLimitation="LimitToElement"><SolidBackground Color="#000000"/></Bounds>
+                        </StackItem>
+                        <StackItem>
+                          <Bounds AlignmentToParent="left:0 top:8 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                            <Table AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                              <att.Rows><CellOption>composeType:MinSize</CellOption></att.Rows>
+                              <att.Columns><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Percentage percentage:1.0</CellOption><CellOption>composeType:MinSize</CellOption></att.Columns>
+                              <Cell Site="row:0 column:0"><SolidLabel Text="FIG. P-102" Color="#3B3B3B" Font="size:12 antialias:true"/></Cell>
+                              <Cell Site="row:0 column:2"><SolidLabel Text="MAINT · 14:32" Color="#3B3B3B" Font="size:12 antialias:true"/></Cell>
+                            </Table>
+                          </Bounds>
                         </StackItem>
                       </Stack>
                     </Bounds>
@@ -165,227 +193,245 @@
               </Table>
             </StackItem>
 
-            <!-- ============ 终端 ============ -->
+            <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:32"/></StackItem>
+
+            <!-- ============ 终端会话 TERMINAL ============ -->
             <StackItem>
-              <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:34">
-                <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0">
-                  <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:14"><Polygon BorderColor="#E8151C" BackgroundColor="#E8151C" Size="x:22 y:8"><att.Points><Point>x:0 y:8</Point><Point>x:14 y:0</Point><Point>x:22 y:0</Point><Point>x:8 y:8</Point></att.Points></Polygon></Bounds></StackItem>
-                  <StackItem><Bounds AlignmentToParent="left:10 top:0 right:0 bottom:10"><SolidLabel Text="终端会话 TERMINAL" Color="#0A0A0A" Font="size:18 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+              <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:16" PreferredMinSize="y:22" MinSizeLimitation="LimitToElementAndChildren">
+                <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                  <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:14" MinSizeLimitation="LimitToElementAndChildren"><Polygon BorderColor="#E8151C" BackgroundColor="#E8151C" Size="x:20 y:6"><att.Points><Point>x:0 y:6</Point><Point>x:14 y:0</Point><Point>x:20 y:0</Point><Point>x:6 y:6</Point></att.Points></Polygon></Bounds></StackItem>
+                  <StackItem><Bounds AlignmentToParent="left:10 top:0 right:0 bottom:8" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="终端会话 TERMINAL" Color="#0A0A0A" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
                 </Stack>
               </Bounds>
             </StackItem>
             <StackItem>
-              <Bounds AlignmentToParent="left:0 top:0 right:6 bottom:6" MinSizeLimitation="LimitToElementAndChildren">
-                <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
-                  <StackItem>
-                    <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:6">
-                      <SolidLabel Text="user@uilib : ~/showcase" Color="#C9C9C9" Font="fontFamily:'Consolas' size:13 antialias:true"/>
-                    </Bounds>
-                  </StackItem>
-                  <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:3"><SolidLabel Text="14:32:08  boot sequence ok · 4 modules loaded" Color="#C9C9C9" Font="fontFamily:'Consolas' size:13 antialias:true"/></Bounds></StackItem>
-                  <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:3"><SolidLabel Text="$ uilib status --watch" Color="#FFFFFF" Font="fontFamily:'Consolas' size:13 antialias:true"/></Bounds></StackItem>
-                  <StackItem>
-                    <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:3" MinSizeLimitation="LimitToElementAndChildren">
-                      <StackItem><Bounds AlignmentToParent="left:0 top:0 right:8 bottom:0"><SolidLabel Text="[OK]" Color="#2FD16A" Font="fontFamily:'Consolas' size:13 bold:true antialias:true"/></Bounds></StackItem>
-                      <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0"><SolidLabel Text="P-01 running · 412.7 kW" Color="#FFFFFF" Font="fontFamily:'Consolas' size:13 antialias:true"/></Bounds></StackItem>
-                    </Stack>
-                  </StackItem>
-                  <StackItem>
-                    <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:3" MinSizeLimitation="LimitToElementAndChildren">
-                      <StackItem><Bounds AlignmentToParent="left:0 top:0 right:8 bottom:0"><SolidLabel Text="[WARN]" Color="#FFD400" Font="fontFamily:'Consolas' size:13 bold:true antialias:true"/></Bounds></StackItem>
-                      <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0"><SolidLabel Text="S-04 轴承温度接近阈值" Color="#FFFFFF" Font="fontFamily:'Consolas' size:13 antialias:true"/></Bounds></StackItem>
-                    </Stack>
-                  </StackItem>
-                  <StackItem>
-                    <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:3" MinSizeLimitation="LimitToElementAndChildren">
-                      <StackItem><Bounds AlignmentToParent="left:0 top:0 right:8 bottom:0"><SolidLabel Text="[INFO]" Color="#00A8E8" Font="fontFamily:'Consolas' size:13 bold:true antialias:true"/></Bounds></StackItem>
-                      <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0"><SolidLabel Text="C-01 维护模式" Color="#FFFFFF" Font="fontFamily:'Consolas' size:13 antialias:true"/></Bounds></StackItem>
-                    </Stack>
-                  </StackItem>
-                  <StackItem>
+              <Bounds ref.Name="terminalFace" AlignmentToParent="left:0 top:0 right:1 bottom:1" MinSizeLimitation="LimitToElementAndChildren">
+                <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+                  <SolidBackground Color="#FFFFFF"/>
+                </Bounds>
+                <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+                  <SolidBorder Color="#000000"/>
+                </Bounds>
+                <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:-1" PreferredMinSize="y:32" MinSizeLimitation="LimitToElementAndChildren">
+                  <SolidBackground Color="#151515"/>
+                  <Bounds AlignmentToParent="left:12 top:0 right:12 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
                     <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
-                      <StackItem><Bounds AlignmentToParent="left:0 top:0 right:8 bottom:0"><SolidLabel Text="$" Color="#2FD16A" Font="fontFamily:'Consolas' size:13 bold:true antialias:true"/></Bounds></StackItem>
-                      <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="x:8 y:16"><SolidBackground Color="#E8151C"/></Bounds></StackItem>
+                      <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="user@uilib" Color="#3B3B3B" Font="fontFamily:'Consolas' size:12 antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+                      <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text=" : ~/showcase" Color="#3B3B3B" Font="fontFamily:'Consolas' size:12 antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
                     </Stack>
-                  </StackItem>
-                </Stack>
+                  </Bounds>
+                </Bounds>
+                <Bounds AlignmentToParent="left:0 top:32 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                  <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                    <StackItem><Bounds AlignmentToParent="left:16 top:16 right:16 bottom:4" MinSizeLimitation="LimitToElementAndChildren">
+                      <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:8 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="14:32:08" Color="#3B3B3B" Font="fontFamily:'Consolas' size:12 antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="boot sequence ok · 4 modules loaded" Color="#0A0A0A" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+                      </Stack>
+                    </Bounds></StackItem>
+                    <StackItem><Bounds AlignmentToParent="left:16 top:0 right:16 bottom:4" MinSizeLimitation="LimitToElementAndChildren">
+                      <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:6 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="$" Color="#E8151C" Font="fontFamily:'Consolas' size:13 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="uilib status --watch" Color="#0A0A0A" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+                      </Stack>
+                    </Bounds></StackItem>
+                    <StackItem><Bounds AlignmentToParent="left:16 top:0 right:16 bottom:4" MinSizeLimitation="LimitToElementAndChildren">
+                      <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:6 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="[OK]" Color="#2FD16A" Font="fontFamily:'Consolas' size:13 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="P-01 running · 412.7 kW" Color="#0A0A0A" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+                      </Stack>
+                    </Bounds></StackItem>
+                    <StackItem><Bounds AlignmentToParent="left:16 top:0 right:16 bottom:4" MinSizeLimitation="LimitToElementAndChildren">
+                      <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:6 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="[WARN]" Color="#FFD400" Font="fontFamily:'Consolas' size:13 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="S-04 轴承温度接近阈值" Color="#0A0A0A" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+                      </Stack>
+                    </Bounds></StackItem>
+                    <StackItem><Bounds AlignmentToParent="left:16 top:0 right:16 bottom:4" MinSizeLimitation="LimitToElementAndChildren">
+                      <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:6 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="[INFO]" Color="#00A8E8" Font="fontFamily:'Consolas' size:13 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="C-01 维护模式" Color="#0A0A0A" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+                      </Stack>
+                    </Bounds></StackItem>
+                    <StackItem><Bounds AlignmentToParent="left:16 top:0 right:16 bottom:16" MinSizeLimitation="LimitToElementAndChildren">
+                      <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:6 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="$" Color="#E8151C" Font="fontFamily:'Consolas' size:13 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="x:8 y:16" MinSizeLimitation="LimitToElement"><SolidBackground Color="#E8151C"/></Bounds></StackItem>
+                      </Stack>
+                    </Bounds></StackItem>
+                  </Stack>
+                </Bounds>
               </Bounds>
             </StackItem>
 
-            <!-- ============ 表单 ============ -->
+            <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:32"/></StackItem>
+
+            <!-- ============ 表单 FORM ============ -->
             <StackItem>
-              <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:34">
-                <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0">
-                  <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:14"><Polygon BorderColor="#E8151C" BackgroundColor="#E8151C" Size="x:22 y:8"><att.Points><Point>x:0 y:8</Point><Point>x:14 y:0</Point><Point>x:22 y:0</Point><Point>x:8 y:8</Point></att.Points></Polygon></Bounds></StackItem>
-                  <StackItem><Bounds AlignmentToParent="left:10 top:0 right:0 bottom:10"><SolidLabel Text="表单 FORM" Color="#0A0A0A" Font="size:18 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+              <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:16" PreferredMinSize="y:22" MinSizeLimitation="LimitToElementAndChildren">
+                <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                  <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:14" MinSizeLimitation="LimitToElementAndChildren"><Polygon BorderColor="#E8151C" BackgroundColor="#E8151C" Size="x:20 y:6"><att.Points><Point>x:0 y:6</Point><Point>x:14 y:0</Point><Point>x:20 y:0</Point><Point>x:6 y:6</Point></att.Points></Polygon></Bounds></StackItem>
+                  <StackItem><Bounds AlignmentToParent="left:10 top:0 right:0 bottom:8" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="表单 FORM" Color="#0A0A0A" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
                 </Stack>
               </Bounds>
             </StackItem>
             <StackItem>
-              <Table AlignmentToParent="left:0 top:0 right:6 bottom:0" CellPadding="24" BorderVisible="false" MinSizeLimitation="LimitToElementAndChildren">
-                <att.Rows><CellOption>composeType:MinSize</CellOption></att.Rows>
+              <Table AlignmentToParent="left:0 top:0 right:0 bottom:0" CellPadding="8" BorderVisible="false" MinSizeLimitation="LimitToElementAndChildren">
+                <att.Rows><CellOption>composeType:MinSize</CellOption><CellOption>composeType:MinSize</CellOption></att.Rows>
                 <att.Columns>
                   <CellOption>composeType:Percentage percentage:0.5</CellOption>
                   <CellOption>composeType:Percentage percentage:0.5</CellOption>
                 </att.Columns>
                 <Cell Site="row:0 column:0">
-                  <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
-                    <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:6"><SolidLabel Text="姓名" Color="#3B3B3B" Font="size:12 bold:true antialias:true"/></Bounds></StackItem>
-                    <StackItem><SinglelineTextBox ref.Name="inputName"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="x:240 y:0"/></SinglelineTextBox></StackItem>
-                    <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:6" PreferredMinSize="y:24"><SolidLabel Text="邮箱" Color="#3B3B3B" Font="size:12 bold:true antialias:true" VerticalAlignment="Bottom"/></Bounds></StackItem>
-                    <StackItem><SinglelineTextBox ref.Name="inputEmail"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="x:240 y:0"/></SinglelineTextBox></StackItem>
-                    <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:6" PreferredMinSize="y:24"><SolidLabel Text="简介" Color="#3B3B3B" Font="size:12 bold:true antialias:true" VerticalAlignment="Bottom"/></Bounds></StackItem>
-                    <StackItem><MultilineTextBox><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="x:240 y:72"/></MultilineTextBox></StackItem>
+                  <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:12 bottom:12" MinSizeLimitation="LimitToElementAndChildren">
+                    <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:8" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="姓名" Color="#3B3B3B" Font="size:13 bold:true antialias:true"/></Bounds></StackItem>
+                    <StackItem><SinglelineTextBox ref.Name="inputName"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></SinglelineTextBox></StackItem>
                   </Stack>
                 </Cell>
                 <Cell Site="row:0 column:1">
-                  <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren" Padding="10">
-                    <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:18"><SolidLabel Text="运行模式" Color="#3B3B3B" Font="size:12 bold:true antialias:true"/></Bounds></StackItem>
+                  <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren">
+                    <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:8" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="邮箱" Color="#3B3B3B" Font="size:13 bold:true antialias:true"/></Bounds></StackItem>
+                    <StackItem><SinglelineTextBox ref.Name="inputEmail"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></SinglelineTextBox></StackItem>
+                  </Stack>
+                </Cell>
+                <Cell Site="row:1 column:0">
+                  <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:12 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                    <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:8" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="简介" Color="#3B3B3B" Font="size:13 bold:true antialias:true"/></Bounds></StackItem>
+                    <StackItem><MultilineTextBox><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:76"/></MultilineTextBox></StackItem>
+                  </Stack>
+                </Cell>
+                <Cell Site="row:1 column:1">
+                  <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                    <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:8" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="运行模式" Color="#3B3B3B" Font="size:13 bold:true antialias:true"/></Bounds></StackItem>
                     <StackItem><CheckBox Text="自动运行" Selected="true"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></CheckBox></StackItem>
-                    <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:16"><SolidLabel Text=" " Font="size:8"/></Bounds></StackItem>
+                    <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:16"/></StackItem>
                     <StackItem><CheckBox Text="维护锁定"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></CheckBox></StackItem>
                   </Stack>
                 </Cell>
               </Table>
             </StackItem>
 
-            <!-- ============ 进度 ============ -->
+            <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:32"/></StackItem>
+
+            <!-- ============ 进度 PROGRESS ============ -->
             <StackItem>
-              <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:34">
-                <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0">
-                  <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:14"><Polygon BorderColor="#E8151C" BackgroundColor="#E8151C" Size="x:22 y:8"><att.Points><Point>x:0 y:8</Point><Point>x:14 y:0</Point><Point>x:22 y:0</Point><Point>x:8 y:8</Point></att.Points></Polygon></Bounds></StackItem>
-                  <StackItem><Bounds AlignmentToParent="left:10 top:0 right:0 bottom:10"><SolidLabel Text="进度 PROGRESS" Color="#0A0A0A" Font="size:18 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+              <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:16" PreferredMinSize="y:22" MinSizeLimitation="LimitToElementAndChildren">
+                <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                  <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:14" MinSizeLimitation="LimitToElementAndChildren"><Polygon BorderColor="#E8151C" BackgroundColor="#E8151C" Size="x:20 y:6"><att.Points><Point>x:0 y:6</Point><Point>x:14 y:0</Point><Point>x:20 y:0</Point><Point>x:6 y:6</Point></att.Points></Polygon></Bounds></StackItem>
+                  <StackItem><Bounds AlignmentToParent="left:10 top:0 right:0 bottom:8" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="进度 PROGRESS" Color="#0A0A0A" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
                 </Stack>
               </Bounds>
             </StackItem>
             <StackItem>
-              <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:6 bottom:0" MinSizeLimitation="LimitToElementAndChildren" Padding="12">
+              <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:6 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
                 <StackItem>
-                  <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                  <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren">
                     <StackItem>
-                      <Table AlignmentToParent="left:0 top:0 right:0 bottom:6">
-                          <att.Rows><CellOption>composeType:MinSize</CellOption></att.Rows>
-                          <att.Columns><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Percentage percentage:1.0</CellOption><CellOption>composeType:MinSize</CellOption></att.Columns>
-                          <Cell Site="row:0 column:0"><SolidLabel Text="负载 · 主泵 A" Color="#3B3B3B" Font="size:12 bold:true antialias:true"/></Cell>
-                          <Cell Site="row:0 column:2"><SolidLabel Text="35%" Color="#0A0A0A" Font="size:12 bold:true antialias:true"/></Cell>
-                        </Table>
+                      <Table AlignmentToParent="left:0 top:0 right:0 bottom:8" CellPadding="0" BorderVisible="false" MinSizeLimitation="LimitToElementAndChildren">
+                        <att.Rows><CellOption>composeType:MinSize</CellOption></att.Rows>
+                        <att.Columns><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Percentage percentage:1.0</CellOption><CellOption>composeType:MinSize</CellOption></att.Columns>
+                        <Cell Site="row:0 column:0"><SolidLabel Text="负载 · 主泵 A" Color="#3B3B3B" Font="size:13 antialias:true"/></Cell>
+                        <Cell Site="row:0 column:2"><SolidLabel Text="35%" Color="#0A0A0A" Font="size:13 bold:true antialias:true"/></Cell>
+                      </Table>
                     </StackItem>
                     <StackItem>
-                      <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0">
-                        <Table AlignmentToParent="left:0 top:0 right:0 bottom:0">
-                          <att.Rows><CellOption>composeType:Percentage percentage:1.0</CellOption></att.Rows>
-                          <att.Columns>
-                            <CellOption>composeType:Percentage percentage:0.8</CellOption>
-                            <CellOption>composeType:Absolute absolute:2</CellOption>
-                            <CellOption>composeType:Percentage percentage:0.2</CellOption>
-                          </att.Columns>
-                          <Cell Site="row:0 column:0"><ProgressBar TotalSize="100" Position="35"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></ProgressBar></Cell>
-                          <Cell Site="row:0 column:1"><SolidBackground Color="#E8151C88"/></Cell>
-                        </Table>
-                      </Bounds>
+                      <Table AlignmentToParent="left:0 top:0 right:0 bottom:0" CellPadding="0" BorderVisible="false">
+                        <att.Rows><CellOption>composeType:Percentage percentage:1.0</CellOption></att.Rows>
+                        <att.Columns>
+                          <CellOption>composeType:Percentage percentage:0.8</CellOption>
+                          <CellOption>composeType:Absolute absolute:2</CellOption>
+                          <CellOption>composeType:Percentage percentage:0.2</CellOption>
+                        </att.Columns>
+                        <Cell Site="row:0 column:0"><ProgressBar TotalSize="100" Position="35"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></ProgressBar></Cell>
+                        <Cell Site="row:0 column:1"><SolidBackground Color="#E8151C80"/></Cell>
+                      </Table>
                     </StackItem>
                   </Stack>
                 </StackItem>
                 <StackItem>
                   <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
                     <StackItem>
-                      <Table AlignmentToParent="left:0 top:0 right:0 bottom:6">
-                          <att.Rows><CellOption>composeType:MinSize</CellOption></att.Rows>
-                          <att.Columns><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Percentage percentage:1.0</CellOption><CellOption>composeType:MinSize</CellOption></att.Columns>
-                          <Cell Site="row:0 column:0"><SolidLabel Text="负载 · 主泵 B" Color="#3B3B3B" Font="size:12 bold:true antialias:true"/></Cell>
-                          <Cell Site="row:0 column:2"><SolidLabel Text="68%" Color="#0A0A0A" Font="size:12 bold:true antialias:true"/></Cell>
-                        </Table>
+                      <Table AlignmentToParent="left:0 top:0 right:0 bottom:8" CellPadding="0" BorderVisible="false" MinSizeLimitation="LimitToElementAndChildren">
+                        <att.Rows><CellOption>composeType:MinSize</CellOption></att.Rows>
+                        <att.Columns><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Percentage percentage:1.0</CellOption><CellOption>composeType:MinSize</CellOption></att.Columns>
+                        <Cell Site="row:0 column:0"><SolidLabel Text="负载 · 主泵 B" Color="#3B3B3B" Font="size:13 antialias:true"/></Cell>
+                        <Cell Site="row:0 column:2"><SolidLabel Text="68%" Color="#0A0A0A" Font="size:13 bold:true antialias:true"/></Cell>
+                      </Table>
                     </StackItem>
                     <StackItem>
-                      <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0">
-                        <Table AlignmentToParent="left:0 top:0 right:0 bottom:0">
-                          <att.Rows><CellOption>composeType:Percentage percentage:1.0</CellOption></att.Rows>
-                          <att.Columns>
-                            <CellOption>composeType:Percentage percentage:0.8</CellOption>
-                            <CellOption>composeType:Absolute absolute:2</CellOption>
-                            <CellOption>composeType:Percentage percentage:0.2</CellOption>
-                          </att.Columns>
-                          <Cell Site="row:0 column:0"><ProgressBar TotalSize="100" Position="68"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></ProgressBar></Cell>
-                          <Cell Site="row:0 column:1"><SolidBackground Color="#E8151C88"/></Cell>
-                        </Table>
-                      </Bounds>
+                      <Table AlignmentToParent="left:0 top:0 right:0 bottom:0" CellPadding="0" BorderVisible="false">
+                        <att.Rows><CellOption>composeType:Percentage percentage:1.0</CellOption></att.Rows>
+                        <att.Columns>
+                          <CellOption>composeType:Percentage percentage:0.8</CellOption>
+                          <CellOption>composeType:Absolute absolute:2</CellOption>
+                          <CellOption>composeType:Percentage percentage:0.2</CellOption>
+                        </att.Columns>
+                        <Cell Site="row:0 column:0"><ProgressBar TotalSize="100" Position="68"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></ProgressBar></Cell>
+                        <Cell Site="row:0 column:1"><SolidBackground Color="#E8151C80"/></Cell>
+                      </Table>
                     </StackItem>
                   </Stack>
                 </StackItem>
               </Stack>
             </StackItem>
 
-            <!-- ============ 提示 ============ -->
+            <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:32"/></StackItem>
+
+            <!-- ============ 提示 ALERT ============ -->
             <StackItem>
-              <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:34">
-                <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0">
-                  <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:14"><Polygon BorderColor="#E8151C" BackgroundColor="#E8151C" Size="x:22 y:8"><att.Points><Point>x:0 y:8</Point><Point>x:14 y:0</Point><Point>x:22 y:0</Point><Point>x:8 y:8</Point></att.Points></Polygon></Bounds></StackItem>
-                  <StackItem><Bounds AlignmentToParent="left:10 top:0 right:0 bottom:10"><SolidLabel Text="提示 ALERT" Color="#0A0A0A" Font="size:18 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+              <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:16" PreferredMinSize="y:22" MinSizeLimitation="LimitToElementAndChildren">
+                <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                  <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:14" MinSizeLimitation="LimitToElementAndChildren"><Polygon BorderColor="#E8151C" BackgroundColor="#E8151C" Size="x:20 y:6"><att.Points><Point>x:0 y:6</Point><Point>x:14 y:0</Point><Point>x:20 y:0</Point><Point>x:6 y:6</Point></att.Points></Polygon></Bounds></StackItem>
+                  <StackItem><Bounds AlignmentToParent="left:10 top:0 right:0 bottom:8" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="提示 ALERT" Color="#0A0A0A" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
                 </Stack>
               </Bounds>
             </StackItem>
             <StackItem>
-              <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:6 bottom:0" MinSizeLimitation="LimitToElementAndChildren" Padding="8">
+              <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:6 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
                 <StackItem>
-                  <Bounds ref.Name="alert1Face" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
-                    <Bounds AlignmentToParent="left:3 top:3 right:-1 bottom:3"><SolidBackground Color="#00A8E8"/></Bounds>
-                    <Bounds AlignmentToParent="left:22 top:10 right:14 bottom:10" MinSizeLimitation="LimitToElementAndChildren">
+                  <Bounds ref.Name="alert1Face" AlignmentToParent="left:0 top:0 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren">
+                    <Bounds AlignmentToParent="left:3 top:3 right:-1 bottom:3" PreferredMinSize="x:8" MinSizeLimitation="LimitToElement"><SolidBackground Color="#00A8E8"/></Bounds>
+                    <Bounds AlignmentToParent="left:19 top:12 right:16 bottom:12" MinSizeLimitation="LimitToElementAndChildren">
                       <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
-                        <StackItem>
-                          <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:4">
-                            <StackItem><Bounds AlignmentToParent="left:0 top:0 right:10 bottom:0"><SolidLabel Text="系统就绪" Color="#0A0A0A" Font="size:13 bold:true antialias:true"/></Bounds></StackItem>
-                            <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0"><SolidLabel Text="LV0 · 14:30 · SYS" Color="#3B3B3B" Font="fontFamily:'Consolas' size:12 antialias:true"/></Bounds></StackItem>
-                          </Stack>
-                        </StackItem>
-                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0"><SolidLabel Text="所有设备在线，无异常。" Color="#3B3B3B" Font="size:13 antialias:true"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:4" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="系统就绪" Color="#0A0A0A" Font="size:13 bold:true antialias:true"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:4" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="LV0 · 14:30 · SYS" Color="#3B3B3B" Font="fontFamily:'Consolas' size:12 antialias:true"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="所有设备在线，无异常。" Color="#3B3B3B" Font="size:13 antialias:true"/></Bounds></StackItem>
                       </Stack>
                     </Bounds>
                   </Bounds>
                 </StackItem>
                 <StackItem>
-                  <Bounds ref.Name="alert2Face" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
-                    <Bounds AlignmentToParent="left:3 top:3 right:-1 bottom:3"><SolidBackground Color="#2FD16A"/></Bounds>
-                    <Bounds AlignmentToParent="left:22 top:10 right:14 bottom:10" MinSizeLimitation="LimitToElementAndChildren">
+                  <Bounds ref.Name="alert2Face" AlignmentToParent="left:0 top:0 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren">
+                    <Bounds AlignmentToParent="left:3 top:3 right:-1 bottom:3" PreferredMinSize="x:8" MinSizeLimitation="LimitToElement"><SolidBackground Color="#2FD16A"/></Bounds>
+                    <Bounds AlignmentToParent="left:19 top:12 right:16 bottom:12" MinSizeLimitation="LimitToElementAndChildren">
                       <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
-                        <StackItem>
-                          <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:4">
-                            <StackItem><Bounds AlignmentToParent="left:0 top:0 right:10 bottom:0"><SolidLabel Text="指令完成" Color="#0A0A0A" Font="size:13 bold:true antialias:true"/></Bounds></StackItem>
-                            <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0"><SolidLabel Text="LV1 · 14:31 · P-01" Color="#3B3B3B" Font="fontFamily:'Consolas' size:12 antialias:true"/></Bounds></StackItem>
-                          </Stack>
-                        </StackItem>
-                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0"><SolidLabel Text="输出功率已恢复额定值。" Color="#3B3B3B" Font="size:13 antialias:true"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:4" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="指令完成" Color="#0A0A0A" Font="size:13 bold:true antialias:true"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:4" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="LV1 · 14:31 · P-01" Color="#3B3B3B" Font="fontFamily:'Consolas' size:12 antialias:true"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="输出功率已恢复额定值。" Color="#3B3B3B" Font="size:13 antialias:true"/></Bounds></StackItem>
                       </Stack>
                     </Bounds>
                   </Bounds>
                 </StackItem>
                 <StackItem>
-                  <Bounds ref.Name="alert3Face" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
-                    <Bounds AlignmentToParent="left:3 top:3 right:-1 bottom:3"><SolidBackground Color="#FFD400"/></Bounds>
-                    <Bounds AlignmentToParent="left:22 top:10 right:14 bottom:10" MinSizeLimitation="LimitToElementAndChildren">
+                  <Bounds ref.Name="alert3Face" AlignmentToParent="left:0 top:0 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren">
+                    <Bounds AlignmentToParent="left:3 top:3 right:-1 bottom:3" PreferredMinSize="x:8" MinSizeLimitation="LimitToElement"><SolidBackground Color="#FFD400"/></Bounds>
+                    <Bounds AlignmentToParent="left:19 top:12 right:16 bottom:12" MinSizeLimitation="LimitToElementAndChildren">
                       <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
-                        <StackItem>
-                          <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:4">
-                            <StackItem><Bounds AlignmentToParent="left:0 top:0 right:10 bottom:0"><SolidLabel Text="过温警告" Color="#0A0A0A" Font="size:13 bold:true antialias:true"/></Bounds></StackItem>
-                            <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0"><SolidLabel Text="LV2 · 14:31 · S-04" Color="#3B3B3B" Font="fontFamily:'Consolas' size:12 antialias:true"/></Bounds></StackItem>
-                          </Stack>
-                        </StackItem>
-                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0"><SolidLabel Text="轴承温度接近阈值，建议巡检。" Color="#3B3B3B" Font="size:13 antialias:true"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:4" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="过温警告" Color="#0A0A0A" Font="size:13 bold:true antialias:true"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:4" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="LV2 · 14:31 · S-04" Color="#3B3B3B" Font="fontFamily:'Consolas' size:12 antialias:true"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="轴承温度接近阈值，建议巡检。" Color="#3B3B3B" Font="size:13 antialias:true"/></Bounds></StackItem>
                       </Stack>
                     </Bounds>
                   </Bounds>
                 </StackItem>
                 <StackItem>
                   <Bounds ref.Name="alert4Face" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
-                    <Bounds AlignmentToParent="left:3 top:3 right:-1 bottom:3"><SolidBackground Color="#E8151C"/></Bounds>
-                    <Bounds AlignmentToParent="left:22 top:10 right:14 bottom:10" MinSizeLimitation="LimitToElementAndChildren">
+                    <Bounds AlignmentToParent="left:3 top:3 right:-1 bottom:3" PreferredMinSize="x:8" MinSizeLimitation="LimitToElement"><SolidBackground Color="#E8151C"/></Bounds>
+                    <Bounds AlignmentToParent="left:19 top:12 right:16 bottom:12" MinSizeLimitation="LimitToElementAndChildren">
                       <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
-                        <StackItem>
-                          <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:4">
-                            <StackItem><Bounds AlignmentToParent="left:0 top:0 right:10 bottom:0"><SolidLabel Text="信号丢失" Color="#0A0A0A" Font="size:13 bold:true antialias:true"/></Bounds></StackItem>
-                            <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0"><SolidLabel Text="LV3 · 14:25 · S-04" Color="#3B3B3B" Font="fontFamily:'Consolas' size:12 antialias:true"/></Bounds></StackItem>
-                          </Stack>
-                        </StackItem>
-                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0"><SolidLabel Text="传感器 04 信号丢失，已触发保护。" Color="#3B3B3B" Font="size:13 antialias:true"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:4" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="信号丢失" Color="#0A0A0A" Font="size:13 bold:true antialias:true"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:4" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="LV3 · 14:25 · S-04" Color="#3B3B3B" Font="fontFamily:'Consolas' size:12 antialias:true"/></Bounds></StackItem>
+                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="传感器 04 信号丢失，已触发保护。" Color="#3B3B3B" Font="size:13 antialias:true"/></Bounds></StackItem>
                       </Stack>
                     </Bounds>
                   </Bounds>
@@ -393,37 +439,45 @@
               </Stack>
             </StackItem>
 
-            <!-- ============ 头像 / 弹窗 ============ -->
+            <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:32"/></StackItem>
+
+            <!-- ============ 头像 AVATAR / 弹窗 MODAL ============ -->
             <StackItem>
-              <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:34">
-                <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0">
-                  <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:14"><Polygon BorderColor="#E8151C" BackgroundColor="#E8151C" Size="x:22 y:8"><att.Points><Point>x:0 y:8</Point><Point>x:14 y:0</Point><Point>x:22 y:0</Point><Point>x:8 y:8</Point></att.Points></Polygon></Bounds></StackItem>
-                  <StackItem><Bounds AlignmentToParent="left:10 top:0 right:0 bottom:10"><SolidLabel Text="头像 AVATAR / 弹窗 MODAL" Color="#0A0A0A" Font="size:18 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+              <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:16" PreferredMinSize="y:22" MinSizeLimitation="LimitToElementAndChildren">
+                <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                  <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:14" MinSizeLimitation="LimitToElementAndChildren"><Polygon BorderColor="#E8151C" BackgroundColor="#E8151C" Size="x:20 y:6"><att.Points><Point>x:0 y:6</Point><Point>x:14 y:0</Point><Point>x:20 y:0</Point><Point>x:6 y:6</Point></att.Points></Polygon></Bounds></StackItem>
+                  <StackItem><Bounds AlignmentToParent="left:10 top:0 right:0 bottom:8" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="头像 AVATAR / 弹窗 MODAL" Color="#0A0A0A" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
                 </Stack>
               </Bounds>
             </StackItem>
             <StackItem>
-              <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:-1 bottom:-1" MinSizeLimitation="LimitToElementAndChildren" Padding="8">
+              <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:-1 bottom:-1" MinSizeLimitation="LimitToElementAndChildren">
                 <StackItem>
-                  <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="x:44 y:44" MinSizeLimitation="LimitToElement">
-                    <Bounds AlignmentToParent="left:2 top:2 right:0 bottom:0"><SolidBackground Color="#000000" Shape="shapeType:Ellipse"/></Bounds>
-                    <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4"><SolidBackground Color="#00BFA5" Shape="shapeType:Ellipse"/><SolidBorder Color="#000000" Shape="shapeType:Ellipse"/><SolidLabel Text="LM" Color="#FFFFFF" Font="size:13 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/></Bounds>
+                  <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="x:40 y:40" MinSizeLimitation="LimitToElement">
+                    <Bounds AlignmentToParent="left:2 top:2 right:-2 bottom:-2" MinSizeLimitation="LimitToElement"><SolidBackground Color="#000000" Shape="shapeType:Ellipse"/></Bounds>
+                    <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement"><SolidBackground Color="#000000" Shape="shapeType:Ellipse"/></Bounds>
+                    <Bounds AlignmentToParent="left:3 top:3 right:3 bottom:3" MinSizeLimitation="LimitToElement"><SolidBackground Color="#00BFA5" Shape="shapeType:Ellipse"/></Bounds>
+                    <Bounds AlignmentToParent="left:3 top:3 right:3 bottom:3" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="LM" Color="#FFFFFF" Font="size:13 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/></Bounds>
                   </Bounds>
                 </StackItem>
                 <StackItem>
-                  <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="x:44 y:44" MinSizeLimitation="LimitToElement">
-                    <Bounds AlignmentToParent="left:2 top:2 right:0 bottom:0"><SolidBackground Color="#000000" Shape="shapeType:Ellipse"/></Bounds>
-                    <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4"><SolidBackground Color="#6A5CFF" Shape="shapeType:Ellipse"/><SolidBorder Color="#000000" Shape="shapeType:Ellipse"/><SolidLabel Text="ZS" Color="#FFFFFF" Font="size:13 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/></Bounds>
+                  <Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0" PreferredMinSize="x:40 y:40" MinSizeLimitation="LimitToElement">
+                    <Bounds AlignmentToParent="left:2 top:2 right:-2 bottom:-2" MinSizeLimitation="LimitToElement"><SolidBackground Color="#000000" Shape="shapeType:Ellipse"/></Bounds>
+                    <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement"><SolidBackground Color="#000000" Shape="shapeType:Ellipse"/></Bounds>
+                    <Bounds AlignmentToParent="left:3 top:3 right:3 bottom:3" MinSizeLimitation="LimitToElement"><SolidBackground Color="#6A5CFF" Shape="shapeType:Ellipse"/></Bounds>
+                    <Bounds AlignmentToParent="left:3 top:3 right:3 bottom:3" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="ZS" Color="#FFFFFF" Font="size:13 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/></Bounds>
                   </Bounds>
                 </StackItem>
                 <StackItem>
-                  <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="x:44 y:44" MinSizeLimitation="LimitToElement">
-                    <Bounds AlignmentToParent="left:2 top:2 right:0 bottom:0"><SolidBackground Color="#000000" Shape="shapeType:Ellipse"/></Bounds>
-                    <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4"><SolidBackground Color="#00BFA5" Shape="shapeType:Ellipse"/><SolidBorder Color="#000000" Shape="shapeType:Ellipse"/><SolidLabel Text="WW" Color="#FFFFFF" Font="size:13 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/></Bounds>
+                  <Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0" PreferredMinSize="x:40 y:40" MinSizeLimitation="LimitToElement">
+                    <Bounds AlignmentToParent="left:2 top:2 right:-2 bottom:-2" MinSizeLimitation="LimitToElement"><SolidBackground Color="#000000" Shape="shapeType:Ellipse"/></Bounds>
+                    <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement"><SolidBackground Color="#000000" Shape="shapeType:Ellipse"/></Bounds>
+                    <Bounds AlignmentToParent="left:3 top:3 right:3 bottom:3" MinSizeLimitation="LimitToElement"><SolidBackground Color="#00BFA5" Shape="shapeType:Ellipse"/></Bounds>
+                    <Bounds AlignmentToParent="left:3 top:3 right:3 bottom:3" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="WW" Color="#FFFFFF" Font="size:13 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/></Bounds>
                   </Bounds>
                 </StackItem>
                 <StackItem>
-                  <Bounds AlignmentToParent="left:24 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                  <Bounds AlignmentToParent="left:20 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
                     <Button Text="维护确认" ControlTemplate="punkui::OutlineButtonTemplate">
                       <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
                       <ev.Clicked-eval><![CDATA[{
@@ -434,12 +488,14 @@
               </Stack>
             </StackItem>
 
-            <!-- ============ 表格 ============ -->
+            <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:32"/></StackItem>
+
+            <!-- ============ 表格 TABLE ============ -->
             <StackItem>
-              <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:34">
-                <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0">
-                  <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:14"><Polygon BorderColor="#E8151C" BackgroundColor="#E8151C" Size="x:22 y:8"><att.Points><Point>x:0 y:8</Point><Point>x:14 y:0</Point><Point>x:22 y:0</Point><Point>x:8 y:8</Point></att.Points></Polygon></Bounds></StackItem>
-                  <StackItem><Bounds AlignmentToParent="left:10 top:0 right:0 bottom:10"><SolidLabel Text="表格 TABLE" Color="#0A0A0A" Font="size:18 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
+              <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:16" PreferredMinSize="y:22" MinSizeLimitation="LimitToElementAndChildren">
+                <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                  <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:14" MinSizeLimitation="LimitToElementAndChildren"><Polygon BorderColor="#E8151C" BackgroundColor="#E8151C" Size="x:20 y:6"><att.Points><Point>x:0 y:6</Point><Point>x:14 y:0</Point><Point>x:20 y:0</Point><Point>x:6 y:6</Point></att.Points></Polygon></Bounds></StackItem>
+                  <StackItem><Bounds AlignmentToParent="left:10 top:0 right:0 bottom:8" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="表格 TABLE" Color="#0A0A0A" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></StackItem>
                 </Stack>
               </Bounds>
             </StackItem>
@@ -455,30 +511,32 @@
                     <CellOption>composeType:Absolute absolute:120</CellOption>
                     <CellOption>composeType:Percentage percentage:1.0</CellOption>
                   </att.Columns>
-                  <Cell Site="row:0 column:0"><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:34"><SolidBackground Color="#151515"/><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0"><SolidLabel Text="设备 ID" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Bounds></Cell><Cell Site="row:0 column:1"><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:34"><SolidBackground Color="#151515"/><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0"><SolidLabel Text="状态" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Bounds></Cell><Cell Site="row:0 column:2"><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:34"><SolidBackground Color="#151515"/><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0"><SolidLabel Text="更新时间" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Bounds></Cell><Cell Site="row:0 column:3"><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:34"><SolidBackground Color="#151515"/><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0"><SolidLabel Text="读数" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Bounds></Cell>
-                            <Cell Site="row:1 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
-          <Cell Site="row:2 column:0"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="P-01" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-          <Cell Site="row:2 column:1"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="RUN" Color="#1E9E50" Font="fontFamily:'Consolas' size:13 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-          <Cell Site="row:2 column:2"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="14:32:08" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-          <Cell Site="row:2 column:3"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="412.7 kW" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-          <Cell Site="row:3 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
-          <Cell Site="row:4 column:0"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="P-02" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-          <Cell Site="row:4 column:1"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="IDLE" Color="#B89600" Font="fontFamily:'Consolas' size:13 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-          <Cell Site="row:4 column:2"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="14:30:12" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-          <Cell Site="row:4 column:3"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="0.0 kW" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-          <Cell Site="row:5 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
-          <Cell Site="row:6 column:0"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="C-01" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-          <Cell Site="row:6 column:1"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="MAINT" Color="#0087BA" Font="fontFamily:'Consolas' size:13 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-          <Cell Site="row:6 column:2"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="14:28:55" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-          <Cell Site="row:6 column:3"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="—" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-          <Cell Site="row:7 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
-          <Cell Site="row:8 column:0"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="S-04" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-          <Cell Site="row:8 column:1"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="FAULT" Color="#E8151C" Font="fontFamily:'Consolas' size:13 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-          <Cell Site="row:8 column:2"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="14:25:03" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-          <Cell Site="row:8 column:3"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="N/A" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+                  <Cell Site="row:0 column:0"><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:42"><SolidBackground Color="#151515"/><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="设备 ID" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Bounds></Cell><Cell Site="row:0 column:1"><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:42"><SolidBackground Color="#151515"/><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="状态" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Bounds></Cell><Cell Site="row:0 column:2"><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:42"><SolidBackground Color="#151515"/><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="更新时间" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Bounds></Cell><Cell Site="row:0 column:3"><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:42"><SolidBackground Color="#151515"/><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="读数" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Bounds></Cell>
+                  <Cell Site="row:1 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
+                  <Cell Site="row:2 column:0"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="P-01" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+                  <Cell Site="row:2 column:1"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="RUN" Color="#2FD16A" Font="fontFamily:'Consolas' size:13 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+                  <Cell Site="row:2 column:2"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="14:32:08" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+                  <Cell Site="row:2 column:3"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="412.7 kW" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+                  <Cell Site="row:3 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
+                  <Cell Site="row:4 column:0"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="P-02" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+                  <Cell Site="row:4 column:1"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="IDLE" Color="#FFD400" Font="fontFamily:'Consolas' size:13 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+                  <Cell Site="row:4 column:2"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="14:30:12" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+                  <Cell Site="row:4 column:3"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="0.0 kW" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+                  <Cell Site="row:5 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
+                  <Cell Site="row:6 column:0"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="C-01" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+                  <Cell Site="row:6 column:1"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="MAINT" Color="#00A8E8" Font="fontFamily:'Consolas' size:13 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+                  <Cell Site="row:6 column:2"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="14:28:55" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+                  <Cell Site="row:6 column:3"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="—" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+                  <Cell Site="row:7 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
+                  <Cell Site="row:8 column:0"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="S-04" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+                  <Cell Site="row:8 column:1"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="FAULT" Color="#E8151C" Font="fontFamily:'Consolas' size:13 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+                  <Cell Site="row:8 column:2"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="14:25:03" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+                  <Cell Site="row:8 column:3"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="N/A" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
                 </Table>
-              </Bounds></StackItem>
+              </Bounds>
+            </StackItem>
           </Stack>
+          </Bounds>
         </ScrollContainer>
       </ControlTemplate>
     </Instance>

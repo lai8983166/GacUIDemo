@@ -126,8 +126,8 @@
                       </att.Rows>
                       <att.Columns>
                         <CellOption>composeType:MinSize</CellOption>
-                        <CellOption>composeType:MinSize</CellOption>
                         <CellOption>composeType:Percentage percentage:1.0</CellOption>
+                        <CellOption>composeType:Absolute absolute:0</CellOption>
                         <CellOption>composeType:MinSize</CellOption>
                         <CellOption>composeType:MinSize</CellOption>
                         <CellOption>composeType:MinSize</CellOption>

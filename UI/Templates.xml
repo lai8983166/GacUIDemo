@@ -18,6 +18,8 @@
         </Bounds>
         <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4">
           <SolidBackground ref.Style="primaryBody"/>
+        </Bounds>
+        <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4">
           <SolidBorder Color="#000000"/>
           <Bounds AlignmentToParent="left:14 top:6 right:14 bottom:6">
             <SolidLabel ref.Style="variantTextBright" Text-bind="self.Text" Font="size:14 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -37,6 +39,8 @@
         </Bounds>
         <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4">
           <SolidBackground ref.Style="outlineBody"/>
+        </Bounds>
+        <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4">
           <SolidBorder Color="#000000"/>
           <Bounds AlignmentToParent="left:14 top:6 right:14 bottom:6">
             <SolidLabel ref.Style="variantTextDark" Text-bind="self.Text" Font="size:14 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -56,6 +60,8 @@
         </Bounds>
         <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4">
           <SolidBackground ref.Style="ghostBody"/>
+        </Bounds>
+        <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4">
           <SolidBorder Color="#000000"/>
           <Bounds AlignmentToParent="left:14 top:6 right:14 bottom:6">
             <SolidLabel ref.Style="variantTextRed" Text-bind="self.Text" Font="size:14 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -75,6 +81,8 @@
         </Bounds>
         <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4">
           <SolidBackground ref.Style="dangerBody"/>
+        </Bounds>
+        <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4">
           <SolidBorder Color="#000000"/>
           <Bounds AlignmentToParent="left:14 top:6 right:14 bottom:6">
             <SolidLabel ref.Style="variantTextBright" Text-bind="self.Text" Font="size:14 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/>

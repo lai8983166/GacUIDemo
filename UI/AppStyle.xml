@@ -8,7 +8,8 @@
       <![CDATA[
         cast Color let state = self.State in (
           not self.VisuallyEnabled ? (cast Color "#00000000") :
-          state == ButtonState::Active ? (cast Color "#2F2F2F") :
+          state == ButtonState::Pressed ? (cast Color "#B01015") :
+          state == ButtonState::Active ? (cast Color "#E8151C") :
           (cast Color "#00000000")
         )
       ]]>

@@ -27,14 +27,15 @@ namespace punkui
 	class ShowcasePageTemplate : public ::vl::presentation::templates::GuiControlTemplate, public ::punkui::ShowcasePageTemplateConstructor, public ::vl::reflection::Description<ShowcasePageTemplate>
 	{
 		friend class ::punkui::ShowcasePageTemplateConstructor;
-		friend struct ::vl_workflow_global::__vwsnf12_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf13_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf14_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf15_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf16_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf17_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf18_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf19_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf20_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf21_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf22_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<ShowcasePageTemplate>;
 #endif

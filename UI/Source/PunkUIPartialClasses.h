@@ -26,9 +26,9 @@ https://github.com/vczh-libraries
 namespace vl_workflow_global
 {
 	struct __vwsnf10_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;
-	struct __vwsnf11_PunkUI_punkui_DashboardPageTemplateConstructor___vwsn_punkui_DashboardPageTemplate_Initialize_;
-	struct __vwsnf12_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
-	struct __vwsnf13_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
+	struct __vwsnf11_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;
+	struct __vwsnf12_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;
+	struct __vwsnf13_PunkUI_punkui_DashboardPageTemplateConstructor___vwsn_punkui_DashboardPageTemplate_Initialize_;
 	struct __vwsnf14_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 	struct __vwsnf15_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 	struct __vwsnf16_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
@@ -36,20 +36,23 @@ namespace vl_workflow_global
 	struct __vwsnf18_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 	struct __vwsnf19_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 	struct __vwsnf1_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;
-	struct __vwsnf20_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
-	struct __vwsnf21_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
-	struct __vwsnf22_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
-	struct __vwsnf23_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
-	struct __vwsnf24_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
-	struct __vwsnf25_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
-	struct __vwsnf26_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize_;
-	struct __vwsnf27_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
-	struct __vwsnf28_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
-	struct __vwsnf29_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
+	struct __vwsnf20_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
+	struct __vwsnf21_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
+	struct __vwsnf22_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
+	struct __vwsnf23_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
+	struct __vwsnf24_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
+	struct __vwsnf25_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
+	struct __vwsnf26_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
+	struct __vwsnf27_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
+	struct __vwsnf28_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
+	struct __vwsnf29_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize_;
 	struct __vwsnf2_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;
-	struct __vwsnf30_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
-	struct __vwsnf31_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
-	struct __vwsnf32_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
+	struct __vwsnf30_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
+	struct __vwsnf31_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
+	struct __vwsnf32_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
+	struct __vwsnf33_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
+	struct __vwsnf34_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
+	struct __vwsnf35_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
 	struct __vwsnf3_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;
 	struct __vwsnf4_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;
 	struct __vwsnf5_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;
@@ -96,9 +99,9 @@ namespace punkui
 		friend class ::vl_workflow_global::__vwsnc1_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc2_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc3_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf20_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf21_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf22_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf23_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf24_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf25_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<DangerButtonTemplateConstructor>;
 #endif
@@ -109,9 +112,10 @@ namespace punkui
 		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_1;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_2;
 		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_3;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_4;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_5;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_6;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_4;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_5;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_6;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_7;
 		void __vwsn_punkui_DangerButtonTemplate_Initialize(::punkui::DangerButtonTemplate* __vwsn_this_);
 	public:
 		DangerButtonTemplateConstructor();
@@ -123,9 +127,9 @@ namespace punkui
 		friend class ::vl_workflow_global::__vwsnc1_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc2_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc3_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf20_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf21_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf22_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf23_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf24_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf25_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<DangerButtonTemplate>;
 #endif
@@ -136,7 +140,7 @@ namespace punkui
 
 	class DashboardPageTemplateConstructor : public ::vl::Object, public ::vl::reflection::Description<DashboardPageTemplateConstructor>
 	{
-		friend struct ::vl_workflow_global::__vwsnf11_PunkUI_punkui_DashboardPageTemplateConstructor___vwsn_punkui_DashboardPageTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf13_PunkUI_punkui_DashboardPageTemplateConstructor___vwsn_punkui_DashboardPageTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<DashboardPageTemplateConstructor>;
 #endif
@@ -157,16 +161,16 @@ namespace punkui
 		::vl::presentation::compositions::GuiBoundsComposition* bar12Face;
 		::vl::presentation::compositions::GuiBoundsComposition* dashStatusFace;
 		::vl::presentation::compositions::GuiBoundsComposition* dashEventsFace;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_0;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_1;
-		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_2;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_3;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_4;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_5;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_6;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_7;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_8;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_9;
+		::vl::presentation::controls::GuiScrollContainer* __vwsn_precompile_0;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_1;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_2;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_3;
+		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_4;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_5;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_6;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_7;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_8;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_9;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_10;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_11;
 		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_12;
@@ -175,69 +179,69 @@ namespace punkui
 		::vl::presentation::controls::GuiButton* __vwsn_precompile_15;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_16;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_17;
-		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_18;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_19;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_20;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_21;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_22;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_23;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_24;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_25;
-		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_26;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_27;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_28;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_29;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_30;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_31;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_32;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_33;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_18;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_19;
+		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_20;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_21;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_22;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_23;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_24;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_25;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_26;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_27;
+		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_28;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_29;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_30;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_31;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_32;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_33;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_34;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_35;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_36;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_37;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_38;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_39;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_40;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_41;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_42;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_43;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_44;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_45;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_46;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_35;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_36;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_37;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_38;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_39;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_40;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_41;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_42;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_43;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_44;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_45;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_46;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_47;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_48;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_49;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_50;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_51;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_52;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_53;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_54;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_55;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_56;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_57;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_58;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_59;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_48;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_49;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_50;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_51;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_52;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_53;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_54;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_55;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_56;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_57;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_58;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_59;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_60;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_61;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_62;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_63;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_64;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_65;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_66;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_67;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_68;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_69;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_70;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_71;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_72;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_61;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_62;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_63;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_64;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_65;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_66;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_67;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_68;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_69;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_70;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_71;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_72;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_73;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_74;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_75;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_76;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_77;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_78;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_79;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_80;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_74;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_75;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_76;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_77;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_78;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_79;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_80;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_81;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_82;
 		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_83;
@@ -308,102 +312,105 @@ namespace punkui
 		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_148;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_149;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_150;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_151;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_152;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_153;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_154;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_155;
-		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_156;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_157;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_158;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_159;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_151;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_152;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_153;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_154;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_155;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_156;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_157;
+		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_158;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_159;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_160;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_161;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_162;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_163;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_164;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_161;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_162;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_163;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_164;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_165;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_166;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_167;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_168;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_169;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_166;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_167;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_168;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_169;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_170;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_171;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_172;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_173;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_174;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_171;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_172;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_173;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_174;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_175;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_176;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_177;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_178;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_176;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_177;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_178;
 		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_179;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_180;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_181;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_182;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_183;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_184;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_185;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_186;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_187;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_188;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_189;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_190;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_191;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_192;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_180;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_181;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_182;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_183;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_184;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_185;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_186;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_187;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_188;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_189;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_190;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_191;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_192;
 		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_193;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_194;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_195;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_196;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_197;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_198;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_199;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_200;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_201;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_202;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_203;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_204;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_205;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_206;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_194;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_195;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_196;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_197;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_198;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_199;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_200;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_201;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_202;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_203;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_204;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_205;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_206;
 		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_207;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_208;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_209;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_210;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_211;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_212;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_213;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_214;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_215;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_216;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_217;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_218;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_219;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_220;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_208;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_209;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_210;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_211;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_212;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_213;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_214;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_215;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_216;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_217;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_218;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_219;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_220;
 		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_221;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_222;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_223;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_224;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_225;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_226;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_227;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_228;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_229;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_230;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_231;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_232;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_233;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_234;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_222;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_223;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_224;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_225;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_226;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_227;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_228;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_229;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_230;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_231;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_232;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_233;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_234;
 		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_235;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_236;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_237;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_238;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_239;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_240;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_241;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_242;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_243;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_244;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_245;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_246;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_236;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_237;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_238;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_239;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_240;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_241;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_242;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_243;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_244;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_245;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_246;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_247;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_248;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_249;
 		void __vwsn_punkui_DashboardPageTemplate_Initialize(::punkui::DashboardPageTemplate* __vwsn_this_);
 	public:
 		DashboardPageTemplateConstructor();
@@ -414,9 +421,9 @@ namespace punkui
 		friend class ::vl_workflow_global::__vwsnc4_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc5_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc6_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf23_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf24_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf25_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf26_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf27_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf28_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<GhostButtonTemplateConstructor>;
 #endif
@@ -427,9 +434,10 @@ namespace punkui
 		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_1;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_2;
 		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_3;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_4;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_5;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_6;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_4;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_5;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_6;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_7;
 		void __vwsn_punkui_GhostButtonTemplate_Initialize(::punkui::GhostButtonTemplate* __vwsn_this_);
 	public:
 		GhostButtonTemplateConstructor();
@@ -441,9 +449,9 @@ namespace punkui
 		friend class ::vl_workflow_global::__vwsnc4_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc5_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc6_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf23_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf24_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf25_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf26_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf27_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf28_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<GhostButtonTemplate>;
 #endif
@@ -455,6 +463,8 @@ namespace punkui
 	class MainWindowConstructor : public ::vl::Object, public ::vl::reflection::Description<MainWindowConstructor>
 	{
 		friend struct ::vl_workflow_global::__vwsnf10_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf11_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf12_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf1_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf2_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf3_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;
@@ -480,63 +490,73 @@ namespace punkui
 		::vl::presentation::controls::GuiCustomControl* dashboardPage;
 		::vl::presentation::compositions::GuiBoundsComposition* modalOverlay;
 		::vl::presentation::compositions::GuiBoundsComposition* modalFace;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_0;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_1;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_2;
-		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_3;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_4;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_5;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_6;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_7;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_8;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_9;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_10;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_11;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_12;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_13;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_14;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_15;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_16;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_17;
-		::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_precompile_18;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_0;
+		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_1;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_2;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_3;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_4;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_5;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_6;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_7;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_8;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_9;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_10;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_11;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_12;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_13;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_14;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_15;
+		::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_precompile_16;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_17;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_18;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_19;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_20;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_21;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_22;
-		::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_precompile_23;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_20;
+		::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_precompile_21;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_22;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_23;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_24;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_25;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_25;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_26;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_27;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_28;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_29;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_30;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_31;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_32;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_33;
-		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_34;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_35;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_36;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_37;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_38;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_39;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_40;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_27;
+		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_28;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_29;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_30;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_31;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_32;
+		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_33;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_34;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_35;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_36;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_37;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_38;
+		::vl::presentation::controls::GuiButton* __vwsn_precompile_39;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_40;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_41;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_42;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_43;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_44;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_45;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_46;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_47;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_48;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_42;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_43;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_44;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_45;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_46;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_47;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_48;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_49;
-		::vl::presentation::controls::GuiButton* __vwsn_precompile_50;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_51;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_50;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_51;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_52;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_53;
-		::vl::presentation::controls::GuiButton* __vwsn_precompile_54;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_55;
-		::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_precompile_56;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_54;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_55;
+		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_56;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_57;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_58;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_59;
+		::vl::presentation::controls::GuiButton* __vwsn_precompile_60;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_61;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_62;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_63;
+		::vl::presentation::controls::GuiButton* __vwsn_precompile_64;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_65;
+		::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_precompile_66;
 		void __vwsn_punkui_MainWindow_Initialize(::punkui::MainWindow* __vwsn_this_);
 	public:
 		MainWindowConstructor();
@@ -545,7 +565,7 @@ namespace punkui
 	class NavLinkTemplateConstructor : public ::vl::Object, public ::vl::reflection::Description<NavLinkTemplateConstructor>
 	{
 		friend class ::vl_workflow_global::__vwsnc7_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf26_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf29_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<NavLinkTemplateConstructor>;
 #endif
@@ -562,7 +582,7 @@ namespace punkui
 	{
 		friend class ::punkui::NavLinkTemplateConstructor;
 		friend class ::vl_workflow_global::__vwsnc7_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf26_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf29_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<NavLinkTemplate>;
 #endif
@@ -576,9 +596,9 @@ namespace punkui
 		friend class ::vl_workflow_global::__vwsnc10_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc8_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc9_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf27_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf28_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf29_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf30_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf31_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf32_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<OutlineButtonTemplateConstructor>;
 #endif
@@ -589,9 +609,10 @@ namespace punkui
 		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_1;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_2;
 		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_3;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_4;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_5;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_6;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_4;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_5;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_6;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_7;
 		void __vwsn_punkui_OutlineButtonTemplate_Initialize(::punkui::OutlineButtonTemplate* __vwsn_this_);
 	public:
 		OutlineButtonTemplateConstructor();
@@ -603,9 +624,9 @@ namespace punkui
 		friend class ::vl_workflow_global::__vwsnc10_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc8_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc9_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf27_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf28_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf29_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf30_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf31_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf32_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<OutlineButtonTemplate>;
 #endif
@@ -619,9 +640,9 @@ namespace punkui
 		friend class ::vl_workflow_global::__vwsnc11_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc12_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc13_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf30_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf31_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf32_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf33_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf34_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf35_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<PrimaryButtonTemplateConstructor>;
 #endif
@@ -632,9 +653,10 @@ namespace punkui
 		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_1;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_2;
 		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_3;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_4;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_5;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_6;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_4;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_5;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_6;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_7;
 		void __vwsn_punkui_PrimaryButtonTemplate_Initialize(::punkui::PrimaryButtonTemplate* __vwsn_this_);
 	public:
 		PrimaryButtonTemplateConstructor();
@@ -646,9 +668,9 @@ namespace punkui
 		friend class ::vl_workflow_global::__vwsnc11_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc12_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc13_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf30_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf31_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf32_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf33_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf34_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf35_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<PrimaryButtonTemplate>;
 #endif
@@ -659,14 +681,15 @@ namespace punkui
 
 	class ShowcasePageTemplateConstructor : public ::vl::Object, public ::vl::reflection::Description<ShowcasePageTemplateConstructor>
 	{
-		friend struct ::vl_workflow_global::__vwsnf12_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf13_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf14_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf15_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf16_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf17_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf18_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf19_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf20_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf21_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf22_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<ShowcasePageTemplateConstructor>;
 #endif
@@ -681,6 +704,7 @@ namespace punkui
 		::vl::presentation::compositions::GuiBoundsComposition* card1Face;
 		::vl::presentation::compositions::GuiBoundsComposition* card2Face;
 		::vl::presentation::compositions::GuiBoundsComposition* card3Face;
+		::vl::presentation::compositions::GuiBoundsComposition* terminalFace;
 		::vl::presentation::controls::GuiSinglelineTextBox* inputName;
 		::vl::presentation::controls::GuiSinglelineTextBox* inputEmail;
 		::vl::presentation::compositions::GuiBoundsComposition* alert1Face;
@@ -689,491 +713,550 @@ namespace punkui
 		::vl::presentation::compositions::GuiBoundsComposition* alert4Face;
 		::vl::presentation::compositions::GuiBoundsComposition* tableWrap;
 		::vl::presentation::controls::GuiScrollContainer* __vwsn_precompile_0;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_1;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_2;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_3;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_4;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_5;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_6;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_7;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_8;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_9;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_10;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_11;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_12;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_13;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_14;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_15;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_16;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_17;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_18;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_1;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_2;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_3;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_4;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_5;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_6;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_7;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_8;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_9;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_10;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_11;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_12;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_13;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_14;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_15;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_16;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_17;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_18;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_19;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_20;
-		::vl::Ptr<::vl::presentation::elements::GuiPolygonElement> __vwsn_precompile_21;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_21;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_22;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_23;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_24;
+		::vl::Ptr<::vl::presentation::elements::GuiPolygonElement> __vwsn_precompile_24;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_25;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_26;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_27;
-		::vl::presentation::controls::GuiButton* __vwsn_precompile_28;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_29;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_26;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_27;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_28;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_29;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_30;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_31;
-		::vl::presentation::controls::GuiButton* __vwsn_precompile_32;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_33;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_34;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_35;
-		::vl::presentation::controls::GuiButton* __vwsn_precompile_36;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_37;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_38;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_39;
-		::vl::presentation::controls::GuiButton* __vwsn_precompile_40;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_41;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_42;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_43;
-		::vl::presentation::controls::GuiButton* __vwsn_precompile_44;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_45;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_46;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_47;
-		::vl::presentation::controls::GuiButton* __vwsn_precompile_48;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_49;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_50;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_51;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_52;
+		::vl::presentation::controls::GuiButton* __vwsn_precompile_31;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_32;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_33;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_34;
+		::vl::presentation::controls::GuiButton* __vwsn_precompile_35;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_36;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_37;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_38;
+		::vl::presentation::controls::GuiButton* __vwsn_precompile_39;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_40;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_41;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_42;
+		::vl::presentation::controls::GuiButton* __vwsn_precompile_43;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_44;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_45;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_46;
+		::vl::presentation::controls::GuiButton* __vwsn_precompile_47;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_48;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_49;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_50;
+		::vl::presentation::controls::GuiButton* __vwsn_precompile_51;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_52;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_53;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_54;
-		::vl::Ptr<::vl::presentation::elements::GuiPolygonElement> __vwsn_precompile_55;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_56;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_57;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_58;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_59;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_60;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_55;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_56;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_57;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_58;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_59;
+		::vl::Ptr<::vl::presentation::elements::GuiPolygonElement> __vwsn_precompile_60;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_61;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_62;
 		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_63;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_64;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_65;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_66;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_67;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_68;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_69;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_70;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_71;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_72;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_73;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_74;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_75;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_76;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_77;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_78;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_79;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_80;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_81;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_82;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_83;
-		::vl::Ptr<::vl::presentation::elements::GuiPolygonElement> __vwsn_precompile_84;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_85;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_86;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_87;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_88;
-		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_89;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_90;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_91;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_92;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_93;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_94;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_95;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_96;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_97;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_98;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_99;
-		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_100;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_101;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_65;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_66;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_67;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_68;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_69;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_70;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_71;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_72;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_73;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_74;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_75;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_76;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_77;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_78;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_79;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_80;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_81;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_82;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_83;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_84;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_85;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_86;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_87;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_88;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_89;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_90;
+		::vl::Ptr<::vl::presentation::elements::GuiPolygonElement> __vwsn_precompile_91;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_92;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_93;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_94;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_95;
+		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_96;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_97;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_98;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_99;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_100;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_101;
 		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_102;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_103;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_104;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_105;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_106;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_107;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_108;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_109;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_110;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_111;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_112;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_113;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_114;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_103;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_104;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_105;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_106;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_107;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_108;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_109;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_110;
+		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_111;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_112;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_113;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_114;
 		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_115;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_116;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_116;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_117;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_118;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_118;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_119;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_120;
 		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_121;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_122;
-		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_123;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_124;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_125;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_126;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_127;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_128;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_129;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_130;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_131;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_132;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_133;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_134;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_135;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_136;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_137;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_123;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_124;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_125;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_126;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_127;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_128;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_129;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_130;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_131;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_132;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_133;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_134;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_135;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_136;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_137;
 		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_138;
 		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_139;
-		::vl::presentation::controls::GuiButton* __vwsn_precompile_140;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_141;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_142;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_143;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_144;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_145;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_146;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_147;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_148;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_149;
-		::vl::Ptr<::vl::presentation::elements::GuiPolygonElement> __vwsn_precompile_150;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_151;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_152;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_153;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_154;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_140;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_141;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_142;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_143;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_144;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_145;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_146;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_147;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_148;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_149;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_150;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_151;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_152;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_153;
+		::vl::presentation::controls::GuiButton* __vwsn_precompile_154;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_155;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_156;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_157;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_158;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_159;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_160;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_161;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_162;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_163;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_164;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_156;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_157;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_158;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_159;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_160;
+		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_161;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_162;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_163;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_164;
 		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_165;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_166;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_167;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_167;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_168;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_169;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_170;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_170;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_171;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_172;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_173;
+		::vl::Ptr<::vl::presentation::elements::GuiPolygonElement> __vwsn_precompile_173;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_174;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_175;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_176;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_177;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_178;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_179;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_175;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_176;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_177;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_178;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_179;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_180;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_181;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_182;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_183;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_184;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_185;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_186;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_187;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_188;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_189;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_190;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_191;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_192;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_193;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_194;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_195;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_196;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_197;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_198;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_199;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_200;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_201;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_202;
-		::vl::Ptr<::vl::presentation::elements::GuiPolygonElement> __vwsn_precompile_203;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_204;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_205;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_206;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_207;
-		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_208;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_209;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_210;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_211;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_212;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_213;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_214;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_215;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_216;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_217;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_218;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_219;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_220;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_181;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_182;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_183;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_184;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_185;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_186;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_187;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_188;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_189;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_190;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_191;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_192;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_193;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_194;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_195;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_196;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_197;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_198;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_199;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_200;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_201;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_202;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_203;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_204;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_205;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_206;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_207;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_208;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_209;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_210;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_211;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_212;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_213;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_214;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_215;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_216;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_217;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_218;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_219;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_220;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_221;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_222;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_223;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_223;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_224;
-		::vl::presentation::controls::GuiMultilineTextBox* __vwsn_precompile_225;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_226;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_227;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_228;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_229;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_230;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_231;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_232;
-		::vl::presentation::controls::GuiSelectableButton* __vwsn_precompile_233;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_225;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_226;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_227;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_228;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_229;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_230;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_231;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_232;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_233;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_234;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_235;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_236;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_237;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_238;
-		::vl::presentation::controls::GuiSelectableButton* __vwsn_precompile_239;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_235;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_236;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_237;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_238;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_239;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_240;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_241;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_242;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_243;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_244;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_245;
-		::vl::Ptr<::vl::presentation::elements::GuiPolygonElement> __vwsn_precompile_246;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_247;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_248;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_249;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_241;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_242;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_243;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_244;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_245;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_246;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_247;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_248;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_249;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_250;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_251;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_252;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_253;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_254;
-		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_255;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_256;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_257;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_258;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_259;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_260;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_261;
-		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_262;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_263;
-		::vl::presentation::controls::GuiScroll* __vwsn_precompile_264;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_265;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_266;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_267;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_268;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_251;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_252;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_253;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_254;
+		::vl::Ptr<::vl::presentation::elements::GuiPolygonElement> __vwsn_precompile_255;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_256;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_257;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_258;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_259;
+		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_260;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_261;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_262;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_263;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_264;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_265;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_266;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_267;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_268;
 		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_269;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_270;
-		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_271;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_272;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_273;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_274;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_275;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_276;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_277;
-		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_278;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_279;
-		::vl::presentation::controls::GuiScroll* __vwsn_precompile_280;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_281;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_282;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_283;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_284;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_285;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_286;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_287;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_288;
-		::vl::Ptr<::vl::presentation::elements::GuiPolygonElement> __vwsn_precompile_289;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_290;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_291;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_292;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_271;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_272;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_273;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_274;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_275;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_276;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_277;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_278;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_279;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_280;
+		::vl::presentation::controls::GuiMultilineTextBox* __vwsn_precompile_281;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_282;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_283;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_284;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_285;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_286;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_287;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_288;
+		::vl::presentation::controls::GuiSelectableButton* __vwsn_precompile_289;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_290;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_291;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_292;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_293;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_294;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_295;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_296;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_297;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_298;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_299;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_300;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_301;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_302;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_303;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_304;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_305;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_306;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_307;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_308;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_309;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_310;
+		::vl::presentation::controls::GuiSelectableButton* __vwsn_precompile_294;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_295;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_296;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_297;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_298;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_299;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_300;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_301;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_302;
+		::vl::Ptr<::vl::presentation::elements::GuiPolygonElement> __vwsn_precompile_303;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_304;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_305;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_306;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_307;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_308;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_309;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_310;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_311;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_312;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_313;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_314;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_315;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_316;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_317;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_318;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_319;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_320;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_321;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_322;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_323;
+		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_312;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_313;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_314;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_315;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_316;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_317;
+		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_318;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_319;
+		::vl::presentation::controls::GuiScroll* __vwsn_precompile_320;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_321;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_322;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_323;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_324;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_325;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_326;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_327;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_328;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_329;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_330;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_331;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_325;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_326;
+		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_327;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_328;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_329;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_330;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_331;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_332;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_333;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_334;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_335;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_336;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_337;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_338;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_339;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_340;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_341;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_342;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_343;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_344;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_345;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_346;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_347;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_348;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_349;
+		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_333;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_334;
+		::vl::presentation::controls::GuiScroll* __vwsn_precompile_335;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_336;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_337;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_338;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_339;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_340;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_341;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_342;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_343;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_344;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_345;
+		::vl::Ptr<::vl::presentation::elements::GuiPolygonElement> __vwsn_precompile_346;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_347;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_348;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_349;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_350;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_351;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_352;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_353;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_354;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_355;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_356;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_357;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_358;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_359;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_360;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_361;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_362;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_363;
-		::vl::Ptr<::vl::presentation::elements::GuiPolygonElement> __vwsn_precompile_364;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_365;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_366;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_367;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_368;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_369;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_370;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_371;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_351;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_352;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_353;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_354;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_355;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_356;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_357;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_358;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_359;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_360;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_361;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_362;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_363;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_364;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_365;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_366;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_367;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_368;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_369;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_370;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_371;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_372;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_373;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_374;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_375;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_376;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_377;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_378;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_379;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_380;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_381;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_382;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_383;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_384;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_385;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_386;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_387;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_388;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_389;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_390;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_391;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_392;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_373;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_374;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_375;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_376;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_377;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_378;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_379;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_380;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_381;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_382;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_383;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_384;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_385;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_386;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_387;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_388;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_389;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_390;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_391;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_392;
 		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_393;
 		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_394;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_395;
-		::vl::presentation::controls::GuiButton* __vwsn_precompile_396;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_396;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_397;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_398;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_399;
-		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_400;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_401;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_402;
-		::vl::Ptr<::vl::presentation::elements::GuiPolygonElement> __vwsn_precompile_403;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_404;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_405;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_406;
-		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_407;
-		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_408;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_409;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_410;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_411;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_412;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_413;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_414;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_415;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_416;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_398;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_399;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_400;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_401;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_402;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_403;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_404;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_405;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_406;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_407;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_408;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_409;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_410;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_411;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_412;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_413;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_414;
+		::vl::Ptr<::vl::presentation::elements::GuiPolygonElement> __vwsn_precompile_415;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_416;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_417;
 		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_418;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_419;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_420;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_421;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_419;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_420;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_421;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_422;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_423;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_424;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_423;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_424;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_425;
 		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_426;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_427;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_428;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_429;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_430;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_431;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_428;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_429;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_430;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_431;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_432;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_433;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_434;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_433;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_434;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_435;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_436;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_437;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_438;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_439;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_440;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_441;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_442;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_443;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_436;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_437;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_438;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_439;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_440;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_441;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_442;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_443;
 		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_444;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_445;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_446;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_447;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_448;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_445;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_446;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_447;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_448;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_449;
 		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_450;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_451;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_451;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_452;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_453;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_454;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_455;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_456;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_457;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_458;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_459;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_460;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_461;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_462;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_463;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_464;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_465;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_466;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_467;
+		::vl::presentation::controls::GuiButton* __vwsn_precompile_453;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_454;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_455;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_456;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_457;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_458;
+		::vl::presentation::compositions::GuiStackComposition* __vwsn_precompile_459;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_460;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_461;
+		::vl::Ptr<::vl::presentation::elements::GuiPolygonElement> __vwsn_precompile_462;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_463;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_464;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_465;
+		::vl::presentation::compositions::GuiStackItemComposition* __vwsn_precompile_466;
+		::vl::presentation::compositions::GuiTableComposition* __vwsn_precompile_467;
 		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_468;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_469;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_470;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_471;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_472;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_470;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_471;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_472;
 		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_473;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_474;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_475;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_476;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_477;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_478;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_479;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_480;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_481;
-		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_482;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_483;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_484;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_485;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_475;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_476;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_477;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_478;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_479;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_480;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_481;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_482;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_483;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_484;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_485;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_486;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_487;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_488;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_489;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_490;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_491;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_492;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_493;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_494;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_495;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_496;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_497;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_498;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_499;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_500;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_501;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_502;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_503;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_504;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_505;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_506;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_507;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_508;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_509;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_510;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_511;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_512;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_513;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_514;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_515;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_516;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_517;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_518;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_519;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_520;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_521;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_522;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_523;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_524;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_525;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_526;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_527;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_528;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_529;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_530;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_531;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_532;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_533;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_534;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_535;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_536;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_537;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_538;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_539;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_540;
+		::vl::presentation::compositions::GuiCellComposition* __vwsn_precompile_541;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_542;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_543;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_544;
 		void __vwsn_punkui_ShowcasePageTemplate_Initialize(::punkui::ShowcasePageTemplate* __vwsn_this_);
 	public:
 		ShowcasePageTemplateConstructor();
@@ -1206,29 +1289,29 @@ Closures
 		void operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const;
 	};
 
-	struct __vwsnf11_PunkUI_punkui_DashboardPageTemplateConstructor___vwsn_punkui_DashboardPageTemplate_Initialize_
+	struct __vwsnf11_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_
+	{
+		::punkui::MainWindowConstructor* __vwsnthis_0;
+
+		__vwsnf11_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_(::punkui::MainWindowConstructor* __vwsnctorthis_0);
+
+		void operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const;
+	};
+
+	struct __vwsnf12_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_
+	{
+		::punkui::MainWindowConstructor* __vwsnthis_0;
+
+		__vwsnf12_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_(::punkui::MainWindowConstructor* __vwsnctorthis_0);
+
+		void operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const;
+	};
+
+	struct __vwsnf13_PunkUI_punkui_DashboardPageTemplateConstructor___vwsn_punkui_DashboardPageTemplate_Initialize_
 	{
 		::punkui::DashboardPageTemplateConstructor* __vwsnthis_0;
 
-		__vwsnf11_PunkUI_punkui_DashboardPageTemplateConstructor___vwsn_punkui_DashboardPageTemplate_Initialize_(::punkui::DashboardPageTemplateConstructor* __vwsnctorthis_0);
-
-		::vl::presentation::templates::GuiControlTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
-	};
-
-	struct __vwsnf12_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_
-	{
-		::punkui::ShowcasePageTemplateConstructor* __vwsnthis_0;
-
-		__vwsnf12_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_(::punkui::ShowcasePageTemplateConstructor* __vwsnctorthis_0);
-
-		::vl::presentation::templates::GuiControlTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
-	};
-
-	struct __vwsnf13_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_
-	{
-		::punkui::ShowcasePageTemplateConstructor* __vwsnthis_0;
-
-		__vwsnf13_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_(::punkui::ShowcasePageTemplateConstructor* __vwsnctorthis_0);
+		__vwsnf13_PunkUI_punkui_DashboardPageTemplateConstructor___vwsn_punkui_DashboardPageTemplate_Initialize_(::punkui::DashboardPageTemplateConstructor* __vwsnctorthis_0);
 
 		::vl::presentation::templates::GuiControlTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
 	};
@@ -1284,7 +1367,7 @@ Closures
 
 		__vwsnf19_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_(::punkui::ShowcasePageTemplateConstructor* __vwsnctorthis_0);
 
-		void operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const;
+		::vl::presentation::templates::GuiControlTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
 	};
 
 	struct __vwsnf1_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_
@@ -1296,92 +1379,92 @@ Closures
 		::vl::presentation::templates::GuiControlTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
 	};
 
-	struct __vwsnf20_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_
+	struct __vwsnf20_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_
+	{
+		::punkui::ShowcasePageTemplateConstructor* __vwsnthis_0;
+
+		__vwsnf20_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_(::punkui::ShowcasePageTemplateConstructor* __vwsnctorthis_0);
+
+		::vl::presentation::templates::GuiControlTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
+	};
+
+	struct __vwsnf21_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_
+	{
+		::punkui::ShowcasePageTemplateConstructor* __vwsnthis_0;
+
+		__vwsnf21_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_(::punkui::ShowcasePageTemplateConstructor* __vwsnctorthis_0);
+
+		::vl::presentation::templates::GuiControlTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
+	};
+
+	struct __vwsnf22_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_
+	{
+		::punkui::ShowcasePageTemplateConstructor* __vwsnthis_0;
+
+		__vwsnf22_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_(::punkui::ShowcasePageTemplateConstructor* __vwsnctorthis_0);
+
+		void operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const;
+	};
+
+	struct __vwsnf23_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_
 	{
 		::punkui::DangerButtonTemplateConstructor* __vwsnthis_0;
 
-		__vwsnf20_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_(::punkui::DangerButtonTemplateConstructor* __vwsnctorthis_0);
+		__vwsnf23_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_(::punkui::DangerButtonTemplateConstructor* __vwsnctorthis_0);
 
 		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
 
-	struct __vwsnf21_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_
+	struct __vwsnf24_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_
 	{
 		::punkui::DangerButtonTemplateConstructor* __vwsnthis_0;
 
-		__vwsnf21_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_(::punkui::DangerButtonTemplateConstructor* __vwsnctorthis_0);
+		__vwsnf24_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_(::punkui::DangerButtonTemplateConstructor* __vwsnctorthis_0);
 
 		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
 
-	struct __vwsnf22_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_
+	struct __vwsnf25_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_
 	{
 		::punkui::DangerButtonTemplateConstructor* __vwsnthis_0;
 
-		__vwsnf22_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_(::punkui::DangerButtonTemplateConstructor* __vwsnctorthis_0);
+		__vwsnf25_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_(::punkui::DangerButtonTemplateConstructor* __vwsnctorthis_0);
 
 		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
 
-	struct __vwsnf23_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_
+	struct __vwsnf26_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_
 	{
 		::punkui::GhostButtonTemplateConstructor* __vwsnthis_0;
 
-		__vwsnf23_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_(::punkui::GhostButtonTemplateConstructor* __vwsnctorthis_0);
+		__vwsnf26_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_(::punkui::GhostButtonTemplateConstructor* __vwsnctorthis_0);
 
 		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
 
-	struct __vwsnf24_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_
+	struct __vwsnf27_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_
 	{
 		::punkui::GhostButtonTemplateConstructor* __vwsnthis_0;
 
-		__vwsnf24_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_(::punkui::GhostButtonTemplateConstructor* __vwsnctorthis_0);
+		__vwsnf27_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_(::punkui::GhostButtonTemplateConstructor* __vwsnctorthis_0);
 
 		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
 
-	struct __vwsnf25_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_
+	struct __vwsnf28_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_
 	{
 		::punkui::GhostButtonTemplateConstructor* __vwsnthis_0;
 
-		__vwsnf25_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_(::punkui::GhostButtonTemplateConstructor* __vwsnctorthis_0);
+		__vwsnf28_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_(::punkui::GhostButtonTemplateConstructor* __vwsnctorthis_0);
 
 		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
 
-	struct __vwsnf26_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize_
+	struct __vwsnf29_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize_
 	{
 		::punkui::NavLinkTemplateConstructor* __vwsnthis_0;
 
-		__vwsnf26_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize_(::punkui::NavLinkTemplateConstructor* __vwsnctorthis_0);
-
-		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
-	};
-
-	struct __vwsnf27_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_
-	{
-		::punkui::OutlineButtonTemplateConstructor* __vwsnthis_0;
-
-		__vwsnf27_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_(::punkui::OutlineButtonTemplateConstructor* __vwsnctorthis_0);
-
-		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
-	};
-
-	struct __vwsnf28_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_
-	{
-		::punkui::OutlineButtonTemplateConstructor* __vwsnthis_0;
-
-		__vwsnf28_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_(::punkui::OutlineButtonTemplateConstructor* __vwsnctorthis_0);
-
-		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
-	};
-
-	struct __vwsnf29_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_
-	{
-		::punkui::OutlineButtonTemplateConstructor* __vwsnthis_0;
-
-		__vwsnf29_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_(::punkui::OutlineButtonTemplateConstructor* __vwsnctorthis_0);
+		__vwsnf29_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize_(::punkui::NavLinkTemplateConstructor* __vwsnctorthis_0);
 
 		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
@@ -1395,29 +1478,56 @@ Closures
 		::vl::presentation::templates::GuiControlTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
 	};
 
-	struct __vwsnf30_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_
+	struct __vwsnf30_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_
 	{
-		::punkui::PrimaryButtonTemplateConstructor* __vwsnthis_0;
+		::punkui::OutlineButtonTemplateConstructor* __vwsnthis_0;
 
-		__vwsnf30_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_(::punkui::PrimaryButtonTemplateConstructor* __vwsnctorthis_0);
+		__vwsnf30_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_(::punkui::OutlineButtonTemplateConstructor* __vwsnctorthis_0);
 
 		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
 
-	struct __vwsnf31_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_
+	struct __vwsnf31_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_
 	{
-		::punkui::PrimaryButtonTemplateConstructor* __vwsnthis_0;
+		::punkui::OutlineButtonTemplateConstructor* __vwsnthis_0;
 
-		__vwsnf31_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_(::punkui::PrimaryButtonTemplateConstructor* __vwsnctorthis_0);
+		__vwsnf31_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_(::punkui::OutlineButtonTemplateConstructor* __vwsnctorthis_0);
 
 		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
 
-	struct __vwsnf32_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_
+	struct __vwsnf32_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_
+	{
+		::punkui::OutlineButtonTemplateConstructor* __vwsnthis_0;
+
+		__vwsnf32_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_(::punkui::OutlineButtonTemplateConstructor* __vwsnctorthis_0);
+
+		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
+	};
+
+	struct __vwsnf33_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_
 	{
 		::punkui::PrimaryButtonTemplateConstructor* __vwsnthis_0;
 
-		__vwsnf32_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_(::punkui::PrimaryButtonTemplateConstructor* __vwsnctorthis_0);
+		__vwsnf33_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_(::punkui::PrimaryButtonTemplateConstructor* __vwsnctorthis_0);
+
+		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
+	};
+
+	struct __vwsnf34_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_
+	{
+		::punkui::PrimaryButtonTemplateConstructor* __vwsnthis_0;
+
+		__vwsnf34_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_(::punkui::PrimaryButtonTemplateConstructor* __vwsnctorthis_0);
+
+		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
+	};
+
+	struct __vwsnf35_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_
+	{
+		::punkui::PrimaryButtonTemplateConstructor* __vwsnthis_0;
+
+		__vwsnf35_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_(::punkui::PrimaryButtonTemplateConstructor* __vwsnctorthis_0);
 
 		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
@@ -1464,7 +1574,7 @@ Closures
 
 		__vwsnf7_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_(::punkui::MainWindowConstructor* __vwsnctorthis_0);
 
-		void operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const;
+		::vl::presentation::templates::GuiControlTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
 	};
 
 	struct __vwsnf8_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_
