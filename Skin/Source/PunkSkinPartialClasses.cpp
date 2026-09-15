@@ -1763,7 +1763,7 @@ Closures
 
 	void __vwsnc1_PunkSkin_punkskin_ButtonTemplateConstructor___vwsn_punkskin_ButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
 	{
-		auto __vwsn_bind_activator_result_ = [&](auto state){ return ((! ::vl::__vwsn::This(__vwsn_bind_cache_1)->GetVisuallyEnabled()) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#9E9E9E")) : ((state == ::vl::presentation::controls::ButtonState::Pressed) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")) : ((state == ::vl::presentation::controls::ButtonState::Active) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#333333")) : ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#151515"))))); }(::vl::__vwsn::This(__vwsn_bind_cache_0)->GetState());
+		auto __vwsn_bind_activator_result_ = [&](auto state){ return ((! ::vl::__vwsn::This(__vwsn_bind_cache_1)->GetVisuallyEnabled()) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#9E9E9E")) : ((state == ::vl::presentation::controls::ButtonState::Pressed) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#B01015")) : ((state == ::vl::presentation::controls::ButtonState::Active) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")) : ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#151515"))))); }(::vl::__vwsn::This(__vwsn_bind_cache_0)->GetState());
 		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
 	}
 
@@ -2936,15 +2936,17 @@ Closures
 	{
 		this->__vwsn_bind_cache_0 = static_cast<::punkskin::CheckBoxTemplate*>(nullptr);
 		this->__vwsn_bind_cache_1 = static_cast<::punkskin::CheckBoxTemplate*>(nullptr);
+		this->__vwsn_bind_cache_2 = static_cast<::punkskin::CheckBoxTemplate*>(nullptr);
 		this->__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>();
 		this->__vwsn_bind_handler_1_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>();
+		this->__vwsn_bind_handler_2_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>();
 		this->__vwsn_bind_opened_ = false;
 		this->__vwsn_bind_closed_ = false;
 	}
 
 	void __vwsnc5_PunkSkin_punkskin_CheckBoxTemplateConstructor___vwsn_punkskin_CheckBoxTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
 	{
-		auto __vwsn_bind_activator_result_ = ((! ::vl::__vwsn::This(__vwsn_bind_cache_0)->GetVisuallyEnabled()) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#9E9E9E")) : (::vl::__vwsn::This(__vwsn_bind_cache_1)->GetSelected() ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")) : ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#151515"))));
+		auto __vwsn_bind_activator_result_ = [&](auto state){ return ((! ::vl::__vwsn::This(__vwsn_bind_cache_1)->GetVisuallyEnabled()) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#9E9E9E")) : (::vl::__vwsn::This(__vwsn_bind_cache_2)->GetSelected() ? ((state == ::vl::presentation::controls::ButtonState::Active) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#F03A40")) : ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C"))) : ((state == ::vl::presentation::controls::ButtonState::Active) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#333333")) : ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#151515"))))); }(::vl::__vwsn::This(__vwsn_bind_cache_0)->GetState());
 		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
 	}
 
@@ -2958,6 +2960,11 @@ Closures
 		this->__vwsn_bind_activator_();
 	}
 
+	void __vwsnc5_PunkSkin_punkskin_CheckBoxTemplateConstructor___vwsn_punkskin_CheckBoxTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_2_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
+	{
+		this->__vwsn_bind_activator_();
+	}
+
 	bool __vwsnc5_PunkSkin_punkskin_CheckBoxTemplateConstructor___vwsn_punkskin_CheckBoxTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
 	{
 		if ((! __vwsn_bind_opened_))
@@ -2965,8 +2972,10 @@ Closures
 			(__vwsn_bind_opened_ = true);
 			(__vwsn_bind_cache_0 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::punkskin::CheckBoxTemplate*>(nullptr); } }());
 			(__vwsn_bind_cache_1 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::punkskin::CheckBoxTemplate*>(nullptr); } }());
-			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->VisuallyEnabledChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc5_PunkSkin_punkskin_CheckBoxTemplateConstructor___vwsn_punkskin_CheckBoxTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
-			(__vwsn_bind_handler_1_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_1)->SelectedChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc5_PunkSkin_punkskin_CheckBoxTemplateConstructor___vwsn_punkskin_CheckBoxTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			(__vwsn_bind_cache_2 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::punkskin::CheckBoxTemplate*>(nullptr); } }());
+			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->StateChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc5_PunkSkin_punkskin_CheckBoxTemplateConstructor___vwsn_punkskin_CheckBoxTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			(__vwsn_bind_handler_1_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_1)->VisuallyEnabledChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc5_PunkSkin_punkskin_CheckBoxTemplateConstructor___vwsn_punkskin_CheckBoxTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			(__vwsn_bind_handler_2_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_2)->SelectedChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc5_PunkSkin_punkskin_CheckBoxTemplateConstructor___vwsn_punkskin_CheckBoxTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_2_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
 			return true;
 		}
 		return false;
@@ -2989,18 +2998,25 @@ Closures
 			(__vwsn_bind_closed_ = true);
 			if (static_cast<bool>(__vwsn_bind_handler_0_0))
 			{
-				::vl::__vwsn::EventDetach(::vl::__vwsn::This(__vwsn_bind_cache_0)->VisuallyEnabledChanged, __vwsn_bind_handler_0_0);
+				::vl::__vwsn::EventDetach(::vl::__vwsn::This(__vwsn_bind_cache_0)->StateChanged, __vwsn_bind_handler_0_0);
 				(__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
 			}
 			if (static_cast<bool>(__vwsn_bind_handler_1_0))
 			{
-				::vl::__vwsn::EventDetach(::vl::__vwsn::This(__vwsn_bind_cache_1)->SelectedChanged, __vwsn_bind_handler_1_0);
+				::vl::__vwsn::EventDetach(::vl::__vwsn::This(__vwsn_bind_cache_1)->VisuallyEnabledChanged, __vwsn_bind_handler_1_0);
 				(__vwsn_bind_handler_1_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
+			}
+			if (static_cast<bool>(__vwsn_bind_handler_2_0))
+			{
+				::vl::__vwsn::EventDetach(::vl::__vwsn::This(__vwsn_bind_cache_2)->SelectedChanged, __vwsn_bind_handler_2_0);
+				(__vwsn_bind_handler_2_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
 			}
 			(__vwsn_bind_cache_0 = static_cast<::punkskin::CheckBoxTemplate*>(nullptr));
 			(__vwsn_bind_cache_1 = static_cast<::punkskin::CheckBoxTemplate*>(nullptr));
+			(__vwsn_bind_cache_2 = static_cast<::punkskin::CheckBoxTemplate*>(nullptr));
 			(__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
 			(__vwsn_bind_handler_1_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
+			(__vwsn_bind_handler_2_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
 			return true;
 		}
 		return false;

@@ -15,9 +15,9 @@
         }
       ]]></ref.Ctor>
       <ControlTemplate ref.Name="page" MinSizeLimitation="LimitToElementAndChildren">
-        <ScrollContainer>
+        <ScrollContainer ExtendToFullWidth="true">
           <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
-          <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" Padding="28" PreferredMinSize="x:1080 y:0" MinSizeLimitation="LimitToElementAndChildren">
+          <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" Padding="28" MinSizeLimitation="LimitToElementAndChildren">
 
             <!-- ============ 页头 ============ -->
             <StackItem>
@@ -109,10 +109,12 @@
                         <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:8"><SolidLabel Text="设备面板" Color="#0A0A0A" Font="size:16 bold:true antialias:true"/></Bounds></StackItem>
                         <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:16" PreferredMinSize="x:200 y:0"><SolidLabel Text="Card 作为设备面板：panel ID、状态色顶条由主题 chrome 渲染。" Color="#3B3B3B" Font="size:13 antialias:true" WrapLine="true"/></Bounds></StackItem>
                         <StackItem>
-                          <Stack Direction="Horizontal" AlignmentToParent="left:0 top:-1 right:0 bottom:0">
-                            <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0"><SolidLabel Text="FIG. P-100" Color="#3B3B3B" Font="size:12 antialias:true"/></Bounds></StackItem>
-                            <StackItem><Bounds AlignmentToParent="left:-1 top:0 right:0 bottom:0"><SolidLabel Text="RUN · 14:32" Color="#3B3B3B" Font="size:12 antialias:true" HorizontalAlignment="Right"/></Bounds></StackItem>
-                          </Stack>
+                          <Table AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                            <att.Rows><CellOption>composeType:MinSize</CellOption></att.Rows>
+                            <att.Columns><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Percentage percentage:1.0</CellOption><CellOption>composeType:MinSize</CellOption></att.Columns>
+                            <Cell Site="row:0 column:0"><SolidLabel Text="FIG. P-100" Color="#3B3B3B" Font="size:12 antialias:true"/></Cell>
+                            <Cell Site="row:0 column:2"><SolidLabel Text="RUN · 14:32" Color="#3B3B3B" Font="size:12 antialias:true"/></Cell>
+                          </Table>
                         </StackItem>
                       </Stack>
                     </Bounds>
@@ -131,10 +133,12 @@
                         </StackItem>
                         <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:16"><SolidLabel Text="待机读数" Color="#3B3B3B" Font="size:13 antialias:true"/></Bounds></StackItem>
                         <StackItem>
-                          <Stack Direction="Horizontal" AlignmentToParent="left:0 top:-1 right:0 bottom:0">
-                            <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0"><SolidLabel Text="FIG. P-101" Color="#3B3B3B" Font="size:12 antialias:true"/></Bounds></StackItem>
-                            <StackItem><Bounds AlignmentToParent="left:-1 top:0 right:0 bottom:0"><SolidLabel Text="IDLE · 14:32" Color="#3B3B3B" Font="size:12 antialias:true" HorizontalAlignment="Right"/></Bounds></StackItem>
-                          </Stack>
+                          <Table AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                            <att.Rows><CellOption>composeType:MinSize</CellOption></att.Rows>
+                            <att.Columns><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Percentage percentage:1.0</CellOption><CellOption>composeType:MinSize</CellOption></att.Columns>
+                            <Cell Site="row:0 column:0"><SolidLabel Text="FIG. P-101" Color="#3B3B3B" Font="size:12 antialias:true"/></Cell>
+                            <Cell Site="row:0 column:2"><SolidLabel Text="IDLE · 14:32" Color="#3B3B3B" Font="size:12 antialias:true"/></Cell>
+                          </Table>
                         </StackItem>
                       </Stack>
                     </Bounds>
@@ -147,10 +151,12 @@
                         <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:8"><SolidLabel Text="维护面板" Color="#0A0A0A" Font="size:16 bold:true antialias:true"/></Bounds></StackItem>
                         <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:16" PreferredMinSize="x:200 y:0"><SolidLabel Text="设备处于维护模式，操作区可用。" Color="#3B3B3B" Font="size:13 antialias:true" WrapLine="true"/></Bounds></StackItem>
                         <StackItem>
-                          <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:-1 bottom:0">
-                            <StackItem><Button Text="确认" ControlTemplate="punkui::PrimaryButtonTemplate"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></Button></StackItem>
-                            <StackItem><Bounds AlignmentToParent="left:-1 top:0 right:0 bottom:0" PreferredMinSize="x:110 y:0"><SolidLabel Text="MAINT · 14:32" Color="#3B3B3B" Font="size:12 antialias:true" HorizontalAlignment="Right" VerticalAlignment="Center"/></Bounds></StackItem>
-                          </Stack>
+                          <Table AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+                            <att.Rows><CellOption>composeType:MinSize</CellOption></att.Rows>
+                            <att.Columns><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Percentage percentage:1.0</CellOption><CellOption>composeType:MinSize</CellOption></att.Columns>
+                            <Cell Site="row:0 column:0"><Button Text="确认" ControlTemplate="punkui::PrimaryButtonTemplate"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></Button></Cell>
+                            <Cell Site="row:0 column:2"><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0"><SolidLabel Text="MAINT · 14:32" Color="#3B3B3B" Font="size:12 antialias:true" HorizontalAlignment="Right" VerticalAlignment="Center"/></Bounds></Cell>
+                          </Table>
                         </StackItem>
                       </Stack>
                     </Bounds>
@@ -257,10 +263,12 @@
                 <StackItem>
                   <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
                     <StackItem>
-                      <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:6">
-                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0"><SolidLabel Text="负载 · 主泵 A" Color="#3B3B3B" Font="size:12 bold:true antialias:true"/></Bounds></StackItem>
-                        <StackItem><Bounds AlignmentToParent="left:-1 top:0 right:0 bottom:0"><SolidLabel Text="35%" Color="#0A0A0A" Font="size:12 bold:true antialias:true" HorizontalAlignment="Right"/></Bounds></StackItem>
-                      </Stack>
+                      <Table AlignmentToParent="left:0 top:0 right:0 bottom:6">
+                          <att.Rows><CellOption>composeType:MinSize</CellOption></att.Rows>
+                          <att.Columns><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Percentage percentage:1.0</CellOption><CellOption>composeType:MinSize</CellOption></att.Columns>
+                          <Cell Site="row:0 column:0"><SolidLabel Text="负载 · 主泵 A" Color="#3B3B3B" Font="size:12 bold:true antialias:true"/></Cell>
+                          <Cell Site="row:0 column:2"><SolidLabel Text="35%" Color="#0A0A0A" Font="size:12 bold:true antialias:true"/></Cell>
+                        </Table>
                     </StackItem>
                     <StackItem>
                       <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0">
@@ -281,10 +289,12 @@
                 <StackItem>
                   <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
                     <StackItem>
-                      <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:0 bottom:6">
-                        <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0"><SolidLabel Text="负载 · 主泵 B" Color="#3B3B3B" Font="size:12 bold:true antialias:true"/></Bounds></StackItem>
-                        <StackItem><Bounds AlignmentToParent="left:-1 top:0 right:0 bottom:0"><SolidLabel Text="68%" Color="#0A0A0A" Font="size:12 bold:true antialias:true" HorizontalAlignment="Right"/></Bounds></StackItem>
-                      </Stack>
+                      <Table AlignmentToParent="left:0 top:0 right:0 bottom:6">
+                          <att.Rows><CellOption>composeType:MinSize</CellOption></att.Rows>
+                          <att.Columns><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Percentage percentage:1.0</CellOption><CellOption>composeType:MinSize</CellOption></att.Columns>
+                          <Cell Site="row:0 column:0"><SolidLabel Text="负载 · 主泵 B" Color="#3B3B3B" Font="size:12 bold:true antialias:true"/></Cell>
+                          <Cell Site="row:0 column:2"><SolidLabel Text="68%" Color="#0A0A0A" Font="size:12 bold:true antialias:true"/></Cell>
+                        </Table>
                     </StackItem>
                     <StackItem>
                       <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0">
@@ -435,69 +445,39 @@
             </StackItem>
             <StackItem>
               <Bounds ref.Name="tableWrap" AlignmentToParent="left:0 top:0 right:6 bottom:6" MinSizeLimitation="LimitToElementAndChildren">
-                <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
-                  <!-- 表头 -->
-                  <StackItem>
-                    <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:34">
-                      <SolidBackground Color="#151515"/>
-                      <Table AlignmentToParent="left:0 top:0 right:0 bottom:0">
-                        <att.Rows><CellOption>composeType:Percentage percentage:1.0</CellOption></att.Rows>
-                        <att.Columns>
-                          <CellOption>composeType:Absolute absolute:140</CellOption>
-                          <CellOption>composeType:Absolute absolute:100</CellOption>
-                          <CellOption>composeType:Absolute absolute:120</CellOption>
-                          <CellOption>composeType:Percentage percentage:1.0</CellOption>
-                        </att.Columns>
-                        <Cell Site="row:0 column:0"><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0"><SolidLabel Text="设备 ID" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                        <Cell Site="row:0 column:1"><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0"><SolidLabel Text="状态" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                        <Cell Site="row:0 column:2"><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0"><SolidLabel Text="更新时间" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                        <Cell Site="row:0 column:3"><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0"><SolidLabel Text="读数" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      </Table>
-                    </Bounds>
-                  </StackItem>
-                  <StackItem>
-                    <Table AlignmentToParent="left:0 top:0 right:0 bottom:0" CellPadding="0" BorderVisible="false">
-                      <att.Rows>
-                        <CellOption>composeType:MinSize</CellOption>
-                        <CellOption>composeType:Absolute absolute:2</CellOption>
-                        <CellOption>composeType:MinSize</CellOption>
-                        <CellOption>composeType:Absolute absolute:2</CellOption>
-                        <CellOption>composeType:MinSize</CellOption>
-                        <CellOption>composeType:Absolute absolute:2</CellOption>
-                        <CellOption>composeType:MinSize</CellOption>
-                        <CellOption>composeType:Absolute absolute:2</CellOption>
-                      </att.Rows>
-                      <att.Columns>
-                        <CellOption>composeType:Absolute absolute:140</CellOption>
-                        <CellOption>composeType:Absolute absolute:100</CellOption>
-                        <CellOption>composeType:Absolute absolute:120</CellOption>
-                        <CellOption>composeType:Percentage percentage:1.0</CellOption>
-                      </att.Columns>
-                      <Cell Site="row:0 column:0"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="P-01" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:0 column:1"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="RUN" Color="#1E9E50" Font="fontFamily:'Consolas' size:13 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:0 column:2"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="14:32:08" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:0 column:3"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="412.7 kW" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:1 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
-                      <Cell Site="row:2 column:0"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="P-02" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:2 column:1"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="IDLE" Color="#B89600" Font="fontFamily:'Consolas' size:13 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:2 column:2"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="14:30:12" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:2 column:3"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="0.0 kW" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:3 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
-                      <Cell Site="row:4 column:0"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="C-01" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:4 column:1"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="MAINT" Color="#0087BA" Font="fontFamily:'Consolas' size:13 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:4 column:2"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="14:28:55" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:4 column:3"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="—" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:5 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
-                      <Cell Site="row:6 column:0"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="S-04" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:6 column:1"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="FAULT" Color="#E8151C" Font="fontFamily:'Consolas' size:13 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:6 column:2"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="14:25:03" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:6 column:3"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="N/A" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:7 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
-                    </Table>
-                  </StackItem>
-                </Stack>
-              </Bounds>
-            </StackItem>
+                <Table AlignmentToParent="left:0 top:0 right:0 bottom:0" CellPadding="0" BorderVisible="false">
+                  <att.Rows>
+                    <CellOption>composeType:MinSize</CellOption><CellOption>composeType:Absolute absolute:2</CellOption><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Absolute absolute:2</CellOption><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Absolute absolute:2</CellOption><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Absolute absolute:2</CellOption><CellOption>composeType:MinSize</CellOption>
+                  </att.Rows>
+                  <att.Columns>
+                    <CellOption>composeType:Absolute absolute:140</CellOption>
+                    <CellOption>composeType:Absolute absolute:100</CellOption>
+                    <CellOption>composeType:Absolute absolute:120</CellOption>
+                    <CellOption>composeType:Percentage percentage:1.0</CellOption>
+                  </att.Columns>
+                  <Cell Site="row:0 column:0"><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:34"><SolidBackground Color="#151515"/><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0"><SolidLabel Text="设备 ID" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Bounds></Cell><Cell Site="row:0 column:1"><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:34"><SolidBackground Color="#151515"/><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0"><SolidLabel Text="状态" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Bounds></Cell><Cell Site="row:0 column:2"><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:34"><SolidBackground Color="#151515"/><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0"><SolidLabel Text="更新时间" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Bounds></Cell><Cell Site="row:0 column:3"><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:34"><SolidBackground Color="#151515"/><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0"><SolidLabel Text="读数" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Bounds></Cell>
+                            <Cell Site="row:1 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
+          <Cell Site="row:2 column:0"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="P-01" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+          <Cell Site="row:2 column:1"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="RUN" Color="#1E9E50" Font="fontFamily:'Consolas' size:13 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+          <Cell Site="row:2 column:2"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="14:32:08" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+          <Cell Site="row:2 column:3"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="412.7 kW" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+          <Cell Site="row:3 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
+          <Cell Site="row:4 column:0"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="P-02" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+          <Cell Site="row:4 column:1"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="IDLE" Color="#B89600" Font="fontFamily:'Consolas' size:13 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+          <Cell Site="row:4 column:2"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="14:30:12" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+          <Cell Site="row:4 column:3"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="0.0 kW" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+          <Cell Site="row:5 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
+          <Cell Site="row:6 column:0"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="C-01" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+          <Cell Site="row:6 column:1"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="MAINT" Color="#0087BA" Font="fontFamily:'Consolas' size:13 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+          <Cell Site="row:6 column:2"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="14:28:55" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+          <Cell Site="row:6 column:3"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="—" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+          <Cell Site="row:7 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
+          <Cell Site="row:8 column:0"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="S-04" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+          <Cell Site="row:8 column:1"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="FAULT" Color="#E8151C" Font="fontFamily:'Consolas' size:13 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+          <Cell Site="row:8 column:2"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="14:25:03" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+          <Cell Site="row:8 column:3"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="N/A" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+                </Table>
+              </Bounds></StackItem>
           </Stack>
         </ScrollContainer>
       </ControlTemplate>

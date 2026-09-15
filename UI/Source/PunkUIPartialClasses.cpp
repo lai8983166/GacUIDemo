@@ -314,12 +314,30 @@ Closures
 
 	//-------------------------------------------------------------------
 
-	__vwsnf26_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_::__vwsnf26_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_(::punkui::OutlineButtonTemplateConstructor* __vwsnctorthis_0)
+	__vwsnf26_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize_::__vwsnf26_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize_(::punkui::NavLinkTemplateConstructor* __vwsnctorthis_0)
 		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
 	}
 
-	void __vwsnf26_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
+	void __vwsnf26_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
+	{
+		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_0.Obj())->GetColor();
+		auto __vwsn_new_ = ::vl::__vwsn::Unbox<::vl::presentation::Color>(__vwsn_value_);
+		if ((__vwsn_old_ == __vwsn_new_))
+		{
+			return;
+		}
+		::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_0.Obj())->SetColor(__vwsn_new_);
+	}
+
+	//-------------------------------------------------------------------
+
+	__vwsnf27_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_::__vwsnf27_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_(::punkui::OutlineButtonTemplateConstructor* __vwsnctorthis_0)
+		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
+	{
+	}
+
+	void __vwsnf27_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
 	{
 		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_3.Obj())->GetColor();
 		auto __vwsn_new_ = ::vl::__vwsn::Unbox<::vl::presentation::Color>(__vwsn_value_);
@@ -332,12 +350,12 @@ Closures
 
 	//-------------------------------------------------------------------
 
-	__vwsnf27_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_::__vwsnf27_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_(::punkui::OutlineButtonTemplateConstructor* __vwsnctorthis_0)
+	__vwsnf28_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_::__vwsnf28_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_(::punkui::OutlineButtonTemplateConstructor* __vwsnctorthis_0)
 		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
 	}
 
-	void __vwsnf27_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
+	void __vwsnf28_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
 	{
 		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_6.Obj())->GetText();
 		auto __vwsn_new_ = ::vl::__vwsn::Unbox<::vl::WString>(__vwsn_value_);
@@ -350,12 +368,12 @@ Closures
 
 	//-------------------------------------------------------------------
 
-	__vwsnf28_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_::__vwsnf28_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_(::punkui::OutlineButtonTemplateConstructor* __vwsnctorthis_0)
+	__vwsnf29_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_::__vwsnf29_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_(::punkui::OutlineButtonTemplateConstructor* __vwsnctorthis_0)
 		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
 	}
 
-	void __vwsnf28_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
+	void __vwsnf29_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
 	{
 		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_6.Obj())->GetColor();
 		auto __vwsn_new_ = ::vl::__vwsn::Unbox<::vl::presentation::Color>(__vwsn_value_);
@@ -364,24 +382,6 @@ Closures
 			return;
 		}
 		::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_6.Obj())->SetColor(__vwsn_new_);
-	}
-
-	//-------------------------------------------------------------------
-
-	__vwsnf29_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_::__vwsnf29_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_(::punkui::PrimaryButtonTemplateConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-	}
-
-	void __vwsnf29_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
-	{
-		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_3.Obj())->GetColor();
-		auto __vwsn_new_ = ::vl::__vwsn::Unbox<::vl::presentation::Color>(__vwsn_value_);
-		if ((__vwsn_old_ == __vwsn_new_))
-		{
-			return;
-		}
-		::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_3.Obj())->SetColor(__vwsn_new_);
 	}
 
 	//-------------------------------------------------------------------
@@ -407,6 +407,24 @@ Closures
 
 	void __vwsnf30_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
 	{
+		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_3.Obj())->GetColor();
+		auto __vwsn_new_ = ::vl::__vwsn::Unbox<::vl::presentation::Color>(__vwsn_value_);
+		if ((__vwsn_old_ == __vwsn_new_))
+		{
+			return;
+		}
+		::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_3.Obj())->SetColor(__vwsn_new_);
+	}
+
+	//-------------------------------------------------------------------
+
+	__vwsnf31_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_::__vwsnf31_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_(::punkui::PrimaryButtonTemplateConstructor* __vwsnctorthis_0)
+		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
+	{
+	}
+
+	void __vwsnf31_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
+	{
 		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_6.Obj())->GetText();
 		auto __vwsn_new_ = ::vl::__vwsn::Unbox<::vl::WString>(__vwsn_value_);
 		if ((__vwsn_old_ == __vwsn_new_))
@@ -418,12 +436,12 @@ Closures
 
 	//-------------------------------------------------------------------
 
-	__vwsnf31_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_::__vwsnf31_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_(::punkui::PrimaryButtonTemplateConstructor* __vwsnctorthis_0)
+	__vwsnf32_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_::__vwsnf32_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_(::punkui::PrimaryButtonTemplateConstructor* __vwsnctorthis_0)
 		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
 	}
 
-	void __vwsnf31_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
+	void __vwsnf32_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_::operator()(const ::vl::reflection::description::Value& __vwsn_value_) const
 	{
 		auto __vwsn_old_ = ::vl::__vwsn::This(__vwsnthis_0->__vwsn_precompile_6.Obj())->GetColor();
 		auto __vwsn_new_ = ::vl::__vwsn::Unbox<::vl::presentation::Color>(__vwsn_value_);
@@ -528,7 +546,68 @@ Closures
 
 	//-------------------------------------------------------------------
 
-	__vwsnc10_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc10_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(::punkui::PrimaryButtonTemplateConstructor* __vwsnctorthis_0)
+	__vwsnc10_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc10_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(::punkui::OutlineButtonTemplateConstructor* __vwsnctorthis_0)
+		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
+	{
+		this->__vwsn_bind_cache_0 = static_cast<::punkui::OutlineButtonTemplate*>(nullptr);
+		this->__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>();
+		this->__vwsn_bind_opened_ = false;
+		this->__vwsn_bind_closed_ = false;
+	}
+
+	void __vwsnc10_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
+	{
+		auto __vwsn_bind_activator_result_ = ((! ::vl::__vwsn::This(__vwsn_bind_cache_0)->GetVisuallyEnabled()) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#F5F5F5")) : ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
+	}
+
+	void __vwsnc10_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
+	{
+		this->__vwsn_bind_activator_();
+	}
+
+	bool __vwsnc10_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
+	{
+		if ((! __vwsn_bind_opened_))
+		{
+			(__vwsn_bind_opened_ = true);
+			(__vwsn_bind_cache_0 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::punkui::OutlineButtonTemplate*>(nullptr); } }());
+			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->VisuallyEnabledChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc10_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			return true;
+		}
+		return false;
+	}
+
+	bool __vwsnc10_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
+	{
+		if ((__vwsn_bind_opened_ && (! __vwsn_bind_closed_)))
+		{
+			this->__vwsn_bind_activator_();
+			return true;
+		}
+		return false;
+	}
+
+	bool __vwsnc10_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
+	{
+		if ((! __vwsn_bind_closed_))
+		{
+			(__vwsn_bind_closed_ = true);
+			if (static_cast<bool>(__vwsn_bind_handler_0_0))
+			{
+				::vl::__vwsn::EventDetach(::vl::__vwsn::This(__vwsn_bind_cache_0)->VisuallyEnabledChanged, __vwsn_bind_handler_0_0);
+				(__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
+			}
+			(__vwsn_bind_cache_0 = static_cast<::punkui::OutlineButtonTemplate*>(nullptr));
+			(__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
+			return true;
+		}
+		return false;
+	}
+
+	//-------------------------------------------------------------------
+
+	__vwsnc11_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc11_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(::punkui::PrimaryButtonTemplateConstructor* __vwsnctorthis_0)
 		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
 		this->__vwsn_bind_cache_0 = static_cast<::punkui::PrimaryButtonTemplate*>(nullptr);
@@ -539,37 +618,37 @@ Closures
 		this->__vwsn_bind_closed_ = false;
 	}
 
-	void __vwsnc10_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
+	void __vwsnc11_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
 	{
-		auto __vwsn_bind_activator_result_ = [&](auto state){ return ((! ::vl::__vwsn::This(__vwsn_bind_cache_1)->GetVisuallyEnabled()) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#9E9E9E")) : ((state == ::vl::presentation::controls::ButtonState::Pressed) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#B01015")) : ((state == ::vl::presentation::controls::ButtonState::Active) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#F03A40")) : ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C"))))); }(::vl::__vwsn::This(__vwsn_bind_cache_0)->GetState());
+		auto __vwsn_bind_activator_result_ = [&](auto state){ return ((! ::vl::__vwsn::This(__vwsn_bind_cache_1)->GetVisuallyEnabled()) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#9E9E9E")) : ((state == ::vl::presentation::controls::ButtonState::Pressed) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#B01015")) : ((state == ::vl::presentation::controls::ButtonState::Active) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FF4A50")) : ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C"))))); }(::vl::__vwsn::This(__vwsn_bind_cache_0)->GetState());
 		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
 	}
 
-	void __vwsnc10_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
+	void __vwsnc11_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
 	{
 		this->__vwsn_bind_activator_();
 	}
 
-	void __vwsnc10_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
+	void __vwsnc11_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
 	{
 		this->__vwsn_bind_activator_();
 	}
 
-	bool __vwsnc10_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
+	bool __vwsnc11_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
 	{
 		if ((! __vwsn_bind_opened_))
 		{
 			(__vwsn_bind_opened_ = true);
 			(__vwsn_bind_cache_0 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::punkui::PrimaryButtonTemplate*>(nullptr); } }());
 			(__vwsn_bind_cache_1 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::punkui::PrimaryButtonTemplate*>(nullptr); } }());
-			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->StateChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc10_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
-			(__vwsn_bind_handler_1_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_1)->VisuallyEnabledChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc10_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->StateChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc11_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			(__vwsn_bind_handler_1_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_1)->VisuallyEnabledChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc11_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
 			return true;
 		}
 		return false;
 	}
 
-	bool __vwsnc10_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
+	bool __vwsnc11_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
 	{
 		if ((__vwsn_bind_opened_ && (! __vwsn_bind_closed_)))
 		{
@@ -579,7 +658,7 @@ Closures
 		return false;
 	}
 
-	bool __vwsnc10_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
+	bool __vwsnc11_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
 	{
 		if ((! __vwsn_bind_closed_))
 		{
@@ -605,7 +684,7 @@ Closures
 
 	//-------------------------------------------------------------------
 
-	__vwsnc11_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc11_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(::punkui::PrimaryButtonTemplateConstructor* __vwsnctorthis_0)
+	__vwsnc12_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc12_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(::punkui::PrimaryButtonTemplateConstructor* __vwsnctorthis_0)
 		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
 		this->__vwsn_bind_cache_0 = static_cast<::punkui::PrimaryButtonTemplate*>(nullptr);
@@ -614,30 +693,30 @@ Closures
 		this->__vwsn_bind_closed_ = false;
 	}
 
-	void __vwsnc11_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
+	void __vwsnc12_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
 	{
 		auto __vwsn_bind_activator_result_ = ::vl::__vwsn::This(__vwsn_bind_cache_0)->GetText();
 		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
 	}
 
-	void __vwsnc11_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
+	void __vwsnc12_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
 	{
 		this->__vwsn_bind_activator_();
 	}
 
-	bool __vwsnc11_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
+	bool __vwsnc12_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
 	{
 		if ((! __vwsn_bind_opened_))
 		{
 			(__vwsn_bind_opened_ = true);
 			(__vwsn_bind_cache_0 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::punkui::PrimaryButtonTemplate*>(nullptr); } }());
-			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->TextChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc11_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->TextChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc12_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
 			return true;
 		}
 		return false;
 	}
 
-	bool __vwsnc11_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
+	bool __vwsnc12_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
 	{
 		if ((__vwsn_bind_opened_ && (! __vwsn_bind_closed_)))
 		{
@@ -647,7 +726,7 @@ Closures
 		return false;
 	}
 
-	bool __vwsnc11_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
+	bool __vwsnc12_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
 	{
 		if ((! __vwsn_bind_closed_))
 		{
@@ -666,7 +745,7 @@ Closures
 
 	//-------------------------------------------------------------------
 
-	__vwsnc12_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc12_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(::punkui::PrimaryButtonTemplateConstructor* __vwsnctorthis_0)
+	__vwsnc13_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc13_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(::punkui::PrimaryButtonTemplateConstructor* __vwsnctorthis_0)
 		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
 		this->__vwsn_bind_cache_0 = static_cast<::punkui::PrimaryButtonTemplate*>(nullptr);
@@ -675,30 +754,30 @@ Closures
 		this->__vwsn_bind_closed_ = false;
 	}
 
-	void __vwsnc12_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
+	void __vwsnc13_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
 	{
 		auto __vwsn_bind_activator_result_ = ((! ::vl::__vwsn::This(__vwsn_bind_cache_0)->GetVisuallyEnabled()) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#F5F5F5")) : ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
 		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
 	}
 
-	void __vwsnc12_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
+	void __vwsnc13_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
 	{
 		this->__vwsn_bind_activator_();
 	}
 
-	bool __vwsnc12_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
+	bool __vwsnc13_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
 	{
 		if ((! __vwsn_bind_opened_))
 		{
 			(__vwsn_bind_opened_ = true);
 			(__vwsn_bind_cache_0 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::punkui::PrimaryButtonTemplate*>(nullptr); } }());
-			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->VisuallyEnabledChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc12_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->VisuallyEnabledChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc13_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
 			return true;
 		}
 		return false;
 	}
 
-	bool __vwsnc12_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
+	bool __vwsnc13_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
 	{
 		if ((__vwsn_bind_opened_ && (! __vwsn_bind_closed_)))
 		{
@@ -708,7 +787,7 @@ Closures
 		return false;
 	}
 
-	bool __vwsnc12_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
+	bool __vwsnc13_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
 	{
 		if ((! __vwsn_bind_closed_))
 		{
@@ -939,7 +1018,7 @@ Closures
 
 	void __vwsnc4_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
 	{
-		auto __vwsn_bind_activator_result_ = [&](auto state){ return ((! ::vl::__vwsn::This(__vwsn_bind_cache_1)->GetVisuallyEnabled()) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#9E9E9E")) : ((state == ::vl::presentation::controls::ButtonState::Pressed) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#F5F1E8")) : ((state == ::vl::presentation::controls::ButtonState::Active) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#EFEAE0")) : ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF"))))); }(::vl::__vwsn::This(__vwsn_bind_cache_0)->GetState());
+		auto __vwsn_bind_activator_result_ = [&](auto state){ return ((! ::vl::__vwsn::This(__vwsn_bind_cache_1)->GetVisuallyEnabled()) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#9E9E9E")) : ((state == ::vl::presentation::controls::ButtonState::Pressed) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#F5F1E8")) : ((state == ::vl::presentation::controls::ButtonState::Active) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FBD5D6")) : ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF"))))); }(::vl::__vwsn::This(__vwsn_bind_cache_0)->GetState());
 		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
 	}
 
@@ -1125,7 +1204,84 @@ Closures
 
 	//-------------------------------------------------------------------
 
-	__vwsnc7_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc7_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(::punkui::OutlineButtonTemplateConstructor* __vwsnctorthis_0)
+	__vwsnc7_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc7_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize__vl_reflection_description_IValueSubscription(::punkui::NavLinkTemplateConstructor* __vwsnctorthis_0)
+		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
+	{
+		this->__vwsn_bind_cache_0 = static_cast<::punkui::NavLinkTemplate*>(nullptr);
+		this->__vwsn_bind_cache_1 = static_cast<::punkui::NavLinkTemplate*>(nullptr);
+		this->__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>();
+		this->__vwsn_bind_handler_1_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>();
+		this->__vwsn_bind_opened_ = false;
+		this->__vwsn_bind_closed_ = false;
+	}
+
+	void __vwsnc7_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
+	{
+		auto __vwsn_bind_activator_result_ = [&](auto state){ return ((! ::vl::__vwsn::This(__vwsn_bind_cache_1)->GetVisuallyEnabled()) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#00000000")) : ((state == ::vl::presentation::controls::ButtonState::Active) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#2F2F2F")) : ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#00000000")))); }(::vl::__vwsn::This(__vwsn_bind_cache_0)->GetState());
+		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
+	}
+
+	void __vwsnc7_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
+	{
+		this->__vwsn_bind_activator_();
+	}
+
+	void __vwsnc7_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
+	{
+		this->__vwsn_bind_activator_();
+	}
+
+	bool __vwsnc7_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
+	{
+		if ((! __vwsn_bind_opened_))
+		{
+			(__vwsn_bind_opened_ = true);
+			(__vwsn_bind_cache_0 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::punkui::NavLinkTemplate*>(nullptr); } }());
+			(__vwsn_bind_cache_1 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::punkui::NavLinkTemplate*>(nullptr); } }());
+			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->StateChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc7_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			(__vwsn_bind_handler_1_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_1)->VisuallyEnabledChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc7_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			return true;
+		}
+		return false;
+	}
+
+	bool __vwsnc7_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
+	{
+		if ((__vwsn_bind_opened_ && (! __vwsn_bind_closed_)))
+		{
+			this->__vwsn_bind_activator_();
+			return true;
+		}
+		return false;
+	}
+
+	bool __vwsnc7_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
+	{
+		if ((! __vwsn_bind_closed_))
+		{
+			(__vwsn_bind_closed_ = true);
+			if (static_cast<bool>(__vwsn_bind_handler_0_0))
+			{
+				::vl::__vwsn::EventDetach(::vl::__vwsn::This(__vwsn_bind_cache_0)->StateChanged, __vwsn_bind_handler_0_0);
+				(__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
+			}
+			if (static_cast<bool>(__vwsn_bind_handler_1_0))
+			{
+				::vl::__vwsn::EventDetach(::vl::__vwsn::This(__vwsn_bind_cache_1)->VisuallyEnabledChanged, __vwsn_bind_handler_1_0);
+				(__vwsn_bind_handler_1_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
+			}
+			(__vwsn_bind_cache_0 = static_cast<::punkui::NavLinkTemplate*>(nullptr));
+			(__vwsn_bind_cache_1 = static_cast<::punkui::NavLinkTemplate*>(nullptr));
+			(__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
+			(__vwsn_bind_handler_1_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
+			return true;
+		}
+		return false;
+	}
+
+	//-------------------------------------------------------------------
+
+	__vwsnc8_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc8_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(::punkui::OutlineButtonTemplateConstructor* __vwsnctorthis_0)
 		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
 		this->__vwsn_bind_cache_0 = static_cast<::punkui::OutlineButtonTemplate*>(nullptr);
@@ -1136,37 +1292,37 @@ Closures
 		this->__vwsn_bind_closed_ = false;
 	}
 
-	void __vwsnc7_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
+	void __vwsnc8_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
 	{
-		auto __vwsn_bind_activator_result_ = [&](auto state){ return ((! ::vl::__vwsn::This(__vwsn_bind_cache_1)->GetVisuallyEnabled()) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#9E9E9E")) : ((state == ::vl::presentation::controls::ButtonState::Pressed) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#EFEAE0")) : ((state == ::vl::presentation::controls::ButtonState::Active) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#F5F1E8")) : ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF"))))); }(::vl::__vwsn::This(__vwsn_bind_cache_0)->GetState());
+		auto __vwsn_bind_activator_result_ = [&](auto state){ return ((! ::vl::__vwsn::This(__vwsn_bind_cache_1)->GetVisuallyEnabled()) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#9E9E9E")) : ((state == ::vl::presentation::controls::ButtonState::Pressed) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#EFEAE0")) : ((state == ::vl::presentation::controls::ButtonState::Active) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FBD5D6")) : ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF"))))); }(::vl::__vwsn::This(__vwsn_bind_cache_0)->GetState());
 		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
 	}
 
-	void __vwsnc7_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
+	void __vwsnc8_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
 	{
 		this->__vwsn_bind_activator_();
 	}
 
-	void __vwsnc7_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
+	void __vwsnc8_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
 	{
 		this->__vwsn_bind_activator_();
 	}
 
-	bool __vwsnc7_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
+	bool __vwsnc8_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
 	{
 		if ((! __vwsn_bind_opened_))
 		{
 			(__vwsn_bind_opened_ = true);
 			(__vwsn_bind_cache_0 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::punkui::OutlineButtonTemplate*>(nullptr); } }());
 			(__vwsn_bind_cache_1 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::punkui::OutlineButtonTemplate*>(nullptr); } }());
-			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->StateChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc7_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
-			(__vwsn_bind_handler_1_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_1)->VisuallyEnabledChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc7_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->StateChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc8_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			(__vwsn_bind_handler_1_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_1)->VisuallyEnabledChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc8_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_1_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
 			return true;
 		}
 		return false;
 	}
 
-	bool __vwsnc7_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
+	bool __vwsnc8_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
 	{
 		if ((__vwsn_bind_opened_ && (! __vwsn_bind_closed_)))
 		{
@@ -1176,7 +1332,7 @@ Closures
 		return false;
 	}
 
-	bool __vwsnc7_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
+	bool __vwsnc8_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
 	{
 		if ((! __vwsn_bind_closed_))
 		{
@@ -1202,67 +1358,6 @@ Closures
 
 	//-------------------------------------------------------------------
 
-	__vwsnc8_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc8_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(::punkui::OutlineButtonTemplateConstructor* __vwsnctorthis_0)
-		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
-	{
-		this->__vwsn_bind_cache_0 = static_cast<::punkui::OutlineButtonTemplate*>(nullptr);
-		this->__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>();
-		this->__vwsn_bind_opened_ = false;
-		this->__vwsn_bind_closed_ = false;
-	}
-
-	void __vwsnc8_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
-	{
-		auto __vwsn_bind_activator_result_ = ::vl::__vwsn::This(__vwsn_bind_cache_0)->GetText();
-		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
-	}
-
-	void __vwsnc8_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1)
-	{
-		this->__vwsn_bind_activator_();
-	}
-
-	bool __vwsnc8_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Open()
-	{
-		if ((! __vwsn_bind_opened_))
-		{
-			(__vwsn_bind_opened_ = true);
-			(__vwsn_bind_cache_0 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::punkui::OutlineButtonTemplate*>(nullptr); } }());
-			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->TextChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc8_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
-			return true;
-		}
-		return false;
-	}
-
-	bool __vwsnc8_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Update()
-	{
-		if ((__vwsn_bind_opened_ && (! __vwsn_bind_closed_)))
-		{
-			this->__vwsn_bind_activator_();
-			return true;
-		}
-		return false;
-	}
-
-	bool __vwsnc8_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::Close()
-	{
-		if ((! __vwsn_bind_closed_))
-		{
-			(__vwsn_bind_closed_ = true);
-			if (static_cast<bool>(__vwsn_bind_handler_0_0))
-			{
-				::vl::__vwsn::EventDetach(::vl::__vwsn::This(__vwsn_bind_cache_0)->TextChanged, __vwsn_bind_handler_0_0);
-				(__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
-			}
-			(__vwsn_bind_cache_0 = static_cast<::punkui::OutlineButtonTemplate*>(nullptr));
-			(__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
-			return true;
-		}
-		return false;
-	}
-
-	//-------------------------------------------------------------------
-
 	__vwsnc9_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsnc9_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(::punkui::OutlineButtonTemplateConstructor* __vwsnctorthis_0)
 		:__vwsnthis_0(::vl::__vwsn::This(__vwsnctorthis_0))
 	{
@@ -1274,7 +1369,7 @@ Closures
 
 	void __vwsnc9_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_activator_()
 	{
-		auto __vwsn_bind_activator_result_ = ((! ::vl::__vwsn::This(__vwsn_bind_cache_0)->GetVisuallyEnabled()) ? ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#F5F5F5")) : ::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+		auto __vwsn_bind_activator_result_ = ::vl::__vwsn::This(__vwsn_bind_cache_0)->GetText();
 		::vl::__vwsn::EventInvoke(this->ValueChanged)(::vl::__vwsn::Box(__vwsn_bind_activator_result_));
 	}
 
@@ -1289,7 +1384,7 @@ Closures
 		{
 			(__vwsn_bind_opened_ = true);
 			(__vwsn_bind_cache_0 = [&](){ try{ return __vwsnthis_0->self; } catch(...){ return static_cast<::punkui::OutlineButtonTemplate*>(nullptr); } }());
-			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->VisuallyEnabledChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc9_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
+			(__vwsn_bind_handler_0_0 = [&](){ try{ return ::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_bind_cache_0)->TextChanged, ::vl::Func<void(::vl::presentation::compositions::GuiGraphicsComposition*, ::vl::presentation::compositions::GuiEventArgs*)>(this, &__vwsnc9_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription::__vwsn_bind_callback_0_0)); } catch(...){ return ::vl::Ptr<::vl::reflection::description::IEventHandler>(); } }());
 			return true;
 		}
 		return false;
@@ -1312,7 +1407,7 @@ Closures
 			(__vwsn_bind_closed_ = true);
 			if (static_cast<bool>(__vwsn_bind_handler_0_0))
 			{
-				::vl::__vwsn::EventDetach(::vl::__vwsn::This(__vwsn_bind_cache_0)->VisuallyEnabledChanged, __vwsn_bind_handler_0_0);
+				::vl::__vwsn::EventDetach(::vl::__vwsn::This(__vwsn_bind_cache_0)->TextChanged, __vwsn_bind_handler_0_0);
 				(__vwsn_bind_handler_0_0 = ::vl::Ptr<::vl::reflection::description::IEventHandler>());
 			}
 			(__vwsn_bind_cache_0 = static_cast<::punkui::OutlineButtonTemplate*>(nullptr));
@@ -1469,9 +1564,6 @@ Class (::punkui::DashboardPageTemplateConstructor)
 			::vl::__vwsn::This(this->page)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
 		}
 		(this->__vwsn_precompile_0 = new ::vl::presentation::compositions::GuiStackComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_0)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(1080L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_0)->SetPadding(static_cast<::vl::vint64_t>(28L));
 		}
@@ -3047,35 +3139,51 @@ Class (::punkui::DashboardPageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_151)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_152));
 		}
 		(this->__vwsn_precompile_155 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_156 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_156 = new ::vl::presentation::compositions::GuiTableComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(30L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetBorderVisible(false);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetCellPadding(static_cast<::vl::vint64_t>(0L));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
-		(this->__vwsn_precompile_157 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_157.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#151515")));
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetRowsAndColumns(static_cast<::vl::vint64_t>(11L), static_cast<::vl::vint64_t>(4L));
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetRowOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetRowOption(static_cast<::vl::vint64_t>(1L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(2L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetRowOption(static_cast<::vl::vint64_t>(2L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetRowOption(static_cast<::vl::vint64_t>(3L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(2L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetRowOption(static_cast<::vl::vint64_t>(4L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetRowOption(static_cast<::vl::vint64_t>(5L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(2L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetRowOption(static_cast<::vl::vint64_t>(6L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetRowOption(static_cast<::vl::vint64_t>(7L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(2L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetRowOption(static_cast<::vl::vint64_t>(8L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetRowOption(static_cast<::vl::vint64_t>(9L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(2L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetRowOption(static_cast<::vl::vint64_t>(10L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetColumnOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(120L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetColumnOption(static_cast<::vl::vint64_t>(1L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(100L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetColumnOption(static_cast<::vl::vint64_t>(2L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(120L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetColumnOption(static_cast<::vl::vint64_t>(3L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(1.0); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_157 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_157));
+			::vl::__vwsn::This(this->__vwsn_precompile_157)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_158 = new ::vl::presentation::compositions::GuiTableComposition());
+		(this->__vwsn_precompile_158 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_158)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(32L); return __vwsn_temp__; }());
+		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_158)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_159 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_158)->SetRowsAndColumns(static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(4L));
-			::vl::__vwsn::This(this->__vwsn_precompile_158)->SetRowOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(1.0); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_158)->SetColumnOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(120L); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_158)->SetColumnOption(static_cast<::vl::vint64_t>(1L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(100L); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_158)->SetColumnOption(static_cast<::vl::vint64_t>(2L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(120L); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_158)->SetColumnOption(static_cast<::vl::vint64_t>(3L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(1.0); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_159.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#151515")));
 		}
-		(this->__vwsn_precompile_159 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_159)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_158)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_159));
 		}
 		(this->__vwsn_precompile_160 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
@@ -3098,10 +3206,13 @@ Class (::punkui::DashboardPageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_160)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_161));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_159)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_160));
+			::vl::__vwsn::This(this->__vwsn_precompile_158)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_160));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_158)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_159));
+			::vl::__vwsn::This(this->__vwsn_precompile_157)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_158));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_157));
 		}
 		(this->__vwsn_precompile_162 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
@@ -3109,189 +3220,158 @@ Class (::punkui::DashboardPageTemplateConstructor)
 		}
 		(this->__vwsn_precompile_163 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_163)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_164 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_164.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_163)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(32L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_164.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_163)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_164 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_164.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_164.Obj())->SetText(::vl::WString::Unmanaged(L"状态码"));
+			::vl::__vwsn::This(this->__vwsn_precompile_164.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#151515")));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_163)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_164));
+		}
+		(this->__vwsn_precompile_165 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_165)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_166 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_166.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_166.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_166.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_166.Obj())->SetText(::vl::WString::Unmanaged(L"状态码"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_165)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_166));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_163)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_165));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_162)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_163));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_158)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_162));
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_162));
 		}
-		(this->__vwsn_precompile_165 = new ::vl::presentation::compositions::GuiCellComposition());
+		(this->__vwsn_precompile_167 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_165)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_167)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_166 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_168 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_166)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_167 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_167.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_168)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(32L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_167.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_168)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_169 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_169.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#151515")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_167.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
+			::vl::__vwsn::This(this->__vwsn_precompile_168)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_169));
+		}
+		(this->__vwsn_precompile_170 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_170)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_171 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_171.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_167.Obj())->SetText(::vl::WString::Unmanaged(L"更新时间"));
+			::vl::__vwsn::This(this->__vwsn_precompile_171.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_166)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_167));
+			::vl::__vwsn::This(this->__vwsn_precompile_171.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_165)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_166));
+			::vl::__vwsn::This(this->__vwsn_precompile_171.Obj())->SetText(::vl::WString::Unmanaged(L"更新时间"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_158)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_165));
-		}
-		(this->__vwsn_precompile_168 = new ::vl::presentation::compositions::GuiCellComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_168)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
-		}
-		(this->__vwsn_precompile_169 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_169)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_170 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_170.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_170)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_171));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_170.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_168)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_170));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_170.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
+			::vl::__vwsn::This(this->__vwsn_precompile_167)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_168));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_170.Obj())->SetText(::vl::WString::Unmanaged(L"事件"));
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_167));
+		}
+		(this->__vwsn_precompile_172 = new ::vl::presentation::compositions::GuiCellComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_172)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+		}
+		(this->__vwsn_precompile_173 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_173)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(32L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_169)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_170));
+			::vl::__vwsn::This(this->__vwsn_precompile_173)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_174 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_174.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#151515")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_168)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_169));
+			::vl::__vwsn::This(this->__vwsn_precompile_173)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_174));
+		}
+		(this->__vwsn_precompile_175 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_175)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_176 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_176.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_158)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_168));
+			::vl::__vwsn::This(this->__vwsn_precompile_176.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_158));
+			::vl::__vwsn::This(this->__vwsn_precompile_176.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_155)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_156));
+			::vl::__vwsn::This(this->__vwsn_precompile_176.Obj())->SetText(::vl::WString::Unmanaged(L"事件"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_151)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_155));
-		}
-		(this->__vwsn_precompile_171 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_172 = new ::vl::presentation::compositions::GuiTableComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->SetBorderVisible(false);
+			::vl::__vwsn::This(this->__vwsn_precompile_175)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_176));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->SetCellPadding(static_cast<::vl::vint64_t>(0L));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->SetRowsAndColumns(static_cast<::vl::vint64_t>(9L), static_cast<::vl::vint64_t>(4L));
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->SetRowOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->SetRowOption(static_cast<::vl::vint64_t>(1L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(2L); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->SetRowOption(static_cast<::vl::vint64_t>(2L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->SetRowOption(static_cast<::vl::vint64_t>(3L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(2L); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->SetRowOption(static_cast<::vl::vint64_t>(4L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->SetRowOption(static_cast<::vl::vint64_t>(5L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(2L); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->SetRowOption(static_cast<::vl::vint64_t>(6L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->SetRowOption(static_cast<::vl::vint64_t>(7L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(2L); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->SetRowOption(static_cast<::vl::vint64_t>(8L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->SetColumnOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(120L); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->SetColumnOption(static_cast<::vl::vint64_t>(1L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(100L); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->SetColumnOption(static_cast<::vl::vint64_t>(2L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(120L); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->SetColumnOption(static_cast<::vl::vint64_t>(3L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(1.0); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_173 = new ::vl::presentation::compositions::GuiCellComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_173)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
-		}
-		(this->__vwsn_precompile_174 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_174)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_175 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_175.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_175.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_175.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_175.Obj())->SetText(::vl::WString::Unmanaged(L"P-01"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_174)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_175));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_173)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_174));
+			::vl::__vwsn::This(this->__vwsn_precompile_173)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_175));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_173));
 		}
-		(this->__vwsn_precompile_176 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_176)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_172));
 		}
-		(this->__vwsn_precompile_177 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_177 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_177)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_177)->SetSite(static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(4L));
 		}
-		(this->__vwsn_precompile_178 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		(this->__vwsn_precompile_178 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_178.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_178.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_178.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_178.Obj())->SetText(::vl::WString::Unmanaged(L"E204"));
+			::vl::__vwsn::This(this->__vwsn_precompile_178.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#000000")));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_177)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_178));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_176)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_177));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_176));
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_177));
 		}
 		(this->__vwsn_precompile_179 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_179)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_179)->SetSite(static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
 		(this->__vwsn_precompile_180 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
@@ -3302,13 +3382,13 @@ Class (::punkui::DashboardPageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_181.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_181.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_181.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_181.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->__vwsn_precompile_181.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_181.Obj())->SetText(::vl::WString::Unmanaged(L"14:32:08"));
+			::vl::__vwsn::This(this->__vwsn_precompile_181.Obj())->SetText(::vl::WString::Unmanaged(L"P-01"));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_180)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_181));
@@ -3317,11 +3397,11 @@ Class (::punkui::DashboardPageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_179)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_180));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_179));
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_179));
 		}
 		(this->__vwsn_precompile_182 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_182)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_182)->SetSite(static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
 		(this->__vwsn_precompile_183 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
@@ -3332,13 +3412,13 @@ Class (::punkui::DashboardPageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_184.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_184.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_184.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_184.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_184.Obj())->SetText(::vl::WString::Unmanaged(L"输出功率恢复额定值"));
+			::vl::__vwsn::This(this->__vwsn_precompile_184.Obj())->SetText(::vl::WString::Unmanaged(L"E204"));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_183)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_184));
@@ -3347,85 +3427,85 @@ Class (::punkui::DashboardPageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_182)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_183));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_182));
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_182));
 		}
 		(this->__vwsn_precompile_185 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_185)->SetSite(static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(4L));
+			::vl::__vwsn::This(this->__vwsn_precompile_185)->SetSite(static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_186 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		(this->__vwsn_precompile_186 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_186.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#000000")));
+			::vl::__vwsn::This(this->__vwsn_precompile_186)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_187 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_185)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_186));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_185));
-		}
-		(this->__vwsn_precompile_187 = new ::vl::presentation::compositions::GuiCellComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_187)->SetSite(static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
-		}
-		(this->__vwsn_precompile_188 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_188)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_189 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_189.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_187.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_189.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_187.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_189.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+			::vl::__vwsn::This(this->__vwsn_precompile_187.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_189.Obj())->SetText(::vl::WString::Unmanaged(L"S-04"));
+			::vl::__vwsn::This(this->__vwsn_precompile_187.Obj())->SetText(::vl::WString::Unmanaged(L"14:32:08"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_188)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_189));
+			::vl::__vwsn::This(this->__vwsn_precompile_186)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_187));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_187)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_188));
+			::vl::__vwsn::This(this->__vwsn_precompile_185)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_186));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_187));
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_185));
 		}
-		(this->__vwsn_precompile_190 = new ::vl::presentation::compositions::GuiCellComposition());
+		(this->__vwsn_precompile_188 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_190)->SetSite(static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_188)->SetSite(static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_191 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_189 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_191)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_189)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
-		(this->__vwsn_precompile_192 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		(this->__vwsn_precompile_190 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_192.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_192.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_190.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_192.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->__vwsn_precompile_190.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_192.Obj())->SetText(::vl::WString::Unmanaged(L"W110"));
+			::vl::__vwsn::This(this->__vwsn_precompile_190.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_190.Obj())->SetText(::vl::WString::Unmanaged(L"输出功率恢复额定值"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_189)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_190));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_188)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_189));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_188));
+		}
+		(this->__vwsn_precompile_191 = new ::vl::presentation::compositions::GuiCellComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_191)->SetSite(static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(4L));
+		}
+		(this->__vwsn_precompile_192 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_192.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#000000")));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_191)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_192));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_190)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_191));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_190));
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_191));
 		}
 		(this->__vwsn_precompile_193 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_193)->SetSite(static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_193)->SetSite(static_cast<::vl::vint64_t>(4L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
 		(this->__vwsn_precompile_194 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
@@ -3436,13 +3516,13 @@ Class (::punkui::DashboardPageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_195.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_195.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_195.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_195.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->__vwsn_precompile_195.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_195.Obj())->SetText(::vl::WString::Unmanaged(L"14:31:40"));
+			::vl::__vwsn::This(this->__vwsn_precompile_195.Obj())->SetText(::vl::WString::Unmanaged(L"S-04"));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_194)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_195));
@@ -3451,11 +3531,11 @@ Class (::punkui::DashboardPageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_193)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_194));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_193));
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_193));
 		}
 		(this->__vwsn_precompile_196 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_196)->SetSite(static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_196)->SetSite(static_cast<::vl::vint64_t>(4L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
 		(this->__vwsn_precompile_197 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
@@ -3466,13 +3546,13 @@ Class (::punkui::DashboardPageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_198.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_198.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_198.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_198.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_198.Obj())->SetText(::vl::WString::Unmanaged(L"轴承温度接近阈值"));
+			::vl::__vwsn::This(this->__vwsn_precompile_198.Obj())->SetText(::vl::WString::Unmanaged(L"W110"));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_197)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_198));
@@ -3481,85 +3561,85 @@ Class (::punkui::DashboardPageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_196)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_197));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_196));
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_196));
 		}
 		(this->__vwsn_precompile_199 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_199)->SetSite(static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(4L));
+			::vl::__vwsn::This(this->__vwsn_precompile_199)->SetSite(static_cast<::vl::vint64_t>(4L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_200 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		(this->__vwsn_precompile_200 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_200.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#000000")));
+			::vl::__vwsn::This(this->__vwsn_precompile_200)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_201 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_199)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_200));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_199));
-		}
-		(this->__vwsn_precompile_201 = new ::vl::presentation::compositions::GuiCellComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_201)->SetSite(static_cast<::vl::vint64_t>(4L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
-		}
-		(this->__vwsn_precompile_202 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_202)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_203 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_203.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_201.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_203.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_201.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_203.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+			::vl::__vwsn::This(this->__vwsn_precompile_201.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_203.Obj())->SetText(::vl::WString::Unmanaged(L"P-02"));
+			::vl::__vwsn::This(this->__vwsn_precompile_201.Obj())->SetText(::vl::WString::Unmanaged(L"14:31:40"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_202)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_203));
+			::vl::__vwsn::This(this->__vwsn_precompile_200)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_201));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_201)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_202));
+			::vl::__vwsn::This(this->__vwsn_precompile_199)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_200));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_201));
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_199));
 		}
-		(this->__vwsn_precompile_204 = new ::vl::presentation::compositions::GuiCellComposition());
+		(this->__vwsn_precompile_202 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_204)->SetSite(static_cast<::vl::vint64_t>(4L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_202)->SetSite(static_cast<::vl::vint64_t>(4L), static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_205 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_203 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_205)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_203)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
-		(this->__vwsn_precompile_206 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		(this->__vwsn_precompile_204 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_206.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_206.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_204.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_206.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->__vwsn_precompile_204.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_206.Obj())->SetText(::vl::WString::Unmanaged(L"I000"));
+			::vl::__vwsn::This(this->__vwsn_precompile_204.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_204.Obj())->SetText(::vl::WString::Unmanaged(L"轴承温度接近阈值"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_203)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_204));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_202)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_203));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_202));
+		}
+		(this->__vwsn_precompile_205 = new ::vl::presentation::compositions::GuiCellComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_205)->SetSite(static_cast<::vl::vint64_t>(5L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(4L));
+		}
+		(this->__vwsn_precompile_206 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_206.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#000000")));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_205)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_206));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_204)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_205));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_204));
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_205));
 		}
 		(this->__vwsn_precompile_207 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_207)->SetSite(static_cast<::vl::vint64_t>(4L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_207)->SetSite(static_cast<::vl::vint64_t>(6L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
 		(this->__vwsn_precompile_208 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
@@ -3570,13 +3650,13 @@ Class (::punkui::DashboardPageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_209.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_209.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_209.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_209.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->__vwsn_precompile_209.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_209.Obj())->SetText(::vl::WString::Unmanaged(L"14:30:12"));
+			::vl::__vwsn::This(this->__vwsn_precompile_209.Obj())->SetText(::vl::WString::Unmanaged(L"P-02"));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_208)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_209));
@@ -3585,11 +3665,11 @@ Class (::punkui::DashboardPageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_207)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_208));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_207));
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_207));
 		}
 		(this->__vwsn_precompile_210 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_210)->SetSite(static_cast<::vl::vint64_t>(4L), static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_210)->SetSite(static_cast<::vl::vint64_t>(6L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
 		(this->__vwsn_precompile_211 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
@@ -3600,13 +3680,13 @@ Class (::punkui::DashboardPageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_212.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_212.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_212.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_212.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_212.Obj())->SetText(::vl::WString::Unmanaged(L"主泵 B 进入待机"));
+			::vl::__vwsn::This(this->__vwsn_precompile_212.Obj())->SetText(::vl::WString::Unmanaged(L"I000"));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_211)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_212));
@@ -3615,85 +3695,85 @@ Class (::punkui::DashboardPageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_210)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_211));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_210));
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_210));
 		}
 		(this->__vwsn_precompile_213 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_213)->SetSite(static_cast<::vl::vint64_t>(5L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(4L));
+			::vl::__vwsn::This(this->__vwsn_precompile_213)->SetSite(static_cast<::vl::vint64_t>(6L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_214 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		(this->__vwsn_precompile_214 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_214.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#000000")));
+			::vl::__vwsn::This(this->__vwsn_precompile_214)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_215 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_213)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_214));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_213));
-		}
-		(this->__vwsn_precompile_215 = new ::vl::presentation::compositions::GuiCellComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_215)->SetSite(static_cast<::vl::vint64_t>(6L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
-		}
-		(this->__vwsn_precompile_216 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_216)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_217 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_217.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_215.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_217.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_215.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_217.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+			::vl::__vwsn::This(this->__vwsn_precompile_215.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_217.Obj())->SetText(::vl::WString::Unmanaged(L"C-01"));
+			::vl::__vwsn::This(this->__vwsn_precompile_215.Obj())->SetText(::vl::WString::Unmanaged(L"14:30:12"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_216)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_217));
+			::vl::__vwsn::This(this->__vwsn_precompile_214)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_215));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_215)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_216));
+			::vl::__vwsn::This(this->__vwsn_precompile_213)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_214));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_215));
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_213));
 		}
-		(this->__vwsn_precompile_218 = new ::vl::presentation::compositions::GuiCellComposition());
+		(this->__vwsn_precompile_216 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_218)->SetSite(static_cast<::vl::vint64_t>(6L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_216)->SetSite(static_cast<::vl::vint64_t>(6L), static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_219 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_217 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_219)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_217)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
-		(this->__vwsn_precompile_220 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		(this->__vwsn_precompile_218 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_220.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_220.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_218.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_220.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->__vwsn_precompile_218.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_220.Obj())->SetText(::vl::WString::Unmanaged(L"M301"));
+			::vl::__vwsn::This(this->__vwsn_precompile_218.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_218.Obj())->SetText(::vl::WString::Unmanaged(L"主泵 B 进入待机"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_217)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_218));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_216)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_217));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_216));
+		}
+		(this->__vwsn_precompile_219 = new ::vl::presentation::compositions::GuiCellComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_219)->SetSite(static_cast<::vl::vint64_t>(7L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(4L));
+		}
+		(this->__vwsn_precompile_220 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_220.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#000000")));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_219)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_220));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_218)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_219));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_218));
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_219));
 		}
 		(this->__vwsn_precompile_221 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_221)->SetSite(static_cast<::vl::vint64_t>(6L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_221)->SetSite(static_cast<::vl::vint64_t>(8L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
 		(this->__vwsn_precompile_222 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
@@ -3704,13 +3784,13 @@ Class (::punkui::DashboardPageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_223.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_223.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_223.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_223.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->__vwsn_precompile_223.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_223.Obj())->SetText(::vl::WString::Unmanaged(L"14:28:55"));
+			::vl::__vwsn::This(this->__vwsn_precompile_223.Obj())->SetText(::vl::WString::Unmanaged(L"C-01"));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_222)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_223));
@@ -3719,11 +3799,11 @@ Class (::punkui::DashboardPageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_221)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_222));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_221));
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_221));
 		}
 		(this->__vwsn_precompile_224 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_224)->SetSite(static_cast<::vl::vint64_t>(6L), static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_224)->SetSite(static_cast<::vl::vint64_t>(8L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
 		(this->__vwsn_precompile_225 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
@@ -3734,13 +3814,13 @@ Class (::punkui::DashboardPageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_226.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_226.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_226.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_226.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_226.Obj())->SetText(::vl::WString::Unmanaged(L"冷却单元维护模式"));
+			::vl::__vwsn::This(this->__vwsn_precompile_226.Obj())->SetText(::vl::WString::Unmanaged(L"M301"));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_225)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_226));
@@ -3749,85 +3829,85 @@ Class (::punkui::DashboardPageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_224)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_225));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_224));
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_224));
 		}
 		(this->__vwsn_precompile_227 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_227)->SetSite(static_cast<::vl::vint64_t>(7L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(4L));
+			::vl::__vwsn::This(this->__vwsn_precompile_227)->SetSite(static_cast<::vl::vint64_t>(8L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_228 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		(this->__vwsn_precompile_228 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_228.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#000000")));
+			::vl::__vwsn::This(this->__vwsn_precompile_228)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_229 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_227)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_228));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_227));
-		}
-		(this->__vwsn_precompile_229 = new ::vl::presentation::compositions::GuiCellComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_229)->SetSite(static_cast<::vl::vint64_t>(8L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
-		}
-		(this->__vwsn_precompile_230 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_230)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_231 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_231.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_229.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_231.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_229.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_231.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+			::vl::__vwsn::This(this->__vwsn_precompile_229.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_231.Obj())->SetText(::vl::WString::Unmanaged(L"S-04"));
+			::vl::__vwsn::This(this->__vwsn_precompile_229.Obj())->SetText(::vl::WString::Unmanaged(L"14:28:55"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_230)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_231));
+			::vl::__vwsn::This(this->__vwsn_precompile_228)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_229));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_229)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_230));
+			::vl::__vwsn::This(this->__vwsn_precompile_227)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_228));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_229));
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_227));
 		}
-		(this->__vwsn_precompile_232 = new ::vl::presentation::compositions::GuiCellComposition());
+		(this->__vwsn_precompile_230 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_232)->SetSite(static_cast<::vl::vint64_t>(8L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_230)->SetSite(static_cast<::vl::vint64_t>(8L), static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_233 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_231 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_233)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_231)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
-		(this->__vwsn_precompile_234 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		(this->__vwsn_precompile_232 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_234.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_234.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_232.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_234.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
+			::vl::__vwsn::This(this->__vwsn_precompile_232.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_234.Obj())->SetText(::vl::WString::Unmanaged(L"F502"));
+			::vl::__vwsn::This(this->__vwsn_precompile_232.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_232.Obj())->SetText(::vl::WString::Unmanaged(L"冷却单元维护模式"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_231)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_232));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_230)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_231));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_230));
+		}
+		(this->__vwsn_precompile_233 = new ::vl::presentation::compositions::GuiCellComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_233)->SetSite(static_cast<::vl::vint64_t>(9L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(4L));
+		}
+		(this->__vwsn_precompile_234 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_234.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#000000")));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_233)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_234));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_232)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_233));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_232));
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_233));
 		}
 		(this->__vwsn_precompile_235 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_235)->SetSite(static_cast<::vl::vint64_t>(8L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_235)->SetSite(static_cast<::vl::vint64_t>(10L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
 		(this->__vwsn_precompile_236 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
@@ -3838,13 +3918,13 @@ Class (::punkui::DashboardPageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_237.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_237.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_237.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_237.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->__vwsn_precompile_237.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_237.Obj())->SetText(::vl::WString::Unmanaged(L"14:25:03"));
+			::vl::__vwsn::This(this->__vwsn_precompile_237.Obj())->SetText(::vl::WString::Unmanaged(L"S-04"));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_236)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_237));
@@ -3853,11 +3933,11 @@ Class (::punkui::DashboardPageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_235)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_236));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_235));
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_235));
 		}
 		(this->__vwsn_precompile_238 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_238)->SetSite(static_cast<::vl::vint64_t>(8L), static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_238)->SetSite(static_cast<::vl::vint64_t>(10L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
 		(this->__vwsn_precompile_239 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
@@ -3868,13 +3948,13 @@ Class (::punkui::DashboardPageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_240.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_240.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_240.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_240.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->__vwsn_precompile_240.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_240.Obj())->SetText(::vl::WString::Unmanaged(L"传感器 04 信号丢失"));
+			::vl::__vwsn::This(this->__vwsn_precompile_240.Obj())->SetText(::vl::WString::Unmanaged(L"F502"));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_239)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_240));
@@ -3883,13 +3963,73 @@ Class (::punkui::DashboardPageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_238)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_239));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_238));
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_238));
+		}
+		(this->__vwsn_precompile_241 = new ::vl::presentation::compositions::GuiCellComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_241)->SetSite(static_cast<::vl::vint64_t>(10L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+		}
+		(this->__vwsn_precompile_242 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_242)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_243 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_243.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_171)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_172));
+			::vl::__vwsn::This(this->__vwsn_precompile_243.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_151)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_171));
+			::vl::__vwsn::This(this->__vwsn_precompile_243.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_243.Obj())->SetText(::vl::WString::Unmanaged(L"14:25:03"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_242)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_243));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_241)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_242));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_241));
+		}
+		(this->__vwsn_precompile_244 = new ::vl::presentation::compositions::GuiCellComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_244)->SetSite(static_cast<::vl::vint64_t>(10L), static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+		}
+		(this->__vwsn_precompile_245 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_245)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_246 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_246.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_246.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_246.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_246.Obj())->SetText(::vl::WString::Unmanaged(L"传感器 04 信号丢失"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_245)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_246));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_244)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_245));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_244));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_155)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_156));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_151)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_155));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_150)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_151));
@@ -4081,29 +4221,29 @@ Class (::punkui::DashboardPageTemplateConstructor)
 		, __vwsn_precompile_153(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
 		, __vwsn_precompile_154(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
 		, __vwsn_precompile_155(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_156(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_157(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
-		, __vwsn_precompile_158(static_cast<::vl::presentation::compositions::GuiTableComposition*>(nullptr))
-		, __vwsn_precompile_159(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_156(static_cast<::vl::presentation::compositions::GuiTableComposition*>(nullptr))
+		, __vwsn_precompile_157(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_158(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_159(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
 		, __vwsn_precompile_160(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
 		, __vwsn_precompile_161(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
 		, __vwsn_precompile_162(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
 		, __vwsn_precompile_163(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_164(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_165(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_166(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_167(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_168(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_169(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_170(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_171(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_172(static_cast<::vl::presentation::compositions::GuiTableComposition*>(nullptr))
-		, __vwsn_precompile_173(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_174(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_175(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_176(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_177(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_178(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_164(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
+		, __vwsn_precompile_165(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_166(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_167(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_168(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_169(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
+		, __vwsn_precompile_170(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_171(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_172(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_173(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_174(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
+		, __vwsn_precompile_175(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_176(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_177(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_178(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
 		, __vwsn_precompile_179(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
 		, __vwsn_precompile_180(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
 		, __vwsn_precompile_181(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
@@ -4111,13 +4251,13 @@ Class (::punkui::DashboardPageTemplateConstructor)
 		, __vwsn_precompile_183(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
 		, __vwsn_precompile_184(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
 		, __vwsn_precompile_185(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_186(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
-		, __vwsn_precompile_187(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_188(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_189(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_190(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_191(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_192(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_186(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_187(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_188(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_189(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_190(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_191(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_192(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
 		, __vwsn_precompile_193(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
 		, __vwsn_precompile_194(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
 		, __vwsn_precompile_195(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
@@ -4125,13 +4265,13 @@ Class (::punkui::DashboardPageTemplateConstructor)
 		, __vwsn_precompile_197(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
 		, __vwsn_precompile_198(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
 		, __vwsn_precompile_199(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_200(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
-		, __vwsn_precompile_201(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_202(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_203(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_204(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_205(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_206(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_200(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_201(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_202(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_203(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_204(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_205(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_206(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
 		, __vwsn_precompile_207(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
 		, __vwsn_precompile_208(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
 		, __vwsn_precompile_209(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
@@ -4139,13 +4279,13 @@ Class (::punkui::DashboardPageTemplateConstructor)
 		, __vwsn_precompile_211(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
 		, __vwsn_precompile_212(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
 		, __vwsn_precompile_213(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_214(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
-		, __vwsn_precompile_215(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_216(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_217(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_218(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_219(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_220(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_214(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_215(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_216(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_217(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_218(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_219(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_220(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
 		, __vwsn_precompile_221(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
 		, __vwsn_precompile_222(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
 		, __vwsn_precompile_223(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
@@ -4153,19 +4293,25 @@ Class (::punkui::DashboardPageTemplateConstructor)
 		, __vwsn_precompile_225(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
 		, __vwsn_precompile_226(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
 		, __vwsn_precompile_227(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_228(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
-		, __vwsn_precompile_229(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_230(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_231(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_232(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_233(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_234(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_228(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_229(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_230(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_231(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_232(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_233(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_234(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
 		, __vwsn_precompile_235(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
 		, __vwsn_precompile_236(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
 		, __vwsn_precompile_237(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
 		, __vwsn_precompile_238(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
 		, __vwsn_precompile_239(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
 		, __vwsn_precompile_240(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_241(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_242(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_243(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_244(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_245(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_246(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
 	{
 	}
 
@@ -5033,6 +5179,10 @@ Class (::punkui::NavLinkTemplateConstructor)
 		{
 			::vl::__vwsn::This(this->self)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
 		}
+		(this->__vwsn_precompile_0 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		{
+			::vl::__vwsn::This(this->self)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_0));
+		}
 		(this->container = new ::vl::presentation::compositions::GuiBoundsComposition());
 		::vl::__vwsn::This(__vwsn_this_)->SetNamedObject(::vl::WString::Unmanaged(L"container"), ::vl::__vwsn::Box(this->container));
 		{
@@ -5045,6 +5195,11 @@ Class (::punkui::NavLinkTemplateConstructor)
 			::vl::__vwsn::This(this->self)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->container));
 		}
 		{
+			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc7_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
+			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf26_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize_(this)));
+			::vl::__vwsn::This(__vwsn_this_)->AddSubscription(__vwsn_created_subscription_);
+		}
+		{
 			::vl::__vwsn::This(this->self)->SetContainerComposition(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->container));
 		}
 	}
@@ -5052,6 +5207,7 @@ Class (::punkui::NavLinkTemplateConstructor)
 	NavLinkTemplateConstructor::NavLinkTemplateConstructor()
 		: self(static_cast<::punkui::NavLinkTemplate*>(nullptr))
 		, container(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_0(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
 	{
 	}
 
@@ -5155,11 +5311,6 @@ Class (::punkui::OutlineButtonTemplateConstructor)
 			::vl::__vwsn::This(this->self)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_2));
 		}
 		{
-			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc7_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
-			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf26_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_(this)));
-			::vl::__vwsn::This(__vwsn_this_)->AddSubscription(__vwsn_created_subscription_);
-		}
-		{
 			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc8_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
 			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf27_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_(this)));
 			::vl::__vwsn::This(__vwsn_this_)->AddSubscription(__vwsn_created_subscription_);
@@ -5167,6 +5318,11 @@ Class (::punkui::OutlineButtonTemplateConstructor)
 		{
 			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc9_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
 			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf28_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_(this)));
+			::vl::__vwsn::This(__vwsn_this_)->AddSubscription(__vwsn_created_subscription_);
+		}
+		{
+			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc10_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
+			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf29_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_(this)));
 			::vl::__vwsn::This(__vwsn_this_)->AddSubscription(__vwsn_created_subscription_);
 		}
 		{
@@ -5287,11 +5443,6 @@ Class (::punkui::PrimaryButtonTemplateConstructor)
 			::vl::__vwsn::This(this->self)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_2));
 		}
 		{
-			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc10_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
-			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf29_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_(this)));
-			::vl::__vwsn::This(__vwsn_this_)->AddSubscription(__vwsn_created_subscription_);
-		}
-		{
 			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc11_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
 			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf30_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_(this)));
 			::vl::__vwsn::This(__vwsn_this_)->AddSubscription(__vwsn_created_subscription_);
@@ -5299,6 +5450,11 @@ Class (::punkui::PrimaryButtonTemplateConstructor)
 		{
 			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc12_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
 			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf31_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_(this)));
+			::vl::__vwsn::This(__vwsn_this_)->AddSubscription(__vwsn_created_subscription_);
+		}
+		{
+			auto __vwsn_created_subscription_ = ::vl::Ptr<::vl::reflection::description::IValueSubscription>(new ::vl_workflow_global::__vwsnc13_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(this));
+			::vl::__vwsn::EventAttach(::vl::__vwsn::This(__vwsn_created_subscription_.Obj())->ValueChanged, vl::Func(::vl_workflow_global::__vwsnf32_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_(this)));
 			::vl::__vwsn::This(__vwsn_this_)->AddSubscription(__vwsn_created_subscription_);
 		}
 		{
@@ -5349,14 +5505,14 @@ Class (::punkui::ShowcasePageTemplateConstructor)
 		{
 			(this->__vwsn_precompile_0 = new ::vl::presentation::controls::GuiScrollContainer(::vl::presentation::theme::ThemeName::ScrollView));
 		}
-		(this->__vwsn_precompile_491 = ::vl::__vwsn::This(this->__vwsn_precompile_0)->GetBoundsComposition());
+		(this->__vwsn_precompile_485 = ::vl::__vwsn::This(this->__vwsn_precompile_0)->GetBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_491)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_485)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_0)->SetExtendToFullWidth(true);
 		}
 		(this->__vwsn_precompile_1 = new ::vl::presentation::compositions::GuiStackComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_1)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(1080L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_1)->SetPadding(static_cast<::vl::vint64_t>(28L));
 		}
@@ -6304,63 +6460,59 @@ Class (::punkui::ShowcasePageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_92)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_96));
 		}
 		(this->__vwsn_precompile_99 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_100 = new ::vl::presentation::compositions::GuiStackComposition());
+		(this->__vwsn_precompile_100 = new ::vl::presentation::compositions::GuiTableComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_100)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
+			::vl::__vwsn::This(this->__vwsn_precompile_100)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_100)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = (- static_cast<::vl::vint64_t>(1L)); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_101 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_102 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_102)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_103 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_103.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_100)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_103.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->__vwsn_precompile_100)->SetRowsAndColumns(static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(3L));
+			::vl::__vwsn::This(this->__vwsn_precompile_100)->SetRowOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_100)->SetColumnOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_100)->SetColumnOption(static_cast<::vl::vint64_t>(1L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(1.0); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_100)->SetColumnOption(static_cast<::vl::vint64_t>(2L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_101 = new ::vl::presentation::compositions::GuiCellComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_101)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+		}
+		(this->__vwsn_precompile_102 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_102.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_103.Obj())->SetText(::vl::WString::Unmanaged(L"FIG. P-100"));
+			::vl::__vwsn::This(this->__vwsn_precompile_102.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_102)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_103));
+			::vl::__vwsn::This(this->__vwsn_precompile_102.Obj())->SetText(::vl::WString::Unmanaged(L"FIG. P-100"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_101)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_102));
+			::vl::__vwsn::This(this->__vwsn_precompile_101)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_102));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_100)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_101));
 		}
-		(this->__vwsn_precompile_104 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_105 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_103 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_105)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = (- static_cast<::vl::vint64_t>(1L)); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_103)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_106 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		(this->__vwsn_precompile_104 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_106.Obj())->SetHorizontalAlignment(::vl::presentation::Alignment::Right);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_106.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_104.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_106.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->__vwsn_precompile_104.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_106.Obj())->SetText(::vl::WString::Unmanaged(L"RUN · 14:32"));
+			::vl::__vwsn::This(this->__vwsn_precompile_104.Obj())->SetText(::vl::WString::Unmanaged(L"RUN · 14:32"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_105)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_106));
+			::vl::__vwsn::This(this->__vwsn_precompile_103)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_104));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_104)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_105));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_100)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_104));
+			::vl::__vwsn::This(this->__vwsn_precompile_100)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_103));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_99)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_100));
@@ -6380,9 +6532,9 @@ Class (::punkui::ShowcasePageTemplateConstructor)
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_89)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_90));
 		}
-		(this->__vwsn_precompile_107 = new ::vl::presentation::compositions::GuiCellComposition());
+		(this->__vwsn_precompile_105 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_107)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_105)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
 		(this->card2Face = new ::vl::presentation::compositions::GuiBoundsComposition());
 		::vl::__vwsn::This(__vwsn_this_)->SetNamedObject(::vl::WString::Unmanaged(L"card2Face"), ::vl::__vwsn::Box(this->card2Face));
@@ -6392,219 +6544,215 @@ Class (::punkui::ShowcasePageTemplateConstructor)
 		{
 			::vl::__vwsn::This(this->card2Face)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
 		}
-		(this->__vwsn_precompile_108 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_106 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_108)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(20L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(16L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(20L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(16L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_106)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(20L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(16L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(20L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(16L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_108)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+			::vl::__vwsn::This(this->__vwsn_precompile_106)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
 		}
-		(this->__vwsn_precompile_109 = new ::vl::presentation::compositions::GuiStackComposition());
+		(this->__vwsn_precompile_107 = new ::vl::presentation::compositions::GuiStackComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_109)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_109)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_107)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_109)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
-		}
-		(this->__vwsn_precompile_110 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_111 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_111)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_112 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_112.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(16L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_107)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_112.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+			::vl::__vwsn::This(this->__vwsn_precompile_107)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+		}
+		(this->__vwsn_precompile_108 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_109 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_109)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_110 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_110.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(16L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_112.Obj())->SetText(::vl::WString::Unmanaged(L"仪表读数"));
+			::vl::__vwsn::This(this->__vwsn_precompile_110.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_111)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_112));
+			::vl::__vwsn::This(this->__vwsn_precompile_110.Obj())->SetText(::vl::WString::Unmanaged(L"仪表读数"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_110)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_111));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_109)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_110));
-		}
-		(this->__vwsn_precompile_113 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_114 = new ::vl::presentation::compositions::GuiStackComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_114)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_114)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_114)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
-		}
-		(this->__vwsn_precompile_115 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_116 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_116)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(6L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_117 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_117.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(20L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_117.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_117.Obj())->SetText(::vl::WString::Unmanaged(L"1,842"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_116)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_117));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_115)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_116));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_114)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_115));
-		}
-		(this->__vwsn_precompile_118 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_119 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_119)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_120 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_120.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Bottom);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_120.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_120.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_120.Obj())->SetText(::vl::WString::Unmanaged(L"rpm"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_119)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_120));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_118)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_119));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_114)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_118));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_113)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_114));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_109)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_113));
-		}
-		(this->__vwsn_precompile_121 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_122 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_122)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(16L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_123 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_123.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_123.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_123.Obj())->SetText(::vl::WString::Unmanaged(L"待机读数"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_122)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_123));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_121)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_122));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_109)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_121));
-		}
-		(this->__vwsn_precompile_124 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_125 = new ::vl::presentation::compositions::GuiStackComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_125)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_125)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = (- static_cast<::vl::vint64_t>(1L)); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_126 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_127 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_127)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_128 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_128.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_128.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_128.Obj())->SetText(::vl::WString::Unmanaged(L"FIG. P-101"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_127)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_128));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_126)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_127));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_125)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_126));
-		}
-		(this->__vwsn_precompile_129 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_130 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_130)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = (- static_cast<::vl::vint64_t>(1L)); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_131 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_131.Obj())->SetHorizontalAlignment(::vl::presentation::Alignment::Right);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_131.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_131.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_131.Obj())->SetText(::vl::WString::Unmanaged(L"IDLE · 14:32"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_130)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_131));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_129)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_130));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_125)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_129));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_124)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_125));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_109)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_124));
+			::vl::__vwsn::This(this->__vwsn_precompile_109)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_110));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_108)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_109));
 		}
 		{
-			::vl::__vwsn::This(this->card2Face)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_108));
+			::vl::__vwsn::This(this->__vwsn_precompile_107)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_108));
+		}
+		(this->__vwsn_precompile_111 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_112 = new ::vl::presentation::compositions::GuiStackComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_112)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_107)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->card2Face));
+			::vl::__vwsn::This(this->__vwsn_precompile_112)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_89)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_107));
+			::vl::__vwsn::This(this->__vwsn_precompile_112)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
 		}
-		(this->__vwsn_precompile_132 = new ::vl::presentation::compositions::GuiCellComposition());
+		(this->__vwsn_precompile_113 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_114 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_132)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_114)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(6L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_115 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_115.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(20L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_115.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_115.Obj())->SetText(::vl::WString::Unmanaged(L"1,842"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_114)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_115));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_113)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_114));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_112)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_113));
+		}
+		(this->__vwsn_precompile_116 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_117 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_117)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_118 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_118.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Bottom);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_118.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_118.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_118.Obj())->SetText(::vl::WString::Unmanaged(L"rpm"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_117)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_118));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_116)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_117));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_112)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_116));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_111)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_112));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_107)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_111));
+		}
+		(this->__vwsn_precompile_119 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_120 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_120)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(16L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_121 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_121.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_121.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_121.Obj())->SetText(::vl::WString::Unmanaged(L"待机读数"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_120)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_121));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_119)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_120));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_107)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_119));
+		}
+		(this->__vwsn_precompile_122 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_123 = new ::vl::presentation::compositions::GuiTableComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_123)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_123)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_123)->SetRowsAndColumns(static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(3L));
+			::vl::__vwsn::This(this->__vwsn_precompile_123)->SetRowOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_123)->SetColumnOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_123)->SetColumnOption(static_cast<::vl::vint64_t>(1L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(1.0); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_123)->SetColumnOption(static_cast<::vl::vint64_t>(2L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_124 = new ::vl::presentation::compositions::GuiCellComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_124)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+		}
+		(this->__vwsn_precompile_125 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_125.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_125.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_125.Obj())->SetText(::vl::WString::Unmanaged(L"FIG. P-101"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_124)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_125));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_123)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_124));
+		}
+		(this->__vwsn_precompile_126 = new ::vl::presentation::compositions::GuiCellComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_126)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+		}
+		(this->__vwsn_precompile_127 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_127.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_127.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_127.Obj())->SetText(::vl::WString::Unmanaged(L"IDLE · 14:32"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_126)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_127));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_123)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_126));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_122)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_123));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_107)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_122));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_106)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_107));
+		}
+		{
+			::vl::__vwsn::This(this->card2Face)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_106));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_105)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->card2Face));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_89)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_105));
+		}
+		(this->__vwsn_precompile_128 = new ::vl::presentation::compositions::GuiCellComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_128)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
 		(this->card3Face = new ::vl::presentation::compositions::GuiBoundsComposition());
 		::vl::__vwsn::This(__vwsn_this_)->SetNamedObject(::vl::WString::Unmanaged(L"card3Face"), ::vl::__vwsn::Box(this->card3Face));
@@ -6614,155 +6762,165 @@ Class (::punkui::ShowcasePageTemplateConstructor)
 		{
 			::vl::__vwsn::This(this->card3Face)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
 		}
-		(this->__vwsn_precompile_133 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_129 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_133)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(20L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(16L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(20L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(16L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_129)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(20L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(16L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(20L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(16L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_133)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+			::vl::__vwsn::This(this->__vwsn_precompile_129)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
 		}
-		(this->__vwsn_precompile_134 = new ::vl::presentation::compositions::GuiStackComposition());
+		(this->__vwsn_precompile_130 = new ::vl::presentation::compositions::GuiStackComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_134)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_134)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_130)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_134)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
-		}
-		(this->__vwsn_precompile_135 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_136 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_136)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_137 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_137.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(16L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_130)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_137.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+			::vl::__vwsn::This(this->__vwsn_precompile_130)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+		}
+		(this->__vwsn_precompile_131 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_132 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_132)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_133 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_133.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(16L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_137.Obj())->SetText(::vl::WString::Unmanaged(L"维护面板"));
+			::vl::__vwsn::This(this->__vwsn_precompile_133.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_136)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_137));
+			::vl::__vwsn::This(this->__vwsn_precompile_133.Obj())->SetText(::vl::WString::Unmanaged(L"维护面板"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_135)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_136));
+			::vl::__vwsn::This(this->__vwsn_precompile_132)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_133));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_131)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_132));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_130)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_131));
+		}
+		(this->__vwsn_precompile_134 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_135 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_135)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(200L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_135)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(16L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_136 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_136.Obj())->SetWrapLine(true);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_136.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_136.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_136.Obj())->SetText(::vl::WString::Unmanaged(L"设备处于维护模式，操作区可用。"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_135)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_136));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_134)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_135));
 		}
-		(this->__vwsn_precompile_138 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_139 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_139)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(200L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_130)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_134));
+		}
+		(this->__vwsn_precompile_137 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_138 = new ::vl::presentation::compositions::GuiTableComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_138)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_139)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(16L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_140 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_140.Obj())->SetWrapLine(true);
+			::vl::__vwsn::This(this->__vwsn_precompile_138)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_140.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_138)->SetRowsAndColumns(static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(3L));
+			::vl::__vwsn::This(this->__vwsn_precompile_138)->SetRowOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_138)->SetColumnOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_138)->SetColumnOption(static_cast<::vl::vint64_t>(1L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(1.0); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_138)->SetColumnOption(static_cast<::vl::vint64_t>(2L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_139 = new ::vl::presentation::compositions::GuiCellComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_139)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_140.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			(this->__vwsn_precompile_140 = new ::vl::presentation::controls::GuiButton(::vl::presentation::theme::ThemeName::Button));
+		}
+		(this->__vwsn_precompile_141 = ::vl::__vwsn::This(this->__vwsn_precompile_140)->GetBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_141)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_140.Obj())->SetText(::vl::WString::Unmanaged(L"设备处于维护模式，操作区可用。"));
+			::vl::__vwsn::This(this->__vwsn_precompile_140)->SetText(::vl::WString::Unmanaged(L"确认"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_139)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_140));
+			::vl::__vwsn::This(this->__vwsn_precompile_140)->SetControlTemplate(vl::Func(::vl_workflow_global::__vwsnf17_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_(this)));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_139)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->__vwsn_precompile_140)->GetBoundsComposition()));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_138)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_139));
 		}
+		(this->__vwsn_precompile_142 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_134)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_138));
+			::vl::__vwsn::This(this->__vwsn_precompile_142)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_141 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_142 = new ::vl::presentation::compositions::GuiStackComposition());
+		(this->__vwsn_precompile_143 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_142)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
+			::vl::__vwsn::This(this->__vwsn_precompile_143)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_144 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_142)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = (- static_cast<::vl::vint64_t>(1L)); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_143 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		{
-			(this->__vwsn_precompile_144 = new ::vl::presentation::controls::GuiButton(::vl::presentation::theme::ThemeName::Button));
-		}
-		(this->__vwsn_precompile_145 = ::vl::__vwsn::This(this->__vwsn_precompile_144)->GetBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_145)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_144.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_144)->SetText(::vl::WString::Unmanaged(L"确认"));
+			::vl::__vwsn::This(this->__vwsn_precompile_144.Obj())->SetHorizontalAlignment(::vl::presentation::Alignment::Right);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_144)->SetControlTemplate(vl::Func(::vl_workflow_global::__vwsnf17_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_(this)));
+			::vl::__vwsn::This(this->__vwsn_precompile_144.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_143)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->__vwsn_precompile_144)->GetBoundsComposition()));
+			::vl::__vwsn::This(this->__vwsn_precompile_144.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_144.Obj())->SetText(::vl::WString::Unmanaged(L"MAINT · 14:32"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_143)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_144));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_142)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_143));
 		}
-		(this->__vwsn_precompile_146 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_147 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_147)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(110L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_138)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_142));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_147)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = (- static_cast<::vl::vint64_t>(1L)); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_148 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_148.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_137)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_138));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_148.Obj())->SetHorizontalAlignment(::vl::presentation::Alignment::Right);
+			::vl::__vwsn::This(this->__vwsn_precompile_130)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_137));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_148.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_129)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_130));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_148.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->card3Face)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_129));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_148.Obj())->SetText(::vl::WString::Unmanaged(L"MAINT · 14:32"));
+			::vl::__vwsn::This(this->__vwsn_precompile_128)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->card3Face));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_147)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_148));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_146)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_147));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_142)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_146));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_141)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_142));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_134)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_141));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_133)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_134));
-		}
-		{
-			::vl::__vwsn::This(this->card3Face)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_133));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_132)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->card3Face));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_89)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_132));
+			::vl::__vwsn::This(this->__vwsn_precompile_89)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_128));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_88)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_89));
@@ -6770,1172 +6928,1248 @@ Class (::punkui::ShowcasePageTemplateConstructor)
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_88));
 		}
-		(this->__vwsn_precompile_149 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_150 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_145 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_146 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_150)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(34L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_146)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(34L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_150)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_146)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
-		(this->__vwsn_precompile_151 = new ::vl::presentation::compositions::GuiStackComposition());
+		(this->__vwsn_precompile_147 = new ::vl::presentation::compositions::GuiStackComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_151)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_151)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_152 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_153 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_153)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(14L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_154 = ::vl::Ptr<::vl::presentation::elements::GuiPolygonElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiPolygonElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_154.Obj())->SetPointsArray(::vl::reflection::description::UnboxParameter<::vl::collections::Array<::vl::presentation::Point>>(::vl::__vwsn::Box(::vl::Ptr<::vl::reflection::description::IValueReadonlyList>((::vl::__vwsn::CreateArray().Resize(4).Set(0, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }()).Set(1, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(14L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }()).Set(2, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }()).Set(3, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }())).list))).Ref());
+			::vl::__vwsn::This(this->__vwsn_precompile_147)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_154.Obj())->SetSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_147)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_148 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_149 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_149)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(14L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_150 = ::vl::Ptr<::vl::presentation::elements::GuiPolygonElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiPolygonElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_150.Obj())->SetPointsArray(::vl::reflection::description::UnboxParameter<::vl::collections::Array<::vl::presentation::Point>>(::vl::__vwsn::Box(::vl::Ptr<::vl::reflection::description::IValueReadonlyList>((::vl::__vwsn::CreateArray().Resize(4).Set(0, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }()).Set(1, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(14L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }()).Set(2, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }()).Set(3, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }())).list))).Ref());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_154.Obj())->SetBorderColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
+			::vl::__vwsn::This(this->__vwsn_precompile_150.Obj())->SetSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_154.Obj())->SetBackgroundColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
+			::vl::__vwsn::This(this->__vwsn_precompile_150.Obj())->SetBorderColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_153)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_154));
+			::vl::__vwsn::This(this->__vwsn_precompile_150.Obj())->SetBackgroundColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_152)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_153));
+			::vl::__vwsn::This(this->__vwsn_precompile_149)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_150));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_148)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_149));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_147)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_148));
+		}
+		(this->__vwsn_precompile_151 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_152 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_152)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(10L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_153 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_153.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_153.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(18L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_153.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_153.Obj())->SetText(::vl::WString::Unmanaged(L"终端会话 TERMINAL"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_152)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_153));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_151)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_152));
 		}
-		(this->__vwsn_precompile_155 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_156 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(10L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_157 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_157.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_147)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_151));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_157.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(18L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_146)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_147));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_157.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+			::vl::__vwsn::This(this->__vwsn_precompile_145)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_146));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_157.Obj())->SetText(::vl::WString::Unmanaged(L"终端会话 TERMINAL"));
+			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_145));
+		}
+		(this->__vwsn_precompile_154 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_155 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_155)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(6L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(6L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_157));
+			::vl::__vwsn::This(this->__vwsn_precompile_155)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+		}
+		(this->__vwsn_precompile_156 = new ::vl::presentation::compositions::GuiStackComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+		}
+		(this->__vwsn_precompile_157 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_158 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_158)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(6L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_159 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_159.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_159.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#C9C9C9")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_159.Obj())->SetText(::vl::WString::Unmanaged(L"user@uilib : ~/showcase"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_158)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_159));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_157)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_158));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_157));
+		}
+		(this->__vwsn_precompile_160 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_161 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_161)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(3L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_162 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_162.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_162.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#C9C9C9")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_162.Obj())->SetText(::vl::WString::Unmanaged(L"14:32:08  boot sequence ok · 4 modules loaded"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_161)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_162));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_160)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_161));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_160));
+		}
+		(this->__vwsn_precompile_163 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_164 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_164)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(3L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_165 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_165.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_165.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_165.Obj())->SetText(::vl::WString::Unmanaged(L"$ uilib status --watch"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_164)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_165));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_163)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_164));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_163));
+		}
+		(this->__vwsn_precompile_166 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_167 = new ::vl::presentation::compositions::GuiStackComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_167)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_167)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(3L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_167)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+		}
+		(this->__vwsn_precompile_168 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_169 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_169)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_170 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_170.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_170.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#2FD16A")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_170.Obj())->SetText(::vl::WString::Unmanaged(L"[OK]"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_169)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_170));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_168)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_169));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_167)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_168));
+		}
+		(this->__vwsn_precompile_171 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_172 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_172)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_173 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_173.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_173.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_173.Obj())->SetText(::vl::WString::Unmanaged(L"P-01 running · 412.7 kW"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_172)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_173));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_171)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_172));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_167)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_171));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_166)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_167));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_166));
+		}
+		(this->__vwsn_precompile_174 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_175 = new ::vl::presentation::compositions::GuiStackComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_175)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_175)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(3L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_175)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+		}
+		(this->__vwsn_precompile_176 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_177 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_177)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_178 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_178.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_178.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFD400")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_178.Obj())->SetText(::vl::WString::Unmanaged(L"[WARN]"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_177)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_178));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_176)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_177));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_175)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_176));
+		}
+		(this->__vwsn_precompile_179 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_180 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_180)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_181 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_181.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_181.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_181.Obj())->SetText(::vl::WString::Unmanaged(L"S-04 轴承温度接近阈值"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_180)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_181));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_179)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_180));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_175)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_179));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_174)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_175));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_174));
+		}
+		(this->__vwsn_precompile_182 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_183 = new ::vl::presentation::compositions::GuiStackComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_183)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_183)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(3L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_183)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+		}
+		(this->__vwsn_precompile_184 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_185 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_185)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_186 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_186.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_186.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#00A8E8")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_186.Obj())->SetText(::vl::WString::Unmanaged(L"[INFO]"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_185)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_186));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_184)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_185));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_183)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_184));
+		}
+		(this->__vwsn_precompile_187 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_188 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_188)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_189 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_189.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_189.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_189.Obj())->SetText(::vl::WString::Unmanaged(L"C-01 维护模式"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_188)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_189));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_187)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_188));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_183)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_187));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_182)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_183));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_182));
+		}
+		(this->__vwsn_precompile_190 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_191 = new ::vl::presentation::compositions::GuiStackComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_191)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_191)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_191)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+		}
+		(this->__vwsn_precompile_192 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_193 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_193)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_194 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_194.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_194.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#2FD16A")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_194.Obj())->SetText(::vl::WString::Unmanaged(L"$"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_193)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_194));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_192)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_193));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_191)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_192));
+		}
+		(this->__vwsn_precompile_195 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_196 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_196)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(16L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_196)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_197 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_197.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_196)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_197));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_195)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_196));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_191)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_195));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_190)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_191));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_156)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_190));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_155)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_156));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_151)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_155));
+			::vl::__vwsn::This(this->__vwsn_precompile_154)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_155));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_150)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_151));
+			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_154));
 		}
+		(this->__vwsn_precompile_198 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_199 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_149)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_150));
+			::vl::__vwsn::This(this->__vwsn_precompile_199)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(34L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_149));
+			::vl::__vwsn::This(this->__vwsn_precompile_199)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
-		(this->__vwsn_precompile_158 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_159 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_200 = new ::vl::presentation::compositions::GuiStackComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_159)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(6L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(6L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_159)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
-		}
-		(this->__vwsn_precompile_160 = new ::vl::presentation::compositions::GuiStackComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_160)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_160)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_160)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
-		}
-		(this->__vwsn_precompile_161 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_162 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_162)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(6L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_163 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_163.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_163.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#C9C9C9")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_163.Obj())->SetText(::vl::WString::Unmanaged(L"user@uilib : ~/showcase"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_162)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_163));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_161)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_162));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_160)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_161));
-		}
-		(this->__vwsn_precompile_164 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_165 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_165)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(3L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_166 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_166.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_166.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#C9C9C9")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_166.Obj())->SetText(::vl::WString::Unmanaged(L"14:32:08  boot sequence ok · 4 modules loaded"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_165)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_166));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_164)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_165));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_160)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_164));
-		}
-		(this->__vwsn_precompile_167 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_168 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_168)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(3L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_169 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_169.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_169.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_169.Obj())->SetText(::vl::WString::Unmanaged(L"$ uilib status --watch"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_168)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_169));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_167)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_168));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_160)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_167));
-		}
-		(this->__vwsn_precompile_170 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_171 = new ::vl::presentation::compositions::GuiStackComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_171)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_171)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(3L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_171)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
-		}
-		(this->__vwsn_precompile_172 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_173 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_173)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_174 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_174.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_174.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#2FD16A")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_174.Obj())->SetText(::vl::WString::Unmanaged(L"[OK]"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_173)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_174));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_172)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_173));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_171)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_172));
-		}
-		(this->__vwsn_precompile_175 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_176 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_176)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_177 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_177.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_177.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_177.Obj())->SetText(::vl::WString::Unmanaged(L"P-01 running · 412.7 kW"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_176)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_177));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_175)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_176));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_171)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_175));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_170)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_171));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_160)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_170));
-		}
-		(this->__vwsn_precompile_178 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_179 = new ::vl::presentation::compositions::GuiStackComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_179)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_179)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(3L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_179)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
-		}
-		(this->__vwsn_precompile_180 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_181 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_181)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_182 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_182.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_182.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFD400")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_182.Obj())->SetText(::vl::WString::Unmanaged(L"[WARN]"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_181)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_182));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_180)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_181));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_179)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_180));
-		}
-		(this->__vwsn_precompile_183 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_184 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_184)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_185 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_185.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_185.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_185.Obj())->SetText(::vl::WString::Unmanaged(L"S-04 轴承温度接近阈值"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_184)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_185));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_183)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_184));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_179)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_183));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_178)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_179));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_160)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_178));
-		}
-		(this->__vwsn_precompile_186 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_187 = new ::vl::presentation::compositions::GuiStackComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_187)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_187)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(3L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_187)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
-		}
-		(this->__vwsn_precompile_188 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_189 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_189)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_190 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_190.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_190.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#00A8E8")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_190.Obj())->SetText(::vl::WString::Unmanaged(L"[INFO]"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_189)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_190));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_188)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_189));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_187)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_188));
-		}
-		(this->__vwsn_precompile_191 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_192 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_192)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_193 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_193.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_193.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_193.Obj())->SetText(::vl::WString::Unmanaged(L"C-01 维护模式"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_192)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_193));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_191)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_192));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_187)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_191));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_186)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_187));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_160)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_186));
-		}
-		(this->__vwsn_precompile_194 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_195 = new ::vl::presentation::compositions::GuiStackComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_195)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_195)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_195)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
-		}
-		(this->__vwsn_precompile_196 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_197 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_197)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_198 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_198.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_198.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#2FD16A")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_198.Obj())->SetText(::vl::WString::Unmanaged(L"$"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_197)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_198));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_196)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_197));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_195)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_196));
-		}
-		(this->__vwsn_precompile_199 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_200 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_200)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(16L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_200)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_200)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
-		(this->__vwsn_precompile_201 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		(this->__vwsn_precompile_201 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_202 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_201.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
+			::vl::__vwsn::This(this->__vwsn_precompile_202)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(14L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_203 = ::vl::Ptr<::vl::presentation::elements::GuiPolygonElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiPolygonElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_203.Obj())->SetPointsArray(::vl::reflection::description::UnboxParameter<::vl::collections::Array<::vl::presentation::Point>>(::vl::__vwsn::Box(::vl::Ptr<::vl::reflection::description::IValueReadonlyList>((::vl::__vwsn::CreateArray().Resize(4).Set(0, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }()).Set(1, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(14L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }()).Set(2, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }()).Set(3, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }())).list))).Ref());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_200)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_201));
+			::vl::__vwsn::This(this->__vwsn_precompile_203.Obj())->SetSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_203.Obj())->SetBorderColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_203.Obj())->SetBackgroundColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_202)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_203));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_201)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_202));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_200)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_201));
+		}
+		(this->__vwsn_precompile_204 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_205 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_205)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(10L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_206 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_206.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_206.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(18L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_206.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_206.Obj())->SetText(::vl::WString::Unmanaged(L"表单 FORM"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_205)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_206));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_204)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_205));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_200)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_204));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_199)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_200));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_195)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_199));
+			::vl::__vwsn::This(this->__vwsn_precompile_198)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_199));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_194)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_195));
+			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_198));
+		}
+		(this->__vwsn_precompile_207 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_208 = new ::vl::presentation::compositions::GuiTableComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_208)->SetBorderVisible(false);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_160)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_194));
+			::vl::__vwsn::This(this->__vwsn_precompile_208)->SetCellPadding(static_cast<::vl::vint64_t>(24L));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_159)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_160));
+			::vl::__vwsn::This(this->__vwsn_precompile_208)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(6L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_158)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_159));
+			::vl::__vwsn::This(this->__vwsn_precompile_208)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_158));
+			::vl::__vwsn::This(this->__vwsn_precompile_208)->SetRowsAndColumns(static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(2L));
+			::vl::__vwsn::This(this->__vwsn_precompile_208)->SetRowOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_208)->SetColumnOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(0.5); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_208)->SetColumnOption(static_cast<::vl::vint64_t>(1L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(0.5); return __vwsn_temp__; }());
 		}
-		(this->__vwsn_precompile_202 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_203 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_209 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_203)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(34L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_209)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
+		(this->__vwsn_precompile_210 = new ::vl::presentation::compositions::GuiStackComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_203)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_204 = new ::vl::presentation::compositions::GuiStackComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_204)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_204)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_205 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_206 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_206)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(14L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_207 = ::vl::Ptr<::vl::presentation::elements::GuiPolygonElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiPolygonElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_207.Obj())->SetPointsArray(::vl::reflection::description::UnboxParameter<::vl::collections::Array<::vl::presentation::Point>>(::vl::__vwsn::Box(::vl::Ptr<::vl::reflection::description::IValueReadonlyList>((::vl::__vwsn::CreateArray().Resize(4).Set(0, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }()).Set(1, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(14L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }()).Set(2, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }()).Set(3, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }())).list))).Ref());
+			::vl::__vwsn::This(this->__vwsn_precompile_210)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_207.Obj())->SetSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_210)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_207.Obj())->SetBorderColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_207.Obj())->SetBackgroundColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_206)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_207));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_205)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_206));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_204)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_205));
-		}
-		(this->__vwsn_precompile_208 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_209 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_209)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(10L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_210 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_210.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_210.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(18L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_210.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_210.Obj())->SetText(::vl::WString::Unmanaged(L"表单 FORM"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_209)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_210));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_208)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_209));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_204)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_208));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_203)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_204));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_202)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_203));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_202));
+			::vl::__vwsn::This(this->__vwsn_precompile_210)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
 		}
 		(this->__vwsn_precompile_211 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_212 = new ::vl::presentation::compositions::GuiTableComposition());
+		(this->__vwsn_precompile_212 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_212)->SetBorderVisible(false);
+			::vl::__vwsn::This(this->__vwsn_precompile_212)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(6L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_213 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_212)->SetCellPadding(static_cast<::vl::vint64_t>(24L));
+			::vl::__vwsn::This(this->__vwsn_precompile_213.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_212)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(6L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_213.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_212)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+			::vl::__vwsn::This(this->__vwsn_precompile_213.Obj())->SetText(::vl::WString::Unmanaged(L"姓名"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_212)->SetRowsAndColumns(static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(2L));
-			::vl::__vwsn::This(this->__vwsn_precompile_212)->SetRowOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_212)->SetColumnOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(0.5); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_212)->SetColumnOption(static_cast<::vl::vint64_t>(1L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(0.5); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_213 = new ::vl::presentation::compositions::GuiCellComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_213)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
-		}
-		(this->__vwsn_precompile_214 = new ::vl::presentation::compositions::GuiStackComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_214)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_214)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_214)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
-		}
-		(this->__vwsn_precompile_215 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_216 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_216)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(6L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_217 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_217.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_217.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_217.Obj())->SetText(::vl::WString::Unmanaged(L"姓名"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_216)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_217));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_215)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_216));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_214)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_215));
-		}
-		(this->__vwsn_precompile_218 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		{
-			(this->inputName = new ::vl::presentation::controls::GuiSinglelineTextBox(::vl::presentation::theme::ThemeName::SinglelineTextBox));
-			::vl::__vwsn::This(__vwsn_this_)->SetNamedObject(::vl::WString::Unmanaged(L"inputName"), ::vl::__vwsn::Box(this->inputName));
-		}
-		(this->__vwsn_precompile_219 = ::vl::__vwsn::This(this->inputName)->GetBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_219)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(240L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_219)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_218)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->inputName)->GetBoundsComposition()));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_214)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_218));
-		}
-		(this->__vwsn_precompile_220 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_221 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_221)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(24L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_221)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(6L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_222 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_222.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Bottom);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_222.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_222.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_222.Obj())->SetText(::vl::WString::Unmanaged(L"邮箱"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_221)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_222));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_220)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_221));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_214)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_220));
-		}
-		(this->__vwsn_precompile_223 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		{
-			(this->inputEmail = new ::vl::presentation::controls::GuiSinglelineTextBox(::vl::presentation::theme::ThemeName::SinglelineTextBox));
-			::vl::__vwsn::This(__vwsn_this_)->SetNamedObject(::vl::WString::Unmanaged(L"inputEmail"), ::vl::__vwsn::Box(this->inputEmail));
-		}
-		(this->__vwsn_precompile_224 = ::vl::__vwsn::This(this->inputEmail)->GetBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_224)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(240L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_224)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_223)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->inputEmail)->GetBoundsComposition()));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_214)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_223));
-		}
-		(this->__vwsn_precompile_225 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_226 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_226)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(24L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_226)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(6L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_227 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_227.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Bottom);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_227.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_227.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_227.Obj())->SetText(::vl::WString::Unmanaged(L"简介"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_226)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_227));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_225)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_226));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_214)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_225));
-		}
-		(this->__vwsn_precompile_228 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		{
-			(this->__vwsn_precompile_229 = new ::vl::presentation::controls::GuiMultilineTextBox(::vl::presentation::theme::ThemeName::MultilineTextBox));
-		}
-		(this->__vwsn_precompile_230 = ::vl::__vwsn::This(this->__vwsn_precompile_229)->GetBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_230)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(240L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(72L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_230)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_228)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->__vwsn_precompile_229)->GetBoundsComposition()));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_214)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_228));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_213)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_214));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_212)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_213));
-		}
-		(this->__vwsn_precompile_231 = new ::vl::presentation::compositions::GuiCellComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_231)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
-		}
-		(this->__vwsn_precompile_232 = new ::vl::presentation::compositions::GuiStackComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_232)->SetPadding(static_cast<::vl::vint64_t>(10L));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_232)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_232)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_232)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
-		}
-		(this->__vwsn_precompile_233 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_234 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_234)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(18L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_235 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_235.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_235.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_235.Obj())->SetText(::vl::WString::Unmanaged(L"运行模式"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_234)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_235));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_233)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_234));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_232)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_233));
-		}
-		(this->__vwsn_precompile_236 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		{
-			(this->__vwsn_precompile_237 = new ::vl::presentation::controls::GuiSelectableButton(::vl::presentation::theme::ThemeName::CheckBox));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_237)->SetSelected(true);
-		}
-		(this->__vwsn_precompile_238 = ::vl::__vwsn::This(this->__vwsn_precompile_237)->GetBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_238)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_237)->SetText(::vl::WString::Unmanaged(L"自动运行"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_236)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->__vwsn_precompile_237)->GetBoundsComposition()));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_232)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_236));
-		}
-		(this->__vwsn_precompile_239 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_240 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_240)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(16L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_240)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_241 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_241.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_241.Obj())->SetText(::vl::WString::Unmanaged(L" "));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_240)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_241));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_239)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_240));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_232)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_239));
-		}
-		(this->__vwsn_precompile_242 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		{
-			(this->__vwsn_precompile_243 = new ::vl::presentation::controls::GuiSelectableButton(::vl::presentation::theme::ThemeName::CheckBox));
-		}
-		(this->__vwsn_precompile_244 = ::vl::__vwsn::This(this->__vwsn_precompile_243)->GetBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_244)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_243)->SetText(::vl::WString::Unmanaged(L"维护锁定"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_242)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->__vwsn_precompile_243)->GetBoundsComposition()));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_232)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_242));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_231)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_232));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_212)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_231));
+			::vl::__vwsn::This(this->__vwsn_precompile_212)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_213));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_211)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_212));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_211));
+			::vl::__vwsn::This(this->__vwsn_precompile_210)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_211));
 		}
-		(this->__vwsn_precompile_245 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_246 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_214 = new ::vl::presentation::compositions::GuiStackItemComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_246)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(34L); return __vwsn_temp__; }());
+			(this->inputName = new ::vl::presentation::controls::GuiSinglelineTextBox(::vl::presentation::theme::ThemeName::SinglelineTextBox));
+			::vl::__vwsn::This(__vwsn_this_)->SetNamedObject(::vl::WString::Unmanaged(L"inputName"), ::vl::__vwsn::Box(this->inputName));
 		}
+		(this->__vwsn_precompile_215 = ::vl::__vwsn::This(this->inputName)->GetBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_246)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_247 = new ::vl::presentation::compositions::GuiStackComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_247)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
+			::vl::__vwsn::This(this->__vwsn_precompile_215)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(240L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_247)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_248 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_249 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_249)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(14L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_250 = ::vl::Ptr<::vl::presentation::elements::GuiPolygonElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiPolygonElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_250.Obj())->SetPointsArray(::vl::reflection::description::UnboxParameter<::vl::collections::Array<::vl::presentation::Point>>(::vl::__vwsn::Box(::vl::Ptr<::vl::reflection::description::IValueReadonlyList>((::vl::__vwsn::CreateArray().Resize(4).Set(0, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }()).Set(1, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(14L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }()).Set(2, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }()).Set(3, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }())).list))).Ref());
+			::vl::__vwsn::This(this->__vwsn_precompile_215)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_250.Obj())->SetSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_214)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->inputName)->GetBoundsComposition()));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_250.Obj())->SetBorderColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
+			::vl::__vwsn::This(this->__vwsn_precompile_210)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_214));
+		}
+		(this->__vwsn_precompile_216 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_217 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_217)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(24L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_250.Obj())->SetBackgroundColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
+			::vl::__vwsn::This(this->__vwsn_precompile_217)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(6L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_218 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_218.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Bottom);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_249)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_250));
+			::vl::__vwsn::This(this->__vwsn_precompile_218.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_248)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_249));
+			::vl::__vwsn::This(this->__vwsn_precompile_218.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_218.Obj())->SetText(::vl::WString::Unmanaged(L"邮箱"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_217)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_218));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_216)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_217));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_210)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_216));
+		}
+		(this->__vwsn_precompile_219 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		{
+			(this->inputEmail = new ::vl::presentation::controls::GuiSinglelineTextBox(::vl::presentation::theme::ThemeName::SinglelineTextBox));
+			::vl::__vwsn::This(__vwsn_this_)->SetNamedObject(::vl::WString::Unmanaged(L"inputEmail"), ::vl::__vwsn::Box(this->inputEmail));
+		}
+		(this->__vwsn_precompile_220 = ::vl::__vwsn::This(this->inputEmail)->GetBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_220)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(240L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_220)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_219)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->inputEmail)->GetBoundsComposition()));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_210)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_219));
+		}
+		(this->__vwsn_precompile_221 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_222 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_222)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(24L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_222)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(6L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_223 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_223.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Bottom);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_223.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_223.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_223.Obj())->SetText(::vl::WString::Unmanaged(L"简介"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_222)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_223));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_221)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_222));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_210)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_221));
+		}
+		(this->__vwsn_precompile_224 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		{
+			(this->__vwsn_precompile_225 = new ::vl::presentation::controls::GuiMultilineTextBox(::vl::presentation::theme::ThemeName::MultilineTextBox));
+		}
+		(this->__vwsn_precompile_226 = ::vl::__vwsn::This(this->__vwsn_precompile_225)->GetBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_226)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(240L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(72L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_226)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_224)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->__vwsn_precompile_225)->GetBoundsComposition()));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_210)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_224));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_209)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_210));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_208)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_209));
+		}
+		(this->__vwsn_precompile_227 = new ::vl::presentation::compositions::GuiCellComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_227)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+		}
+		(this->__vwsn_precompile_228 = new ::vl::presentation::compositions::GuiStackComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_228)->SetPadding(static_cast<::vl::vint64_t>(10L));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_228)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_228)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_228)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+		}
+		(this->__vwsn_precompile_229 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_230 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_230)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(18L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_231 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_231.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_231.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_231.Obj())->SetText(::vl::WString::Unmanaged(L"运行模式"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_230)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_231));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_229)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_230));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_228)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_229));
+		}
+		(this->__vwsn_precompile_232 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		{
+			(this->__vwsn_precompile_233 = new ::vl::presentation::controls::GuiSelectableButton(::vl::presentation::theme::ThemeName::CheckBox));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_233)->SetSelected(true);
+		}
+		(this->__vwsn_precompile_234 = ::vl::__vwsn::This(this->__vwsn_precompile_233)->GetBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_234)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_233)->SetText(::vl::WString::Unmanaged(L"自动运行"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_232)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->__vwsn_precompile_233)->GetBoundsComposition()));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_228)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_232));
+		}
+		(this->__vwsn_precompile_235 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_236 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_236)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(16L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_236)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_237 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_237.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_237.Obj())->SetText(::vl::WString::Unmanaged(L" "));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_236)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_237));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_235)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_236));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_228)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_235));
+		}
+		(this->__vwsn_precompile_238 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		{
+			(this->__vwsn_precompile_239 = new ::vl::presentation::controls::GuiSelectableButton(::vl::presentation::theme::ThemeName::CheckBox));
+		}
+		(this->__vwsn_precompile_240 = ::vl::__vwsn::This(this->__vwsn_precompile_239)->GetBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_240)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_239)->SetText(::vl::WString::Unmanaged(L"维护锁定"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_238)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->__vwsn_precompile_239)->GetBoundsComposition()));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_228)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_238));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_227)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_228));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_208)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_227));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_207)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_208));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_207));
+		}
+		(this->__vwsn_precompile_241 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_242 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_242)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(34L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_242)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_243 = new ::vl::presentation::compositions::GuiStackComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_243)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_243)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_244 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_245 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_245)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(14L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_246 = ::vl::Ptr<::vl::presentation::elements::GuiPolygonElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiPolygonElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_246.Obj())->SetPointsArray(::vl::reflection::description::UnboxParameter<::vl::collections::Array<::vl::presentation::Point>>(::vl::__vwsn::Box(::vl::Ptr<::vl::reflection::description::IValueReadonlyList>((::vl::__vwsn::CreateArray().Resize(4).Set(0, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }()).Set(1, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(14L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }()).Set(2, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }()).Set(3, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }())).list))).Ref());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_246.Obj())->SetSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_246.Obj())->SetBorderColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_246.Obj())->SetBackgroundColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_245)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_246));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_244)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_245));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_243)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_244));
+		}
+		(this->__vwsn_precompile_247 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_248 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_248)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(10L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_249 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_249.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_249.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(18L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_249.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_249.Obj())->SetText(::vl::WString::Unmanaged(L"进度 PROGRESS"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_248)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_249));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_247)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_248));
 		}
-		(this->__vwsn_precompile_251 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_252 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_252)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(10L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_253 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_253.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_243)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_247));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_253.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(18L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_242)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_243));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_253.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+			::vl::__vwsn::This(this->__vwsn_precompile_241)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_242));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_253.Obj())->SetText(::vl::WString::Unmanaged(L"进度 PROGRESS"));
+			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_241));
+		}
+		(this->__vwsn_precompile_250 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_251 = new ::vl::presentation::compositions::GuiStackComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_251)->SetPadding(static_cast<::vl::vint64_t>(12L));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_252)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_253));
+			::vl::__vwsn::This(this->__vwsn_precompile_251)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_251)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_252));
+			::vl::__vwsn::This(this->__vwsn_precompile_251)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(6L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_247)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_251));
+			::vl::__vwsn::This(this->__vwsn_precompile_251)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+		}
+		(this->__vwsn_precompile_252 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_253 = new ::vl::presentation::compositions::GuiStackComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_253)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_246)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_247));
+			::vl::__vwsn::This(this->__vwsn_precompile_253)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_245)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_246));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_245));
+			::vl::__vwsn::This(this->__vwsn_precompile_253)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
 		}
 		(this->__vwsn_precompile_254 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_255 = new ::vl::presentation::compositions::GuiStackComposition());
+		(this->__vwsn_precompile_255 = new ::vl::presentation::compositions::GuiTableComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_255)->SetPadding(static_cast<::vl::vint64_t>(12L));
+			::vl::__vwsn::This(this->__vwsn_precompile_255)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(6L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_255)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
+			::vl::__vwsn::This(this->__vwsn_precompile_255)->SetRowsAndColumns(static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(3L));
+			::vl::__vwsn::This(this->__vwsn_precompile_255)->SetRowOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_255)->SetColumnOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_255)->SetColumnOption(static_cast<::vl::vint64_t>(1L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(1.0); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_255)->SetColumnOption(static_cast<::vl::vint64_t>(2L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_256 = new ::vl::presentation::compositions::GuiCellComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_256)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+		}
+		(this->__vwsn_precompile_257 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_257.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_255)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(6L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_257.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_255)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
-		}
-		(this->__vwsn_precompile_256 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_257 = new ::vl::presentation::compositions::GuiStackComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_257)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
+			::vl::__vwsn::This(this->__vwsn_precompile_257.Obj())->SetText(::vl::WString::Unmanaged(L"负载 · 主泵 A"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_257)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_256)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_257));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_257)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+			::vl::__vwsn::This(this->__vwsn_precompile_255)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_256));
 		}
-		(this->__vwsn_precompile_258 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_259 = new ::vl::presentation::compositions::GuiStackComposition());
+		(this->__vwsn_precompile_258 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_259)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
+			::vl::__vwsn::This(this->__vwsn_precompile_258)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+		}
+		(this->__vwsn_precompile_259 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_259.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_259)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(6L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_259.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_259.Obj())->SetText(::vl::WString::Unmanaged(L"35%"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_258)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_259));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_255)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_258));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_254)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_255));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_253)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_254));
 		}
 		(this->__vwsn_precompile_260 = new ::vl::presentation::compositions::GuiStackItemComposition());
 		(this->__vwsn_precompile_261 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_261)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
-		(this->__vwsn_precompile_262 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		(this->__vwsn_precompile_262 = new ::vl::presentation::compositions::GuiTableComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_262.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_262)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_262.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->__vwsn_precompile_262)->SetRowsAndColumns(static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(3L));
+			::vl::__vwsn::This(this->__vwsn_precompile_262)->SetRowOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(1.0); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_262)->SetColumnOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(0.8); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_262)->SetColumnOption(static_cast<::vl::vint64_t>(1L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(2L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_262)->SetColumnOption(static_cast<::vl::vint64_t>(2L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(0.2); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_263 = new ::vl::presentation::compositions::GuiCellComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_263)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_262.Obj())->SetText(::vl::WString::Unmanaged(L"负载 · 主泵 A"));
+			(this->__vwsn_precompile_264 = new ::vl::presentation::controls::GuiScroll(::vl::presentation::theme::ThemeName::ProgressBar));
+			::vl::__vwsn::This(this->__vwsn_precompile_264)->SetPageSize(static_cast<::vl::vint64_t>(0L));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_261)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_262));
+			::vl::__vwsn::This(this->__vwsn_precompile_264)->SetPosition(static_cast<::vl::vint64_t>(35L));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_264)->SetTotalSize(static_cast<::vl::vint64_t>(100L));
+		}
+		(this->__vwsn_precompile_265 = ::vl::__vwsn::This(this->__vwsn_precompile_264)->GetBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_265)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_263)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->__vwsn_precompile_264)->GetBoundsComposition()));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_262)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_263));
+		}
+		(this->__vwsn_precompile_266 = new ::vl::presentation::compositions::GuiCellComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_266)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+		}
+		(this->__vwsn_precompile_267 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_267.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C88")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_266)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_267));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_262)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_266));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_261)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_262));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_260)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_261));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_259)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_260));
-		}
-		(this->__vwsn_precompile_263 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_264 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_264)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = (- static_cast<::vl::vint64_t>(1L)); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_265 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_265.Obj())->SetHorizontalAlignment(::vl::presentation::Alignment::Right);
+			::vl::__vwsn::This(this->__vwsn_precompile_253)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_260));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_265.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_252)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_253));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_265.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+			::vl::__vwsn::This(this->__vwsn_precompile_251)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_252));
+		}
+		(this->__vwsn_precompile_268 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_269 = new ::vl::presentation::compositions::GuiStackComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_269)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_265.Obj())->SetText(::vl::WString::Unmanaged(L"35%"));
+			::vl::__vwsn::This(this->__vwsn_precompile_269)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_264)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_265));
+			::vl::__vwsn::This(this->__vwsn_precompile_269)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+		}
+		(this->__vwsn_precompile_270 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_271 = new ::vl::presentation::compositions::GuiTableComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_271)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(6L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_263)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_264));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_259)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_263));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_258)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_259));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_257)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_258));
-		}
-		(this->__vwsn_precompile_266 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_267 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_267)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_268 = new ::vl::presentation::compositions::GuiTableComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_268)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_268)->SetRowsAndColumns(static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(3L));
-			::vl::__vwsn::This(this->__vwsn_precompile_268)->SetRowOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(1.0); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_268)->SetColumnOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(0.8); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_268)->SetColumnOption(static_cast<::vl::vint64_t>(1L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(2L); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_268)->SetColumnOption(static_cast<::vl::vint64_t>(2L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(0.2); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_269 = new ::vl::presentation::compositions::GuiCellComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_269)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
-		}
-		{
-			(this->__vwsn_precompile_270 = new ::vl::presentation::controls::GuiScroll(::vl::presentation::theme::ThemeName::ProgressBar));
-			::vl::__vwsn::This(this->__vwsn_precompile_270)->SetPageSize(static_cast<::vl::vint64_t>(0L));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_270)->SetPosition(static_cast<::vl::vint64_t>(35L));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_270)->SetTotalSize(static_cast<::vl::vint64_t>(100L));
-		}
-		(this->__vwsn_precompile_271 = ::vl::__vwsn::This(this->__vwsn_precompile_270)->GetBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_271)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_269)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->__vwsn_precompile_270)->GetBoundsComposition()));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_268)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_269));
+			::vl::__vwsn::This(this->__vwsn_precompile_271)->SetRowsAndColumns(static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(3L));
+			::vl::__vwsn::This(this->__vwsn_precompile_271)->SetRowOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_271)->SetColumnOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_271)->SetColumnOption(static_cast<::vl::vint64_t>(1L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(1.0); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_271)->SetColumnOption(static_cast<::vl::vint64_t>(2L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
 		}
 		(this->__vwsn_precompile_272 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_272)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_272)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_273 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		(this->__vwsn_precompile_273 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_273.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C88")));
+			::vl::__vwsn::This(this->__vwsn_precompile_273.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_273.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_273.Obj())->SetText(::vl::WString::Unmanaged(L"负载 · 主泵 B"));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_272)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_273));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_268)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_272));
+			::vl::__vwsn::This(this->__vwsn_precompile_271)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_272));
+		}
+		(this->__vwsn_precompile_274 = new ::vl::presentation::compositions::GuiCellComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_274)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+		}
+		(this->__vwsn_precompile_275 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_275.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_267)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_268));
+			::vl::__vwsn::This(this->__vwsn_precompile_275.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_266)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_267));
+			::vl::__vwsn::This(this->__vwsn_precompile_275.Obj())->SetText(::vl::WString::Unmanaged(L"68%"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_257)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_266));
+			::vl::__vwsn::This(this->__vwsn_precompile_274)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_275));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_256)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_257));
+			::vl::__vwsn::This(this->__vwsn_precompile_271)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_274));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_255)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_256));
-		}
-		(this->__vwsn_precompile_274 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_275 = new ::vl::presentation::compositions::GuiStackComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_275)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
+			::vl::__vwsn::This(this->__vwsn_precompile_270)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_271));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_275)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_275)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+			::vl::__vwsn::This(this->__vwsn_precompile_269)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_270));
 		}
 		(this->__vwsn_precompile_276 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_277 = new ::vl::presentation::compositions::GuiStackComposition());
+		(this->__vwsn_precompile_277 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_277)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
+			::vl::__vwsn::This(this->__vwsn_precompile_277)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_278 = new ::vl::presentation::compositions::GuiTableComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_278)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_277)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(6L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_278)->SetRowsAndColumns(static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(3L));
+			::vl::__vwsn::This(this->__vwsn_precompile_278)->SetRowOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(1.0); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_278)->SetColumnOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(0.8); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_278)->SetColumnOption(static_cast<::vl::vint64_t>(1L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(2L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_278)->SetColumnOption(static_cast<::vl::vint64_t>(2L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(0.2); return __vwsn_temp__; }());
 		}
-		(this->__vwsn_precompile_278 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_279 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_279 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_279)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_280 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_280.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_280.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->__vwsn_precompile_279)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_280.Obj())->SetText(::vl::WString::Unmanaged(L"负载 · 主泵 B"));
+			(this->__vwsn_precompile_280 = new ::vl::presentation::controls::GuiScroll(::vl::presentation::theme::ThemeName::ProgressBar));
+			::vl::__vwsn::This(this->__vwsn_precompile_280)->SetPageSize(static_cast<::vl::vint64_t>(0L));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_279)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_280));
+			::vl::__vwsn::This(this->__vwsn_precompile_280)->SetPosition(static_cast<::vl::vint64_t>(68L));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_280)->SetTotalSize(static_cast<::vl::vint64_t>(100L));
+		}
+		(this->__vwsn_precompile_281 = ::vl::__vwsn::This(this->__vwsn_precompile_280)->GetBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_281)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_279)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->__vwsn_precompile_280)->GetBoundsComposition()));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_278)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_279));
 		}
+		(this->__vwsn_precompile_282 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_277)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_278));
+			::vl::__vwsn::This(this->__vwsn_precompile_282)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_281 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_282 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_283 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_282)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = (- static_cast<::vl::vint64_t>(1L)); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_283 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_283.Obj())->SetHorizontalAlignment(::vl::presentation::Alignment::Right);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_283.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_283.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_283.Obj())->SetText(::vl::WString::Unmanaged(L"68%"));
+			::vl::__vwsn::This(this->__vwsn_precompile_283.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C88")));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_282)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_283));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_281)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_282));
+			::vl::__vwsn::This(this->__vwsn_precompile_278)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_282));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_277)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_281));
+			::vl::__vwsn::This(this->__vwsn_precompile_277)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_278));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_276)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_277));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_275)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_276));
+			::vl::__vwsn::This(this->__vwsn_precompile_269)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_276));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_268)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_269));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_251)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_268));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_250)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_251));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_250));
 		}
 		(this->__vwsn_precompile_284 = new ::vl::presentation::compositions::GuiStackItemComposition());
 		(this->__vwsn_precompile_285 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
+			::vl::__vwsn::This(this->__vwsn_precompile_285)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(34L); return __vwsn_temp__; }());
+		}
+		{
 			::vl::__vwsn::This(this->__vwsn_precompile_285)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
-		(this->__vwsn_precompile_286 = new ::vl::presentation::compositions::GuiTableComposition());
+		(this->__vwsn_precompile_286 = new ::vl::presentation::compositions::GuiStackComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_286)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
+		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_286)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_287 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_288 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_286)->SetRowsAndColumns(static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(3L));
-			::vl::__vwsn::This(this->__vwsn_precompile_286)->SetRowOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(1.0); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_286)->SetColumnOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(0.8); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_286)->SetColumnOption(static_cast<::vl::vint64_t>(1L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(2L); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_286)->SetColumnOption(static_cast<::vl::vint64_t>(2L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(0.2); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_288)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(14L); return __vwsn_temp__; }());
 		}
-		(this->__vwsn_precompile_287 = new ::vl::presentation::compositions::GuiCellComposition());
+		(this->__vwsn_precompile_289 = ::vl::Ptr<::vl::presentation::elements::GuiPolygonElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiPolygonElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_287)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_289.Obj())->SetPointsArray(::vl::reflection::description::UnboxParameter<::vl::collections::Array<::vl::presentation::Point>>(::vl::__vwsn::Box(::vl::Ptr<::vl::reflection::description::IValueReadonlyList>((::vl::__vwsn::CreateArray().Resize(4).Set(0, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }()).Set(1, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(14L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }()).Set(2, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }()).Set(3, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }())).list))).Ref());
 		}
 		{
-			(this->__vwsn_precompile_288 = new ::vl::presentation::controls::GuiScroll(::vl::presentation::theme::ThemeName::ProgressBar));
-			::vl::__vwsn::This(this->__vwsn_precompile_288)->SetPageSize(static_cast<::vl::vint64_t>(0L));
+			::vl::__vwsn::This(this->__vwsn_precompile_289.Obj())->SetSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_288)->SetPosition(static_cast<::vl::vint64_t>(68L));
+			::vl::__vwsn::This(this->__vwsn_precompile_289.Obj())->SetBorderColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_288)->SetTotalSize(static_cast<::vl::vint64_t>(100L));
-		}
-		(this->__vwsn_precompile_289 = ::vl::__vwsn::This(this->__vwsn_precompile_288)->GetBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_289)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_289.Obj())->SetBackgroundColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_287)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->__vwsn_precompile_288)->GetBoundsComposition()));
+			::vl::__vwsn::This(this->__vwsn_precompile_288)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_289));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_287)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_288));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_286)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_287));
 		}
-		(this->__vwsn_precompile_290 = new ::vl::presentation::compositions::GuiCellComposition());
+		(this->__vwsn_precompile_290 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_291 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_290)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_291)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(10L); return __vwsn_temp__; }());
 		}
-		(this->__vwsn_precompile_291 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		(this->__vwsn_precompile_292 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_291.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C88")));
+			::vl::__vwsn::This(this->__vwsn_precompile_292.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_290)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_291));
+			::vl::__vwsn::This(this->__vwsn_precompile_292.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(18L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_292.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_292.Obj())->SetText(::vl::WString::Unmanaged(L"提示 ALERT"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_291)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_292));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_290)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_291));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_286)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_290));
@@ -7947,113 +8181,23 @@ Class (::punkui::ShowcasePageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_284)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_285));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_275)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_284));
+			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_284));
 		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_274)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_275));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_255)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_274));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_254)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_255));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_254));
-		}
-		(this->__vwsn_precompile_292 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_293 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_293)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(34L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_293)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
+		(this->__vwsn_precompile_293 = new ::vl::presentation::compositions::GuiStackItemComposition());
 		(this->__vwsn_precompile_294 = new ::vl::presentation::compositions::GuiStackComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_294)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
+			::vl::__vwsn::This(this->__vwsn_precompile_294)->SetPadding(static_cast<::vl::vint64_t>(8L));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_294)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_294)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_294)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(6L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_294)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
 		}
 		(this->__vwsn_precompile_295 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_296 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_296)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(14L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_297 = ::vl::Ptr<::vl::presentation::elements::GuiPolygonElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiPolygonElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_297.Obj())->SetPointsArray(::vl::reflection::description::UnboxParameter<::vl::collections::Array<::vl::presentation::Point>>(::vl::__vwsn::Box(::vl::Ptr<::vl::reflection::description::IValueReadonlyList>((::vl::__vwsn::CreateArray().Resize(4).Set(0, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }()).Set(1, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(14L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }()).Set(2, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }()).Set(3, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }())).list))).Ref());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_297.Obj())->SetSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_297.Obj())->SetBorderColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_297.Obj())->SetBackgroundColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_296)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_297));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_295)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_296));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_294)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_295));
-		}
-		(this->__vwsn_precompile_298 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_299 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_299)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(10L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_300 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_300.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_300.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(18L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_300.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_300.Obj())->SetText(::vl::WString::Unmanaged(L"提示 ALERT"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_299)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_300));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_298)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_299));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_294)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_298));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_293)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_294));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_292)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_293));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_292));
-		}
-		(this->__vwsn_precompile_301 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_302 = new ::vl::presentation::compositions::GuiStackComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_302)->SetPadding(static_cast<::vl::vint64_t>(8L));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_302)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_302)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(6L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_302)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
-		}
-		(this->__vwsn_precompile_303 = new ::vl::presentation::compositions::GuiStackItemComposition());
 		(this->alert1Face = new ::vl::presentation::compositions::GuiBoundsComposition());
 		::vl::__vwsn::This(__vwsn_this_)->SetNamedObject(::vl::WString::Unmanaged(L"alert1Face"), ::vl::__vwsn::Box(this->alert1Face));
 		{
@@ -8062,136 +8206,136 @@ Class (::punkui::ShowcasePageTemplateConstructor)
 		{
 			::vl::__vwsn::This(this->alert1Face)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
 		}
-		(this->__vwsn_precompile_304 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_296 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_304)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(3L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(3L); __vwsn_temp__.right = (- static_cast<::vl::vint64_t>(1L)); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(3L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_296)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(3L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(3L); __vwsn_temp__.right = (- static_cast<::vl::vint64_t>(1L)); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(3L); return __vwsn_temp__; }());
 		}
-		(this->__vwsn_precompile_305 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		(this->__vwsn_precompile_297 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_305.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#00A8E8")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_304)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_305));
+			::vl::__vwsn::This(this->__vwsn_precompile_297.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#00A8E8")));
 		}
 		{
-			::vl::__vwsn::This(this->alert1Face)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_304));
+			::vl::__vwsn::This(this->__vwsn_precompile_296)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_297));
 		}
+		{
+			::vl::__vwsn::This(this->alert1Face)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_296));
+		}
+		(this->__vwsn_precompile_298 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_298)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(14L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(10L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_298)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+		}
+		(this->__vwsn_precompile_299 = new ::vl::presentation::compositions::GuiStackComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_299)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_299)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_299)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+		}
+		(this->__vwsn_precompile_300 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_301 = new ::vl::presentation::compositions::GuiStackComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_301)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_301)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(4L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_302 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_303 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_303)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_304 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_304.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_304.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_304.Obj())->SetText(::vl::WString::Unmanaged(L"系统就绪"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_303)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_304));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_302)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_303));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_301)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_302));
+		}
+		(this->__vwsn_precompile_305 = new ::vl::presentation::compositions::GuiStackItemComposition());
 		(this->__vwsn_precompile_306 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_306)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(14L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(10L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_306)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_307 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_307.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_306)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
-		}
-		(this->__vwsn_precompile_307 = new ::vl::presentation::compositions::GuiStackComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_307)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
+			::vl::__vwsn::This(this->__vwsn_precompile_307.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_307)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_307.Obj())->SetText(::vl::WString::Unmanaged(L"LV0 · 14:30 · SYS"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_307)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+			::vl::__vwsn::This(this->__vwsn_precompile_306)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_307));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_305)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_306));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_301)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_305));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_300)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_301));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_299)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_300));
 		}
 		(this->__vwsn_precompile_308 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_309 = new ::vl::presentation::compositions::GuiStackComposition());
+		(this->__vwsn_precompile_309 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_309)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
+			::vl::__vwsn::This(this->__vwsn_precompile_309)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_310 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_310.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_309)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(4L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_310 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_311 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_311)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_312 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_312.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_310.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_312.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+			::vl::__vwsn::This(this->__vwsn_precompile_310.Obj())->SetText(::vl::WString::Unmanaged(L"所有设备在线，无异常。"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_312.Obj())->SetText(::vl::WString::Unmanaged(L"系统就绪"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_311)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_312));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_310)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_311));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_309)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_310));
-		}
-		(this->__vwsn_precompile_313 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_314 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_314)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_315 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_315.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_315.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_315.Obj())->SetText(::vl::WString::Unmanaged(L"LV0 · 14:30 · SYS"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_314)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_315));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_313)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_314));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_309)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_313));
+			::vl::__vwsn::This(this->__vwsn_precompile_309)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_310));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_308)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_309));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_307)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_308));
-		}
-		(this->__vwsn_precompile_316 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_317 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_317)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_318 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_318.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_299)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_308));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_318.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->__vwsn_precompile_298)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_299));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_318.Obj())->SetText(::vl::WString::Unmanaged(L"所有设备在线，无异常。"));
+			::vl::__vwsn::This(this->alert1Face)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_298));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_317)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_318));
+			::vl::__vwsn::This(this->__vwsn_precompile_295)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->alert1Face));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_316)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_317));
+			::vl::__vwsn::This(this->__vwsn_precompile_294)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_295));
 		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_307)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_316));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_306)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_307));
-		}
-		{
-			::vl::__vwsn::This(this->alert1Face)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_306));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_303)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->alert1Face));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_302)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_303));
-		}
-		(this->__vwsn_precompile_319 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_311 = new ::vl::presentation::compositions::GuiStackItemComposition());
 		(this->alert2Face = new ::vl::presentation::compositions::GuiBoundsComposition());
 		::vl::__vwsn::This(__vwsn_this_)->SetNamedObject(::vl::WString::Unmanaged(L"alert2Face"), ::vl::__vwsn::Box(this->alert2Face));
 		{
@@ -8200,136 +8344,136 @@ Class (::punkui::ShowcasePageTemplateConstructor)
 		{
 			::vl::__vwsn::This(this->alert2Face)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
 		}
-		(this->__vwsn_precompile_320 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_312 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_320)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(3L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(3L); __vwsn_temp__.right = (- static_cast<::vl::vint64_t>(1L)); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(3L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_312)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(3L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(3L); __vwsn_temp__.right = (- static_cast<::vl::vint64_t>(1L)); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(3L); return __vwsn_temp__; }());
 		}
-		(this->__vwsn_precompile_321 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		(this->__vwsn_precompile_313 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_321.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#2FD16A")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_320)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_321));
+			::vl::__vwsn::This(this->__vwsn_precompile_313.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#2FD16A")));
 		}
 		{
-			::vl::__vwsn::This(this->alert2Face)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_320));
+			::vl::__vwsn::This(this->__vwsn_precompile_312)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_313));
 		}
+		{
+			::vl::__vwsn::This(this->alert2Face)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_312));
+		}
+		(this->__vwsn_precompile_314 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_314)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(14L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(10L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_314)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+		}
+		(this->__vwsn_precompile_315 = new ::vl::presentation::compositions::GuiStackComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_315)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_315)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_315)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+		}
+		(this->__vwsn_precompile_316 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_317 = new ::vl::presentation::compositions::GuiStackComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_317)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_317)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(4L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_318 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_319 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_319)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_320 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_320.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_320.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_320.Obj())->SetText(::vl::WString::Unmanaged(L"指令完成"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_319)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_320));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_318)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_319));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_317)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_318));
+		}
+		(this->__vwsn_precompile_321 = new ::vl::presentation::compositions::GuiStackItemComposition());
 		(this->__vwsn_precompile_322 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_322)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(14L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(10L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_322)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_323 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_323.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_322)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
-		}
-		(this->__vwsn_precompile_323 = new ::vl::presentation::compositions::GuiStackComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_323)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
+			::vl::__vwsn::This(this->__vwsn_precompile_323.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_323)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_323.Obj())->SetText(::vl::WString::Unmanaged(L"LV1 · 14:31 · P-01"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_323)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+			::vl::__vwsn::This(this->__vwsn_precompile_322)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_323));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_321)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_322));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_317)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_321));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_316)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_317));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_315)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_316));
 		}
 		(this->__vwsn_precompile_324 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_325 = new ::vl::presentation::compositions::GuiStackComposition());
+		(this->__vwsn_precompile_325 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_325)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
+			::vl::__vwsn::This(this->__vwsn_precompile_325)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_326 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_326.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_325)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(4L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_326 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_327 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_327)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_328 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_328.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_326.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_328.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+			::vl::__vwsn::This(this->__vwsn_precompile_326.Obj())->SetText(::vl::WString::Unmanaged(L"输出功率已恢复额定值。"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_328.Obj())->SetText(::vl::WString::Unmanaged(L"指令完成"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_327)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_328));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_326)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_327));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_325)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_326));
-		}
-		(this->__vwsn_precompile_329 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_330 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_330)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_331 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_331.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_331.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_331.Obj())->SetText(::vl::WString::Unmanaged(L"LV1 · 14:31 · P-01"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_330)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_331));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_329)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_330));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_325)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_329));
+			::vl::__vwsn::This(this->__vwsn_precompile_325)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_326));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_324)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_325));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_323)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_324));
-		}
-		(this->__vwsn_precompile_332 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_333 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_333)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_334 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_334.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_315)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_324));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_334.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->__vwsn_precompile_314)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_315));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_334.Obj())->SetText(::vl::WString::Unmanaged(L"输出功率已恢复额定值。"));
+			::vl::__vwsn::This(this->alert2Face)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_314));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_333)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_334));
+			::vl::__vwsn::This(this->__vwsn_precompile_311)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->alert2Face));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_332)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_333));
+			::vl::__vwsn::This(this->__vwsn_precompile_294)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_311));
 		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_323)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_332));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_322)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_323));
-		}
-		{
-			::vl::__vwsn::This(this->alert2Face)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_322));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_319)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->alert2Face));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_302)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_319));
-		}
-		(this->__vwsn_precompile_335 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_327 = new ::vl::presentation::compositions::GuiStackItemComposition());
 		(this->alert3Face = new ::vl::presentation::compositions::GuiBoundsComposition());
 		::vl::__vwsn::This(__vwsn_this_)->SetNamedObject(::vl::WString::Unmanaged(L"alert3Face"), ::vl::__vwsn::Box(this->alert3Face));
 		{
@@ -8338,136 +8482,136 @@ Class (::punkui::ShowcasePageTemplateConstructor)
 		{
 			::vl::__vwsn::This(this->alert3Face)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
 		}
-		(this->__vwsn_precompile_336 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_328 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_336)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(3L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(3L); __vwsn_temp__.right = (- static_cast<::vl::vint64_t>(1L)); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(3L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_328)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(3L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(3L); __vwsn_temp__.right = (- static_cast<::vl::vint64_t>(1L)); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(3L); return __vwsn_temp__; }());
 		}
-		(this->__vwsn_precompile_337 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		(this->__vwsn_precompile_329 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_337.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFD400")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_336)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_337));
+			::vl::__vwsn::This(this->__vwsn_precompile_329.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFD400")));
 		}
 		{
-			::vl::__vwsn::This(this->alert3Face)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_336));
+			::vl::__vwsn::This(this->__vwsn_precompile_328)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_329));
 		}
+		{
+			::vl::__vwsn::This(this->alert3Face)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_328));
+		}
+		(this->__vwsn_precompile_330 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_330)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(14L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(10L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_330)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+		}
+		(this->__vwsn_precompile_331 = new ::vl::presentation::compositions::GuiStackComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_331)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_331)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_331)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+		}
+		(this->__vwsn_precompile_332 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_333 = new ::vl::presentation::compositions::GuiStackComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_333)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_333)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(4L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_334 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_335 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_335)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_336 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_336.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_336.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_336.Obj())->SetText(::vl::WString::Unmanaged(L"过温警告"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_335)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_336));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_334)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_335));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_333)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_334));
+		}
+		(this->__vwsn_precompile_337 = new ::vl::presentation::compositions::GuiStackItemComposition());
 		(this->__vwsn_precompile_338 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_338)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(14L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(10L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_338)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_339 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_339.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_338)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
-		}
-		(this->__vwsn_precompile_339 = new ::vl::presentation::compositions::GuiStackComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_339)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
+			::vl::__vwsn::This(this->__vwsn_precompile_339.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_339)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_339.Obj())->SetText(::vl::WString::Unmanaged(L"LV2 · 14:31 · S-04"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_339)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+			::vl::__vwsn::This(this->__vwsn_precompile_338)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_339));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_337)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_338));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_333)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_337));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_332)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_333));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_331)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_332));
 		}
 		(this->__vwsn_precompile_340 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_341 = new ::vl::presentation::compositions::GuiStackComposition());
+		(this->__vwsn_precompile_341 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_341)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
+			::vl::__vwsn::This(this->__vwsn_precompile_341)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_342 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_342.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_341)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(4L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_342 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_343 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_343)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_344 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_344.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_342.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_344.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+			::vl::__vwsn::This(this->__vwsn_precompile_342.Obj())->SetText(::vl::WString::Unmanaged(L"轴承温度接近阈值，建议巡检。"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_344.Obj())->SetText(::vl::WString::Unmanaged(L"过温警告"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_343)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_344));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_342)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_343));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_341)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_342));
-		}
-		(this->__vwsn_precompile_345 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_346 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_346)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_347 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_347.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_347.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_347.Obj())->SetText(::vl::WString::Unmanaged(L"LV2 · 14:31 · S-04"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_346)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_347));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_345)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_346));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_341)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_345));
+			::vl::__vwsn::This(this->__vwsn_precompile_341)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_342));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_340)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_341));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_339)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_340));
-		}
-		(this->__vwsn_precompile_348 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_349 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_349)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_350 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_350.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_331)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_340));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_350.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->__vwsn_precompile_330)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_331));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_350.Obj())->SetText(::vl::WString::Unmanaged(L"轴承温度接近阈值，建议巡检。"));
+			::vl::__vwsn::This(this->alert3Face)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_330));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_349)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_350));
+			::vl::__vwsn::This(this->__vwsn_precompile_327)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->alert3Face));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_348)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_349));
+			::vl::__vwsn::This(this->__vwsn_precompile_294)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_327));
 		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_339)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_348));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_338)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_339));
-		}
-		{
-			::vl::__vwsn::This(this->alert3Face)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_338));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_335)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->alert3Face));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_302)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_335));
-		}
-		(this->__vwsn_precompile_351 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_343 = new ::vl::presentation::compositions::GuiStackItemComposition());
 		(this->alert4Face = new ::vl::presentation::compositions::GuiBoundsComposition());
 		::vl::__vwsn::This(__vwsn_this_)->SetNamedObject(::vl::WString::Unmanaged(L"alert4Face"), ::vl::__vwsn::Box(this->alert4Face));
 		{
@@ -8476,232 +8620,312 @@ Class (::punkui::ShowcasePageTemplateConstructor)
 		{
 			::vl::__vwsn::This(this->alert4Face)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
 		}
-		(this->__vwsn_precompile_352 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_344 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_352)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(3L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(3L); __vwsn_temp__.right = (- static_cast<::vl::vint64_t>(1L)); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(3L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_344)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(3L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(3L); __vwsn_temp__.right = (- static_cast<::vl::vint64_t>(1L)); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(3L); return __vwsn_temp__; }());
 		}
-		(this->__vwsn_precompile_353 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		(this->__vwsn_precompile_345 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_353.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_352)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_353));
+			::vl::__vwsn::This(this->__vwsn_precompile_345.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
 		}
 		{
-			::vl::__vwsn::This(this->alert4Face)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_352));
+			::vl::__vwsn::This(this->__vwsn_precompile_344)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_345));
 		}
+		{
+			::vl::__vwsn::This(this->alert4Face)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_344));
+		}
+		(this->__vwsn_precompile_346 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_346)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(14L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(10L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_346)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+		}
+		(this->__vwsn_precompile_347 = new ::vl::presentation::compositions::GuiStackComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_347)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_347)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_347)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+		}
+		(this->__vwsn_precompile_348 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_349 = new ::vl::presentation::compositions::GuiStackComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_349)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_349)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(4L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_350 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_351 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_351)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_352 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_352.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_352.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_352.Obj())->SetText(::vl::WString::Unmanaged(L"信号丢失"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_351)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_352));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_350)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_351));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_349)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_350));
+		}
+		(this->__vwsn_precompile_353 = new ::vl::presentation::compositions::GuiStackItemComposition());
 		(this->__vwsn_precompile_354 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_354)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(14L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(10L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_354)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_355 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_355.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_354)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
-		}
-		(this->__vwsn_precompile_355 = new ::vl::presentation::compositions::GuiStackComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_355)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
+			::vl::__vwsn::This(this->__vwsn_precompile_355.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_355)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_355.Obj())->SetText(::vl::WString::Unmanaged(L"LV3 · 14:25 · S-04"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_355)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+			::vl::__vwsn::This(this->__vwsn_precompile_354)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_355));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_353)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_354));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_349)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_353));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_348)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_349));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_347)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_348));
 		}
 		(this->__vwsn_precompile_356 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_357 = new ::vl::presentation::compositions::GuiStackComposition());
+		(this->__vwsn_precompile_357 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_357)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
+			::vl::__vwsn::This(this->__vwsn_precompile_357)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_358 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_358.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_357)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(4L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_358 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_359 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_359)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_360 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_360.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_358.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_360.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+			::vl::__vwsn::This(this->__vwsn_precompile_358.Obj())->SetText(::vl::WString::Unmanaged(L"传感器 04 信号丢失，已触发保护。"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_360.Obj())->SetText(::vl::WString::Unmanaged(L"信号丢失"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_359)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_360));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_358)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_359));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_357)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_358));
-		}
-		(this->__vwsn_precompile_361 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_362 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_362)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_363 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_363.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_363.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_363.Obj())->SetText(::vl::WString::Unmanaged(L"LV3 · 14:25 · S-04"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_362)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_363));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_361)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_362));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_357)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_361));
+			::vl::__vwsn::This(this->__vwsn_precompile_357)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_358));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_356)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_357));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_355)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_356));
-		}
-		(this->__vwsn_precompile_364 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_365 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_365)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_366 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_366.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_347)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_356));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_366.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->__vwsn_precompile_346)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_347));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_366.Obj())->SetText(::vl::WString::Unmanaged(L"传感器 04 信号丢失，已触发保护。"));
+			::vl::__vwsn::This(this->alert4Face)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_346));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_365)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_366));
+			::vl::__vwsn::This(this->__vwsn_precompile_343)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->alert4Face));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_364)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_365));
+			::vl::__vwsn::This(this->__vwsn_precompile_294)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_343));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_355)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_364));
+			::vl::__vwsn::This(this->__vwsn_precompile_293)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_294));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_354)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_355));
+			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_293));
+		}
+		(this->__vwsn_precompile_359 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_360 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_360)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(34L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->alert4Face)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_354));
+			::vl::__vwsn::This(this->__vwsn_precompile_360)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_361 = new ::vl::presentation::compositions::GuiStackComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_361)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_351)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->alert4Face));
+			::vl::__vwsn::This(this->__vwsn_precompile_361)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_362 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_363 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_363)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(14L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_364 = ::vl::Ptr<::vl::presentation::elements::GuiPolygonElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiPolygonElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_364.Obj())->SetPointsArray(::vl::reflection::description::UnboxParameter<::vl::collections::Array<::vl::presentation::Point>>(::vl::__vwsn::Box(::vl::Ptr<::vl::reflection::description::IValueReadonlyList>((::vl::__vwsn::CreateArray().Resize(4).Set(0, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }()).Set(1, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(14L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }()).Set(2, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }()).Set(3, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }())).list))).Ref());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_302)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_351));
+			::vl::__vwsn::This(this->__vwsn_precompile_364.Obj())->SetSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_301)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_302));
+			::vl::__vwsn::This(this->__vwsn_precompile_364.Obj())->SetBorderColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_301));
-		}
-		(this->__vwsn_precompile_367 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_368 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_368)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(34L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_364.Obj())->SetBackgroundColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_368)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_363)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_364));
 		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_362)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_363));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_361)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_362));
+		}
+		(this->__vwsn_precompile_365 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_366 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_366)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(10L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_367 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_367.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_367.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(18L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_367.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_367.Obj())->SetText(::vl::WString::Unmanaged(L"头像 AVATAR / 弹窗 MODAL"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_366)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_367));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_365)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_366));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_361)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_365));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_360)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_361));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_359)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_360));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_359));
+		}
+		(this->__vwsn_precompile_368 = new ::vl::presentation::compositions::GuiStackItemComposition());
 		(this->__vwsn_precompile_369 = new ::vl::presentation::compositions::GuiStackComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_369)->SetPadding(static_cast<::vl::vint64_t>(8L));
+		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_369)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_369)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_369)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = (- static_cast<::vl::vint64_t>(1L)); __vwsn_temp__.bottom = (- static_cast<::vl::vint64_t>(1L)); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_369)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
 		}
 		(this->__vwsn_precompile_370 = new ::vl::presentation::compositions::GuiStackItemComposition());
 		(this->__vwsn_precompile_371 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_371)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(14L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_372 = ::vl::Ptr<::vl::presentation::elements::GuiPolygonElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiPolygonElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_372.Obj())->SetPointsArray(::vl::reflection::description::UnboxParameter<::vl::collections::Array<::vl::presentation::Point>>(::vl::__vwsn::Box(::vl::Ptr<::vl::reflection::description::IValueReadonlyList>((::vl::__vwsn::CreateArray().Resize(4).Set(0, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }()).Set(1, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(14L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }()).Set(2, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }()).Set(3, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }())).list))).Ref());
+			::vl::__vwsn::This(this->__vwsn_precompile_371)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(44L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(44L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_372.Obj())->SetSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_371)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_372.Obj())->SetBorderColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
+			::vl::__vwsn::This(this->__vwsn_precompile_371)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElement);
+		}
+		(this->__vwsn_precompile_372 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_372)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(2L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(2L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_373 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_373.Obj())->SetShape([&](){ ::vl::presentation::elements::ElementShape __vwsn_temp__; __vwsn_temp__.shapeType = ::vl::presentation::elements::ElementShapeType::Ellipse; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_372.Obj())->SetBackgroundColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
+			::vl::__vwsn::This(this->__vwsn_precompile_373.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#000000")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_371)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_372));
+			::vl::__vwsn::This(this->__vwsn_precompile_372)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_373));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_371)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_372));
+		}
+		(this->__vwsn_precompile_374 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_374)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(4L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(4L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_375 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_375.Obj())->SetShape([&](){ ::vl::presentation::elements::ElementShape __vwsn_temp__; __vwsn_temp__.shapeType = ::vl::presentation::elements::ElementShapeType::Ellipse; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_375.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#00BFA5")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_374)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_375));
+		}
+		(this->__vwsn_precompile_376 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBorderElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_376.Obj())->SetShape([&](){ ::vl::presentation::elements::ElementShape __vwsn_temp__; __vwsn_temp__.shapeType = ::vl::presentation::elements::ElementShapeType::Ellipse; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_376.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#000000")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_374)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_376));
+		}
+		(this->__vwsn_precompile_377 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_377.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_377.Obj())->SetHorizontalAlignment(::vl::presentation::Alignment::Center);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_377.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_377.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_377.Obj())->SetText(::vl::WString::Unmanaged(L"LM"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_374)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_377));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_371)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_374));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_370)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_371));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_369)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_370));
-		}
-		(this->__vwsn_precompile_373 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_374 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_374)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(10L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_375 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_375.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_375.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(18L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_375.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_375.Obj())->SetText(::vl::WString::Unmanaged(L"头像 AVATAR / 弹窗 MODAL"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_374)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_375));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_373)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_374));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_369)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_373));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_368)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_369));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_367)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_368));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_367));
-		}
-		(this->__vwsn_precompile_376 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_377 = new ::vl::presentation::compositions::GuiStackComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_377)->SetPadding(static_cast<::vl::vint64_t>(8L));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_377)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_377)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = (- static_cast<::vl::vint64_t>(1L)); __vwsn_temp__.bottom = (- static_cast<::vl::vint64_t>(1L)); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_377)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
 		}
 		(this->__vwsn_precompile_378 = new ::vl::presentation::compositions::GuiStackItemComposition());
 		(this->__vwsn_precompile_379 = new ::vl::presentation::compositions::GuiBoundsComposition());
@@ -8740,7 +8964,7 @@ Class (::punkui::ShowcasePageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_383.Obj())->SetShape([&](){ ::vl::presentation::elements::ElementShape __vwsn_temp__; __vwsn_temp__.shapeType = ::vl::presentation::elements::ElementShapeType::Ellipse; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_383.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#00BFA5")));
+			::vl::__vwsn::This(this->__vwsn_precompile_383.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#6A5CFF")));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_382)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_383));
@@ -8769,7 +8993,7 @@ Class (::punkui::ShowcasePageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_385.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_385.Obj())->SetText(::vl::WString::Unmanaged(L"LM"));
+			::vl::__vwsn::This(this->__vwsn_precompile_385.Obj())->SetText(::vl::WString::Unmanaged(L"ZS"));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_382)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_385));
@@ -8781,7 +9005,7 @@ Class (::punkui::ShowcasePageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_378)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_379));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_377)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_378));
+			::vl::__vwsn::This(this->__vwsn_precompile_369)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_378));
 		}
 		(this->__vwsn_precompile_386 = new ::vl::presentation::compositions::GuiStackItemComposition());
 		(this->__vwsn_precompile_387 = new ::vl::presentation::compositions::GuiBoundsComposition());
@@ -8820,7 +9044,7 @@ Class (::punkui::ShowcasePageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_391.Obj())->SetShape([&](){ ::vl::presentation::elements::ElementShape __vwsn_temp__; __vwsn_temp__.shapeType = ::vl::presentation::elements::ElementShapeType::Ellipse; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_391.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#6A5CFF")));
+			::vl::__vwsn::This(this->__vwsn_precompile_391.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#00BFA5")));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_390)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_391));
@@ -8849,7 +9073,7 @@ Class (::punkui::ShowcasePageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_393.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_393.Obj())->SetText(::vl::WString::Unmanaged(L"ZS"));
+			::vl::__vwsn::This(this->__vwsn_precompile_393.Obj())->SetText(::vl::WString::Unmanaged(L"WW"));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_390)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_393));
@@ -8861,203 +9085,123 @@ Class (::punkui::ShowcasePageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_386)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_387));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_377)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_386));
+			::vl::__vwsn::This(this->__vwsn_precompile_369)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_386));
 		}
 		(this->__vwsn_precompile_394 = new ::vl::presentation::compositions::GuiStackItemComposition());
 		(this->__vwsn_precompile_395 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_395)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(44L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(44L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_395)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(24L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_395)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_395)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_395)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElement);
+			(this->__vwsn_precompile_396 = new ::vl::presentation::controls::GuiButton(::vl::presentation::theme::ThemeName::Button));
 		}
-		(this->__vwsn_precompile_396 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_397 = ::vl::__vwsn::This(this->__vwsn_precompile_396)->GetBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_396)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(2L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(2L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_397 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_397.Obj())->SetShape([&](){ ::vl::presentation::elements::ElementShape __vwsn_temp__; __vwsn_temp__.shapeType = ::vl::presentation::elements::ElementShapeType::Ellipse; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_397)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_397.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#000000")));
+			::vl::__vwsn::This(this->__vwsn_precompile_396)->SetText(::vl::WString::Unmanaged(L"维护确认"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_396)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_397));
+			::vl::__vwsn::This(this->__vwsn_precompile_396)->SetControlTemplate(vl::Func(::vl_workflow_global::__vwsnf18_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_(this)));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_395)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_396));
-		}
-		(this->__vwsn_precompile_398 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_398)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(4L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(4L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_399 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_399.Obj())->SetShape([&](){ ::vl::presentation::elements::ElementShape __vwsn_temp__; __vwsn_temp__.shapeType = ::vl::presentation::elements::ElementShapeType::Ellipse; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_399.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#00BFA5")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_398)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_399));
-		}
-		(this->__vwsn_precompile_400 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBorderElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_400.Obj())->SetShape([&](){ ::vl::presentation::elements::ElementShape __vwsn_temp__; __vwsn_temp__.shapeType = ::vl::presentation::elements::ElementShapeType::Ellipse; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_400.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#000000")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_398)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_400));
-		}
-		(this->__vwsn_precompile_401 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_401.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_401.Obj())->SetHorizontalAlignment(::vl::presentation::Alignment::Center);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_401.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_401.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_401.Obj())->SetText(::vl::WString::Unmanaged(L"WW"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_398)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_401));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_395)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_398));
+			::vl::__vwsn::This(this->__vwsn_precompile_395)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->__vwsn_precompile_396)->GetBoundsComposition()));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_394)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_395));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_377)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_394));
-		}
-		(this->__vwsn_precompile_402 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_403 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_403)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(24L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_369)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_394));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_403)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
+			::vl::__vwsn::This(this->__vwsn_precompile_368)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_369));
 		}
 		{
-			(this->__vwsn_precompile_404 = new ::vl::presentation::controls::GuiButton(::vl::presentation::theme::ThemeName::Button));
+			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_368));
 		}
-		(this->__vwsn_precompile_405 = ::vl::__vwsn::This(this->__vwsn_precompile_404)->GetBoundsComposition());
+		(this->__vwsn_precompile_398 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_399 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_405)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_404)->SetText(::vl::WString::Unmanaged(L"维护确认"));
+			::vl::__vwsn::This(this->__vwsn_precompile_399)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(34L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_404)->SetControlTemplate(vl::Func(::vl_workflow_global::__vwsnf18_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_(this)));
+			::vl::__vwsn::This(this->__vwsn_precompile_399)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_400 = new ::vl::presentation::compositions::GuiStackComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_400)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_403)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(::vl::__vwsn::This(this->__vwsn_precompile_404)->GetBoundsComposition()));
+			::vl::__vwsn::This(this->__vwsn_precompile_400)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_401 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_402 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_402)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(14L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_403 = ::vl::Ptr<::vl::presentation::elements::GuiPolygonElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiPolygonElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_403.Obj())->SetPointsArray(::vl::reflection::description::UnboxParameter<::vl::collections::Array<::vl::presentation::Point>>(::vl::__vwsn::Box(::vl::Ptr<::vl::reflection::description::IValueReadonlyList>((::vl::__vwsn::CreateArray().Resize(4).Set(0, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }()).Set(1, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(14L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }()).Set(2, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }()).Set(3, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }())).list))).Ref());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_402)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_403));
+			::vl::__vwsn::This(this->__vwsn_precompile_403.Obj())->SetSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_377)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_402));
+			::vl::__vwsn::This(this->__vwsn_precompile_403.Obj())->SetBorderColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_376)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_377));
+			::vl::__vwsn::This(this->__vwsn_precompile_403.Obj())->SetBackgroundColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_376));
-		}
-		(this->__vwsn_precompile_406 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_407 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_407)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(34L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_402)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_403));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_407)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_408 = new ::vl::presentation::compositions::GuiStackComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_408)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Horizontal);
+			::vl::__vwsn::This(this->__vwsn_precompile_401)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_402));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_408)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_400)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_401));
 		}
-		(this->__vwsn_precompile_409 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_410 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_404 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_405 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_410)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(14L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_405)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(10L); return __vwsn_temp__; }());
 		}
-		(this->__vwsn_precompile_411 = ::vl::Ptr<::vl::presentation::elements::GuiPolygonElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiPolygonElement>()));
+		(this->__vwsn_precompile_406 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_411.Obj())->SetPointsArray(::vl::reflection::description::UnboxParameter<::vl::collections::Array<::vl::presentation::Point>>(::vl::__vwsn::Box(::vl::Ptr<::vl::reflection::description::IValueReadonlyList>((::vl::__vwsn::CreateArray().Resize(4).Set(0, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }()).Set(1, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(14L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }()).Set(2, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }()).Set(3, [&](){ ::vl::presentation::Point __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }())).list))).Ref());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_411.Obj())->SetSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.x = static_cast<::vl::vint64_t>(22L); __vwsn_temp__.y = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_406.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_411.Obj())->SetBorderColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
+			::vl::__vwsn::This(this->__vwsn_precompile_406.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(18L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_411.Obj())->SetBackgroundColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
+			::vl::__vwsn::This(this->__vwsn_precompile_406.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_410)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_411));
+			::vl::__vwsn::This(this->__vwsn_precompile_406.Obj())->SetText(::vl::WString::Unmanaged(L"表格 TABLE"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_409)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_410));
+			::vl::__vwsn::This(this->__vwsn_precompile_405)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_406));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_409));
-		}
-		(this->__vwsn_precompile_412 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_413 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_413)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(10L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(10L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_414 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_414.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_404)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_405));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_414.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(18L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_400)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_404));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_414.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+			::vl::__vwsn::This(this->__vwsn_precompile_399)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_400));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_414.Obj())->SetText(::vl::WString::Unmanaged(L"表格 TABLE"));
+			::vl::__vwsn::This(this->__vwsn_precompile_398)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_399));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_413)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_414));
+			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_398));
 		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_412)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_413));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_412));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_407)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_408));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_406)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_407));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_406));
-		}
-		(this->__vwsn_precompile_415 = new ::vl::presentation::compositions::GuiStackItemComposition());
+		(this->__vwsn_precompile_407 = new ::vl::presentation::compositions::GuiStackItemComposition());
 		(this->tableWrap = new ::vl::presentation::compositions::GuiBoundsComposition());
 		::vl::__vwsn::This(__vwsn_this_)->SetNamedObject(::vl::WString::Unmanaged(L"tableWrap"), ::vl::__vwsn::Box(this->tableWrap));
 		{
@@ -9066,46 +9210,143 @@ Class (::punkui::ShowcasePageTemplateConstructor)
 		{
 			::vl::__vwsn::This(this->tableWrap)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
 		}
-		(this->__vwsn_precompile_416 = new ::vl::presentation::compositions::GuiStackComposition());
+		(this->__vwsn_precompile_408 = new ::vl::presentation::compositions::GuiTableComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_416)->SetDirection(::vl::presentation::compositions::GuiStackComposition::Direction::Vertical);
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->SetBorderVisible(false);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_416)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->SetCellPadding(static_cast<::vl::vint64_t>(0L));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_416)->SetMinSizeLimitation(::vl::presentation::compositions::GuiGraphicsComposition::MinSizeLimitation::LimitToElementAndChildren);
-		}
-		(this->__vwsn_precompile_417 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_418 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_418)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(34L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_418)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->SetRowsAndColumns(static_cast<::vl::vint64_t>(9L), static_cast<::vl::vint64_t>(4L));
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->SetRowOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->SetRowOption(static_cast<::vl::vint64_t>(1L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(2L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->SetRowOption(static_cast<::vl::vint64_t>(2L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->SetRowOption(static_cast<::vl::vint64_t>(3L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(2L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->SetRowOption(static_cast<::vl::vint64_t>(4L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->SetRowOption(static_cast<::vl::vint64_t>(5L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(2L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->SetRowOption(static_cast<::vl::vint64_t>(6L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->SetRowOption(static_cast<::vl::vint64_t>(7L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(2L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->SetRowOption(static_cast<::vl::vint64_t>(8L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->SetColumnOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(140L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->SetColumnOption(static_cast<::vl::vint64_t>(1L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(100L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->SetColumnOption(static_cast<::vl::vint64_t>(2L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(120L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->SetColumnOption(static_cast<::vl::vint64_t>(3L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(1.0); return __vwsn_temp__; }());
 		}
-		(this->__vwsn_precompile_419 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		(this->__vwsn_precompile_409 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_419.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#151515")));
+			::vl::__vwsn::This(this->__vwsn_precompile_409)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+		}
+		(this->__vwsn_precompile_410 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_410)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(34L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_418)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_419));
+			::vl::__vwsn::This(this->__vwsn_precompile_410)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
-		(this->__vwsn_precompile_420 = new ::vl::presentation::compositions::GuiTableComposition());
+		(this->__vwsn_precompile_411 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_411.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#151515")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_410)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_411));
+		}
+		(this->__vwsn_precompile_412 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_412)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_413 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_413.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_413.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_413.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_413.Obj())->SetText(::vl::WString::Unmanaged(L"设备 ID"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_412)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_413));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_410)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_412));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_409)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_410));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_409));
+		}
+		(this->__vwsn_precompile_414 = new ::vl::presentation::compositions::GuiCellComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_414)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+		}
+		(this->__vwsn_precompile_415 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_415)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(34L); return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_415)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_416 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_416.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#151515")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_415)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_416));
+		}
+		(this->__vwsn_precompile_417 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_417)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_418 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_418.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_418.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_418.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_418.Obj())->SetText(::vl::WString::Unmanaged(L"状态"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_417)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_418));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_415)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_417));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_414)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_415));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_414));
+		}
+		(this->__vwsn_precompile_419 = new ::vl::presentation::compositions::GuiCellComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_419)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+		}
+		(this->__vwsn_precompile_420 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_420)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(34L); return __vwsn_temp__; }());
+		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_420)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_421 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_420)->SetRowsAndColumns(static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(4L));
-			::vl::__vwsn::This(this->__vwsn_precompile_420)->SetRowOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(1.0); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_420)->SetColumnOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(140L); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_420)->SetColumnOption(static_cast<::vl::vint64_t>(1L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(100L); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_420)->SetColumnOption(static_cast<::vl::vint64_t>(2L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(120L); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_420)->SetColumnOption(static_cast<::vl::vint64_t>(3L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(1.0); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_421.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#151515")));
 		}
-		(this->__vwsn_precompile_421 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_421)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_420)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_421));
 		}
 		(this->__vwsn_precompile_422 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
@@ -9122,692 +9363,611 @@ Class (::punkui::ShowcasePageTemplateConstructor)
 			::vl::__vwsn::This(this->__vwsn_precompile_423.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_423.Obj())->SetText(::vl::WString::Unmanaged(L"设备 ID"));
+			::vl::__vwsn::This(this->__vwsn_precompile_423.Obj())->SetText(::vl::WString::Unmanaged(L"更新时间"));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_422)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_423));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_421)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_422));
+			::vl::__vwsn::This(this->__vwsn_precompile_420)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_422));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_420)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_421));
+			::vl::__vwsn::This(this->__vwsn_precompile_419)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_420));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_419));
 		}
 		(this->__vwsn_precompile_424 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_424)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_424)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
 		(this->__vwsn_precompile_425 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_425)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_426 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_426.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_425)->SetPreferredMinSize([&](){ ::vl::presentation::Size __vwsn_temp__; __vwsn_temp__.y = static_cast<::vl::vint64_t>(34L); return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_426.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_425)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_426 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_426.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_426.Obj())->SetText(::vl::WString::Unmanaged(L"状态"));
+			::vl::__vwsn::This(this->__vwsn_precompile_426.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#151515")));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_425)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_426));
+		}
+		(this->__vwsn_precompile_427 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_427)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_428 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_428.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_428.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_428.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_428.Obj())->SetText(::vl::WString::Unmanaged(L"读数"));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_427)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_428));
+		}
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_425)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_427));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_424)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_425));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_420)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_424));
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_424));
 		}
-		(this->__vwsn_precompile_427 = new ::vl::presentation::compositions::GuiCellComposition());
+		(this->__vwsn_precompile_429 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_427)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_429)->SetSite(static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(4L));
 		}
-		(this->__vwsn_precompile_428 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_430 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_428)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_429 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_429.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_430.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#000000")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_429.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_429)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_430));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_429.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_429));
+		}
+		(this->__vwsn_precompile_431 = new ::vl::presentation::compositions::GuiCellComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_431)->SetSite(static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+		}
+		(this->__vwsn_precompile_432 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_432)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_433 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_433.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_429.Obj())->SetText(::vl::WString::Unmanaged(L"更新时间"));
+			::vl::__vwsn::This(this->__vwsn_precompile_433.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_428)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_429));
+			::vl::__vwsn::This(this->__vwsn_precompile_433.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_427)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_428));
+			::vl::__vwsn::This(this->__vwsn_precompile_433.Obj())->SetText(::vl::WString::Unmanaged(L"P-01"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_420)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_427));
-		}
-		(this->__vwsn_precompile_430 = new ::vl::presentation::compositions::GuiCellComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_430)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
-		}
-		(this->__vwsn_precompile_431 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_431)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_432 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_432.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_432)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_433));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_432.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_431)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_432));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_432.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#FFFFFF")));
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_431));
+		}
+		(this->__vwsn_precompile_434 = new ::vl::presentation::compositions::GuiCellComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_434)->SetSite(static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+		}
+		(this->__vwsn_precompile_435 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_435)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+		}
+		(this->__vwsn_precompile_436 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		{
+			::vl::__vwsn::This(this->__vwsn_precompile_436.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_432.Obj())->SetText(::vl::WString::Unmanaged(L"读数"));
+			::vl::__vwsn::This(this->__vwsn_precompile_436.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_431)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_432));
+			::vl::__vwsn::This(this->__vwsn_precompile_436.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#1E9E50")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_430)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_431));
+			::vl::__vwsn::This(this->__vwsn_precompile_436.Obj())->SetText(::vl::WString::Unmanaged(L"RUN"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_420)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_430));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_418)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_420));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_417)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_418));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_416)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_417));
-		}
-		(this->__vwsn_precompile_433 = new ::vl::presentation::compositions::GuiStackItemComposition());
-		(this->__vwsn_precompile_434 = new ::vl::presentation::compositions::GuiTableComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->SetBorderVisible(false);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->SetCellPadding(static_cast<::vl::vint64_t>(0L));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(0L); return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->SetRowsAndColumns(static_cast<::vl::vint64_t>(8L), static_cast<::vl::vint64_t>(4L));
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->SetRowOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->SetRowOption(static_cast<::vl::vint64_t>(1L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(2L); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->SetRowOption(static_cast<::vl::vint64_t>(2L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->SetRowOption(static_cast<::vl::vint64_t>(3L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(2L); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->SetRowOption(static_cast<::vl::vint64_t>(4L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->SetRowOption(static_cast<::vl::vint64_t>(5L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(2L); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->SetRowOption(static_cast<::vl::vint64_t>(6L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::MinSize; return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->SetRowOption(static_cast<::vl::vint64_t>(7L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(2L); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->SetColumnOption(static_cast<::vl::vint64_t>(0L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(140L); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->SetColumnOption(static_cast<::vl::vint64_t>(1L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(100L); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->SetColumnOption(static_cast<::vl::vint64_t>(2L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Absolute; __vwsn_temp__.absolute = static_cast<::vl::vint64_t>(120L); return __vwsn_temp__; }());
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->SetColumnOption(static_cast<::vl::vint64_t>(3L), [&](){ ::vl::presentation::compositions::GuiCellOption __vwsn_temp__; __vwsn_temp__.composeType = ::vl::presentation::compositions::GuiCellOption::ComposeType::Percentage; __vwsn_temp__.percentage = static_cast<double>(1.0); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_435 = new ::vl::presentation::compositions::GuiCellComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_435)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
-		}
-		(this->__vwsn_precompile_436 = new ::vl::presentation::compositions::GuiBoundsComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_436)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
-		}
-		(this->__vwsn_precompile_437 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_437.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_437.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_437.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_437.Obj())->SetText(::vl::WString::Unmanaged(L"P-01"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_436)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_437));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_435)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_436));
+			::vl::__vwsn::This(this->__vwsn_precompile_435)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_436));
 		}
 		{
 			::vl::__vwsn::This(this->__vwsn_precompile_434)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_435));
 		}
-		(this->__vwsn_precompile_438 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_438)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_434));
 		}
-		(this->__vwsn_precompile_439 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_437 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_439)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_437)->SetSite(static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_440 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		(this->__vwsn_precompile_438 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_440.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_438)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_439 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_440.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_439.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_440.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#1E9E50")));
+			::vl::__vwsn::This(this->__vwsn_precompile_439.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_440.Obj())->SetText(::vl::WString::Unmanaged(L"RUN"));
+			::vl::__vwsn::This(this->__vwsn_precompile_439.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_439)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_440));
+			::vl::__vwsn::This(this->__vwsn_precompile_439.Obj())->SetText(::vl::WString::Unmanaged(L"14:32:08"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_438)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_439));
+			::vl::__vwsn::This(this->__vwsn_precompile_438)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_439));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_438));
+			::vl::__vwsn::This(this->__vwsn_precompile_437)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_438));
 		}
-		(this->__vwsn_precompile_441 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_441)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_437));
 		}
-		(this->__vwsn_precompile_442 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_440 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_442)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_440)->SetSite(static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_443 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		(this->__vwsn_precompile_441 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_443.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_441)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_442 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_443.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_442.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_443.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->__vwsn_precompile_442.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_443.Obj())->SetText(::vl::WString::Unmanaged(L"14:32:08"));
+			::vl::__vwsn::This(this->__vwsn_precompile_442.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_442)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_443));
+			::vl::__vwsn::This(this->__vwsn_precompile_442.Obj())->SetText(::vl::WString::Unmanaged(L"412.7 kW"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_441)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_442));
+			::vl::__vwsn::This(this->__vwsn_precompile_441)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_442));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_441));
+			::vl::__vwsn::This(this->__vwsn_precompile_440)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_441));
 		}
-		(this->__vwsn_precompile_444 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_444)->SetSite(static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_440));
 		}
-		(this->__vwsn_precompile_445 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_443 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_445)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_443)->SetSite(static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(4L));
 		}
-		(this->__vwsn_precompile_446 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		(this->__vwsn_precompile_444 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_446.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_444.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#000000")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_446.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_443)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_444));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_446.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_443));
 		}
+		(this->__vwsn_precompile_445 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_446.Obj())->SetText(::vl::WString::Unmanaged(L"412.7 kW"));
+			::vl::__vwsn::This(this->__vwsn_precompile_445)->SetSite(static_cast<::vl::vint64_t>(4L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
+		(this->__vwsn_precompile_446 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_445)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_446));
+			::vl::__vwsn::This(this->__vwsn_precompile_446)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_447 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_444)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_445));
+			::vl::__vwsn::This(this->__vwsn_precompile_447.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_444));
+			::vl::__vwsn::This(this->__vwsn_precompile_447.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
-		(this->__vwsn_precompile_447 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_447)->SetSite(static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(4L));
+			::vl::__vwsn::This(this->__vwsn_precompile_447.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
 		}
-		(this->__vwsn_precompile_448 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_448.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#000000")));
+			::vl::__vwsn::This(this->__vwsn_precompile_447.Obj())->SetText(::vl::WString::Unmanaged(L"P-02"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_447)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_448));
+			::vl::__vwsn::This(this->__vwsn_precompile_446)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_447));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_447));
+			::vl::__vwsn::This(this->__vwsn_precompile_445)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_446));
 		}
-		(this->__vwsn_precompile_449 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_449)->SetSite(static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_445));
 		}
-		(this->__vwsn_precompile_450 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_448 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_450)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_448)->SetSite(static_cast<::vl::vint64_t>(4L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_451 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		(this->__vwsn_precompile_449 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_451.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_449)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_450 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_451.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_450.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_451.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+			::vl::__vwsn::This(this->__vwsn_precompile_450.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_451.Obj())->SetText(::vl::WString::Unmanaged(L"P-02"));
+			::vl::__vwsn::This(this->__vwsn_precompile_450.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#B89600")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_450)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_451));
+			::vl::__vwsn::This(this->__vwsn_precompile_450.Obj())->SetText(::vl::WString::Unmanaged(L"IDLE"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_449)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_450));
+			::vl::__vwsn::This(this->__vwsn_precompile_449)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_450));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_449));
+			::vl::__vwsn::This(this->__vwsn_precompile_448)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_449));
 		}
-		(this->__vwsn_precompile_452 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_452)->SetSite(static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_448));
 		}
-		(this->__vwsn_precompile_453 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_451 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_453)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_451)->SetSite(static_cast<::vl::vint64_t>(4L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_454 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		(this->__vwsn_precompile_452 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_454.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_452)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_453 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_454.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_453.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_454.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#B89600")));
+			::vl::__vwsn::This(this->__vwsn_precompile_453.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_454.Obj())->SetText(::vl::WString::Unmanaged(L"IDLE"));
+			::vl::__vwsn::This(this->__vwsn_precompile_453.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_453)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_454));
+			::vl::__vwsn::This(this->__vwsn_precompile_453.Obj())->SetText(::vl::WString::Unmanaged(L"14:30:12"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_452)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_453));
+			::vl::__vwsn::This(this->__vwsn_precompile_452)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_453));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_452));
+			::vl::__vwsn::This(this->__vwsn_precompile_451)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_452));
 		}
-		(this->__vwsn_precompile_455 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_455)->SetSite(static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_451));
 		}
-		(this->__vwsn_precompile_456 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_454 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_456)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_454)->SetSite(static_cast<::vl::vint64_t>(4L), static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_457 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		(this->__vwsn_precompile_455 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_457.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_455)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_456 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_457.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_456.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_457.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->__vwsn_precompile_456.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_457.Obj())->SetText(::vl::WString::Unmanaged(L"14:30:12"));
+			::vl::__vwsn::This(this->__vwsn_precompile_456.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_456)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_457));
+			::vl::__vwsn::This(this->__vwsn_precompile_456.Obj())->SetText(::vl::WString::Unmanaged(L"0.0 kW"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_455)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_456));
+			::vl::__vwsn::This(this->__vwsn_precompile_455)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_456));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_455));
+			::vl::__vwsn::This(this->__vwsn_precompile_454)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_455));
 		}
-		(this->__vwsn_precompile_458 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_458)->SetSite(static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_454));
 		}
-		(this->__vwsn_precompile_459 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_457 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_459)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_457)->SetSite(static_cast<::vl::vint64_t>(5L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(4L));
 		}
-		(this->__vwsn_precompile_460 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		(this->__vwsn_precompile_458 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_460.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_458.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#000000")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_460.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_457)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_458));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_460.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_457));
 		}
+		(this->__vwsn_precompile_459 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_460.Obj())->SetText(::vl::WString::Unmanaged(L"0.0 kW"));
+			::vl::__vwsn::This(this->__vwsn_precompile_459)->SetSite(static_cast<::vl::vint64_t>(6L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
+		(this->__vwsn_precompile_460 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_459)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_460));
+			::vl::__vwsn::This(this->__vwsn_precompile_460)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_461 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_458)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_459));
+			::vl::__vwsn::This(this->__vwsn_precompile_461.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_458));
+			::vl::__vwsn::This(this->__vwsn_precompile_461.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
-		(this->__vwsn_precompile_461 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_461)->SetSite(static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(4L));
+			::vl::__vwsn::This(this->__vwsn_precompile_461.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
 		}
-		(this->__vwsn_precompile_462 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_462.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#000000")));
+			::vl::__vwsn::This(this->__vwsn_precompile_461.Obj())->SetText(::vl::WString::Unmanaged(L"C-01"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_461)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_462));
+			::vl::__vwsn::This(this->__vwsn_precompile_460)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_461));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_461));
+			::vl::__vwsn::This(this->__vwsn_precompile_459)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_460));
 		}
-		(this->__vwsn_precompile_463 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_463)->SetSite(static_cast<::vl::vint64_t>(4L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_459));
 		}
-		(this->__vwsn_precompile_464 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_462 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_464)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_462)->SetSite(static_cast<::vl::vint64_t>(6L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_465 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		(this->__vwsn_precompile_463 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_465.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_463)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_464 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_465.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_464.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_465.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+			::vl::__vwsn::This(this->__vwsn_precompile_464.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_465.Obj())->SetText(::vl::WString::Unmanaged(L"C-01"));
+			::vl::__vwsn::This(this->__vwsn_precompile_464.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0087BA")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_464)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_465));
+			::vl::__vwsn::This(this->__vwsn_precompile_464.Obj())->SetText(::vl::WString::Unmanaged(L"MAINT"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_463)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_464));
+			::vl::__vwsn::This(this->__vwsn_precompile_463)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_464));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_463));
+			::vl::__vwsn::This(this->__vwsn_precompile_462)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_463));
 		}
-		(this->__vwsn_precompile_466 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_466)->SetSite(static_cast<::vl::vint64_t>(4L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_462));
 		}
-		(this->__vwsn_precompile_467 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_465 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_467)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_465)->SetSite(static_cast<::vl::vint64_t>(6L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_468 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		(this->__vwsn_precompile_466 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_468.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_466)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_467 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_468.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_467.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_468.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0087BA")));
+			::vl::__vwsn::This(this->__vwsn_precompile_467.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_468.Obj())->SetText(::vl::WString::Unmanaged(L"MAINT"));
+			::vl::__vwsn::This(this->__vwsn_precompile_467.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_467)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_468));
+			::vl::__vwsn::This(this->__vwsn_precompile_467.Obj())->SetText(::vl::WString::Unmanaged(L"14:28:55"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_466)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_467));
+			::vl::__vwsn::This(this->__vwsn_precompile_466)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_467));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_466));
+			::vl::__vwsn::This(this->__vwsn_precompile_465)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_466));
 		}
-		(this->__vwsn_precompile_469 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_469)->SetSite(static_cast<::vl::vint64_t>(4L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_465));
 		}
-		(this->__vwsn_precompile_470 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_468 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_470)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_468)->SetSite(static_cast<::vl::vint64_t>(6L), static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_471 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		(this->__vwsn_precompile_469 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_471.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_469)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_470 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_471.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_470.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_471.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->__vwsn_precompile_470.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_471.Obj())->SetText(::vl::WString::Unmanaged(L"14:28:55"));
+			::vl::__vwsn::This(this->__vwsn_precompile_470.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_470)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_471));
+			::vl::__vwsn::This(this->__vwsn_precompile_470.Obj())->SetText(::vl::WString::Unmanaged(L"—"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_469)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_470));
+			::vl::__vwsn::This(this->__vwsn_precompile_469)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_470));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_469));
+			::vl::__vwsn::This(this->__vwsn_precompile_468)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_469));
 		}
-		(this->__vwsn_precompile_472 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_472)->SetSite(static_cast<::vl::vint64_t>(4L), static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_468));
 		}
-		(this->__vwsn_precompile_473 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_471 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_473)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_471)->SetSite(static_cast<::vl::vint64_t>(7L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(4L));
 		}
-		(this->__vwsn_precompile_474 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		(this->__vwsn_precompile_472 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_474.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_472.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#000000")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_474.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_471)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_472));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_474.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_471));
 		}
+		(this->__vwsn_precompile_473 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_474.Obj())->SetText(::vl::WString::Unmanaged(L"—"));
+			::vl::__vwsn::This(this->__vwsn_precompile_473)->SetSite(static_cast<::vl::vint64_t>(8L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
+		(this->__vwsn_precompile_474 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_473)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_474));
+			::vl::__vwsn::This(this->__vwsn_precompile_474)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_475 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_472)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_473));
+			::vl::__vwsn::This(this->__vwsn_precompile_475.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_472));
+			::vl::__vwsn::This(this->__vwsn_precompile_475.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
-		(this->__vwsn_precompile_475 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_475)->SetSite(static_cast<::vl::vint64_t>(5L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(4L));
+			::vl::__vwsn::This(this->__vwsn_precompile_475.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
 		}
-		(this->__vwsn_precompile_476 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_476.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#000000")));
+			::vl::__vwsn::This(this->__vwsn_precompile_475.Obj())->SetText(::vl::WString::Unmanaged(L"S-04"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_475)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_476));
+			::vl::__vwsn::This(this->__vwsn_precompile_474)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_475));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_475));
+			::vl::__vwsn::This(this->__vwsn_precompile_473)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_474));
 		}
-		(this->__vwsn_precompile_477 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_477)->SetSite(static_cast<::vl::vint64_t>(6L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_473));
 		}
-		(this->__vwsn_precompile_478 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_476 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_478)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_476)->SetSite(static_cast<::vl::vint64_t>(8L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_479 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		(this->__vwsn_precompile_477 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_479.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_477)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_478 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_479.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_478.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_479.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#0A0A0A")));
+			::vl::__vwsn::This(this->__vwsn_precompile_478.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_479.Obj())->SetText(::vl::WString::Unmanaged(L"S-04"));
+			::vl::__vwsn::This(this->__vwsn_precompile_478.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_478)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_479));
+			::vl::__vwsn::This(this->__vwsn_precompile_478.Obj())->SetText(::vl::WString::Unmanaged(L"FAULT"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_477)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_478));
+			::vl::__vwsn::This(this->__vwsn_precompile_477)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_478));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_477));
+			::vl::__vwsn::This(this->__vwsn_precompile_476)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_477));
 		}
-		(this->__vwsn_precompile_480 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_480)->SetSite(static_cast<::vl::vint64_t>(6L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_476));
 		}
-		(this->__vwsn_precompile_481 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_479 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_481)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_479)->SetSite(static_cast<::vl::vint64_t>(8L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_482 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		(this->__vwsn_precompile_480 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_482.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_480)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_481 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_482.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.bold = true; __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_481.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_482.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#E8151C")));
+			::vl::__vwsn::This(this->__vwsn_precompile_481.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_482.Obj())->SetText(::vl::WString::Unmanaged(L"FAULT"));
+			::vl::__vwsn::This(this->__vwsn_precompile_481.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_481)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_482));
+			::vl::__vwsn::This(this->__vwsn_precompile_481.Obj())->SetText(::vl::WString::Unmanaged(L"14:25:03"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_480)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_481));
+			::vl::__vwsn::This(this->__vwsn_precompile_480)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_481));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_480));
+			::vl::__vwsn::This(this->__vwsn_precompile_479)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_480));
 		}
-		(this->__vwsn_precompile_483 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_483)->SetSite(static_cast<::vl::vint64_t>(6L), static_cast<::vl::vint64_t>(2L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_479));
 		}
-		(this->__vwsn_precompile_484 = new ::vl::presentation::compositions::GuiBoundsComposition());
+		(this->__vwsn_precompile_482 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_484)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_482)->SetSite(static_cast<::vl::vint64_t>(8L), static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
 		}
-		(this->__vwsn_precompile_485 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
+		(this->__vwsn_precompile_483 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_485.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_483)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
 		}
+		(this->__vwsn_precompile_484 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_485.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->__vwsn_precompile_484.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_485.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
+			::vl::__vwsn::This(this->__vwsn_precompile_484.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_485.Obj())->SetText(::vl::WString::Unmanaged(L"14:25:03"));
+			::vl::__vwsn::This(this->__vwsn_precompile_484.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_484)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_485));
+			::vl::__vwsn::This(this->__vwsn_precompile_484.Obj())->SetText(::vl::WString::Unmanaged(L"N/A"));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_483)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_484));
+			::vl::__vwsn::This(this->__vwsn_precompile_483)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_484));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_483));
+			::vl::__vwsn::This(this->__vwsn_precompile_482)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_483));
 		}
-		(this->__vwsn_precompile_486 = new ::vl::presentation::compositions::GuiCellComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_486)->SetSite(static_cast<::vl::vint64_t>(6L), static_cast<::vl::vint64_t>(3L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(1L));
+			::vl::__vwsn::This(this->__vwsn_precompile_408)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_482));
 		}
-		(this->__vwsn_precompile_487 = new ::vl::presentation::compositions::GuiBoundsComposition());
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_487)->SetAlignmentToParent([&](){ ::vl::presentation::Margin __vwsn_temp__; __vwsn_temp__.left = static_cast<::vl::vint64_t>(12L); __vwsn_temp__.top = static_cast<::vl::vint64_t>(8L); __vwsn_temp__.right = static_cast<::vl::vint64_t>(0L); __vwsn_temp__.bottom = static_cast<::vl::vint64_t>(8L); return __vwsn_temp__; }());
+			::vl::__vwsn::This(this->tableWrap)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_408));
 		}
-		(this->__vwsn_precompile_488 = ::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidLabelElement>()));
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_488.Obj())->SetVerticalAlignment(::vl::presentation::Alignment::Center);
+			::vl::__vwsn::This(this->__vwsn_precompile_407)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->tableWrap));
 		}
 		{
-			::vl::__vwsn::This(this->__vwsn_precompile_488.Obj())->SetFont([&](){ ::vl::presentation::FontProperties __vwsn_temp__; __vwsn_temp__.fontFamily = ::vl::WString::Unmanaged(L"Consolas"); __vwsn_temp__.size = static_cast<::vl::vint64_t>(13L); __vwsn_temp__.antialias = true; return __vwsn_temp__; }());
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_488.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#3B3B3B")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_488.Obj())->SetText(::vl::WString::Unmanaged(L"N/A"));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_487)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_488));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_486)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_487));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_486));
-		}
-		(this->__vwsn_precompile_489 = new ::vl::presentation::compositions::GuiCellComposition());
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_489)->SetSite(static_cast<::vl::vint64_t>(7L), static_cast<::vl::vint64_t>(0L), static_cast<::vl::vint64_t>(1L), static_cast<::vl::vint64_t>(4L));
-		}
-		(this->__vwsn_precompile_490 = ::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>(::vl::reflection::description::Element_Constructor<::vl::presentation::elements::GuiSolidBackgroundElement>()));
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_490.Obj())->SetColor(::vl::__vwsn::Parse<::vl::presentation::Color>(::vl::WString::Unmanaged(L"#000000")));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_489)->SetOwnedElement(::vl::Ptr<::vl::presentation::elements::IGuiGraphicsElement>(this->__vwsn_precompile_490));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_434)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_489));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_433)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_434));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_416)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_433));
-		}
-		{
-			::vl::__vwsn::This(this->tableWrap)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_416));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_415)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->tableWrap));
-		}
-		{
-			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_415));
+			::vl::__vwsn::This(this->__vwsn_precompile_1)->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_407));
 		}
 		{
 			::vl::__vwsn::This(::vl::__vwsn::This(this->__vwsn_precompile_0)->GetContainerComposition())->AddChild(static_cast<::vl::presentation::compositions::GuiGraphicsComposition*>(this->__vwsn_precompile_1));
@@ -9817,7 +9977,7 @@ Class (::punkui::ShowcasePageTemplateConstructor)
 		}
 		{
 			auto __vwsn_event_handler_ = vl::Func(::vl_workflow_global::__vwsnf19_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_(this));
-			::vl::__vwsn::EventAttach(::vl::__vwsn::This(this->__vwsn_precompile_404)->Clicked, __vwsn_event_handler_);
+			::vl::__vwsn::EventAttach(::vl::__vwsn::This(this->__vwsn_precompile_396)->Clicked, __vwsn_event_handler_);
 		}
 	}
 
@@ -9939,284 +10099,284 @@ Class (::punkui::ShowcasePageTemplateConstructor)
 		, __vwsn_precompile_97(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
 		, __vwsn_precompile_98(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
 		, __vwsn_precompile_99(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_100(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_101(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_102(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_103(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_104(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_105(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_106(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_107(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_108(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_109(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_110(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_111(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_112(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_100(static_cast<::vl::presentation::compositions::GuiTableComposition*>(nullptr))
+		, __vwsn_precompile_101(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_102(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_103(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_104(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_105(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_106(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_107(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_108(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_109(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_110(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_111(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_112(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
 		, __vwsn_precompile_113(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_114(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_115(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_116(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_117(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_118(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_119(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_120(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_121(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_122(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_123(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_124(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_125(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_126(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_127(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_128(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_129(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_130(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_131(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_132(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_133(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_134(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_135(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_136(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_137(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_138(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_139(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_140(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_141(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_142(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_143(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_144(static_cast<::vl::presentation::controls::GuiButton*>(nullptr))
-		, __vwsn_precompile_145(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_146(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_147(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_148(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_149(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_150(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_151(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_152(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_153(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_154(::vl::Ptr<::vl::presentation::elements::GuiPolygonElement>())
-		, __vwsn_precompile_155(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_156(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_157(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_158(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_159(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_160(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_161(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_162(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_163(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_164(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_165(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_166(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_167(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_168(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_169(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_170(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_171(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_172(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_173(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_174(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_175(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_176(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_177(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_178(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_179(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_180(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_181(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_182(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_183(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_184(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_185(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_186(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_187(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_188(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_189(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_190(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_191(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_192(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_193(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_194(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_195(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_196(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_197(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_198(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_199(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_200(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_201(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
-		, __vwsn_precompile_202(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_203(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_204(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_205(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_206(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_207(::vl::Ptr<::vl::presentation::elements::GuiPolygonElement>())
-		, __vwsn_precompile_208(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_209(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_210(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_114(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_115(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_116(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_117(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_118(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_119(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_120(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_121(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_122(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_123(static_cast<::vl::presentation::compositions::GuiTableComposition*>(nullptr))
+		, __vwsn_precompile_124(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_125(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_126(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_127(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_128(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_129(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_130(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_131(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_132(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_133(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_134(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_135(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_136(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_137(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_138(static_cast<::vl::presentation::compositions::GuiTableComposition*>(nullptr))
+		, __vwsn_precompile_139(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_140(static_cast<::vl::presentation::controls::GuiButton*>(nullptr))
+		, __vwsn_precompile_141(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_142(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_143(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_144(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_145(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_146(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_147(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_148(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_149(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_150(::vl::Ptr<::vl::presentation::elements::GuiPolygonElement>())
+		, __vwsn_precompile_151(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_152(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_153(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_154(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_155(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_156(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_157(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_158(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_159(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_160(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_161(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_162(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_163(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_164(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_165(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_166(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_167(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_168(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_169(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_170(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_171(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_172(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_173(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_174(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_175(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_176(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_177(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_178(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_179(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_180(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_181(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_182(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_183(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_184(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_185(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_186(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_187(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_188(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_189(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_190(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_191(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_192(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_193(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_194(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_195(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_196(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_197(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
+		, __vwsn_precompile_198(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_199(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_200(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_201(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_202(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_203(::vl::Ptr<::vl::presentation::elements::GuiPolygonElement>())
+		, __vwsn_precompile_204(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_205(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_206(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_207(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_208(static_cast<::vl::presentation::compositions::GuiTableComposition*>(nullptr))
+		, __vwsn_precompile_209(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_210(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
 		, __vwsn_precompile_211(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_212(static_cast<::vl::presentation::compositions::GuiTableComposition*>(nullptr))
-		, __vwsn_precompile_213(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_214(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_215(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_216(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_217(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_218(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_219(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_220(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_221(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_222(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_223(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_224(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_225(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_212(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_213(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_214(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_215(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_216(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_217(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_218(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_219(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_220(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_221(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_222(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_223(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_224(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_225(static_cast<::vl::presentation::controls::GuiMultilineTextBox*>(nullptr))
 		, __vwsn_precompile_226(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_227(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_228(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_229(static_cast<::vl::presentation::controls::GuiMultilineTextBox*>(nullptr))
+		, __vwsn_precompile_227(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_228(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_229(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
 		, __vwsn_precompile_230(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_231(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_232(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_233(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_231(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_232(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_233(static_cast<::vl::presentation::controls::GuiSelectableButton*>(nullptr))
 		, __vwsn_precompile_234(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_235(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_236(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_237(static_cast<::vl::presentation::controls::GuiSelectableButton*>(nullptr))
-		, __vwsn_precompile_238(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_239(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_235(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_236(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_237(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_238(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_239(static_cast<::vl::presentation::controls::GuiSelectableButton*>(nullptr))
 		, __vwsn_precompile_240(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_241(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_242(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_243(static_cast<::vl::presentation::controls::GuiSelectableButton*>(nullptr))
-		, __vwsn_precompile_244(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_245(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_246(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_247(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_248(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_249(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_250(::vl::Ptr<::vl::presentation::elements::GuiPolygonElement>())
-		, __vwsn_precompile_251(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_252(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_253(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_241(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_242(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_243(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_244(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_245(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_246(::vl::Ptr<::vl::presentation::elements::GuiPolygonElement>())
+		, __vwsn_precompile_247(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_248(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_249(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_250(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_251(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_252(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_253(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
 		, __vwsn_precompile_254(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_255(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_256(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_257(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_258(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_259(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_255(static_cast<::vl::presentation::compositions::GuiTableComposition*>(nullptr))
+		, __vwsn_precompile_256(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_257(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_258(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_259(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
 		, __vwsn_precompile_260(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
 		, __vwsn_precompile_261(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_262(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_263(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_264(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_265(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_266(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_267(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_268(static_cast<::vl::presentation::compositions::GuiTableComposition*>(nullptr))
-		, __vwsn_precompile_269(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_270(static_cast<::vl::presentation::controls::GuiScroll*>(nullptr))
-		, __vwsn_precompile_271(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_262(static_cast<::vl::presentation::compositions::GuiTableComposition*>(nullptr))
+		, __vwsn_precompile_263(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_264(static_cast<::vl::presentation::controls::GuiScroll*>(nullptr))
+		, __vwsn_precompile_265(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_266(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_267(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
+		, __vwsn_precompile_268(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_269(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_270(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_271(static_cast<::vl::presentation::compositions::GuiTableComposition*>(nullptr))
 		, __vwsn_precompile_272(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_273(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
-		, __vwsn_precompile_274(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_275(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_273(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_274(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_275(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
 		, __vwsn_precompile_276(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_277(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_278(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_279(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_280(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_281(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_282(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_283(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_277(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_278(static_cast<::vl::presentation::compositions::GuiTableComposition*>(nullptr))
+		, __vwsn_precompile_279(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_280(static_cast<::vl::presentation::controls::GuiScroll*>(nullptr))
+		, __vwsn_precompile_281(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_282(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_283(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
 		, __vwsn_precompile_284(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
 		, __vwsn_precompile_285(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_286(static_cast<::vl::presentation::compositions::GuiTableComposition*>(nullptr))
-		, __vwsn_precompile_287(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_288(static_cast<::vl::presentation::controls::GuiScroll*>(nullptr))
-		, __vwsn_precompile_289(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_290(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_291(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
-		, __vwsn_precompile_292(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_293(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_286(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_287(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_288(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_289(::vl::Ptr<::vl::presentation::elements::GuiPolygonElement>())
+		, __vwsn_precompile_290(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_291(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_292(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_293(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
 		, __vwsn_precompile_294(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
 		, __vwsn_precompile_295(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
 		, __vwsn_precompile_296(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_297(::vl::Ptr<::vl::presentation::elements::GuiPolygonElement>())
-		, __vwsn_precompile_298(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_299(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_300(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_301(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_302(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_303(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_304(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_305(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
+		, __vwsn_precompile_297(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
+		, __vwsn_precompile_298(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_299(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_300(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_301(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_302(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_303(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_304(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_305(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
 		, __vwsn_precompile_306(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_307(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_307(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
 		, __vwsn_precompile_308(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_309(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_310(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_311(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_312(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_313(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_309(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_310(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_311(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_312(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_313(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
 		, __vwsn_precompile_314(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_315(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_315(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
 		, __vwsn_precompile_316(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_317(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_318(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_319(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_320(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_321(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
+		, __vwsn_precompile_317(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_318(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_319(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_320(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_321(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
 		, __vwsn_precompile_322(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_323(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_323(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
 		, __vwsn_precompile_324(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_325(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_326(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_327(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_328(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_329(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_325(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_326(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_327(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_328(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_329(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
 		, __vwsn_precompile_330(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_331(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_331(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
 		, __vwsn_precompile_332(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_333(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_334(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_335(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_336(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_337(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
+		, __vwsn_precompile_333(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_334(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_335(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_336(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_337(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
 		, __vwsn_precompile_338(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_339(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_339(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
 		, __vwsn_precompile_340(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_341(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_342(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_343(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_344(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_345(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_341(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_342(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_343(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_344(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_345(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
 		, __vwsn_precompile_346(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_347(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_347(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
 		, __vwsn_precompile_348(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_349(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_350(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_351(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_352(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_353(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
+		, __vwsn_precompile_349(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_350(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_351(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_352(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_353(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
 		, __vwsn_precompile_354(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_355(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_355(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
 		, __vwsn_precompile_356(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_357(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_358(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_359(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_360(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_361(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_362(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_363(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_364(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_365(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_366(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_367(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_368(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_357(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_358(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_359(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_360(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_361(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_362(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_363(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_364(::vl::Ptr<::vl::presentation::elements::GuiPolygonElement>())
+		, __vwsn_precompile_365(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_366(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_367(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_368(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
 		, __vwsn_precompile_369(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
 		, __vwsn_precompile_370(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
 		, __vwsn_precompile_371(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_372(::vl::Ptr<::vl::presentation::elements::GuiPolygonElement>())
-		, __vwsn_precompile_373(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_372(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_373(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
 		, __vwsn_precompile_374(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_375(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_376(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_377(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_375(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
+		, __vwsn_precompile_376(::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement>())
+		, __vwsn_precompile_377(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
 		, __vwsn_precompile_378(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
 		, __vwsn_precompile_379(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
 		, __vwsn_precompile_380(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
@@ -10235,102 +10395,96 @@ Class (::punkui::ShowcasePageTemplateConstructor)
 		, __vwsn_precompile_393(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
 		, __vwsn_precompile_394(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
 		, __vwsn_precompile_395(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_396(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_397(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
-		, __vwsn_precompile_398(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_399(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
-		, __vwsn_precompile_400(::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement>())
-		, __vwsn_precompile_401(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_402(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_403(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_404(static_cast<::vl::presentation::controls::GuiButton*>(nullptr))
+		, __vwsn_precompile_396(static_cast<::vl::presentation::controls::GuiButton*>(nullptr))
+		, __vwsn_precompile_397(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_398(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_399(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_400(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
+		, __vwsn_precompile_401(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_402(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_403(::vl::Ptr<::vl::presentation::elements::GuiPolygonElement>())
+		, __vwsn_precompile_404(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
 		, __vwsn_precompile_405(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_406(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_407(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_408(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_409(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_406(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_407(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
+		, __vwsn_precompile_408(static_cast<::vl::presentation::compositions::GuiTableComposition*>(nullptr))
+		, __vwsn_precompile_409(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
 		, __vwsn_precompile_410(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_411(::vl::Ptr<::vl::presentation::elements::GuiPolygonElement>())
-		, __vwsn_precompile_412(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_413(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_414(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_415(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_416(static_cast<::vl::presentation::compositions::GuiStackComposition*>(nullptr))
-		, __vwsn_precompile_417(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_418(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_419(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
-		, __vwsn_precompile_420(static_cast<::vl::presentation::compositions::GuiTableComposition*>(nullptr))
-		, __vwsn_precompile_421(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_411(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
+		, __vwsn_precompile_412(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_413(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_414(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_415(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_416(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
+		, __vwsn_precompile_417(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_418(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_419(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_420(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_421(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
 		, __vwsn_precompile_422(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
 		, __vwsn_precompile_423(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
 		, __vwsn_precompile_424(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
 		, __vwsn_precompile_425(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_426(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_427(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_428(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_429(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_430(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_431(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_432(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_433(static_cast<::vl::presentation::compositions::GuiStackItemComposition*>(nullptr))
-		, __vwsn_precompile_434(static_cast<::vl::presentation::compositions::GuiTableComposition*>(nullptr))
-		, __vwsn_precompile_435(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_436(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_437(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_438(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_439(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_440(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_441(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_442(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_443(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_444(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_445(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_446(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_447(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_448(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
-		, __vwsn_precompile_449(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_450(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_451(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_452(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_453(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_454(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_455(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_456(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_457(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_458(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_459(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_460(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_461(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_462(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
-		, __vwsn_precompile_463(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_464(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_465(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_466(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_467(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_468(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_469(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_470(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_471(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_472(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_473(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_474(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_475(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_476(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
-		, __vwsn_precompile_477(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_478(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_479(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_480(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_481(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_482(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_483(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_484(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_485(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_486(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_487(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
-		, __vwsn_precompile_488(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
-		, __vwsn_precompile_489(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
-		, __vwsn_precompile_490(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
-		, __vwsn_precompile_491(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_426(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
+		, __vwsn_precompile_427(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_428(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_429(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_430(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
+		, __vwsn_precompile_431(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_432(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_433(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_434(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_435(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_436(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_437(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_438(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_439(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_440(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_441(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_442(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_443(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_444(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
+		, __vwsn_precompile_445(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_446(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_447(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_448(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_449(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_450(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_451(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_452(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_453(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_454(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_455(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_456(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_457(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_458(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
+		, __vwsn_precompile_459(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_460(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_461(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_462(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_463(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_464(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_465(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_466(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_467(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_468(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_469(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_470(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_471(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_472(::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement>())
+		, __vwsn_precompile_473(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_474(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_475(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_476(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_477(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_478(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_479(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_480(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_481(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_482(static_cast<::vl::presentation::compositions::GuiCellComposition*>(nullptr))
+		, __vwsn_precompile_483(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
+		, __vwsn_precompile_484(::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement>())
+		, __vwsn_precompile_485(static_cast<::vl::presentation::compositions::GuiBoundsComposition*>(nullptr))
 	{
 	}
 

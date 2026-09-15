@@ -3,13 +3,25 @@
 
   <Style ref.Path="//*.variantShadow" Color="#000000"/>
 
+  <Style ref.Path="//*.navLinkBackground">
+    <att.Color-bind>
+      <![CDATA[
+        cast Color let state = self.State in (
+          not self.VisuallyEnabled ? (cast Color "#00000000") :
+          state == ButtonState::Active ? (cast Color "#2F2F2F") :
+          (cast Color "#00000000")
+        )
+      ]]>
+    </att.Color-bind>
+  </Style>
+
   <Style ref.Path="//*.primaryBody">
     <att.Color-bind>
       <![CDATA[
         cast Color let state = self.State in (
           not self.VisuallyEnabled ? (cast Color "#9E9E9E") :
           state == ButtonState::Pressed ? (cast Color "#B01015") :
-          state == ButtonState::Active ? (cast Color "#F03A40") :
+          state == ButtonState::Active ? (cast Color "#FF4A50") :
           (cast Color "#E8151C")
         )
       ]]>
@@ -21,7 +33,7 @@
         cast Color let state = self.State in (
           not self.VisuallyEnabled ? (cast Color "#9E9E9E") :
           state == ButtonState::Pressed ? (cast Color "#EFEAE0") :
-          state == ButtonState::Active ? (cast Color "#F5F1E8") :
+          state == ButtonState::Active ? (cast Color "#FBD5D6") :
           (cast Color "#FFFFFF")
         )
       ]]>
@@ -33,7 +45,7 @@
         cast Color let state = self.State in (
           not self.VisuallyEnabled ? (cast Color "#9E9E9E") :
           state == ButtonState::Pressed ? (cast Color "#F5F1E8") :
-          state == ButtonState::Active ? (cast Color "#EFEAE0") :
+          state == ButtonState::Active ? (cast Color "#FBD5D6") :
           (cast Color "#FFFFFF")
         )
       ]]>

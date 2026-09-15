@@ -3,6 +3,7 @@
   <Instance name="NavLinkTemplateResource">
     <Instance ref.CodeBehind="false" ref.Class="punkui::NavLinkTemplate" ref.Styles="res://PunkUI/AppStyle">
       <ButtonTemplate ref.Name="self" ContainerComposition-ref="container" MinSizeLimitation="LimitToElementAndChildren">
+        <SolidBackground ref.Style="navLinkBackground"/>
         <Bounds ref.Name="container" AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
       </ButtonTemplate>
     </Instance>

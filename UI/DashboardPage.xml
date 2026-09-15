@@ -12,7 +12,7 @@
         }
       ]]></ref.Ctor>
       <ControlTemplate ref.Name="page" MinSizeLimitation="LimitToElementAndChildren">
-        <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" Padding="28" PreferredMinSize="x:1080 y:0" MinSizeLimitation="LimitToElementAndChildren">
+        <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" Padding="28" MinSizeLimitation="LimitToElementAndChildren">
 
           <!-- ============ 页头 ============ -->
           <StackItem>
@@ -233,35 +233,9 @@
                 <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
                   <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:12"><SolidLabel Text="事件记录" Color="#0A0A0A" Font="size:16 bold:true antialias:true"/></Bounds></StackItem>
                   <StackItem>
-                    <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:30">
-                      <SolidBackground Color="#151515"/>
-                      <Table AlignmentToParent="left:0 top:0 right:0 bottom:0">
-                        <att.Rows><CellOption>composeType:Percentage percentage:1.0</CellOption></att.Rows>
-                        <att.Columns>
-                          <CellOption>composeType:Absolute absolute:120</CellOption>
-                          <CellOption>composeType:Absolute absolute:100</CellOption>
-                          <CellOption>composeType:Absolute absolute:120</CellOption>
-                          <CellOption>composeType:Percentage percentage:1.0</CellOption>
-                        </att.Columns>
-                        <Cell Site="row:0 column:0"><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0"><SolidLabel Text="设备 ID" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                        <Cell Site="row:0 column:1"><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0"><SolidLabel Text="状态码" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                        <Cell Site="row:0 column:2"><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0"><SolidLabel Text="更新时间" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                        <Cell Site="row:0 column:3"><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0"><SolidLabel Text="事件" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      </Table>
-                    </Bounds>
-                  </StackItem>
-                  <StackItem>
                     <Table AlignmentToParent="left:0 top:0 right:0 bottom:0" CellPadding="0" BorderVisible="false">
                       <att.Rows>
-                        <CellOption>composeType:MinSize</CellOption>
-                        <CellOption>composeType:Absolute absolute:2</CellOption>
-                        <CellOption>composeType:MinSize</CellOption>
-                        <CellOption>composeType:Absolute absolute:2</CellOption>
-                        <CellOption>composeType:MinSize</CellOption>
-                        <CellOption>composeType:Absolute absolute:2</CellOption>
-                        <CellOption>composeType:MinSize</CellOption>
-                        <CellOption>composeType:Absolute absolute:2</CellOption>
-                        <CellOption>composeType:MinSize</CellOption>
+                        <CellOption>composeType:MinSize</CellOption><CellOption>composeType:Absolute absolute:2</CellOption><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Absolute absolute:2</CellOption><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Absolute absolute:2</CellOption><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Absolute absolute:2</CellOption><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Absolute absolute:2</CellOption><CellOption>composeType:MinSize</CellOption>
                       </att.Rows>
                       <att.Columns>
                         <CellOption>composeType:Absolute absolute:120</CellOption>
@@ -269,30 +243,32 @@
                         <CellOption>composeType:Absolute absolute:120</CellOption>
                         <CellOption>composeType:Percentage percentage:1.0</CellOption>
                       </att.Columns>
-                      <Cell Site="row:0 column:0"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="P-01" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:0 column:1"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="E204" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:0 column:2"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="14:32:08" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:0 column:3"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="输出功率恢复额定值" Color="#3B3B3B" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:1 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
-                      <Cell Site="row:2 column:0"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="S-04" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:2 column:1"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="W110" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:2 column:2"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="14:31:40" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:2 column:3"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="轴承温度接近阈值" Color="#3B3B3B" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:3 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
-                      <Cell Site="row:4 column:0"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="P-02" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:4 column:1"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="I000" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:4 column:2"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="14:30:12" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:4 column:3"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="主泵 B 进入待机" Color="#3B3B3B" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:5 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
-                      <Cell Site="row:6 column:0"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="C-01" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:6 column:1"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="M301" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:6 column:2"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="14:28:55" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:6 column:3"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="冷却单元维护模式" Color="#3B3B3B" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:7 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
-                      <Cell Site="row:8 column:0"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="S-04" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:8 column:1"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="F502" Color="#E8151C" Font="fontFamily:'Consolas' size:13 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:8 column:2"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="14:25:03" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
-                      <Cell Site="row:8 column:3"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="传感器 04 信号丢失" Color="#3B3B3B" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+                      <Cell Site="row:0 column:0"><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:32"><SolidBackground Color="#151515"/><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0"><SolidLabel Text="设备 ID" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Bounds></Cell><Cell Site="row:0 column:1"><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:32"><SolidBackground Color="#151515"/><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0"><SolidLabel Text="状态码" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Bounds></Cell><Cell Site="row:0 column:2"><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:32"><SolidBackground Color="#151515"/><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0"><SolidLabel Text="更新时间" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Bounds></Cell><Cell Site="row:0 column:3"><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:32"><SolidBackground Color="#151515"/><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0"><SolidLabel Text="事件" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Bounds></Cell>
+                              <Cell Site="row:1 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
+        <Cell Site="row:2 column:0"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="P-01" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+        <Cell Site="row:2 column:1"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="E204" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+        <Cell Site="row:2 column:2"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="14:32:08" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+        <Cell Site="row:2 column:3"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="输出功率恢复额定值" Color="#3B3B3B" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+        <Cell Site="row:3 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
+        <Cell Site="row:4 column:0"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="S-04" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+        <Cell Site="row:4 column:1"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="W110" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+        <Cell Site="row:4 column:2"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="14:31:40" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+        <Cell Site="row:4 column:3"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="轴承温度接近阈值" Color="#3B3B3B" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+        <Cell Site="row:5 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
+        <Cell Site="row:6 column:0"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="P-02" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+        <Cell Site="row:6 column:1"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="I000" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+        <Cell Site="row:6 column:2"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="14:30:12" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+        <Cell Site="row:6 column:3"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="主泵 B 进入待机" Color="#3B3B3B" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+        <Cell Site="row:7 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
+        <Cell Site="row:8 column:0"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="C-01" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+        <Cell Site="row:8 column:1"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="M301" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+        <Cell Site="row:8 column:2"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="14:28:55" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+        <Cell Site="row:8 column:3"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="冷却单元维护模式" Color="#3B3B3B" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+        <Cell Site="row:9 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
+        <Cell Site="row:10 column:0"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="S-04" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+        <Cell Site="row:10 column:1"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="F502" Color="#E8151C" Font="fontFamily:'Consolas' size:13 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+        <Cell Site="row:10 column:2"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="14:25:03" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+        <Cell Site="row:10 column:3"><Bounds AlignmentToParent="left:12 top:8 right:0 bottom:8"><SolidLabel Text="传感器 04 信号丢失" Color="#3B3B3B" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
                     </Table>
                   </StackItem>
                 </Stack>
