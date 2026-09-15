@@ -38,10 +38,8 @@ int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 
 void GuiMain()
 {
-	{
-		FileStream fileStream(L"UIRes/PunkUI.bin", FileStream::ReadOnly);
-		GetResourceManager()->LoadResourceOrPending(fileStream);
-	}
+	// 应用资源由生成的 GacGen_PunkUIResourceLoader 插件在启动时自动加载（内嵌于 exe），
+	// 无需外部 bin 文件，双击 exe 即可运行。
 	punkui::MainWindow window;
 	window.MoveToScreenCenter();
 	GetApplication()->Run(&window);

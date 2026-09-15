@@ -3,9 +3,9 @@
   <Folder name="GacGenConfig">
     <Folder name="Cpp">
       <Text name="SourceFolder">Source</Text>
-      <Text name="Resource">..\UIRes\PunkUI.bin</Text>
       <Text name="NormalInclude">GacUI.h;PunkElements/PunkPanel.h</Text>
       <Text name="Name">PunkUI</Text>
+      <Text name="CppCompressed">PunkUIResource.cpp</Text>
     </Folder>
   </Folder>
   <Folder name="PunkUI" content="Link">MainWindow.xml</Folder>

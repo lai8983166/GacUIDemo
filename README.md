@@ -38,14 +38,14 @@ PunkUI/
 │   ├── Template_Misc.xml    标签模板
 │   └── Source/              GacGen 生成物（勿手改，UserImpl 区除外）
 ├── UI/                      应用界面
-│   ├── Resource.xml         GacGen 配置（外部 bin）
+│   ├── Resource.xml         GacGen 配置（CppCompressed 内嵌资源）
 │   ├── MainWindow.xml       窗口：导航条 + 双页切换 + 弹窗遮罩
 │   ├── ShowcasePage.xml     组件展示页（ScrollContainer）
 │   ├── DashboardPage.xml    控制台页
 │   ├── Templates.xml        按钮变体模板（主要/描边/幽灵/危险）+ 导航模板
 │   ├── AppStyle.xml         变体按钮状态色
 │   └── Source/              GacGen 生成物（MainWindow/页面模板 + UserImpl 实现）
-└── UIRes/PunkUI.bin         生成的资源二进制
+└── （无外部资源文件 —— 应用资源内嵌于 exe）
 ```
 
 ## 构建与运行
@@ -66,10 +66,10 @@ build.bat            # Release
 build.bat Debug      # Debug
 ```
 
-运行（工作目录必须是 PunkUI，程序读取相对路径 `UIRes/PunkUI.bin`）：
-```
-Bin\x64\Release\PunkUI.exe
-```
+运行：直接双击 `Bin\x64\Release\PunkUI.exe` 即可。
+应用资源经 `CppCompressed` 内嵌于 exe（生成 `UI/Source/PunkUIResource.cpp`，
+启动时由 `GacGen_PunkUIResourceLoader` 插件自动加载），无需外部 bin，
+与工作目录无关。
 
 ## 架构说明
 

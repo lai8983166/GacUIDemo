@@ -122,6 +122,9 @@
     </ClCompile>
     <ClCompile Include="Skin\Source\PunkSkinReflection.cpp" />
     <ClCompile Include="UI\Source\PunkUIPartialClasses.cpp" />
+    <ClCompile Include="UI\Source\PunkUIResource.cpp">
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
     <ClCompile Include="UI\Source\PunkUIReflection.cpp" />
     <ClCompile Include="UI\Source\MainWindow.cpp" />
     <ClCompile Include="UI\Source\ShowcasePageTemplate.cpp" />
