@@ -9,15 +9,13 @@
   <!-- ============ 窗口 ============ -->
   <Style ref.Path="//*.windowTitle" Color="#FFFFFF"/>
 
-  <!-- ============ 按钮（默认变体：黑底白字）============ -->
+  <!-- ============ 按钮（默认变体：黑底白字；punk 规格下 hover 只位移不变色）============ -->
   <Style ref.Path="//*.buttonShadow" Color="#000000"/>
   <Style ref.Path="//*.buttonBody">
     <att.Color-bind>
       <![CDATA[
-        cast Color let state = self.State in (
+        cast Color (
           not self.VisuallyEnabled ? (cast Color "#9E9E9E") :
-          state == ButtonState::Pressed ? (cast Color "#B01015") :
-          state == ButtonState::Active ? (cast Color "#E8151C") :
           (cast Color "#151515")
         )
       ]]>
@@ -62,29 +60,12 @@
   </Style>
   <Style ref.Path="//*.titleBarGlyph" BorderColor="#FFFFFF" BackgroundColor="#FFFFFF"/>
 
-  <!-- ============ 输入框 ============ -->
+  <!-- ============ 输入框（投影颜色由 C++ 补间：#000 <-> #E8151C）============ -->
   <Style ref.Path="//*.inputBody" Color="#FFFFFF"/>
-  <Style ref.Path="//*.inputShadow">
-    <att.Color-bind>
-      <![CDATA[
-        cast Color (self.Focused ? (cast Color "#E8151C") : (cast Color "#000000"))
-      ]]>
-    </att.Color-bind>
-  </Style>
+  <Style ref.Path="//*.inputShadow" Color="#000000"/>
 
-  <!-- ============ 开关 ============ -->
-  <Style ref.Path="//*.switchTrack">
-    <att.Color-bind>
-      <![CDATA[
-        cast Color let state = self.State in (
-          not self.VisuallyEnabled ? (cast Color "#9E9E9E") :
-          self.Selected ? (state == ButtonState::Active ? (cast Color "#F03A40") : (cast Color "#E8151C")) :
-          state == ButtonState::Active ? (cast Color "#333333") :
-          (cast Color "#151515")
-        )
-      ]]>
-    </att.Color-bind>
-  </Style>
+  <!-- ============ 开关（轨道颜色由 C++ 补间：#000 <-> #E8151C）============ -->
+  <Style ref.Path="//*.switchTrack" Color="#000000"/>
   <Style ref.Path="//*.switchThumb" Color="#FFFFFF"/>
   <Style ref.Path="//*.switchThumbBorder" Color="#000000"/>
 

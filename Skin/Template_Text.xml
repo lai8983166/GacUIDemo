@@ -9,31 +9,56 @@
   </Instance>
 
   <Instance name="DocumentTextBoxTemplateResource">
-    <Instance ref.CodeBehind="false" ref.Class="punkskin::DocumentTextBoxTemplate" ref.Styles="res://PunkSkin/Style">
+    <Instance ref.CodeBehind="true" ref.Class="punkskin::DocumentTextBoxTemplate" ref.Styles="res://PunkSkin/Style">
+      <ref.Members><![CDATA[
+        @cpp:UserImpl
+        @cpp:Private
+        func InitFx(): void {}
+      ]]></ref.Members>
+      <ref.Ctor><![CDATA[
+        {
+          self.InitFx();
+        }
+      ]]></ref.Ctor>
       <DocumentLabelTemplate ref.Name="self" ContainerComposition-ref="container" MinSizeLimitation="LimitToElementAndChildren">
         <att.BaselineDocument-eval>punkskin::CreateBaselineDocument()</att.BaselineDocument-eval>
         <att.CaretColor-eval>cast Color "#E8151C"</att.CaretColor-eval>
 
-        <Bounds AlignmentToParent="left:4 top:4 right:0 bottom:0">
+        <!-- 硬投影 4px 4px 0，聚焦时 #000 -> #E8151C 由 C++ 补间 -->
+        <Bounds ref.Name="shadowBounds" AlignmentToParent="left:4 top:4 right:0 bottom:0" MinSizeLimitation="LimitToElement">
           <SolidBackground ref.Style="inputShadow"/>
         </Bounds>
-        <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4">
-          <SolidBackground ref.Style="inputBody"/>
-          <SolidBorder Color="#000000"/>
-          <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1">
-            <SolidBorder Color="#000000"/>
-            <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1">
-              <SolidBorder Color="#000000"/>
-            </Bounds>
+        <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4" MinSizeLimitation="LimitToElementAndChildren">
+          <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+            <SolidBackground ref.Style="inputBody"/>
           </Bounds>
-          <Bounds ref.Name="container" AlignmentToParent="left:10 top:8 right:10 bottom:8"/>
+          <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+            <SolidBorder Color="#000000"/>
+          </Bounds>
+          <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1" MinSizeLimitation="LimitToElement">
+            <SolidBorder Color="#000000"/>
+          </Bounds>
+          <Bounds AlignmentToParent="left:2 top:2 right:2 bottom:2" MinSizeLimitation="LimitToElement">
+            <SolidBorder Color="#000000"/>
+          </Bounds>
+          <Bounds ref.Name="container" AlignmentToParent="left:12 top:8 right:12 bottom:8"/>
         </Bounds>
       </DocumentLabelTemplate>
     </Instance>
   </Instance>
 
   <Instance name="DocumentViewerTemplateResource">
-    <Instance ref.CodeBehind="false" ref.Class="punkskin::DocumentViewerTemplate" ref.Styles="res://PunkSkin/Style">
+    <Instance ref.CodeBehind="true" ref.Class="punkskin::DocumentViewerTemplate" ref.Styles="res://PunkSkin/Style">
+      <ref.Members><![CDATA[
+        @cpp:UserImpl
+        @cpp:Private
+        func InitFx(): void {}
+      ]]></ref.Members>
+      <ref.Ctor><![CDATA[
+        {
+          self.InitFx();
+        }
+      ]]></ref.Ctor>
       <DocumentViewerTemplate ref.Name="self" MinSizeLimitation="LimitToElementAndChildren">
         <att.BaselineDocument-eval>punkskin::CreateBaselineDocument()</att.BaselineDocument-eval>
         <att.CaretColor-eval>cast Color "#E8151C"</att.CaretColor-eval>
@@ -41,17 +66,22 @@
         <att.HorizontalScroll-eval>look.HScroll</att.HorizontalScroll-eval>
         <att.VerticalScroll-eval>look.VScroll</att.VerticalScroll-eval>
 
-        <Bounds AlignmentToParent="left:4 top:4 right:0 bottom:0">
+        <!-- 硬投影 4px 4px 0，聚焦时 #000 -> #E8151C 由 C++ 补间 -->
+        <Bounds ref.Name="shadowBounds" AlignmentToParent="left:4 top:4 right:0 bottom:0" MinSizeLimitation="LimitToElement">
           <SolidBackground ref.Style="inputShadow"/>
         </Bounds>
-        <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4">
-          <SolidBackground ref.Style="inputBody"/>
-          <SolidBorder Color="#000000"/>
-          <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1">
+        <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4" MinSizeLimitation="LimitToElementAndChildren">
+          <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+            <SolidBackground ref.Style="inputBody"/>
+          </Bounds>
+          <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement">
             <SolidBorder Color="#000000"/>
-            <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1">
-              <SolidBorder Color="#000000"/>
-            </Bounds>
+          </Bounds>
+          <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1" MinSizeLimitation="LimitToElement">
+            <SolidBorder Color="#000000"/>
+          </Bounds>
+          <Bounds AlignmentToParent="left:2 top:2 right:2 bottom:2" MinSizeLimitation="LimitToElement">
+            <SolidBorder Color="#000000"/>
           </Bounds>
           <CommonScrollViewLook ref.Name="look" AlignmentToParent="left:3 top:3 right:3 bottom:3">
             <att.HScrollTemplate>punkskin::HScrollTemplate</att.HScrollTemplate>

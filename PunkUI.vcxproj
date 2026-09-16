@@ -116,6 +116,10 @@
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClCompile Include="PunkElements\PunkPanel.cpp" />
+    <ClCompile Include="Skin\Source\ButtonTemplate.cpp" />
+    <ClCompile Include="Skin\Source\CheckBoxTemplate.cpp" />
+    <ClCompile Include="Skin\Source\DocumentTextBoxTemplate.cpp" />
+    <ClCompile Include="Skin\Source\DocumentViewerTemplate.cpp" />
     <ClCompile Include="Skin\Source\PunkSkinPartialClasses.cpp" />
     <ClCompile Include="Skin\Source\PunkSkinResource.cpp">
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
@@ -129,6 +133,10 @@
     <ClCompile Include="UI\Source\MainWindow.cpp" />
     <ClCompile Include="UI\Source\ShowcasePageTemplate.cpp" />
     <ClCompile Include="UI\Source\DashboardPageTemplate.cpp" />
+    <ClCompile Include="UI\Source\PrimaryButtonTemplate.cpp" />
+    <ClCompile Include="UI\Source\OutlineButtonTemplate.cpp" />
+    <ClCompile Include="UI\Source\GhostButtonTemplate.cpp" />
+    <ClCompile Include="UI\Source\DangerButtonTemplate.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="UI\Source\PunkUI.h" />
@@ -137,7 +145,19 @@
     <ClInclude Include="UI\Source\MainWindow.h" />
     <ClInclude Include="UI\Source\ShowcasePageTemplate.h" />
     <ClInclude Include="UI\Source\DashboardPageTemplate.h" />
+    <ClInclude Include="UI\Source\PrimaryButtonTemplate.h" />
+    <ClInclude Include="UI\Source\OutlineButtonTemplate.h" />
+    <ClInclude Include="UI\Source\GhostButtonTemplate.h" />
+    <ClInclude Include="UI\Source\DangerButtonTemplate.h" />
+    <ClInclude Include="Skin\Source\PunkSkin.h" />
+    <ClInclude Include="Skin\Source\PunkSkinPartialClasses.h" />
+    <ClInclude Include="Skin\Source\PunkSkinReflection.h" />
+    <ClInclude Include="Skin\Source\ButtonTemplate.h" />
+    <ClInclude Include="Skin\Source\CheckBoxTemplate.h" />
+    <ClInclude Include="Skin\Source\DocumentTextBoxTemplate.h" />
+    <ClInclude Include="Skin\Source\DocumentViewerTemplate.h" />
     <ClInclude Include="PunkElements\PunkPanel.h" />
+    <ClInclude Include="PunkElements\PunkFx.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

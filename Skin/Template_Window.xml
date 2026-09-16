@@ -11,9 +11,13 @@
         <Bounds AlignmentToParent="left:3 top:3 right:0 bottom:0">
           <SolidBackground Color="#000000"/>
         </Bounds>
-        <Bounds AlignmentToParent="left:0 top:0 right:3 bottom:3">
-          <SolidBackground Color="#FFFFFF"/>
-          <SolidBorder Color="#000000"/>
+        <Bounds AlignmentToParent="left:0 top:0 right:3 bottom:3" MinSizeLimitation="LimitToElementAndChildren">
+          <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+            <SolidBackground Color="#FFFFFF"/>
+          </Bounds>
+          <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+            <SolidBorder Color="#000000"/>
+          </Bounds>
           <Bounds ref.Name="container" AlignmentToParent="left:8 top:4 right:8 bottom:4"/>
         </Bounds>
       </WindowTemplate>

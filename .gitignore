@@ -10,3 +10,7 @@ MSBuild/
 # IDE
 .vs/
 *.user
+
+# 验证截图产物
+*.png
+__pycache__/

@@ -11,10 +11,14 @@
   <Instance name="HScrollHandleTemplateResource">
     <Instance ref.CodeBehind="false" ref.Class="punkskin::HScrollHandleTemplate" ref.Styles="res://PunkSkin/Style">
       <ButtonTemplate ref.Name="self" MinSizeLimitation="LimitToElementAndChildren">
-        <Bounds AlignmentToParent="left:0 top:3 right:0 bottom:3">
-          <SolidBackground ref.Style="switchThumb"/>
-          <SolidBorder ref.Style="switchThumbBorder"/>
-          <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1">
+        <Bounds AlignmentToParent="left:0 top:3 right:0 bottom:3" MinSizeLimitation="LimitToElementAndChildren">
+          <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+            <SolidBackground ref.Style="switchThumb"/>
+          </Bounds>
+          <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+            <SolidBorder Color="#000000"/>
+          </Bounds>
+          <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1" MinSizeLimitation="LimitToElement">
             <SolidBorder Color="#000000"/>
           </Bounds>
         </Bounds>
@@ -25,10 +29,14 @@
   <Instance name="VScrollHandleTemplateResource">
     <Instance ref.CodeBehind="false" ref.Class="punkskin::VScrollHandleTemplate" ref.Styles="res://PunkSkin/Style">
       <ButtonTemplate ref.Name="self" MinSizeLimitation="LimitToElementAndChildren">
-        <Bounds AlignmentToParent="left:3 top:0 right:3 bottom:0">
-          <SolidBackground ref.Style="switchThumb"/>
-          <SolidBorder ref.Style="switchThumbBorder"/>
-          <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1">
+        <Bounds AlignmentToParent="left:3 top:0 right:3 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+          <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+            <SolidBackground ref.Style="switchThumb"/>
+          </Bounds>
+          <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+            <SolidBorder Color="#000000"/>
+          </Bounds>
+          <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1" MinSizeLimitation="LimitToElement">
             <SolidBorder Color="#000000"/>
           </Bounds>
         </Bounds>
@@ -185,14 +193,18 @@
   <Instance name="ProgressBarTemplateResource">
     <Instance ref.CodeBehind="false" ref.Class="punkskin::ProgressBarTemplate" ref.Styles="res://PunkSkin/Style">
       <ScrollTemplate ref.Name="self" ContainerComposition-ref="container" MinSizeLimitation="LimitToElementAndChildren">
-        <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:14">
-          <SolidBackground ref.Style="progressBackground"/>
-          <SolidBorder ref.Style="progressBorder"/>
-          <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1">
+        <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:14" MinSizeLimitation="LimitToElementAndChildren">
+          <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+            <SolidBackground ref.Style="progressBackground"/>
+          </Bounds>
+          <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement">
             <SolidBorder Color="#000000"/>
-            <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1">
-              <SolidBorder Color="#000000"/>
-            </Bounds>
+          </Bounds>
+          <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1" MinSizeLimitation="LimitToElement">
+            <SolidBorder Color="#000000"/>
+          </Bounds>
+          <Bounds AlignmentToParent="left:2 top:2 right:2 bottom:2" MinSizeLimitation="LimitToElement">
+            <SolidBorder Color="#000000"/>
           </Bounds>
           <Bounds ref.Name="container" AlignmentToParent="left:3 top:3 right:3 bottom:3">
             <PartialView>

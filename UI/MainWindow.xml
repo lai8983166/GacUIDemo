@@ -15,6 +15,8 @@
         func SetNavActive(index : int): void {}
         @cpp:UserImpl
         func OpenModal(): void {}
+        @cpp:UserImpl
+        func CloseModal(): void {}
       ]]></ref.Members>
       <ref.Ctor><![CDATA[
         {
@@ -129,7 +131,7 @@
                             <Button AutoFocus="false" Text="✕" ControlTemplate="punkui::GhostButtonTemplate">
                               <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
                               <ev.Clicked-eval><![CDATA[{
-                          modalOverlay.SetVisible(false);}]]></ev.Clicked-eval>
+                          root.CloseModal();}]]></ev.Clicked-eval>
                             </Button>
                           </Bounds>
                         </Cell>
@@ -160,7 +162,7 @@
                               <Button AutoFocus="false" Text="取消" ControlTemplate="punkui::GhostButtonTemplate">
                                 <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
                                 <ev.Clicked-eval><![CDATA[{
-                          modalOverlay.SetVisible(false);}]]></ev.Clicked-eval>
+                          root.CloseModal();}]]></ev.Clicked-eval>
                               </Button>
                             </StackItem>
                             <StackItem>
@@ -168,7 +170,7 @@
                                 <Button AutoFocus="false" Text="确认维护" ControlTemplate="punkui::DangerButtonTemplate">
                                   <att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
                                   <ev.Clicked-eval><![CDATA[{
-                          modalOverlay.SetVisible(false);}]]></ev.Clicked-eval>
+                          root.CloseModal();}]]></ev.Clicked-eval>
                                 </Button>
                               </Bounds>
                             </StackItem>

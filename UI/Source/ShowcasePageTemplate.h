@@ -35,7 +35,6 @@ namespace punkui
 		friend struct ::vl_workflow_global::__vwsnf19_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf20_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf21_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf22_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<ShowcasePageTemplate>;
 #endif

@@ -30,11 +30,36 @@ https://github.com/vczh-libraries
 #define GLOBAL_OBJ &::vl_workflow_global::PunkUI::Instance()
 
 /* USER_CONTENT_BEGIN(custom global declarations) */
+#include "../../PunkElements/PunkFx.h"
 namespace punkui { namespace mainpanels {
 	static PunkPanel bgPanel(PunkPanelStyle::WindowBg());
 	static PunkPanel navShowcasePanel(PunkPanelStyle::Nav());
 	static PunkPanel navDashboardPanel(PunkPanelStyle::Nav());
 	static PunkPanel modalPanel(PunkPanelStyle::Card());
+
+	// 模态开合动画状态（UILIB UiModal：遮罩淡入 + 面板 scale(0.96) translateY(8px) -> 原位，
+	// GacUI 无缩放，取 translateY(8px) 近似；时长/缓动走 punkfx 全局规格）
+	static vl::presentation::Color DefaultOverlayColor(0, 0, 0, 0x8C);
+	static Ptr<vl::presentation::controls::IGuiAnimation> modalFx;
+
+	static void ApplyModal(vl::presentation::compositions::GuiBoundsComposition* overlayBounds,
+		vl::presentation::compositions::GuiBoundsComposition* faceBounds, double t, bool opening)
+	{
+		// t: 0(关闭态) -> 1(打开态)
+		if (auto overlay = overlayBounds->GetOwnedElement().Cast<vl::presentation::elements::GuiSolidBackgroundElement>())
+		{
+			double a = (double)DefaultOverlayColor.a * t;
+			overlay->SetColor(vl::presentation::Color(0, 0, 0, (unsigned char)(0.5 + a)));
+		}
+		// 面板垂直位移：dy = 8px * (1 - t)，等价于 Margin(0, dy, 6, 6-dy) 的纯平移
+		double dy = 8.0 * (1.0 - t);
+		faceBounds->SetAlignmentToParent(vl::presentation::Margin(
+			0, (vl::vint)(0.5 + dy), 6, 6 - (vl::vint)(0.5 + dy)));
+		if (!opening && t >= 1.0)
+		{
+			overlayBounds->SetVisible(false);
+		}
+	}
 }}
 /* USER_CONTENT_END() */
 
@@ -74,6 +99,24 @@ namespace punkui
 	void MainWindow::OpenModal()
 	{/* USER_CONTENT_BEGIN(::punkui::MainWindow) */
 		modalOverlay->SetVisible(true);
+		this->KillAnimation(mainpanels::modalFx);
+		auto overlay = modalOverlay;
+		auto face = modalFace;
+		mainpanels::modalFx = punkfx::StartTween(this, &mainpanels::modalFx, [overlay, face](double t)
+		{
+			mainpanels::ApplyModal(overlay, face, t, true);
+		});
+	}/* USER_CONTENT_END() */
+
+	void MainWindow::CloseModal()
+	{/* USER_CONTENT_BEGIN(::punkui::MainWindow) */
+		this->KillAnimation(mainpanels::modalFx);
+		auto overlay = modalOverlay;
+		auto face = modalFace;
+		mainpanels::modalFx = punkfx::StartTween(this, &mainpanels::modalFx, [overlay, face](double t)
+		{
+			mainpanels::ApplyModal(overlay, face, 1.0 - t, false);
+		});
 	}/* USER_CONTENT_END() */
 
 	MainWindow::MainWindow()

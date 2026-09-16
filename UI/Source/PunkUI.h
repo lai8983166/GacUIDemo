@@ -11,8 +11,12 @@ https://github.com/vczh-libraries
 #define VCZH_WORKFLOW_COMPILER_GENERATED_PUNKUI
 
 #include "PunkUIPartialClasses.h"
+#include "DangerButtonTemplate.h"
 #include "DashboardPageTemplate.h"
+#include "GhostButtonTemplate.h"
 #include "MainWindow.h"
+#include "OutlineButtonTemplate.h"
+#include "PrimaryButtonTemplate.h"
 #include "ShowcasePageTemplate.h"
 
 #endif

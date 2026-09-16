@@ -1,19 +1,41 @@
 <Folder>
   <Instance name="ButtonTemplateResource">
-    <Instance ref.CodeBehind="false" ref.Class="punkskin::ButtonTemplate" ref.Styles="res://PunkSkin/Style">
+    <Instance ref.CodeBehind="true" ref.Class="punkskin::ButtonTemplate" ref.Styles="res://PunkSkin/Style">
+      <ref.Members><![CDATA[
+        @cpp:UserImpl
+        @cpp:Private
+        func InitFx(): void {}
+      ]]></ref.Members>
+      <ref.Ctor><![CDATA[
+        {
+          self.InitFx();
+        }
+      ]]></ref.Ctor>
       <ButtonTemplate ref.Name="self" ContainerComposition-ref="container" MinSizeLimitation="LimitToElementAndChildren">
-        <Bounds AlignmentToParent="left:4 top:4 right:0 bottom:0">
-          <SolidBackground ref.Style="buttonShadow"/>
-        </Bounds>
-        <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4">
-          <SolidBackground ref.Style="buttonBody"/>
-          <SolidBorder Color="#000000"/>
-          <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1" Visible-bind="self.Focused">
-            <FocusRectangle/>
+        <!-- lift：punk 按钮 hover/active 位移（±2px）由 C++ 驱动 -->
+        <Bounds ref.Name="lift" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+          <!-- 硬投影 4px 4px 0 #000 -->
+          <Bounds AlignmentToParent="left:4 top:4 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+            <SolidBackground ref.Style="buttonShadow"/>
           </Bounds>
-          <Bounds AlignmentToParent="left:14 top:6 right:14 bottom:6">
-            <SolidLabel ref.Style="buttonText" Text-bind="self.Text" Font="size:14 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <Bounds ref.Name="container" AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+          <!-- 按钮体：黑底 + 2px 墨边 -->
+          <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4" MinSizeLimitation="LimitToElementAndChildren">
+            <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+              <SolidBackground ref.Style="buttonBody"/>
+            </Bounds>
+            <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+              <SolidBorder Color="#000000"/>
+            </Bounds>
+            <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1" MinSizeLimitation="LimitToElement">
+              <SolidBorder Color="#000000"/>
+            </Bounds>
+            <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1" MinSizeLimitation="LimitToElementAndChildren">
+              <FocusRectangle/>
+            </Bounds>
+            <Bounds AlignmentToParent="left:14 top:6 right:14 bottom:6" MinSizeLimitation="LimitToElementAndChildren">
+              <SolidLabel ref.Style="buttonText" Text-bind="self.Text" Font="size:14 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+              <Bounds ref.Name="container" AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+            </Bounds>
           </Bounds>
         </Bounds>
       </ButtonTemplate>
@@ -21,7 +43,17 @@
   </Instance>
 
   <Instance name="CheckBoxTemplateResource">
-    <Instance ref.CodeBehind="false" ref.Class="punkskin::CheckBoxTemplate" ref.Styles="res://PunkSkin/Style">
+    <Instance ref.CodeBehind="true" ref.Class="punkskin::CheckBoxTemplate" ref.Styles="res://PunkSkin/Style">
+      <ref.Members><![CDATA[
+        @cpp:UserImpl
+        @cpp:Private
+        func InitFx(): void {}
+      ]]></ref.Members>
+      <ref.Ctor><![CDATA[
+        {
+          self.InitFx();
+        }
+      ]]></ref.Ctor>
       <SelectableButtonTemplate ref.Name="self" ContainerComposition-ref="container" MinSizeLimitation="LimitToElementAndChildren">
         <Table AlignmentToParent="left:0 top:0 right:0 bottom:0">
           <att.Rows>
@@ -35,39 +67,24 @@
           </att.Columns>
 
           <Cell Site="row:1 column:0">
-            <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="x:44 y:24" MinSizeLimitation="LimitToElement">
-              <SolidBackground ref.Style="switchTrack" Shape="shapeType:Ellipse"/>
-              <SolidBorder Color="#000000" Shape="shapeType:Ellipse"/>
-              <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1">
-                <SolidBorder Color="#000000" Shape="shapeType:Ellipse"/>
-                <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1">
-                  <SolidBorder Color="#000000" Shape="shapeType:Ellipse"/>
-                </Bounds>
+            <!-- UILIB UiSwitch：44x24 轨道 + punk 3px 墨边 + 18px 白圆钮 -->
+            <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="x:44 y:24" MinSizeLimitation="LimitToElementAndChildren">
+              <Bounds ref.Name="trackBg" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+                <SolidBackground ref.Style="switchTrack" Shape="shapeType:Ellipse"/>
               </Bounds>
-
-              <Table AlignmentToParent="left:0 top:0 right:0 bottom:0">
-                <att.Rows>
-                  <CellOption>composeType:Percentage percentage:0.5</CellOption>
-                  <CellOption>composeType:MinSize</CellOption>
-                  <CellOption>composeType:Percentage percentage:0.5</CellOption>
-                </att.Rows>
-                <att.Columns>
-                  <CellOption>composeType:Percentage percentage:1.0</CellOption>
-                </att.Columns>
-
-                <Cell Site="row:1 column:0">
-                  <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0">
-                    <Bounds Visible-bind="not self.Selected" AlignmentToParent="left:2 top:-1 right:-1 bottom:-1" PreferredMinSize="x:18 y:18">
-                      <SolidBackground ref.Style="switchThumb" Shape="shapeType:Ellipse"/>
-                      <SolidBorder ref.Style="switchThumbBorder" Shape="shapeType:Ellipse"/>
-                    </Bounds>
-                    <Bounds Visible-bind="self.Selected" AlignmentToParent="left:24 top:-1 right:-1 bottom:-1" PreferredMinSize="x:18 y:18">
-                      <SolidBackground ref.Style="switchThumb" Shape="shapeType:Ellipse"/>
-                      <SolidBorder ref.Style="switchThumbBorder" Shape="shapeType:Ellipse"/>
-                    </Bounds>
-                  </Bounds>
-                </Cell>
-              </Table>
+              <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+                <SolidBorder Color="#000000" Shape="shapeType:Ellipse"/>
+              </Bounds>
+              <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1" MinSizeLimitation="LimitToElement">
+                <SolidBorder Color="#000000" Shape="shapeType:Ellipse"/>
+              </Bounds>
+              <Bounds AlignmentToParent="left:2 top:2 right:2 bottom:2" MinSizeLimitation="LimitToElement">
+                <SolidBorder Color="#000000" Shape="shapeType:Ellipse"/>
+              </Bounds>
+              <!-- 圆钮：white 18px，checked 时 translateX(20px) 由 C++ 补间 -->
+              <Bounds ref.Name="thumb" AlignmentToParent="left:5 top:5 right:-1 bottom:-1" PreferredMinSize="x:18 y:18" MinSizeLimitation="LimitToElement">
+                <SolidBackground ref.Style="switchThumb" Shape="shapeType:Ellipse"/>
+              </Bounds>
             </Bounds>
           </Cell>
 
@@ -76,7 +93,7 @@
               <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" Visible-bind="self.Focused">
                 <FocusRectangle/>
               </Bounds>
-              <Bounds AlignmentToParent="left:2 top:2 right:2 bottom:2">
+              <Bounds AlignmentToParent="left:0 top:2 right:0 bottom:2">
                 <SolidLabel ref.Style="controlText" Text-bind="self.Text" Font-bind="self.Font" VerticalAlignment="Center"/>
                 <Bounds ref.Name="container" AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
               </Bounds>

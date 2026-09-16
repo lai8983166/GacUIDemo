@@ -47,6 +47,7 @@ namespace punkui
 		void SetNavActive(::vl::vint64_t index);
 	public:
 		void OpenModal();
+		void CloseModal();
 		MainWindow();
 		void __vwsn_instance_ctor_();
 		~MainWindow();

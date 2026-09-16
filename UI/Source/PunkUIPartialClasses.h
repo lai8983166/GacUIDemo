@@ -38,21 +38,20 @@ namespace vl_workflow_global
 	struct __vwsnf1_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;
 	struct __vwsnf20_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 	struct __vwsnf21_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
-	struct __vwsnf22_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
+	struct __vwsnf22_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
 	struct __vwsnf23_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
 	struct __vwsnf24_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
-	struct __vwsnf25_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
+	struct __vwsnf25_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
 	struct __vwsnf26_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
 	struct __vwsnf27_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
-	struct __vwsnf28_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
-	struct __vwsnf29_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize_;
+	struct __vwsnf28_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize_;
+	struct __vwsnf29_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
 	struct __vwsnf2_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;
 	struct __vwsnf30_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
 	struct __vwsnf31_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
-	struct __vwsnf32_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
+	struct __vwsnf32_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
 	struct __vwsnf33_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
 	struct __vwsnf34_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
-	struct __vwsnf35_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
 	struct __vwsnf3_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;
 	struct __vwsnf4_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;
 	struct __vwsnf5_PunkUI_punkui_MainWindowConstructor___vwsn_punkui_MainWindow_Initialize_;
@@ -99,43 +98,30 @@ namespace punkui
 		friend class ::vl_workflow_global::__vwsnc1_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc2_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc3_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
+		friend struct ::vl_workflow_global::__vwsnf22_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf23_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf24_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf25_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<DangerButtonTemplateConstructor>;
 #endif
 	protected:
 		::punkui::DangerButtonTemplate* self;
 		::vl::presentation::compositions::GuiBoundsComposition* container;
+		::vl::presentation::compositions::GuiBoundsComposition* lift;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_0;
 		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_1;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_2;
 		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_3;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_4;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_5;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_6;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_7;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_5;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_6;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_7;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_8;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_9;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_10;
 		void __vwsn_punkui_DangerButtonTemplate_Initialize(::punkui::DangerButtonTemplate* __vwsn_this_);
 	public:
 		DangerButtonTemplateConstructor();
-	};
-
-	class DangerButtonTemplate : public ::vl::presentation::templates::GuiButtonTemplate, public ::punkui::DangerButtonTemplateConstructor, public ::vl::reflection::Description<DangerButtonTemplate>
-	{
-		friend class ::punkui::DangerButtonTemplateConstructor;
-		friend class ::vl_workflow_global::__vwsnc1_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend class ::vl_workflow_global::__vwsnc2_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend class ::vl_workflow_global::__vwsnc3_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf23_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf24_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf25_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_;
-#ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
-		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<DangerButtonTemplate>;
-#endif
-	public:
-		DangerButtonTemplate();
-		~DangerButtonTemplate();
 	};
 
 	class DashboardPageTemplateConstructor : public ::vl::Object, public ::vl::reflection::Description<DashboardPageTemplateConstructor>
@@ -421,43 +407,30 @@ namespace punkui
 		friend class ::vl_workflow_global::__vwsnc4_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc5_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc6_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
+		friend struct ::vl_workflow_global::__vwsnf25_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf26_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf27_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf28_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<GhostButtonTemplateConstructor>;
 #endif
 	protected:
 		::punkui::GhostButtonTemplate* self;
 		::vl::presentation::compositions::GuiBoundsComposition* container;
+		::vl::presentation::compositions::GuiBoundsComposition* lift;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_0;
 		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_1;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_2;
 		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_3;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_4;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_5;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_6;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_7;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_5;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_6;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_7;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_8;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_9;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_10;
 		void __vwsn_punkui_GhostButtonTemplate_Initialize(::punkui::GhostButtonTemplate* __vwsn_this_);
 	public:
 		GhostButtonTemplateConstructor();
-	};
-
-	class GhostButtonTemplate : public ::vl::presentation::templates::GuiButtonTemplate, public ::punkui::GhostButtonTemplateConstructor, public ::vl::reflection::Description<GhostButtonTemplate>
-	{
-		friend class ::punkui::GhostButtonTemplateConstructor;
-		friend class ::vl_workflow_global::__vwsnc4_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend class ::vl_workflow_global::__vwsnc5_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend class ::vl_workflow_global::__vwsnc6_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf26_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf27_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf28_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_;
-#ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
-		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<GhostButtonTemplate>;
-#endif
-	public:
-		GhostButtonTemplate();
-		~GhostButtonTemplate();
 	};
 
 	class MainWindowConstructor : public ::vl::Object, public ::vl::reflection::Description<MainWindowConstructor>
@@ -565,7 +538,7 @@ namespace punkui
 	class NavLinkTemplateConstructor : public ::vl::Object, public ::vl::reflection::Description<NavLinkTemplateConstructor>
 	{
 		friend class ::vl_workflow_global::__vwsnc7_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf29_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf28_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<NavLinkTemplateConstructor>;
 #endif
@@ -582,7 +555,7 @@ namespace punkui
 	{
 		friend class ::punkui::NavLinkTemplateConstructor;
 		friend class ::vl_workflow_global::__vwsnc7_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf29_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize_;
+		friend struct ::vl_workflow_global::__vwsnf28_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<NavLinkTemplate>;
 #endif
@@ -596,43 +569,30 @@ namespace punkui
 		friend class ::vl_workflow_global::__vwsnc10_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc8_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc9_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
+		friend struct ::vl_workflow_global::__vwsnf29_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf30_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf31_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf32_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<OutlineButtonTemplateConstructor>;
 #endif
 	protected:
 		::punkui::OutlineButtonTemplate* self;
 		::vl::presentation::compositions::GuiBoundsComposition* container;
+		::vl::presentation::compositions::GuiBoundsComposition* lift;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_0;
 		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_1;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_2;
 		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_3;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_4;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_5;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_6;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_7;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_5;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_6;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_7;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_8;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_9;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_10;
 		void __vwsn_punkui_OutlineButtonTemplate_Initialize(::punkui::OutlineButtonTemplate* __vwsn_this_);
 	public:
 		OutlineButtonTemplateConstructor();
-	};
-
-	class OutlineButtonTemplate : public ::vl::presentation::templates::GuiButtonTemplate, public ::punkui::OutlineButtonTemplateConstructor, public ::vl::reflection::Description<OutlineButtonTemplate>
-	{
-		friend class ::punkui::OutlineButtonTemplateConstructor;
-		friend class ::vl_workflow_global::__vwsnc10_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend class ::vl_workflow_global::__vwsnc8_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend class ::vl_workflow_global::__vwsnc9_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf30_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf31_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf32_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_;
-#ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
-		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<OutlineButtonTemplate>;
-#endif
-	public:
-		OutlineButtonTemplate();
-		~OutlineButtonTemplate();
 	};
 
 	class PrimaryButtonTemplateConstructor : public ::vl::Object, public ::vl::reflection::Description<PrimaryButtonTemplateConstructor>
@@ -640,43 +600,30 @@ namespace punkui
 		friend class ::vl_workflow_global::__vwsnc11_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc12_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
 		friend class ::vl_workflow_global::__vwsnc13_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
+		friend struct ::vl_workflow_global::__vwsnf32_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf33_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf34_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf35_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<PrimaryButtonTemplateConstructor>;
 #endif
 	protected:
 		::punkui::PrimaryButtonTemplate* self;
 		::vl::presentation::compositions::GuiBoundsComposition* container;
+		::vl::presentation::compositions::GuiBoundsComposition* lift;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_0;
 		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_1;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_2;
 		::vl::Ptr<::vl::presentation::elements::GuiSolidBackgroundElement> __vwsn_precompile_3;
 		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_4;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_5;
-		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_6;
-		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_7;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_5;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_6;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_7;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidBorderElement> __vwsn_precompile_8;
+		::vl::presentation::compositions::GuiBoundsComposition* __vwsn_precompile_9;
+		::vl::Ptr<::vl::presentation::elements::GuiSolidLabelElement> __vwsn_precompile_10;
 		void __vwsn_punkui_PrimaryButtonTemplate_Initialize(::punkui::PrimaryButtonTemplate* __vwsn_this_);
 	public:
 		PrimaryButtonTemplateConstructor();
-	};
-
-	class PrimaryButtonTemplate : public ::vl::presentation::templates::GuiButtonTemplate, public ::punkui::PrimaryButtonTemplateConstructor, public ::vl::reflection::Description<PrimaryButtonTemplate>
-	{
-		friend class ::punkui::PrimaryButtonTemplateConstructor;
-		friend class ::vl_workflow_global::__vwsnc11_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend class ::vl_workflow_global::__vwsnc12_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend class ::vl_workflow_global::__vwsnc13_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription;
-		friend struct ::vl_workflow_global::__vwsnf33_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf34_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf35_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_;
-#ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
-		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<PrimaryButtonTemplate>;
-#endif
-	public:
-		PrimaryButtonTemplate();
-		~PrimaryButtonTemplate();
 	};
 
 	class ShowcasePageTemplateConstructor : public ::vl::Object, public ::vl::reflection::Description<ShowcasePageTemplateConstructor>
@@ -689,7 +636,6 @@ namespace punkui
 		friend struct ::vl_workflow_global::__vwsnf19_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf20_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 		friend struct ::vl_workflow_global::__vwsnf21_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
-		friend struct ::vl_workflow_global::__vwsnf22_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_;
 #ifdef VCZH_DESCRIPTABLEOBJECT_WITH_METADATA
 		friend struct ::vl::reflection::description::CustomTypeDescriptorSelector<ShowcasePageTemplateConstructor>;
 #endif
@@ -1394,16 +1340,16 @@ Closures
 
 		__vwsnf21_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_(::punkui::ShowcasePageTemplateConstructor* __vwsnctorthis_0);
 
-		::vl::presentation::templates::GuiControlTemplate* operator()(const ::vl::reflection::description::Value& __vwsn_viewModel_) const;
+		void operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const;
 	};
 
-	struct __vwsnf22_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_
+	struct __vwsnf22_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_
 	{
-		::punkui::ShowcasePageTemplateConstructor* __vwsnthis_0;
+		::punkui::DangerButtonTemplateConstructor* __vwsnthis_0;
 
-		__vwsnf22_PunkUI_punkui_ShowcasePageTemplateConstructor___vwsn_punkui_ShowcasePageTemplate_Initialize_(::punkui::ShowcasePageTemplateConstructor* __vwsnctorthis_0);
+		__vwsnf22_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_(::punkui::DangerButtonTemplateConstructor* __vwsnctorthis_0);
 
-		void operator()(::vl::presentation::compositions::GuiGraphicsComposition* sender, ::vl::presentation::compositions::GuiEventArgs* arguments) const;
+		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
 
 	struct __vwsnf23_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_
@@ -1424,11 +1370,11 @@ Closures
 		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
 
-	struct __vwsnf25_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_
+	struct __vwsnf25_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_
 	{
-		::punkui::DangerButtonTemplateConstructor* __vwsnthis_0;
+		::punkui::GhostButtonTemplateConstructor* __vwsnthis_0;
 
-		__vwsnf25_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize_(::punkui::DangerButtonTemplateConstructor* __vwsnctorthis_0);
+		__vwsnf25_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_(::punkui::GhostButtonTemplateConstructor* __vwsnctorthis_0);
 
 		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
@@ -1451,20 +1397,20 @@ Closures
 		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
 
-	struct __vwsnf28_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_
+	struct __vwsnf28_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize_
 	{
-		::punkui::GhostButtonTemplateConstructor* __vwsnthis_0;
+		::punkui::NavLinkTemplateConstructor* __vwsnthis_0;
 
-		__vwsnf28_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize_(::punkui::GhostButtonTemplateConstructor* __vwsnctorthis_0);
+		__vwsnf28_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize_(::punkui::NavLinkTemplateConstructor* __vwsnctorthis_0);
 
 		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
 
-	struct __vwsnf29_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize_
+	struct __vwsnf29_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_
 	{
-		::punkui::NavLinkTemplateConstructor* __vwsnthis_0;
+		::punkui::OutlineButtonTemplateConstructor* __vwsnthis_0;
 
-		__vwsnf29_PunkUI_punkui_NavLinkTemplateConstructor___vwsn_punkui_NavLinkTemplate_Initialize_(::punkui::NavLinkTemplateConstructor* __vwsnctorthis_0);
+		__vwsnf29_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_(::punkui::OutlineButtonTemplateConstructor* __vwsnctorthis_0);
 
 		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
@@ -1496,11 +1442,11 @@ Closures
 		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
 
-	struct __vwsnf32_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_
+	struct __vwsnf32_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_
 	{
-		::punkui::OutlineButtonTemplateConstructor* __vwsnthis_0;
+		::punkui::PrimaryButtonTemplateConstructor* __vwsnthis_0;
 
-		__vwsnf32_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize_(::punkui::OutlineButtonTemplateConstructor* __vwsnctorthis_0);
+		__vwsnf32_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_(::punkui::PrimaryButtonTemplateConstructor* __vwsnctorthis_0);
 
 		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
@@ -1519,15 +1465,6 @@ Closures
 		::punkui::PrimaryButtonTemplateConstructor* __vwsnthis_0;
 
 		__vwsnf34_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_(::punkui::PrimaryButtonTemplateConstructor* __vwsnctorthis_0);
-
-		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
-	};
-
-	struct __vwsnf35_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_
-	{
-		::punkui::PrimaryButtonTemplateConstructor* __vwsnthis_0;
-
-		__vwsnf35_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize_(::punkui::PrimaryButtonTemplateConstructor* __vwsnctorthis_0);
 
 		void operator()(const ::vl::reflection::description::Value& __vwsn_value_) const;
 	};
@@ -1621,14 +1558,11 @@ Closures
 		__vwsnc11_PunkUI_punkui_PrimaryButtonTemplateConstructor___vwsn_punkui_PrimaryButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(::punkui::PrimaryButtonTemplateConstructor* __vwsnctorthis_0);
 
 		::punkui::PrimaryButtonTemplate* __vwsn_bind_cache_0 = nullptr;
-		::punkui::PrimaryButtonTemplate* __vwsn_bind_cache_1 = nullptr;
 		::vl::Ptr<::vl::reflection::description::IEventHandler> __vwsn_bind_handler_0_0;
-		::vl::Ptr<::vl::reflection::description::IEventHandler> __vwsn_bind_handler_1_0;
 		bool __vwsn_bind_opened_ = false;
 		bool __vwsn_bind_closed_ = false;
 		void __vwsn_bind_activator_();
 		void __vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1);
-		void __vwsn_bind_callback_1_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1);
 		bool Open() override;
 		bool Update() override;
 		bool Close() override;
@@ -1678,14 +1612,11 @@ Closures
 		__vwsnc1_PunkUI_punkui_DangerButtonTemplateConstructor___vwsn_punkui_DangerButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(::punkui::DangerButtonTemplateConstructor* __vwsnctorthis_0);
 
 		::punkui::DangerButtonTemplate* __vwsn_bind_cache_0 = nullptr;
-		::punkui::DangerButtonTemplate* __vwsn_bind_cache_1 = nullptr;
 		::vl::Ptr<::vl::reflection::description::IEventHandler> __vwsn_bind_handler_0_0;
-		::vl::Ptr<::vl::reflection::description::IEventHandler> __vwsn_bind_handler_1_0;
 		bool __vwsn_bind_opened_ = false;
 		bool __vwsn_bind_closed_ = false;
 		void __vwsn_bind_activator_();
 		void __vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1);
-		void __vwsn_bind_callback_1_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1);
 		bool Open() override;
 		bool Update() override;
 		bool Close() override;
@@ -1735,14 +1666,11 @@ Closures
 		__vwsnc4_PunkUI_punkui_GhostButtonTemplateConstructor___vwsn_punkui_GhostButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(::punkui::GhostButtonTemplateConstructor* __vwsnctorthis_0);
 
 		::punkui::GhostButtonTemplate* __vwsn_bind_cache_0 = nullptr;
-		::punkui::GhostButtonTemplate* __vwsn_bind_cache_1 = nullptr;
 		::vl::Ptr<::vl::reflection::description::IEventHandler> __vwsn_bind_handler_0_0;
-		::vl::Ptr<::vl::reflection::description::IEventHandler> __vwsn_bind_handler_1_0;
 		bool __vwsn_bind_opened_ = false;
 		bool __vwsn_bind_closed_ = false;
 		void __vwsn_bind_activator_();
 		void __vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1);
-		void __vwsn_bind_callback_1_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1);
 		bool Open() override;
 		bool Update() override;
 		bool Close() override;
@@ -1813,14 +1741,11 @@ Closures
 		__vwsnc8_PunkUI_punkui_OutlineButtonTemplateConstructor___vwsn_punkui_OutlineButtonTemplate_Initialize__vl_reflection_description_IValueSubscription(::punkui::OutlineButtonTemplateConstructor* __vwsnctorthis_0);
 
 		::punkui::OutlineButtonTemplate* __vwsn_bind_cache_0 = nullptr;
-		::punkui::OutlineButtonTemplate* __vwsn_bind_cache_1 = nullptr;
 		::vl::Ptr<::vl::reflection::description::IEventHandler> __vwsn_bind_handler_0_0;
-		::vl::Ptr<::vl::reflection::description::IEventHandler> __vwsn_bind_handler_1_0;
 		bool __vwsn_bind_opened_ = false;
 		bool __vwsn_bind_closed_ = false;
 		void __vwsn_bind_activator_();
 		void __vwsn_bind_callback_0_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1);
-		void __vwsn_bind_callback_1_0(::vl::presentation::compositions::GuiGraphicsComposition* __vwsn_bind_callback_argument_0, ::vl::presentation::compositions::GuiEventArgs* __vwsn_bind_callback_argument_1);
 		bool Open() override;
 		bool Update() override;
 		bool Close() override;

@@ -11,5 +11,9 @@ https://github.com/vczh-libraries
 #define VCZH_WORKFLOW_COMPILER_GENERATED_PUNKSKIN
 
 #include "PunkSkinPartialClasses.h"
+#include "ButtonTemplate.h"
+#include "CheckBoxTemplate.h"
+#include "DocumentTextBoxTemplate.h"
+#include "DocumentViewerTemplate.h"
 
 #endif

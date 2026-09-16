@@ -16,14 +16,12 @@
     </att.Color-bind>
   </Style>
 
+  <!-- punk 规格：按钮底色恒定，hover/active 只做 ±2px 位移（C++ 侧驱动） -->
   <Style ref.Path="//*.primaryBody">
     <att.Color-bind>
       <![CDATA[
-        cast Color let state = self.State in (
-          not self.VisuallyEnabled ? (cast Color "#9E9E9E") :
-          state == ButtonState::Pressed ? (cast Color "#B01015") :
-          state == ButtonState::Active ? (cast Color "#FF4A50") :
-          (cast Color "#E8151C")
+        cast Color (
+          not self.VisuallyEnabled ? (cast Color "#9E9E9E") : (cast Color "#E8151C")
         )
       ]]>
     </att.Color-bind>
@@ -31,11 +29,8 @@
   <Style ref.Path="//*.outlineBody">
     <att.Color-bind>
       <![CDATA[
-        cast Color let state = self.State in (
-          not self.VisuallyEnabled ? (cast Color "#9E9E9E") :
-          state == ButtonState::Pressed ? (cast Color "#EFEAE0") :
-          state == ButtonState::Active ? (cast Color "#FBD5D6") :
-          (cast Color "#FFFFFF")
+        cast Color (
+          not self.VisuallyEnabled ? (cast Color "#9E9E9E") : (cast Color "#FFFFFF")
         )
       ]]>
     </att.Color-bind>
@@ -43,11 +38,8 @@
   <Style ref.Path="//*.ghostBody">
     <att.Color-bind>
       <![CDATA[
-        cast Color let state = self.State in (
-          not self.VisuallyEnabled ? (cast Color "#9E9E9E") :
-          state == ButtonState::Pressed ? (cast Color "#F5F1E8") :
-          state == ButtonState::Active ? (cast Color "#FBD5D6") :
-          (cast Color "#FFFFFF")
+        cast Color (
+          not self.VisuallyEnabled ? (cast Color "#9E9E9E") : (cast Color "#FFFFFF")
         )
       ]]>
     </att.Color-bind>
@@ -55,11 +47,8 @@
   <Style ref.Path="//*.dangerBody">
     <att.Color-bind>
       <![CDATA[
-        cast Color let state = self.State in (
-          not self.VisuallyEnabled ? (cast Color "#9E9E9E") :
-          state == ButtonState::Pressed ? (cast Color "#8F0D12") :
-          state == ButtonState::Active ? (cast Color "#B01015") :
-          (cast Color "#E8151C")
+        cast Color (
+          not self.VisuallyEnabled ? (cast Color "#9E9E9E") : (cast Color "#E8151C")
         )
       ]]>
     </att.Color-bind>

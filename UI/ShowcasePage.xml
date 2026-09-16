@@ -60,7 +60,7 @@
             </StackItem>
             <StackItem>
               <Stack Direction="Horizontal" AlignmentToParent="left:0 top:0 right:-1 bottom:-1" MinSizeLimitation="LimitToElementAndChildren">
-                <StackItem><Button Text="默认" ControlTemplate="punkui::PrimaryButtonTemplate"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></Button></StackItem>
+                <StackItem><Button Text="默认"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></Button></StackItem>
                 <StackItem><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><Button Text="主要" ControlTemplate="punkui::PrimaryButtonTemplate"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></Button></Bounds></StackItem>
                 <StackItem><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><Button Text="描边" ControlTemplate="punkui::OutlineButtonTemplate"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></Button></Bounds></StackItem>
                 <StackItem><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><Button Text="幽灵" ControlTemplate="punkui::GhostButtonTemplate"><att.BoundsComposition-set AlignmentToParent="left:0 top:0 right:0 bottom:0"/></Button></Bounds></StackItem>

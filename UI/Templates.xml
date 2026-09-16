@@ -11,19 +11,36 @@
 
   <!-- 主要按钮：红底白字 -->
   <Instance name="PrimaryButtonTemplateResource">
-    <Instance ref.CodeBehind="false" ref.Class="punkui::PrimaryButtonTemplate" ref.Styles="res://PunkUI/AppStyle">
+    <Instance ref.CodeBehind="true" ref.Class="punkui::PrimaryButtonTemplate" ref.Styles="res://PunkUI/AppStyle">
+      <ref.Members><![CDATA[
+        @cpp:UserImpl
+        @cpp:Private
+        func InitFx(): void {}
+      ]]></ref.Members>
+      <ref.Ctor><![CDATA[
+        {
+          self.InitFx();
+        }
+      ]]></ref.Ctor>
       <ButtonTemplate ref.Name="self" ContainerComposition-ref="container" MinSizeLimitation="LimitToElementAndChildren">
-        <Bounds AlignmentToParent="left:4 top:4 right:0 bottom:0">
-          <SolidBackground ref.Style="variantShadow"/>
-        </Bounds>
-        <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4">
-          <SolidBackground ref.Style="primaryBody"/>
-        </Bounds>
-        <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4">
-          <SolidBorder Color="#000000"/>
-          <Bounds AlignmentToParent="left:14 top:6 right:14 bottom:6">
-            <SolidLabel ref.Style="variantTextBright" Text-bind="self.Text" Font="size:14 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <Bounds ref.Name="container" AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+        <Bounds ref.Name="lift" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+          <Bounds AlignmentToParent="left:4 top:4 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+            <SolidBackground ref.Style="variantShadow"/>
+          </Bounds>
+          <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4" MinSizeLimitation="LimitToElement">
+            <SolidBackground ref.Style="primaryBody"/>
+          </Bounds>
+          <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4" MinSizeLimitation="LimitToElementAndChildren">
+            <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+              <SolidBorder Color="#000000"/>
+            </Bounds>
+            <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1" MinSizeLimitation="LimitToElement">
+              <SolidBorder Color="#000000"/>
+            </Bounds>
+            <Bounds AlignmentToParent="left:14 top:6 right:14 bottom:6" MinSizeLimitation="LimitToElementAndChildren">
+              <SolidLabel ref.Style="variantTextBright" Text-bind="self.Text" Font="size:14 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+              <Bounds ref.Name="container" AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+            </Bounds>
           </Bounds>
         </Bounds>
       </ButtonTemplate>
@@ -32,19 +49,36 @@
 
   <!-- 描边按钮：白底黑字 -->
   <Instance name="OutlineButtonTemplateResource">
-    <Instance ref.CodeBehind="false" ref.Class="punkui::OutlineButtonTemplate" ref.Styles="res://PunkUI/AppStyle">
+    <Instance ref.CodeBehind="true" ref.Class="punkui::OutlineButtonTemplate" ref.Styles="res://PunkUI/AppStyle">
+      <ref.Members><![CDATA[
+        @cpp:UserImpl
+        @cpp:Private
+        func InitFx(): void {}
+      ]]></ref.Members>
+      <ref.Ctor><![CDATA[
+        {
+          self.InitFx();
+        }
+      ]]></ref.Ctor>
       <ButtonTemplate ref.Name="self" ContainerComposition-ref="container" MinSizeLimitation="LimitToElementAndChildren">
-        <Bounds AlignmentToParent="left:4 top:4 right:0 bottom:0">
-          <SolidBackground ref.Style="variantShadow"/>
-        </Bounds>
-        <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4">
-          <SolidBackground ref.Style="outlineBody"/>
-        </Bounds>
-        <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4">
-          <SolidBorder Color="#000000"/>
-          <Bounds AlignmentToParent="left:14 top:6 right:14 bottom:6">
-            <SolidLabel ref.Style="variantTextDark" Text-bind="self.Text" Font="size:14 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <Bounds ref.Name="container" AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+        <Bounds ref.Name="lift" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+          <Bounds AlignmentToParent="left:4 top:4 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+            <SolidBackground ref.Style="variantShadow"/>
+          </Bounds>
+          <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4" MinSizeLimitation="LimitToElement">
+            <SolidBackground ref.Style="outlineBody"/>
+          </Bounds>
+          <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4" MinSizeLimitation="LimitToElementAndChildren">
+            <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+              <SolidBorder Color="#000000"/>
+            </Bounds>
+            <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1" MinSizeLimitation="LimitToElement">
+              <SolidBorder Color="#000000"/>
+            </Bounds>
+            <Bounds AlignmentToParent="left:14 top:6 right:14 bottom:6" MinSizeLimitation="LimitToElementAndChildren">
+              <SolidLabel ref.Style="variantTextDark" Text-bind="self.Text" Font="size:14 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+              <Bounds ref.Name="container" AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+            </Bounds>
           </Bounds>
         </Bounds>
       </ButtonTemplate>
@@ -53,19 +87,36 @@
 
   <!-- 幽灵按钮：白底红字 -->
   <Instance name="GhostButtonTemplateResource">
-    <Instance ref.CodeBehind="false" ref.Class="punkui::GhostButtonTemplate" ref.Styles="res://PunkUI/AppStyle">
+    <Instance ref.CodeBehind="true" ref.Class="punkui::GhostButtonTemplate" ref.Styles="res://PunkUI/AppStyle">
+      <ref.Members><![CDATA[
+        @cpp:UserImpl
+        @cpp:Private
+        func InitFx(): void {}
+      ]]></ref.Members>
+      <ref.Ctor><![CDATA[
+        {
+          self.InitFx();
+        }
+      ]]></ref.Ctor>
       <ButtonTemplate ref.Name="self" ContainerComposition-ref="container" MinSizeLimitation="LimitToElementAndChildren">
-        <Bounds AlignmentToParent="left:4 top:4 right:0 bottom:0">
-          <SolidBackground ref.Style="variantShadow"/>
-        </Bounds>
-        <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4">
-          <SolidBackground ref.Style="ghostBody"/>
-        </Bounds>
-        <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4">
-          <SolidBorder Color="#000000"/>
-          <Bounds AlignmentToParent="left:14 top:6 right:14 bottom:6">
-            <SolidLabel ref.Style="variantTextRed" Text-bind="self.Text" Font="size:14 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <Bounds ref.Name="container" AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+        <Bounds ref.Name="lift" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+          <Bounds AlignmentToParent="left:4 top:4 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+            <SolidBackground ref.Style="variantShadow"/>
+          </Bounds>
+          <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4" MinSizeLimitation="LimitToElement">
+            <SolidBackground ref.Style="ghostBody"/>
+          </Bounds>
+          <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4" MinSizeLimitation="LimitToElementAndChildren">
+            <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+              <SolidBorder Color="#000000"/>
+            </Bounds>
+            <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1" MinSizeLimitation="LimitToElement">
+              <SolidBorder Color="#000000"/>
+            </Bounds>
+            <Bounds AlignmentToParent="left:14 top:6 right:14 bottom:6" MinSizeLimitation="LimitToElementAndChildren">
+              <SolidLabel ref.Style="variantTextRed" Text-bind="self.Text" Font="size:14 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+              <Bounds ref.Name="container" AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+            </Bounds>
           </Bounds>
         </Bounds>
       </ButtonTemplate>
@@ -74,19 +125,36 @@
 
   <!-- 危险按钮：深红底白字 -->
   <Instance name="DangerButtonTemplateResource">
-    <Instance ref.CodeBehind="false" ref.Class="punkui::DangerButtonTemplate" ref.Styles="res://PunkUI/AppStyle">
+    <Instance ref.CodeBehind="true" ref.Class="punkui::DangerButtonTemplate" ref.Styles="res://PunkUI/AppStyle">
+      <ref.Members><![CDATA[
+        @cpp:UserImpl
+        @cpp:Private
+        func InitFx(): void {}
+      ]]></ref.Members>
+      <ref.Ctor><![CDATA[
+        {
+          self.InitFx();
+        }
+      ]]></ref.Ctor>
       <ButtonTemplate ref.Name="self" ContainerComposition-ref="container" MinSizeLimitation="LimitToElementAndChildren">
-        <Bounds AlignmentToParent="left:4 top:4 right:0 bottom:0">
-          <SolidBackground ref.Style="variantShadow"/>
-        </Bounds>
-        <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4">
-          <SolidBackground ref.Style="dangerBody"/>
-        </Bounds>
-        <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4">
-          <SolidBorder Color="#000000"/>
-          <Bounds AlignmentToParent="left:14 top:6 right:14 bottom:6">
-            <SolidLabel ref.Style="variantTextBright" Text-bind="self.Text" Font="size:14 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <Bounds ref.Name="container" AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+        <Bounds ref.Name="lift" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
+          <Bounds AlignmentToParent="left:4 top:4 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+            <SolidBackground ref.Style="variantShadow"/>
+          </Bounds>
+          <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4" MinSizeLimitation="LimitToElement">
+            <SolidBackground ref.Style="dangerBody"/>
+          </Bounds>
+          <Bounds AlignmentToParent="left:0 top:0 right:4 bottom:4" MinSizeLimitation="LimitToElementAndChildren">
+            <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElement">
+              <SolidBorder Color="#000000"/>
+            </Bounds>
+            <Bounds AlignmentToParent="left:1 top:1 right:1 bottom:1" MinSizeLimitation="LimitToElement">
+              <SolidBorder Color="#000000"/>
+            </Bounds>
+            <Bounds AlignmentToParent="left:14 top:6 right:14 bottom:6" MinSizeLimitation="LimitToElementAndChildren">
+              <SolidLabel ref.Style="variantTextBright" Text-bind="self.Text" Font="size:14 bold:true antialias:true" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+              <Bounds ref.Name="container" AlignmentToParent="left:0 top:0 right:0 bottom:0"/>
+            </Bounds>
           </Bounds>
         </Bounds>
       </ButtonTemplate>
