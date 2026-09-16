@@ -1,4 +1,6 @@
 #include "PunkPanel.h"
+#include <vector>
+#include <cmath>
 
 using namespace vl::presentation;
 
@@ -111,6 +113,11 @@ namespace punkui
 	{
 	}
 
+	PunkPanel::~PunkPanel()
+	{
+		if (halftoneTile) halftoneTile->Release();
+	}
+
 	void PunkPanel::AttachTo(GuiGraphicsComposition* composition)
 	{
 		element = GuiDirect2DElement::Create();
@@ -131,33 +138,42 @@ namespace punkui
 		}
 	}
 
-	bool PunkPanel::IsPointInside(float x, float y, float x1, float y1, float x2, float y2)
-	{
-		if (x < x1 || x > x2 || y < y1 || y > y2) return false;
-		if (style.slant > 0)
-		{
-			float h = y2 - y1;
-			if (h <= 0) return false;
-			float t = (y - y1) / h;
-			if (x < x1 + (float)style.slant * (1.0f - t)) return false;
-			if (x > x2 - (float)style.slant * t) return false;
-		}
-		if (style.chamferTopRight > 0)
-		{
-			float c = (float)style.chamferTopRight;
-			if (x > x2 - c && y < y1 + c && (x - (x2 - c)) + (y1 + c - y) > c) return false;
-		}
-		if (style.chamferBottomLeft > 0)
-		{
-			float c = (float)style.chamferBottomLeft;
-			if (x < x1 + c && y > y2 - c && ((x1 + c) - x) + (y - (y2 - c)) > c) return false;
-		}
-		return true;
-	}
-
 	static D2D1_COLOR_F ToColorF(const Color& c)
 	{
 		return D2D1::ColorF(c.r / 255.0f, c.g / 255.0f, c.b / 255.0f, c.a / 255.0f);
+	}
+
+	// 生成 sp×sp 单点 tile 位图（premultiplied BGRA，点心在 tile 中心，边缘 1px 抗锯齿），
+	// 供 wrap 平铺画刷整块填充半调点阵。失败返回 null（下一帧重试）。
+	static ID2D1Bitmap* CreateDotTile(ID2D1RenderTarget* rt, const Color& dot, int sp, float r)
+	{
+		std::vector<unsigned char> px((size_t)sp * sp * 4);
+		float cx = sp * 0.5f;
+		float cy = sp * 0.5f;
+		for (int y = 0; y < sp; y++)
+		{
+			for (int x = 0; x < sp; x++)
+			{
+				float dx = x + 0.5f - cx;
+				float dy = y + 0.5f - cy;
+				float cov = r + 0.5f - sqrtf(dx * dx + dy * dy);
+				cov = cov < 0 ? 0 : (cov > 1 ? 1 : cov);
+				unsigned char a = (unsigned char)(0.5 + dot.a * cov);
+				unsigned char* p = &px[((size_t)y * sp + x) * 4];
+				p[0] = (unsigned char)(dot.b * a / 255);
+				p[1] = (unsigned char)(dot.g * a / 255);
+				p[2] = (unsigned char)(dot.r * a / 255);
+				p[3] = a;
+			}
+		}
+		ID2D1Bitmap* bitmap = nullptr;
+		auto props = D2D1::BitmapProperties(
+			D2D1::PixelFormat(DXGI_FORMAT_B8G8R8A8_UNORM, D2D1_ALPHA_MODE_PREMULTIPLIED));
+		if (FAILED(rt->CreateBitmap(D2D1::SizeU((UINT32)sp, (UINT32)sp), px.data(), (UINT32)sp * 4, props, &bitmap)))
+		{
+			return nullptr;
+		}
+		return bitmap;
 	}
 
 	void PunkPanel::OnRendering(GuiGraphicsComposition* sender, GuiDirect2DElementEventArgs& arguments)
@@ -220,7 +236,6 @@ namespace punkui
 		auto bgBrush = CreateBrush(style.background);
 		auto borderBrush = CreateBrush(style.borderColor);
 		auto shadowBrush = CreateBrush(style.shadowColor);
-		auto dotBrush = CreateBrush(style.dotColor);
 
 		// ---- 硬投影（右下偏移）----
 		if (so > 0 && shadowBrush)
@@ -238,19 +253,39 @@ namespace punkui
 			rt->FillGeometry(geo.Obj(), bgBrush.Obj());
 		}
 
-		// ---- 半调网点（点心在剪影内）----
-		if (style.halftone && dotBrush)
+		// ---- 半调网点（tile 位图 wrap 平铺，一次填充整块剪影）----
+		if (style.halftone && style.dotRadius > 0 && style.dotSpacing >= 2)
 		{
-			float sp = (float)style.dotSpacing;
-			float r = (float)style.dotRadius;
-			for (float y = y1 + sp / 2; y < y2; y += sp)
+			int sp = (int)(style.dotSpacing + 0.5);
+			if (halftoneTile
+				&& (halftoneRt != rt
+					|| halftoneSpacing != sp
+					|| halftoneRadius != style.dotRadius
+					|| halftoneColor != style.dotColor))
 			{
-				for (float x = x1 + sp / 2; x < x2; x += sp)
+				halftoneTile->Release();
+				halftoneTile = nullptr;
+			}
+			if (!halftoneTile)
+			{
+				halftoneTile = CreateDotTile(rt, style.dotColor, sp, (float)style.dotRadius);
+				halftoneRt = rt;
+				halftoneSpacing = sp;
+				halftoneRadius = style.dotRadius;
+				halftoneColor = style.dotColor;
+			}
+			if (halftoneTile)
+			{
+				ID2D1BitmapBrush* tileBrushRaw = nullptr;
+				auto tileBrushProps = D2D1::BitmapBrushProperties(
+					D2D1_EXTEND_MODE_WRAP, D2D1_EXTEND_MODE_WRAP,
+					D2D1_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR);
+				if (SUCCEEDED(rt->CreateBitmapBrush(halftoneTile, tileBrushProps, &tileBrushRaw)) && tileBrushRaw)
 				{
-					if (IsPointInside(x, y, x1, y1, x2, y2))
-					{
-						rt->FillEllipse(D2D1::Ellipse(D2D1::Point2F(x, y), r, r), dotBrush.Obj());
-					}
+					ComPtr<ID2D1BitmapBrush> tileBrush = tileBrushRaw;
+					// tile 原点平移到面板左上，点心相位与旧逐点实现一致（自 x1+sp/2 起排）
+					tileBrush->SetTransform(D2D1::Matrix3x2F::Translation(x1, y1));
+					rt->FillGeometry(geo.Obj(), tileBrush.Obj());
 				}
 			}
 		}

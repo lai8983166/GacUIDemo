@@ -43,7 +43,7 @@ namespace punkui { namespace mainpanels {
 	static Ptr<vl::presentation::controls::IGuiAnimation> modalFx;
 
 	static void ApplyModal(vl::presentation::compositions::GuiBoundsComposition* overlayBounds,
-		vl::presentation::compositions::GuiBoundsComposition* faceBounds, double t, bool opening)
+		vl::presentation::compositions::GuiBoundsComposition* faceBounds, double t)
 	{
 		// t: 0(关闭态) -> 1(打开态)
 		if (auto overlay = overlayBounds->GetOwnedElement().Cast<vl::presentation::elements::GuiSolidBackgroundElement>())
@@ -55,10 +55,6 @@ namespace punkui { namespace mainpanels {
 		double dy = 8.0 * (1.0 - t);
 		faceBounds->SetAlignmentToParent(vl::presentation::Margin(
 			0, (vl::vint)(0.5 + dy), 6, 6 - (vl::vint)(0.5 + dy)));
-		if (!opening && t >= 1.0)
-		{
-			overlayBounds->SetVisible(false);
-		}
 	}
 }}
 /* USER_CONTENT_END() */
@@ -104,7 +100,7 @@ namespace punkui
 		auto face = modalFace;
 		mainpanels::modalFx = punkfx::StartTween(this, &mainpanels::modalFx, [overlay, face](double t)
 		{
-			mainpanels::ApplyModal(overlay, face, t, true);
+			mainpanels::ApplyModal(overlay, face, t);
 		});
 	}/* USER_CONTENT_END() */
 
@@ -113,9 +109,15 @@ namespace punkui
 		this->KillAnimation(mainpanels::modalFx);
 		auto overlay = modalOverlay;
 		auto face = modalFace;
+		// 补间传 ApplyModal(1.0-t)：其内部参数 t' 在终帧恰为 0，
+		// 不能用它判断结束；隐藏交给 finished 回调（PunkTween 保证先终帧后 finished）
 		mainpanels::modalFx = punkfx::StartTween(this, &mainpanels::modalFx, [overlay, face](double t)
 		{
-			mainpanels::ApplyModal(overlay, face, 1.0 - t, false);
+			mainpanels::ApplyModal(overlay, face, 1.0 - t);
+		},
+		[overlay]()
+		{
+			overlay->SetVisible(false);
 		});
 	}/* USER_CONTENT_END() */
 

@@ -43,11 +43,19 @@ namespace punkui
 	private:
 		PunkPanelStyle				style;
 		GuiDirect2DElement*			element = nullptr;
+		// 半调点阵 tile 缓存：sp×sp 单点位图 + wrap 平铺画刷，整块剪影一次填充。
+		// 逐点 FillEllipse 在全屏面板上是每帧数万次调用（最大化后单帧数百 ms，
+		// 所有 200ms 补间被拖成数秒）。RT 重建（resize/设备丢失）后指针变化即失效重建。
+		ID2D1RenderTarget*			halftoneRt = nullptr;
+		ID2D1Bitmap*				halftoneTile = nullptr;
+		int							halftoneSpacing = 0;
+		double						halftoneRadius = 0;
+		Color						halftoneColor;
 
 		void						OnRendering(GuiGraphicsComposition* sender, GuiDirect2DElementEventArgs& arguments);
-		bool						IsPointInside(float x, float y, float x1, float y1, float x2, float y2);
 	public:
 		PunkPanel(const PunkPanelStyle& _style);
+		~PunkPanel();
 
 		// 挂载为组合的 owned element；绘制覆盖组合整个边界
 		void						AttachTo(GuiGraphicsComposition* composition);

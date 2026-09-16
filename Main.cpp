@@ -31,6 +31,26 @@ public:
 };
 GUI_REGISTER_PLUGIN(PunkThemePlugin)
 
+// UILIB 演示按视口全屏适配：启动即最大化。
+// 不能在 Run 前 ShowMaximized——WindowService::Run 以 SW_SHOWNORMAL Show 窗口，
+// 会把最大化状态还原回原始尺寸；监听 Opened（WM_SHOWWINDOW，Show 内同步派发），
+// 在窗口真正显示后再最大化
+class StartupMaximizer : public vl::presentation::INativeWindowListener
+{
+private:
+	vl::presentation::INativeWindow* window = nullptr;
+public:
+	StartupMaximizer(vl::presentation::INativeWindow* _window)
+		: window(_window)
+	{
+	}
+
+	void Opened()override
+	{
+		window->ShowMaximized();
+	}
+};
+
 int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int CmdShow)
 {
 	return SetupWindowsDirect2DRenderer();
@@ -41,6 +61,7 @@ void GuiMain()
 	// 应用资源由生成的 GacGen_PunkUIResourceLoader 插件在启动时自动加载（内嵌于 exe），
 	// 无需外部 bin 文件，双击 exe 即可运行。
 	punkui::MainWindow window;
-	window.MoveToScreenCenter();
+	StartupMaximizer maximizer(window.GetNativeWindow());
+	window.GetNativeWindow()->InstallListener(&maximizer);
 	GetApplication()->Run(&window);
 }
