@@ -36,6 +36,36 @@ namespace punkui
 		static PunkPanelStyle& Alert();	// 提示条：3px 墨边 + 4px 投影 + 半调
 		static PunkPanelStyle& Bar();		// 图表柱：红底 + 左下切角
 		static PunkPanelStyle& Nav();		// 导航：平行四边形
+		static PunkPanelStyle& Table();	// 表格 wrap：白底 + 3px 墨边 + 6px 投影
+	};
+
+	// 表格行 hover 高亮层（UILIB punk --ui-primary-soft rgba(232,21,28,.16)）：
+	// 挂在表格 Table 组合上，owned element 渲染在行内容之下；
+	// mouseMove 按 y 命中行画高亮条，mouseLeave 清除。
+	// 行位置用 GetGlobalBounds（与渲染参数 bounds 同为全局坐标），
+	// 每次 mouseMove 重新收集，滚动后仍正确。
+	class PunkRowHover : public Object
+	{
+	private:
+		static constexpr vint			MaxRows = 16;
+		GuiDirect2DElement*			element = nullptr;
+		GuiGraphicsComposition*		host = nullptr;
+		GuiBoundsComposition*		rows[MaxRows] = {};
+		vint						rowY[MaxRows] = {};
+		vint						rowH[MaxRows] = {};
+		vint						rowCount = 0;
+		vint						hoverRow = -1;
+
+		void						OnRendering(GuiGraphicsComposition* sender, GuiDirect2DElementEventArgs& arguments);
+		void						CollectRows();
+		void						SetHoverRow(vint row);
+	public:
+		~PunkRowHover();
+
+		// 挂到表格 Table 组合（owned element 在行内容之下）
+		void						AttachTo(GuiGraphicsComposition* table);
+		// 注册数据行任一 cell 组合（取其 y/高作为行区域）
+		void						AddRow(GuiBoundsComposition* cell);
 	};
 
 	class PunkPanel : public Object

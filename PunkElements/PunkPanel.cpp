@@ -106,6 +106,21 @@ namespace punkui
 		return s;
 	}
 
+	PunkPanelStyle& PunkPanelStyle::Table()
+	{
+		static PunkPanelStyle s = []
+		{
+			// UILIB punk .ui-table-wrap：border 3px #000 + box-shadow 6px 6px 0 #000 + 白底
+			PunkPanelStyle v;
+			v.background = Color(255, 255, 255);
+			v.borderWidth = 3;
+			v.shadowOffset = 6;
+			v.halftone = false;
+			return v;
+		}();
+		return s;
+	}
+
 	// ============ 面板 ============
 
 	PunkPanel::PunkPanel(const PunkPanelStyle& _style)
@@ -295,5 +310,92 @@ namespace punkui
 		{
 			rt->DrawGeometry(geo.Obj(), borderBrush.Obj(), (FLOAT)style.borderWidth);
 		}
+	}
+
+	// ============ 表格行 hover 高亮层 ============
+
+	PunkRowHover::~PunkRowHover()
+	{
+	}
+
+	void PunkRowHover::AttachTo(GuiGraphicsComposition* table)
+	{
+		host = table;
+		element = GuiDirect2DElement::Create();
+		element->Rendering.AttachMethod(this, &PunkRowHover::OnRendering);
+		table->SetOwnedElement(Ptr(element));
+		table->GetEventReceiver()->mouseMove.AttachLambda([this](GuiGraphicsComposition* sender, GuiEventArgs& arguments)
+		{
+			auto m = dynamic_cast<GuiMouseEventArgs*>(&arguments);
+			if (!m) return;
+			CollectRows();
+			// m->y 相对表格；行位置为全局坐标，统一换算后比较
+			vint gy = host->GetGlobalBounds().y1 + m->y;
+			vint hit = -1;
+			for (vint i = 0; i < rowCount; i++)
+			{
+				if (gy >= rowY[i] && gy < rowY[i] + rowH[i])
+				{
+					hit = i;
+					break;
+				}
+			}
+			SetHoverRow(hit);
+		});
+		table->GetEventReceiver()->mouseLeave.AttachLambda([this](GuiGraphicsComposition* sender, GuiEventArgs& arguments)
+		{
+			SetHoverRow(-1);
+		});
+	}
+
+	void PunkRowHover::AddRow(GuiBoundsComposition* cell)
+	{
+		if (cell && rowCount < MaxRows)
+		{
+			rows[rowCount++] = cell;
+		}
+	}
+
+	// 全局坐标每次重新收集：布局完成后才有效，且滚动/重排后保持正确
+	void PunkRowHover::CollectRows()
+	{
+		for (vint i = 0; i < rowCount; i++)
+		{
+			Rect b = rows[i]->GetGlobalBounds();
+			rowY[i] = b.y1;
+			rowH[i] = b.Height();
+		}
+	}
+
+	void PunkRowHover::SetHoverRow(vint row)
+	{
+		if (hoverRow == row) return;
+		hoverRow = row;
+		if (element && element->GetRenderer() && host)
+		{
+			if (auto controlHost = host->GetRelatedControlHost())
+			{
+				controlHost->GetGraphicsHost()->RequestRender();
+			}
+		}
+	}
+
+	void PunkRowHover::OnRendering(GuiGraphicsComposition* sender, GuiDirect2DElementEventArgs& arguments)
+	{
+		ID2D1RenderTarget* rt = arguments.rt;
+		if (!rt || hoverRow < 0) return;
+
+		// UILIB punk --ui-primary-soft: rgba(232,21,28,.16)，铺在行内容之下；
+		// 行位置与渲染参数 bounds 同为全局坐标
+		const Rect& b = arguments.bounds;
+		float x1 = (float)b.x1;
+		float y1 = (float)rowY[hoverRow];
+		float x2 = (float)b.x2;
+		float y2 = y1 + (float)rowH[hoverRow];
+
+		ID2D1SolidColorBrush* brushRaw = nullptr;
+		if (FAILED(rt->CreateSolidColorBrush(D2D1::ColorF(232 / 255.0f, 21 / 255.0f, 28 / 255.0f, 0x29 / 255.0f), &brushRaw)) || !brushRaw) return;
+		ComPtr<ID2D1SolidColorBrush> brush = brushRaw;
+		rt->FillRectangle(D2D1::RectF(x1, y1, x2, y2), brush.Obj());
 	}
 }

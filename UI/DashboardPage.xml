@@ -59,7 +59,7 @@
 
                 <!-- 主设备 P-01 -->
                 <Cell Site="row:0 column:0">
-                  <Bounds ref.Name="dashMainFace" AlignmentToParent="left:0 top:0 right:6 bottom:6" MinSizeLimitation="LimitToElementAndChildren">
+                  <Bounds ref.Name="dashMainFace" AlignmentToParent="left:0 top:0 right:6 bottom:-1" MinSizeLimitation="LimitToElementAndChildren">
                     <Bounds AlignmentToParent="left:24 top:20 right:30 bottom:26" MinSizeLimitation="LimitToElementAndChildren">
                       <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
                         <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:16" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="主设备 P-01" Color="#0A0A0A" Font="size:16 bold:true antialias:true"/></Bounds></StackItem>
@@ -156,18 +156,18 @@
                                 <CellOption>composeType:Percentage percentage:1.0</CellOption>
                                 <CellOption>composeType:Absolute absolute:8</CellOption>
                               </att.Columns>
-                              <Cell Site="row:1 column:0"><Bounds ref.Name="bar1Face" AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:64"/></Cell>
-                              <Cell Site="row:1 column:2"><Bounds ref.Name="bar2Face" AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:104"/></Cell>
-                              <Cell Site="row:1 column:4"><Bounds ref.Name="bar3Face" AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:83"/></Cell>
-                              <Cell Site="row:1 column:6"><Bounds ref.Name="bar4Face" AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:128"/></Cell>
-                              <Cell Site="row:1 column:8"><Bounds ref.Name="bar5Face" AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:77"/></Cell>
-                              <Cell Site="row:1 column:10"><Bounds ref.Name="bar6Face" AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:115"/></Cell>
-                              <Cell Site="row:1 column:12"><Bounds ref.Name="bar7Face" AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:144"/></Cell>
-                              <Cell Site="row:1 column:14"><Bounds ref.Name="bar8Face" AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:96"/></Cell>
-                              <Cell Site="row:1 column:16"><Bounds ref.Name="bar9Face" AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:120"/></Cell>
-                              <Cell Site="row:1 column:18"><Bounds ref.Name="bar10Face" AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:88"/></Cell>
-                              <Cell Site="row:1 column:20"><Bounds ref.Name="bar11Face" AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:109"/></Cell>
-                              <Cell Site="row:1 column:22"><Bounds ref.Name="bar12Face" AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:134"/></Cell>
+                              <Cell Site="row:1 column:0"><Bounds ref.Name="bar1Face" AlignmentToParent="left:0 top:-1 right:0 bottom:0" PreferredMinSize="y:64"/></Cell>
+                              <Cell Site="row:1 column:2"><Bounds ref.Name="bar2Face" AlignmentToParent="left:0 top:-1 right:0 bottom:0" PreferredMinSize="y:104"/></Cell>
+                              <Cell Site="row:1 column:4"><Bounds ref.Name="bar3Face" AlignmentToParent="left:0 top:-1 right:0 bottom:0" PreferredMinSize="y:83"/></Cell>
+                              <Cell Site="row:1 column:6"><Bounds ref.Name="bar4Face" AlignmentToParent="left:0 top:-1 right:0 bottom:0" PreferredMinSize="y:128"/></Cell>
+                              <Cell Site="row:1 column:8"><Bounds ref.Name="bar5Face" AlignmentToParent="left:0 top:-1 right:0 bottom:0" PreferredMinSize="y:77"/></Cell>
+                              <Cell Site="row:1 column:10"><Bounds ref.Name="bar6Face" AlignmentToParent="left:0 top:-1 right:0 bottom:0" PreferredMinSize="y:115"/></Cell>
+                              <Cell Site="row:1 column:12"><Bounds ref.Name="bar7Face" AlignmentToParent="left:0 top:-1 right:0 bottom:0" PreferredMinSize="y:144"/></Cell>
+                              <Cell Site="row:1 column:14"><Bounds ref.Name="bar8Face" AlignmentToParent="left:0 top:-1 right:0 bottom:0" PreferredMinSize="y:96"/></Cell>
+                              <Cell Site="row:1 column:16"><Bounds ref.Name="bar9Face" AlignmentToParent="left:0 top:-1 right:0 bottom:0" PreferredMinSize="y:120"/></Cell>
+                              <Cell Site="row:1 column:18"><Bounds ref.Name="bar10Face" AlignmentToParent="left:0 top:-1 right:0 bottom:0" PreferredMinSize="y:88"/></Cell>
+                              <Cell Site="row:1 column:20"><Bounds ref.Name="bar11Face" AlignmentToParent="left:0 top:-1 right:0 bottom:0" PreferredMinSize="y:109"/></Cell>
+                              <Cell Site="row:1 column:22"><Bounds ref.Name="bar12Face" AlignmentToParent="left:0 top:-1 right:0 bottom:0" PreferredMinSize="y:134"/></Cell>
                             </Table>
                           </Bounds>
                         </StackItem>
@@ -178,12 +178,12 @@
 
                 <!-- 系统状态 -->
                 <Cell Site="row:0 column:1">
-                  <Bounds ref.Name="dashStatusFace" AlignmentToParent="left:0 top:0 right:6 bottom:6" MinSizeLimitation="LimitToElementAndChildren">
+                  <Bounds ref.Name="dashStatusFace" AlignmentToParent="left:0 top:0 right:6 bottom:-1" MinSizeLimitation="LimitToElementAndChildren">
                     <Bounds AlignmentToParent="left:20 top:20 right:26 bottom:26" MinSizeLimitation="LimitToElementAndChildren">
                       <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
                         <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:16" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="系统状态" Color="#0A0A0A" Font="size:16 bold:true antialias:true"/></Bounds></StackItem>
                         <StackItem>
-                          <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:26">
+                          <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:12" PreferredMinSize="y:26">
                             <Table AlignmentToParent="left:0 top:0 right:0 bottom:0">
                               <att.Rows><CellOption>composeType:Percentage percentage:1.0</CellOption></att.Rows>
                               <att.Columns><CellOption>composeType:Absolute absolute:8</CellOption><CellOption>composeType:Percentage percentage:1.0</CellOption><CellOption>composeType:MinSize</CellOption></att.Columns>
@@ -194,7 +194,7 @@
                           </Bounds>
                         </StackItem>
                         <StackItem>
-                          <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:26">
+                          <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:12" PreferredMinSize="y:26">
                             <Table AlignmentToParent="left:0 top:0 right:0 bottom:0">
                               <att.Rows><CellOption>composeType:Percentage percentage:1.0</CellOption></att.Rows>
                               <att.Columns><CellOption>composeType:Absolute absolute:8</CellOption><CellOption>composeType:Percentage percentage:1.0</CellOption><CellOption>composeType:MinSize</CellOption></att.Columns>
@@ -205,7 +205,7 @@
                           </Bounds>
                         </StackItem>
                         <StackItem>
-                          <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:26">
+                          <Bounds AlignmentToParent="left:0 top:0 right:0 bottom:12" PreferredMinSize="y:26">
                             <Table AlignmentToParent="left:0 top:0 right:0 bottom:0">
                               <att.Rows><CellOption>composeType:Percentage percentage:1.0</CellOption></att.Rows>
                               <att.Columns><CellOption>composeType:Absolute absolute:8</CellOption><CellOption>composeType:Percentage percentage:1.0</CellOption><CellOption>composeType:MinSize</CellOption></att.Columns>
@@ -237,12 +237,13 @@
 
             <!-- ============ 事件记录 ============ -->
             <StackItem>
-              <Bounds ref.Name="dashEventsFace" AlignmentToParent="left:0 top:0 right:6 bottom:6" MinSizeLimitation="LimitToElementAndChildren">
+              <Bounds ref.Name="dashEventsFace" AlignmentToParent="left:0 top:0 right:6 bottom:-1" MinSizeLimitation="LimitToElementAndChildren">
                 <Bounds AlignmentToParent="left:24 top:20 right:30 bottom:26" MinSizeLimitation="LimitToElementAndChildren">
                   <Stack Direction="Vertical" AlignmentToParent="left:0 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren">
                     <StackItem><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="事件记录" Color="#0A0A0A" Font="size:16 bold:true antialias:true"/></Bounds></StackItem>
                     <StackItem>
-                      <Table AlignmentToParent="left:0 top:0 right:0 bottom:0" CellPadding="0" BorderVisible="false">
+                      <Bounds ref.Name="dashTableFace" AlignmentToParent="left:0 top:0 right:6 bottom:6" MinSizeLimitation="LimitToElementAndChildren">
+                      <Table ref.Name="evTable" AlignmentToParent="left:0 top:0 right:6 bottom:6" CellPadding="0" BorderVisible="false">
                         <att.Rows>
                           <CellOption>composeType:MinSize</CellOption><CellOption>composeType:Absolute absolute:2</CellOption><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Absolute absolute:2</CellOption><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Absolute absolute:2</CellOption><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Absolute absolute:2</CellOption><CellOption>composeType:MinSize</CellOption><CellOption>composeType:Absolute absolute:2</CellOption><CellOption>composeType:MinSize</CellOption>
                         </att.Rows>
@@ -254,31 +255,32 @@
                         </att.Columns>
                         <Cell Site="row:0 column:0"><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:42"><SolidBackground Color="#151515"/><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="设备 ID" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Bounds></Cell><Cell Site="row:0 column:1"><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:42"><SolidBackground Color="#151515"/><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="状态码" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Bounds></Cell><Cell Site="row:0 column:2"><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:42"><SolidBackground Color="#151515"/><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="更新时间" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Bounds></Cell><Cell Site="row:0 column:3"><Bounds AlignmentToParent="left:0 top:0 right:0 bottom:0" PreferredMinSize="y:42"><SolidBackground Color="#151515"/><Bounds AlignmentToParent="left:12 top:0 right:0 bottom:0" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="事件" Color="#FFFFFF" Font="size:12 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Bounds></Cell>
                         <Cell Site="row:1 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
-                        <Cell Site="row:2 column:0"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="P-01" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+                        <Cell Site="row:2 column:0"><Bounds ref.Name="evRow0" AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="P-01" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
                         <Cell Site="row:2 column:1"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="E204" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
                         <Cell Site="row:2 column:2"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="14:32:08" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
                         <Cell Site="row:2 column:3"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="输出功率恢复额定值" Color="#3B3B3B" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
                         <Cell Site="row:3 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
-                        <Cell Site="row:4 column:0"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="S-04" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+                        <Cell Site="row:4 column:0"><Bounds ref.Name="evRow1" AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="S-04" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
                         <Cell Site="row:4 column:1"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="W110" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
                         <Cell Site="row:4 column:2"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="14:31:40" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
                         <Cell Site="row:4 column:3"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="轴承温度接近阈值" Color="#3B3B3B" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
                         <Cell Site="row:5 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
-                        <Cell Site="row:6 column:0"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="P-02" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+                        <Cell Site="row:6 column:0"><Bounds ref.Name="evRow2" AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="P-02" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
                         <Cell Site="row:6 column:1"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="I000" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
                         <Cell Site="row:6 column:2"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="14:30:12" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
                         <Cell Site="row:6 column:3"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="主泵 B 进入待机" Color="#3B3B3B" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
                         <Cell Site="row:7 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
-                        <Cell Site="row:8 column:0"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="C-01" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+                        <Cell Site="row:8 column:0"><Bounds ref.Name="evRow3" AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="C-01" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
                         <Cell Site="row:8 column:1"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="M301" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
                         <Cell Site="row:8 column:2"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="14:28:55" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
                         <Cell Site="row:8 column:3"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="冷却单元维护模式" Color="#3B3B3B" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
                         <Cell Site="row:9 column:0 columnSpan:4"><SolidBackground Color="#000000"/></Cell>
-                        <Cell Site="row:10 column:0"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="S-04" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
+                        <Cell Site="row:10 column:0"><Bounds ref.Name="evRow4" AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="S-04" Color="#0A0A0A" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
                         <Cell Site="row:10 column:1"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="F502" Color="#E8151C" Font="fontFamily:'Consolas' size:13 bold:true antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
                         <Cell Site="row:10 column:2"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="14:25:03" Color="#3B3B3B" Font="fontFamily:'Consolas' size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
                         <Cell Site="row:10 column:3"><Bounds AlignmentToParent="left:12 top:12 right:0 bottom:12" MinSizeLimitation="LimitToElementAndChildren"><SolidLabel Text="传感器 04 信号丢失" Color="#3B3B3B" Font="size:13 antialias:true" VerticalAlignment="Center"/></Bounds></Cell>
                       </Table>
+                      </Bounds>
                     </StackItem>
                   </Stack>
                 </Bounds>

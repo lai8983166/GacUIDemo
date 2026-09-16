@@ -42,6 +42,20 @@ namespace punkui {
 			next++;
 		}
 	}
+
+	// 行 hover 红高亮：注册数据行组合后挂到表格组合
+	static void AttachRowHover(GuiBoundsComposition* table, GuiBoundsComposition** rows, int count)
+	{
+		static PunkRowHover* hovers[4] = {};
+		static int next = 0;
+		if (next < 4)
+		{
+			hovers[next] = new PunkRowHover();
+			for (int i = 0; i < count; i++) hovers[next]->AddRow(rows[i]);
+			hovers[next]->AttachTo(table);
+			next++;
+		}
+	}
 }
 /* USER_CONTENT_END() */
 
@@ -56,6 +70,11 @@ namespace punkui
 		AttachDashPanel(PunkPanelStyle::Card(), dashMainFace);
 		AttachDashPanel(PunkPanelStyle::Card(), dashStatusFace);
 		AttachDashPanel(PunkPanelStyle::Card(), dashEventsFace);
+		AttachDashPanel(PunkPanelStyle::Table(), dashTableFace);
+		{
+			GuiBoundsComposition* evRows[] = { evRow0, evRow1, evRow2, evRow3, evRow4 };
+			AttachRowHover(evTable, evRows, 5);
+		}
 		AttachDashPanel(PunkPanelStyle::Bar(), bar1Face);
 		AttachDashPanel(PunkPanelStyle::Bar(), bar2Face);
 		AttachDashPanel(PunkPanelStyle::Bar(), bar3Face);

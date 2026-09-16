@@ -55,6 +55,20 @@ namespace punkui {
 			next++;
 		}
 	}
+
+	// 行 hover 红高亮：注册数据行组合后挂到表格组合
+	static void AttachRowHover(GuiBoundsComposition* table, GuiBoundsComposition** rows, int count)
+	{
+		static PunkRowHover* hovers[4] = {};
+		static int next = 0;
+		if (next < 4)
+		{
+			hovers[next] = new PunkRowHover();
+			for (int i = 0; i < count; i++) hovers[next]->AddRow(rows[i]);
+			hovers[next]->AttachTo(table);
+			next++;
+		}
+	}
 }
 /* USER_CONTENT_END() */
 
@@ -87,13 +101,11 @@ namespace punkui
 		AttachPanel(PunkPanelStyle::Alert(), alert4Face);
 
 		// 表格外框：白底 + 3px 墨边 + 6px 投影（无切角无半调）
-		PunkPanelStyle table = PunkPanelStyle::Alert();
-		table.chamferTopRight = 0;
-		table.chamferBottomLeft = 0;
-		table.borderWidth = 3;
-		table.shadowOffset = 6;
-		table.halftone = false;
-		AttachPanel(table, tableWrap);
+		AttachPanel(PunkPanelStyle::Table(), tableWrap);
+		{
+			GuiBoundsComposition* scRows[] = { scRow0, scRow1, scRow2, scRow3 };
+			AttachRowHover(scTable, scRows, 4);
+		}
 	}/* USER_CONTENT_END() */
 
 	void ShowcasePageTemplate::OpenModal()
